@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T02:57:07.858Z",
+ "generatedAt": "2026-10-31T03:00:53.623Z",
  "venues": [
   {
    "id": "tote",
@@ -30,30 +30,9 @@
    "error": null
   },
   {
-   "id": "evelyn",
-   "name": "The Evelyn",
-   "count": 17,
-   "keptFromLastRun": false,
-   "error": null
-  },
-  {
-   "id": "curtin",
-   "name": "John Curtin Hotel",
-   "count": 19,
-   "keptFromLastRun": false,
-   "error": null
-  },
-  {
    "id": "retreat",
    "name": "The Retreat Hotel",
    "count": 0,
-   "keptFromLastRun": false,
-   "error": null
-  },
-  {
-   "id": "cactus",
-   "name": "Cactus Room",
-   "count": 14,
    "keptFromLastRun": false,
    "error": null
   },
@@ -117,34 +96,6 @@
    "id": "catfish",
    "name": "The Catfish",
    "count": 0,
-   "keptFromLastRun": false,
-   "error": null
-  },
-  {
-   "id": "jazzlab",
-   "name": "The Jazzlab",
-   "count": 12,
-   "keptFromLastRun": false,
-   "error": null
-  },
-  {
-   "id": "nighthawks",
-   "name": "Nighthawks",
-   "count": 36,
-   "keptFromLastRun": false,
-   "error": null
-  },
-  {
-   "id": "edi",
-   "name": "Edinburgh Castle",
-   "count": 20,
-   "keptFromLastRun": false,
-   "error": null
-  },
-  {
-   "id": "hex",
-   "name": "The Hex",
-   "count": 2,
    "keptFromLastRun": false,
    "error": null
   }
