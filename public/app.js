@@ -14,6 +14,7 @@
     sort: params.get('sort') || 'suburb'
   };
   var events = [];
+  var fellBack = false;
 
   function esc(s) {
     return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
@@ -93,6 +94,8 @@
   function render() {
     var upcoming = events.filter(function (e) { return lastDay(e) >= today; });
     var tonightN = upcoming.filter(function (e) { return effDate(e) === today; }).length;
+    // Quiet night: if the visitor has not picked a date range, open on everything upcoming instead of an empty page.
+    if (!fellBack) { fellBack = true; if (tonightN === 0 && !params.get('when') && state.range === 'tonight') state.range = 'all'; }
     document.getElementById('tonight-count').textContent = tonightN + (tonightN === 1 ? ' gig tonight.' : ' gigs tonight.');
     document.getElementById('total-count').textContent = upcoming.length + ' coming up.';
 
