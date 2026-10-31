@@ -10,7 +10,7 @@
   var params = new URLSearchParams(location.search);
   var state = {
     range: params.get('when') || 'all',
-    suburb: params.get('suburb') || 'all',
+    suburbs: (params.get('suburb') || '').split(',').filter(Boolean),
     sort: params.get('sort') || 'date'
   };
   var events = [];
@@ -58,9 +58,10 @@
     return dayLabel(new Date(noonIso(ymd)));
   }
 
-  function pills(el, key, options) {
+  function pills(el, key, options, isOn) {
     el.innerHTML = options.map(function (o) {
-      return '<button type="button" class="pill" data-key="' + key + '" data-val="' + esc(o[0]) + '" aria-pressed="' + (state[key] === o[0]) + '">' + esc(o[1]) + '</button>';
+      var on = isOn ? isOn(o[0]) : state[key] === o[0];
+      return '<button type="button" class="pill" data-key="' + key + '" data-val="' + esc(o[0]) + '" aria-pressed="' + on + '">' + esc(o[1]) + '</button>';
     }).join('');
   }
 
@@ -91,11 +92,14 @@
 
     var suburbs = Array.from(new Set(upcoming.map(function (e) { return e.suburb; }))).sort();
     pills(document.getElementById('ranges'), 'range', [['all', 'All upcoming'], ['tonight', 'Tonight'], ['weekend', 'This weekend'], ['week', 'Next 7 days']]);
-    pills(document.getElementById('suburbs'), 'suburb', [['all', 'All']].concat(suburbs.map(function (s) { return [s, s]; })));
+    // Drop any chosen suburb that no longer has gigs, so a stale link cannot hide everything.
+    state.suburbs = state.suburbs.filter(function (s) { return suburbs.indexOf(s) >= 0; });
+    pills(document.getElementById('suburbs'), 'suburbs', [['all', 'All']].concat(suburbs.map(function (s) { return [s, s]; })),
+      function (v) { return v === 'all' ? state.suburbs.length === 0 : state.suburbs.indexOf(v) >= 0; });
     pills(document.getElementById('sorts'), 'sort', [['date', 'Date'], ['suburb', 'Suburb']]);
 
     var shown = upcoming.filter(function (e) {
-      return inRange(melbDate(e.start)) && (state.suburb === 'all' || e.suburb === state.suburb);
+      return inRange(melbDate(e.start)) && (state.suburbs.length === 0 || state.suburbs.indexOf(e.suburb) >= 0);
     });
 
     var list = document.getElementById('list');
@@ -132,7 +136,7 @@
   function syncUrl() {
     var p = new URLSearchParams();
     if (state.range !== 'all') p.set('when', state.range);
-    if (state.suburb !== 'all') p.set('suburb', state.suburb);
+    if (state.suburbs.length) p.set('suburb', state.suburbs.join(','));
     if (state.sort !== 'date') p.set('sort', state.sort);
     var q = p.toString();
     history.replaceState(null, '', q ? '?' + q : location.pathname);
@@ -141,7 +145,16 @@
   document.addEventListener('click', function (ev) {
     var b = ev.target.closest('button');
     if (!b) return;
-    if (b.dataset.reset) { state = { range: 'all', suburb: 'all', sort: 'date' }; }
+    if (b.dataset.reset) { state = { range: 'all', suburbs: [], sort: 'date' }; }
+    else if (b.dataset.key === 'suburbs') {
+      // Suburbs combine: tap to add or remove; All clears the selection.
+      var v = b.dataset.val;
+      if (v === 'all') state.suburbs = [];
+      else {
+        var i = state.suburbs.indexOf(v);
+        if (i >= 0) state.suburbs.splice(i, 1); else state.suburbs.push(v);
+      }
+    }
     else if (b.dataset.key) { state[b.dataset.key] = b.dataset.val; }
     else return;
     syncUrl();

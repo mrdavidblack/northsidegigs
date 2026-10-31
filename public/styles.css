@@ -58,3 +58,4 @@ a { color: var(--fg); }
 
 .footer { margin-top: 96px; padding-top: 24px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 15px; line-height: 1.5; color: var(--muted); }
 .footer p { margin: 0; max-width: 620px; }
+.label .hint { letter-spacing: 0.04em; text-transform: none; opacity: 0.8; margin-left: 6px; }
