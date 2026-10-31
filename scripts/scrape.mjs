@@ -452,6 +452,10 @@ async function creatureStrategy(v) {
   const nowY = parseInt(new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric' }).format(new Date()), 10);
   const nowM = parseInt(new Intl.DateTimeFormat('en-CA', { timeZone: TZ, month: 'numeric' }).format(new Date()), 10);
   const found = [];
+  // rmBefore[i] = how many "Read More" lines come before line i, so a gig can be matched to its own link
+  // even if the reader skipped some other gig.
+  const rmBefore = []; let rmCount = 0;
+  lines.forEach((l, i) => { rmBefore[i] = rmCount; if (/^read more$/i.test(l)) rmCount++; });
   let month = null; let lastDay = 0; let yearBump = 0;
   for (let i = 0; i < lines.length; i++) {
     const mi = MONTHS.indexOf(lines[i].toUpperCase());
@@ -477,11 +481,11 @@ async function creatureStrategy(v) {
       title: decode(title),
       start: melbourneToIso(`${year}-${String(month).padStart(2, '0')}-${lines[i].padStart(2, '0')}`, `${String(h).padStart(2, '0')}:${tm[2] ?? '00'}`),
       price, status: free ? 'free' : (price ? 'onsale' : 'unknown'),
-      linkType: 'details'
+      linkType: 'details',
+      url: hrefs.length === rmCount ? (hrefs[rmBefore[i]] ?? page) : page
     });
   }
-  // Each gig has its own page; the "Read More" links are in the same order.
-  return found.map((e, i) => ({ ...e, url: hrefs.length === found.length ? hrefs[i] : page }));
+  return found;
 }
 
 // The Lomond Hotel (Lowie Live): a plain event list, each gig linking to a page that usually carries an Eventbrite link.
