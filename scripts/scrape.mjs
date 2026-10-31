@@ -32,10 +32,43 @@ async function get(url, { json = false } = {}) {
   const headers = (ua) => ({ 'user-agent': ua, accept: json ? 'application/json' : 'text/html,application/xhtml+xml,*/*', 'accept-language': 'en-AU,en;q=0.9' });
   let res = await fetch(url, { headers: headers(UA), redirect: 'follow' });
   if (res.status === 403 || res.status === 429) { await sleep(1500); res = await fetch(url, { headers: headers(BROWSER_UA), redirect: 'follow' }); }
+  if (res.status === 403 && /\/\/www\.moshtix\.com\.au\//.test(url)) {
+    const alt = url.replace('//www.moshtix.com.au/', '//alternate.moshtix.com.au/');
+    res = await fetch(alt, { headers: headers(BROWSER_UA), redirect: 'follow' });
+    if (diag) diag.fetches.push(`${res.status} (alt) ${alt.slice(0, 80)}`);
+  }
   await sleep(DELAY_MS);
   if (diag) diag.fetches.push(`${res.status} ${url.slice(0, 90)}`);
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
+  if (!res.ok) {
+    if (!json && res.status === 403) {
+      const html = await render(url).catch(() => null);
+      if (html && html.length > 2000) return html;
+    }
+    throw new Error(`${res.status} ${url}`);
+  }
   return json ? res.json() : res.text();
+}
+
+// Headless Chrome, for listing pages built with JavaScript and for sites that block plain requests.
+let browser = null;
+async function render(url) {
+  if (!browser) {
+    const { chromium } = await import('playwright');
+    browser = await chromium.launch();
+  }
+  const ctx = await browser.newContext({ userAgent: BROWSER_UA, locale: 'en-AU', timezoneId: TZ });
+  const page = await ctx.newPage();
+  try {
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {});
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
+    await page.waitForTimeout(1500);
+    let html = await page.content();
+    // Include iframes (some venues embed their ticketing widget).
+    for (const f of page.frames().slice(1, 6)) { try { html += await f.content(); } catch { /* cross-origin */ } }
+    if (diag) diag.fetches.push(`200 (rendered) ${url.slice(0, 80)}`);
+    return html;
+  } finally { await ctx.close(); }
 }
 
 const decode = (s) => cheerio.load(`<i>${s ?? ''}</i>`)('i').text().replace(/\s+/g, ' ').trim();
@@ -123,8 +156,12 @@ async function linksStrategy(v) {
   let links = [];
   for (const page of v.pages) {
     try {
-      const html = await get(page);
-      links.push(...findTicketLinks(html, page));
+      let html = await get(page);
+      let found = findTicketLinks(html, page);
+      if (!found.length) {
+        try { html = await render(page); found = findTicketLinks(html, page); } catch (e) { console.warn(`  render failed ${page}: ${e.message}`); }
+      }
+      links.push(...found);
       if (v.follow) {
         const re = new RegExp(v.follow);
         const $ = cheerio.load(html);
@@ -273,6 +310,7 @@ const final = all
 
 await writeFile(new URL('../public/events.json', import.meta.url), JSON.stringify({ generatedAt: status.generatedAt, timezone: TZ, events: final }, null, 1));
 await writeFile(new URL('../public/status.json', import.meta.url), JSON.stringify(status, null, 1));
+if (browser) await browser.close();
 console.log(`\nWrote ${final.length} gigs.`);
 const empty = status.venues.filter((s) => !s.count || s.keptFromLastRun);
 if (empty.length) console.log(`::warning::Venues with no fresh gigs: ${empty.map((s) => s.name).join(', ')}`);

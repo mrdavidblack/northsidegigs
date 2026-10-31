@@ -29,6 +29,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Install headless Chrome
+        run: npx playwright install --with-deps chromium
       - name: Scrape venues
         run: node scripts/scrape.mjs ${{ github.event.inputs.venues }}
       - name: Commit if gigs changed
