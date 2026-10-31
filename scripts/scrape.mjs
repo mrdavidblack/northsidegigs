@@ -155,6 +155,10 @@ async function readTicketPage(url) {
     const m = html.match(/https?:\/\/[a-z0-9.-]+\/outlet\/event\/[0-9a-f-]{36}/i) || html.match(/\/outlet\/event\/[0-9a-f-]{36}/i);
     if (m) { url = new URL(m[0], url).href; html = await get(url); blocks = ldBlocks(html); }
   }
+  if (!blocks.some(isEvent)) {
+    // Some ticket pages only add their event data with JavaScript.
+    try { html = await render(url); blocks = ldBlocks(html); } catch { /* give up on this one */ }
+  }
   const ev = blocks.find(isEvent);
   if (!ev) return null;
   const loose = blocks.filter((b) => b['@type'] === 'Offer');
