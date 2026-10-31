@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-31T06:00:01.320Z",
+ "generatedAt": "2026-10-31T06:04:21.025Z",
  "venues": [
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 46,
+   "count": 44,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -214,18 +214,16 @@
   {
    "id": "creature",
    "name": "Creature Bar",
-   "count": 2,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 5,
+    "fetched": 1,
     "failed": [],
-    "ticketLinks": 2,
+    "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
-     "200 https://www.creaturebar.com.au/events/",
-     "200 https://www.creaturebar.com.au/events/smash-creature-feature/",
-     "200 https://www.creaturebar.com.au/events/smash-creature-club/"
+     "200 https://www.creaturebar.com.au/events/"
     ]
    }
   }

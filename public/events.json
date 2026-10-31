@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T06:00:01.320Z",
+ "generatedAt": "2026-10-31T06:04:21.025Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -30,7 +30,7 @@
   },
   {
    "id": 3,
-   "title": "Skip to the content · Roadkill Since 2012",
+   "title": "Alarms + Snub! · Halloween Instore!",
    "start": "2026-10-31T03:00:00.000Z",
    "price": null,
    "status": "free",
@@ -150,12 +150,12 @@
   },
   {
    "id": 13,
-   "title": "All Hallows Eve @ Creature",
+   "title": "Creature Halloween",
    "start": "2026-10-31T08:00:00.000Z",
    "price": 20,
    "status": "onsale",
-   "url": "https://events.humanitix.com/all-hallows-eve-creature",
-   "linkType": "tickets",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -728,6 +728,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 61,
+   "title": "Creature Feature",
+   "start": "2026-11-04T08:00:00.000Z",
+   "price": 5,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 39,
    "title": "DOLE NIGHT w/ G-String Nicotine + The Dropkicks",
    "start": "2026-11-04T08:00:00.000Z",
@@ -761,18 +773,6 @@
    "linkType": "tickets",
    "venueId": "jazzlab",
    "venue": "The Jazzlab",
-   "suburb": "Brunswick"
-  },
-  {
-   "id": 64,
-   "title": "Mario Kart Live",
-   "start": "2026-11-04T08:30:00.000Z",
-   "price": null,
-   "status": "unknown",
-   "url": "https://tickets.oztix.com.au/outlet/event/81413b52-f1e5-40e1-b023-9a193720f8a4",
-   "linkType": "tickets",
-   "venueId": "retreat",
-   "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
   },
   {
@@ -872,6 +872,18 @@
    "suburb": "Thornbury"
   },
   {
+   "id": 73,
+   "title": "Creature Club",
+   "start": "2026-11-05T08:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 48,
    "title": "Suzie So Blue",
    "start": "2026-11-05T08:00:00.055Z",
@@ -932,7 +944,7 @@
    "suburb": "Richmond"
   },
   {
-   "id": 78,
+   "id": 79,
    "title": "Get Blended: a mixed-genre lineup celebrating Aus Music Month featuring: Renee Naccari, Cufflinx and Hati Hari",
    "start": "2026-11-05T08:30:00.000Z",
    "price": 16.35,
@@ -1054,7 +1066,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 88,
+   "id": 89,
    "title": "Cantrips (DJ set) in The Retreat Beer Garden",
    "start": "2026-11-06T07:00:00.000Z",
    "price": null,
@@ -1330,7 +1342,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 111,
+   "id": 112,
    "title": "Salsodromo: Live band + Social Dancing at The Retreat Hotel Brunswick",
    "start": "2026-11-06T09:30:00.000Z",
    "price": 28.05,
@@ -1391,7 +1403,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 116,
+   "id": 117,
    "title": "WAFT!",
    "start": "2026-11-06T12:00:00.000Z",
    "price": null,
@@ -1429,7 +1441,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 119,
+   "id": 120,
    "title": "Al Carr - Colour To The Flame album launch",
    "start": "2026-11-07T02:00:00.000Z",
    "price": null,
@@ -1453,8 +1465,8 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 121,
-   "title": "Ash Acid + Jess Jean Ravens (Nsw)",
+   "id": 122,
+   "title": "Ash Acid + Jess Jean Ravens (NSW)",
    "start": "2026-11-07T03:00:00.000Z",
    "price": null,
    "status": "free",
@@ -1537,7 +1549,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 128,
+   "id": 129,
    "title": "Good Music presents All Star",
    "start": "2026-11-07T06:00:00.000Z",
    "price": null,
@@ -1840,7 +1852,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 153,
+   "id": 154,
    "title": "KTV · 'All Over Now' Single Launch",
    "start": "2026-11-08T03:00:00.000Z",
    "price": null,
@@ -1864,7 +1876,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 155,
+   "id": 156,
    "title": "Isabelle Skye @ The Retreat Hotel Brunswick w/ Potluck",
    "start": "2026-11-08T03:00:00.000Z",
    "price": 12.75,
@@ -1973,7 +1985,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 164,
+   "id": 165,
    "title": "Vinyl Vixens ft. WaX FoX & Miss Gabrielle",
    "start": "2026-11-08T06:00:00.000Z",
    "price": null,
@@ -2225,6 +2237,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 186,
+   "title": "Creature Feature",
+   "start": "2026-11-11T08:00:00.000Z",
+   "price": 5,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 122,
    "title": "DOLE NIGHT w/ Flicker Vetigo + Smooth Brains + Namaric",
    "start": "2026-11-11T08:00:00.000Z",
@@ -2247,18 +2271,6 @@
    "venueId": "lastchance",
    "venue": "The Last Chance",
    "suburb": "North Melbourne"
-  },
-  {
-   "id": 187,
-   "title": "Mario Kart Live",
-   "start": "2026-11-11T08:30:00.000Z",
-   "price": 33.15,
-   "status": "onsale",
-   "url": "https://tickets.oztix.com.au/outlet/event/f3fb74b5-b1ed-4086-8476-30e553e6e6ca",
-   "linkType": "tickets",
-   "venueId": "retreat",
-   "venue": "The Retreat Hotel",
-   "suburb": "Brunswick"
   },
   {
    "id": 124,
@@ -2405,7 +2417,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 200,
+   "id": 201,
    "title": "Bite My Tongue EP Launch at The Retreat Hotel Brunswick w/ Laura and the Hell Cutz + Lyrah Gray",
    "start": "2026-11-12T08:30:00.000Z",
    "price": 15.85,
@@ -2503,7 +2515,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 208,
+   "id": 209,
    "title": "Natalie Ex in The Retreat Beer Garden",
    "start": "2026-11-13T07:00:00.000Z",
    "price": null,
@@ -2587,7 +2599,7 @@
    "suburb": "Fitzroy North"
   },
   {
-   "id": 215,
+   "id": 216,
    "title": "Little Guilt ‘Good Luck with that’ EP Tour",
    "start": "2026-11-13T08:30:00.000Z",
    "price": 28.05,
@@ -2853,7 +2865,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 237,
+   "id": 238,
    "title": "Anatreptix at The Retreat",
    "start": "2026-11-14T03:30:00.000Z",
    "price": null,
@@ -3022,13 +3034,13 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 251,
+   "id": 252,
    "title": "Saskia Robin w/ Matthew Kennedy and Juliet Taylor",
    "start": "2026-11-14T08:30:00.000Z",
    "price": 16,
    "status": "onsale",
-   "url": "https://events.humanitix.com/saskia-robin-matthew-kennedy-juliet-taylor",
-   "linkType": "tickets",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -3046,7 +3058,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 253,
+   "id": 254,
    "title": "DOBBY | MARSHMALLOW",
    "start": "2026-11-14T08:30:00.000Z",
    "price": 28.05,
@@ -3178,7 +3190,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 264,
+   "id": 265,
    "title": "Pussy Horse",
    "start": "2026-11-15T03:00:00.000Z",
    "price": null,
@@ -3190,7 +3202,7 @@
    "suburb": "Reservoir"
   },
   {
-   "id": 265,
+   "id": 266,
    "title": "SO.Crates w/ Common Goods",
    "start": "2026-11-15T03:00:00.000Z",
    "price": null,
@@ -3502,6 +3514,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 292,
+   "title": "Creature Feature",
+   "start": "2026-11-18T08:00:00.000Z",
+   "price": 5,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 183,
    "title": "DOLE NIGHT w/ Contact Sport + Brodown",
    "start": "2026-11-18T08:00:00.000Z",
@@ -3526,7 +3550,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 293,
+   "id": 295,
    "title": "Orchestra Massive",
    "start": "2026-11-18T08:30:00.000Z",
    "price": null,
@@ -3706,6 +3730,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 310,
+   "title": "Legs for Breakfast",
+   "start": "2026-11-19T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 194,
    "title": "neon goblin + Liam Watts + ERM",
    "start": "2026-11-19T09:00:00.000Z",
@@ -3852,7 +3888,19 @@
    "suburb": "Coburg North"
   },
   {
-   "id": 320,
+   "id": 323,
+   "title": "Poison Fish",
+   "start": "2026-11-20T08:30:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 324,
    "title": "Vault Hill 'The Modern Way' Release Show with Identity Error, I Choose Violence (SA), Seventh Circle and Casino Blvd",
    "start": "2026-11-20T08:30:00.000Z",
    "price": 33.15,
@@ -4069,7 +4117,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 338,
+   "id": 342,
    "title": "DJ TIM",
    "start": "2026-11-20T12:00:00.000Z",
    "price": null,
@@ -4117,7 +4165,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 342,
+   "id": 346,
    "title": "The Moonee Valley Drifters",
    "start": "2026-11-21T02:00:00.000Z",
    "price": null,
@@ -4177,7 +4225,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 347,
+   "id": 351,
    "title": "Good Music presents All Star",
    "start": "2026-11-21T06:00:00.000Z",
    "price": null,
@@ -4199,6 +4247,18 @@
    "venueId": "wesleyanne",
    "venue": "Wesley Anne",
    "suburb": "Northcote"
+  },
+  {
+   "id": 353,
+   "title": "Coco Benny and Friends",
+   "start": "2026-11-21T08:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
   },
   {
    "id": 213,
@@ -4444,7 +4504,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 369,
+   "id": 374,
    "title": "The Orbweavers",
    "start": "2026-11-22T03:00:00.000Z",
    "price": null,
@@ -4613,7 +4673,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 383,
+   "id": 388,
    "title": "Blanco Tranco",
    "start": "2026-11-22T08:00:00.000Z",
    "price": 12.75,
@@ -4733,7 +4793,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 393,
+   "id": 398,
    "title": "BLAK STAGE First Nations Open Mic Night",
    "start": "2026-11-24T08:00:00.000Z",
    "price": null,
@@ -4757,6 +4817,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 400,
+   "title": "Creature Feature",
+   "start": "2026-11-25T08:00:00.000Z",
+   "price": 5,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 241,
    "title": "ELLIOT & VINCENT (NZ) PLAY THE CURTIN",
    "start": "2026-11-25T08:00:00.000Z",
@@ -4769,7 +4841,7 @@
    "suburb": "Carlton"
   },
   {
-   "id": 396,
+   "id": 402,
    "title": "Amadou Suso in The Retreat front bar",
    "start": "2026-11-25T08:00:00.000Z",
    "price": null,
@@ -4829,7 +4901,7 @@
    "suburb": "Carlton"
   },
   {
-   "id": 401,
+   "id": 407,
    "title": "BIRDGIRL's EOY Party w/ Workfriend & Michaeleah",
    "start": "2026-11-26T08:00:00.000Z",
    "price": 10,
@@ -4986,7 +5058,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 414,
+   "id": 420,
    "title": "Rakhi",
    "start": "2026-11-27T07:00:00.000Z",
    "price": null,
@@ -5058,7 +5130,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 420,
+   "id": 426,
    "title": "BOTH with Taz Flower and Lily Hallawell",
    "start": "2026-11-27T08:30:00.000Z",
    "price": 13.8,
@@ -5227,7 +5299,19 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 434,
+   "id": 440,
+   "title": "Fundraiser for Womens Health",
+   "start": "2026-11-28T03:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 441,
    "title": "Badger Reunion",
    "start": "2026-11-28T03:00:00.000Z",
    "price": 12.75,
@@ -5335,7 +5419,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 443,
+   "id": 450,
    "title": "Joel Leggett",
    "start": "2026-11-28T08:30:00.000Z",
    "price": 17.85,
@@ -5467,7 +5551,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 454,
+   "id": 461,
    "title": "Tandem Reserve",
    "start": "2026-11-28T12:00:00.000Z",
    "price": null,
@@ -5503,7 +5587,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 457,
+   "id": 464,
    "title": "TTTDC",
    "start": "2026-11-29T03:00:00.000Z",
    "price": null,
@@ -5624,7 +5708,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 467,
+   "id": 474,
    "title": "Old Time Jam Session w/ Double Dole String Band",
    "start": "2026-11-29T07:30:00.000Z",
    "price": null,
@@ -5732,7 +5816,19 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 476,
+   "id": 483,
+   "title": "Creature Feature",
+   "start": "2026-12-02T08:00:00.000Z",
+   "price": 5,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 484,
    "title": "Little Somebodies w/ Kira J",
    "start": "2026-12-02T08:00:00.000Z",
    "price": 12.75,
@@ -5742,6 +5838,18 @@
    "venueId": "retreat",
    "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 485,
+   "title": "Creature Club",
+   "start": "2026-12-03T08:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
   },
   {
    "id": 294,
@@ -5780,7 +5888,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 480,
+   "id": 489,
    "title": "Saturn's Sound (VOLUME TWO: Santa's Sound) w/ Gallagath, ItsRosieQuartz & Electric Self",
    "start": "2026-12-03T08:30:00.000Z",
    "price": null,
@@ -5901,7 +6009,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 490,
+   "id": 499,
    "title": "TOMMY & ROY - Tragedy! EP Release",
    "start": "2026-12-04T08:30:00.000Z",
    "price": 17.85,
@@ -6069,7 +6177,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 504,
+   "id": 513,
    "title": "Out of Office - Middle Management & fordy",
    "start": "2026-12-05T08:00:00.000Z",
    "price": 12.75,
@@ -6346,6 +6454,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 536,
+   "title": "Creature Feature",
+   "start": "2026-12-09T08:00:00.000Z",
+   "price": 5,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 330,
    "title": "DARREN HANLON XMAS SHOW with Truffle Pigs",
    "start": "2026-12-09T08:00:00.000Z",
@@ -6382,7 +6502,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 530,
+   "id": 540,
    "title": "Kid Dingo at The Retreat Hotel Brunswick w/ Mel Taylor + Davin Ojala/Toby Barrett",
    "start": "2026-12-09T08:00:00.000Z",
    "price": null,
@@ -6467,7 +6587,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 537,
+   "id": 547,
    "title": "Chiron Release Party w/ Velatine, Double Happiness, Ghost Hacked, The Revenant, DJ Naja",
    "start": "2026-12-11T08:00:00.000Z",
    "price": 19.9,
@@ -6575,7 +6695,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 546,
+   "id": 556,
    "title": "Anatreptix at The Retreat",
    "start": "2026-12-12T03:30:00.000Z",
    "price": null,
@@ -6635,7 +6755,7 @@
    "suburb": "North Melbourne"
   },
   {
-   "id": 551,
+   "id": 561,
    "title": "Raised As Wolves",
    "start": "2026-12-12T08:00:00.000Z",
    "price": 17.85,
@@ -6803,6 +6923,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 575,
+   "title": "Creature Feature",
+   "start": "2026-12-16T08:00:00.000Z",
+   "price": 5,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 447,
    "title": "BLUEGRASS JAM NIGHT",
    "start": "2026-12-16T08:00:00.277Z",
@@ -6815,7 +6947,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 566,
+   "id": 577,
    "title": "Orchestra Massive",
    "start": "2026-12-16T08:30:00.000Z",
    "price": null,
@@ -6983,7 +7115,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 580,
+   "id": 591,
    "title": "BELLA DEER - 'BLACK DOTS' SINGLE LAUNCH TOUR w/ AMANDUH + MEGAN KENNEDY",
    "start": "2026-12-19T08:30:00.000Z",
    "price": 20.95,
@@ -7055,7 +7187,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 586,
+   "id": 597,
    "title": "Desert Fire (and The Flames) - \"Let Things Go\" Single Launch with guests The Suburban",
    "start": "2026-12-20T03:30:00.000Z",
    "price": null,
@@ -7067,7 +7199,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 587,
+   "id": 598,
    "title": "It's a very Roarcuss Xmas",
    "start": "2026-12-20T08:00:00.000Z",
    "price": null,
@@ -7101,6 +7233,18 @@
    "venueId": "nsc",
    "venue": "Northcote Social Club",
    "suburb": "Northcote"
+  },
+  {
+   "id": 601,
+   "title": "Creature Feature",
+   "start": "2026-12-23T08:00:00.000Z",
+   "price": 5,
+   "status": "onsale",
+   "linkType": "details",
+   "url": "https://www.creaturebar.com.au/events/",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
   }
  ]
 }
