@@ -148,6 +148,10 @@
     render();
   });
 
+  // Build the contact link in the browser so the address is not sitting in the page for spam bots.
+  var c = document.getElementById('contact');
+  if (c) { var addr = c.dataset.u + '@' + c.dataset.d; c.href = 'mailto:' + addr + '?subject=' + encodeURIComponent('Northside Gigs: missing gig or venue'); }
+
   fetch('/events.json', { cache: 'no-cache' })
     .then(function (r) { return r.json(); })
     .then(function (data) {

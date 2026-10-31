@@ -8,7 +8,7 @@ import * as cheerio from 'cheerio';
 
 const TZ = 'Australia/Melbourne';
 const DAYS_AHEAD = 60;
-const UA = 'NorthsideGigsBot/0.1 (+https://github.com/mrdavidblack/northsidegigs; small community gig guide)';
+const UA = 'NorthsideGigsBot/0.1 (+https://northsidegigs.com; small community gig guide)';
 const DELAY_MS = 400;
 
 // Titles that are not gigs, at any venue.
