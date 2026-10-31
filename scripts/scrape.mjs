@@ -308,7 +308,32 @@ async function textlistStrategy(v) {
   return out;
 }
 
-const STRATEGIES = { textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
+// muzeek.ai event widget (Punters Club). Paged JSON; most gigs are walk-in, so link to the venue's what's-on page.
+async function muzeekStrategy(v) {
+  const out = [];
+  for (let page = 1; page <= 5; page++) {
+    const data = await get(`${v.pages[0]}?page=${page}&limit=50`, { json: true });
+    for (const e of data.data ?? []) {
+      const local = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(e.startDate));
+      const tba = e.isAllDay || local === '00:00';
+      const lineup = (e.performers ?? []).map((p) => p.name || p.title).filter(Boolean);
+      out.push({
+        title: decode(e.title),
+        start: tba ? melbourneToIso(new Intl.DateTimeFormat('en-CA', { timeZone: TZ }).format(new Date(e.startDate)), '00:00') : new Date(e.startDate).toISOString(),
+        ...(tba ? { timeTba: true } : {}),
+        price: null,
+        status: e.ticketMode === 'none' ? 'unknown' : 'onsale',
+        url: e.ticketUrl || v.link || v.pages[0],
+        linkType: e.ticketUrl ? 'tickets' : 'details',
+        ...(lineup.length ? { lineup } : {})
+      });
+    }
+    if (!data.meta || page * 50 >= (data.meta.total ?? 0)) break;
+  }
+  return out;
+}
+
+const STRATEGIES = { muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
 
 // ---- main ----
 

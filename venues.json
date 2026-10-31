@@ -1,5 +1,5 @@
 {
-  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie). render: true opens the listing in headless Chrome (use when the plain page shows old or missing gigs, as at the Bergy).",
+  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie). render: true opens the listing in headless Chrome (use when the plain page shows old or missing gigs, as at the Bergy). muzeek: the muzeek.ai events widget API (Punters Club); link is the page visitors are sent to.",
   "venues": [
     {
       "id": "tote",
@@ -178,6 +178,35 @@
       "strategy": "hex",
       "pages": [
         "https://thehex.au/"
+      ]
+    },
+    {
+      "id": "punters",
+      "name": "Punters Club",
+      "suburb": "Fitzroy",
+      "strategy": "muzeek",
+      "pages": [
+        "https://muzeek.ai/api/e/c1e48566-fa6c-4a2b-bf25-52b747696232"
+      ],
+      "link": "https://www.puntersclubfitzroy.com/whats-on",
+      "exclude": "schnitz|schnapps|comedy"
+    },
+    {
+      "id": "brunswickgreen",
+      "name": "Brunswick Green",
+      "suburb": "Brunswick",
+      "strategy": "squarespace",
+      "pages": [
+        "https://www.thebrunswickgreen.com/gigs-at-the-green"
+      ]
+    },
+    {
+      "id": "leadbeater",
+      "name": "The Leadbeater Hotel",
+      "suburb": "Richmond",
+      "strategy": "links",
+      "pages": [
+        "https://www.leadbeaterhotel.com.au/gigs"
       ]
     }
   ],
