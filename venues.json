@@ -284,7 +284,8 @@
       "pages": [
         "https://brunswickballroom.com.au/whats-on/"
       ],
-      "render": true
+      "render": true,
+      "exclude": "private (birthday|wedding|function|event)"
     }
   ],
   "_disabled": {

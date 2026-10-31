@@ -115,10 +115,14 @@ function fromLd(ev, looseOffers = [], fallbackUrl) {
   const offers = [].concat(ev.offers ?? []).flatMap((o) => (o['@type'] === 'AggregateOffer' && o.offers ? [].concat(o.offers) : [o])).concat(looseOffers);
   const avail = (o) => String(o.availability ?? '');
   const onSale = offers.filter((o) => /InStock|LimitedAvailability|PreOrder/i.test(avail(o)));
-  const prices = (onSale.length ? onSale : offers).map((o) => parseFloat(o.lowPrice ?? o.price)).filter((p) => !Number.isNaN(p));
+  const priceOf = (o) => parseFloat(o.lowPrice ?? o.price);
+  // $0 offers next to paid ones are companion or access tickets, not a free gig.
+  const paid = (list) => list.map(priceOf).filter((p) => !Number.isNaN(p) && p > 0);
+  const anyPaid = paid(offers).length > 0;
+  const prices = anyPaid ? paid(onSale) : (onSale.length ? onSale : offers).map(priceOf).filter((p) => !Number.isNaN(p));
   let status = 'unknown';
-  if (offers.length && !onSale.length && offers.some((o) => /SoldOut|OutOfStock/i.test(avail(o)))) status = 'soldout';
-  else if (onSale.length) status = 'onsale';
+  if (offers.length && (anyPaid ? !paid(onSale).length : !onSale.length) && offers.some((o) => /SoldOut|OutOfStock/i.test(avail(o)))) status = 'soldout';
+  else if (anyPaid ? paid(onSale).length : onSale.length) status = 'onsale';
   const minPrice = prices.length ? Math.min(...prices) : null;
   if (minPrice === 0) status = 'free';
   return {
@@ -585,7 +589,7 @@ const seen = new Set();
 const final = all
   .filter((e) => { if (seen.has(e.url + e.start)) return false; seen.add(e.url + e.start); return true; })
   .sort((a, b) => Date.parse(a.start) - Date.parse(b.start) || a.venue.localeCompare(b.venue))
-  .map((e, i) => ({ id: i + 1, ...e, url: e.url.replace('//alternate.moshtix.com.au/', '//www.moshtix.com.au/') }));
+  .map((e, i) => ({ id: i + 1, ...e, url: e.url.replace(/&#160;|&nbsp;|\u00a0/g, '').trim().replace('//alternate.moshtix.com.au/', '//www.moshtix.com.au/') }));
 
 await writeFile(new URL('../public/events.json', import.meta.url), JSON.stringify({ generatedAt: status.generatedAt, timezone: TZ, events: final }, null, 1));
 await writeFile(new URL('../public/status.json', import.meta.url), JSON.stringify(status, null, 1));
