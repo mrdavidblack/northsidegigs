@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T06:48:50.279Z",
+ "generatedAt": "2026-10-31T06:59:12.512Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -75,6 +75,18 @@
    "venueId": "brunswickgreen",
    "venue": "Brunswick Green",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 7,
+   "title": "Conundrum Residency. Traditional Irish music...",
+   "start": "2026-10-31T06:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/conundrum-residency-at-the-lomond-back-in-2026-tickets-1978201631331",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
   },
   {
    "id": 5,
@@ -485,6 +497,18 @@
    "venueId": "lulie",
    "venue": "Lulie Tavern",
    "suburb": "Abbotsford"
+  },
+  {
+   "id": 42,
+   "title": "Moreland City Soul Revue. Pure Soul...",
+   "start": "2026-11-01T06:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/moreland-city-soul-revue-residency-at-the-lomond-tickets-1977852394755",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
   },
   {
    "id": 38,
@@ -1234,7 +1258,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 96,
+   "id": 105,
    "title": "Wild Orchids and The Weeds",
    "start": "2026-11-06T08:00:00.000Z",
    "price": 15,
@@ -1512,7 +1536,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 118,
+   "id": 128,
    "title": "Aintree Sweet",
    "start": "2026-11-06T13:00:00.000Z",
    "timeTba": true,
@@ -2105,7 +2129,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 163,
+   "id": 177,
    "title": "Jim Green",
    "start": "2026-11-08T06:00:00.000Z",
    "price": 15,
@@ -2489,7 +2513,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 190,
+   "id": 209,
    "title": "Les Thomas & Trudy Fatnowna",
    "start": "2026-11-11T09:00:00.000Z",
    "price": 10,
@@ -3032,7 +3056,7 @@
    "suburb": "Abbotsford"
   },
   {
-   "id": 231,
+   "id": 254,
    "title": "Caledonian Castaways",
    "start": "2026-11-13T10:00:00.000Z",
    "price": 15,
@@ -3418,7 +3442,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 261,
+   "id": 286,
    "title": "Prayerbabies",
    "start": "2026-11-14T10:00:00.000Z",
    "price": 15,
@@ -4417,7 +4441,7 @@
    "suburb": "Abbotsford"
   },
   {
-   "id": 335,
+   "id": 369,
    "title": "The Romans",
    "start": "2026-11-20T10:00:00.000Z",
    "price": 15,
@@ -4561,7 +4585,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 346,
+   "id": 381,
    "title": "The Cartridge Family. Hillbilly harmony and hot licks with humor and haute couture...",
    "start": "2026-11-21T06:00:00.000Z",
    "price": 20,
@@ -4813,7 +4837,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 364,
+   "id": 402,
    "title": "Pepper Creek Revival with Kelly Auty",
    "start": "2026-11-21T10:00:00.000Z",
    "price": 15,
@@ -4985,7 +5009,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 378,
+   "id": 416,
    "title": "Paper Jane and Alison Ferrier & the Upshots",
    "start": "2026-11-22T06:00:00.000Z",
    "price": 15,
@@ -5971,6 +5995,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 498,
+   "title": "Rod Paine & The Fulltime Lovers. Dirty, electric blues.....",
+   "start": "2026-11-28T10:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/rod-paine-the-fulltime-lovers-at-the-lomond-hotel-tickets-1986965659776",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 461,
    "title": "Tandem Reserve",
    "start": "2026-11-28T12:00:00.000Z",
@@ -5995,7 +6031,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 456,
+   "id": 501,
    "title": "Gospel Lunch with Kelly Auty & Kerri Simpson. Bringing gospel alive!",
    "start": "2026-11-29T01:30:00.000Z",
    "price": 15,

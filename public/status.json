@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T06:48:50.279Z",
+ "generatedAt": "2026-10-31T06:59:12.512Z",
  "venues": [
   {
    "id": "retreat",
@@ -213,7 +213,7 @@
   {
    "id": "lomond",
    "name": "The Lomond Hotel",
-   "count": 11,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
