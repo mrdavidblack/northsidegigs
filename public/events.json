@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T03:02:08.625Z",
+ "generatedAt": "2026-10-31T03:05:13.181Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -27,18 +27,6 @@
    "suburb": "Carlton"
   },
   {
-   "id": 2,
-   "title": "Sore Horse Festival 002: night two",
-   "start": "2026-10-31T08:00:00.000Z",
-   "price": null,
-   "status": "soldout",
-   "url": "https://thetotehotel.oztix.com.au/outlet/event/87b44b73-c269-4c4e-99ae-8485ed583837",
-   "linkType": "tickets",
-   "venueId": "tote",
-   "venue": "The Tote",
-   "suburb": "Collingwood"
-  },
-  {
    "id": 4,
    "title": "JUST A GIG feat. Jamboree + Big Farmer + JimJIms",
    "start": "2026-10-31T09:00:00.000Z",
@@ -51,20 +39,20 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 6,
-   "title": "I Built The Sky: Promise Me You’ll Thrive album launch",
+   "id": 4,
+   "title": "I BUILT THE SKY - Promise Me You'll Thrive Album Launch",
    "start": "2026-10-31T09:00:00.000Z",
    "price": 54.72,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/i-built-the-sky-promise-me-youll-thrive-album-launch/198073",
+   "url": "https://alternate.moshtix.com.au/v2/event/i-built-the-sky-promise-me-youll-thrive-album-launch/198073",
    "linkType": "tickets",
    "venueId": "howler",
    "venue": "Howler",
    "suburb": "Brunswick"
   },
   {
-   "id": 4,
-   "title": "Le Shiv: Yada Yada album tour w/ Pisco Sour + Maia Taokley",
+   "id": 5,
+   "title": "Le Shiv - Yada Yada national album tour – MELBOURNE",
    "start": "2026-10-31T09:00:00.000Z",
    "price": 37.34,
    "status": "onsale",
@@ -99,8 +87,8 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 5,
-   "title": "Yes Vampire’s Halloween Party",
+   "id": 8,
+   "title": "YES VAMPIRE's Halloween Party",
    "start": "2026-10-31T09:00:00.000Z",
    "price": 25.5,
    "status": "onsale",
@@ -135,6 +123,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 11,
+   "title": "hubo (EP Launch) w/ Sliq Mick + Mossrose",
+   "start": "2026-10-31T09:30:00.000Z",
+   "price": 17.35,
+   "status": "onsale",
+   "url": "https://baropen.oztix.com.au/outlet/event/4776278b-692f-49fb-8297-3516f4c0bbd1",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 12,
    "title": "Taking Back Saturday Halloween: Emo & Pop Punk Party - Melbourne",
    "start": "2026-10-31T10:00:00.000Z",
@@ -147,8 +147,8 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 10,
-   "title": "Halloween matinee ft. In Lucid Dreams (single launch)",
+   "id": 13,
+   "title": "Halloween at The Workers Club ft. In Lucid Dreams (Single Launch)",
    "start": "2026-11-01T02:00:00.000Z",
    "price": 23.5,
    "status": "onsale",
@@ -159,12 +159,12 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 11,
+   "id": 14,
    "title": "i hate mondays w/ Cotto + dameeeela",
    "start": "2026-11-01T03:00:00.000Z",
    "price": 27.02,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/i-hate-mondays-w-cotto-dameeeela/201989",
+   "url": "https://alternate.moshtix.com.au/v2/event/i-hate-mondays-w-cotto-dameeeela/201989",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
@@ -193,6 +193,18 @@
    "venueId": "edi",
    "venue": "Edinburgh Castle",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 17,
+   "title": "**FREE ENTRY** -escent (Front Bar)",
+   "start": "2026-11-01T07:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/ffa04510-eea9-47bf-9d7f-3892e974f72e",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
   },
   {
    "id": 17,
@@ -231,8 +243,8 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 15,
-   "title": "Black Cab (second show) w/ Rain Dogs",
+   "id": 21,
+   "title": "Black Cab (2nd show due to popular demand!)",
    "start": "2026-11-01T09:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -241,6 +253,18 @@
    "venueId": "nsc",
    "venue": "Northcote Social Club",
    "suburb": "Northcote"
+  },
+  {
+   "id": 22,
+   "title": "TOTAL VINYL MANIA",
+   "start": "2026-11-02T06:00:00.000Z",
+   "price": 29.57,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/total-vinyl-mania/201674",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
   },
   {
    "id": 21,
@@ -267,8 +291,8 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 16,
-   "title": "DB4: Maximum Maximum album launch",
+   "id": 25,
+   "title": "DB4 Maximum Maximum album launch",
    "start": "2026-11-02T08:30:00.000Z",
    "price": 20,
    "status": "onsale",
@@ -279,8 +303,20 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 18,
-   "title": "Iration Steppas w/ South Weight HiFi",
+   "id": 26,
+   "title": "Coolabah St Launch Party",
+   "start": "2026-11-02T09:00:00.000Z",
+   "price": 17.35,
+   "status": "onsale",
+   "url": "https://baropen.oztix.com.au/outlet/event/28629b67-9448-4c34-af0a-6d099df90ce4",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 27,
+   "title": "Iration Steppas",
    "start": "2026-11-02T09:00:00.000Z",
    "price": 24,
    "status": "onsale",
@@ -291,8 +327,8 @@
    "suburb": "Northcote"
   },
   {
-   "id": 17,
-   "title": "Tee Vee Repairmann w/ The Sprouts + Billy Gardner & Friends",
+   "id": 28,
+   "title": "Tee Vee Repairmann Live at The Tote w/ The Sprouts and Billy Gardner & Friends",
    "start": "2026-11-02T09:00:00.000Z",
    "price": 23.5,
    "status": "onsale",
@@ -301,6 +337,42 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 29,
+   "title": "The Retreat's Birthday Bash feat. Arabella and the Heist + Platonic Sex + Hana & Jessie-Lee’s Bad Habits + Laura Norda + Pussy Horse + RED40PA!NCLUB",
+   "start": "2026-11-03T04:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/061e2789-ad6f-4ea4-9404-977c9a7e6c27",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 30,
+   "title": "Georgia Knight w/ Full Band",
+   "start": "2026-11-03T07:30:00.000Z",
+   "price": 20.4,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/0329289b-76dd-4927-85dd-d9aa184e8138",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
+  },
+  {
+   "id": 31,
+   "title": "Make It Up Club",
+   "start": "2026-11-03T08:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/2e7d831e-fab4-4394-83cf-3744ad075e4f",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
   },
   {
    "id": 26,
@@ -315,11 +387,11 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 19,
-   "title": "Dole Night w/ G-String Nicotine + The Dropkicks",
+   "id": 33,
+   "title": "DOLE NIGHT w/ G-String Nicotine + The Dropkicks",
    "start": "2026-11-04T08:00:00.000Z",
    "price": null,
-   "status": "free",
+   "status": "unknown",
    "url": "https://thetotehotel.oztix.com.au/outlet/event/b08f8aad-6738-47cf-a1e4-e19f6f9fc36b",
    "linkType": "tickets",
    "venueId": "tote",
@@ -327,8 +399,8 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 20,
-   "title": "Anthonie Tonnon: Cinematographer w/ Zoe Fox",
+   "id": 34,
+   "title": "Anthonie Tonnon - Cinematographer",
    "start": "2026-11-04T08:30:00.000Z",
    "price": 34.19,
    "status": "onsale",
@@ -349,6 +421,30 @@
    "venueId": "jazzlab",
    "venue": "The Jazzlab",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 36,
+   "title": "Mario Kart Live",
+   "start": "2026-11-04T08:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/81413b52-f1e5-40e1-b023-9a193720f8a4",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 37,
+   "title": "Honey Eyed w/ NYËRA + Ron Armstrong",
+   "start": "2026-11-04T09:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://baropen.oztix.com.au/outlet/event/c80519e8-21a1-4110-b4a2-b8dd44a3b32c",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
   },
   {
    "id": 30,
@@ -373,6 +469,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 40,
+   "title": "**FREE ENTRY** The Sweet Souls (Front Bar)",
+   "start": "2026-11-05T07:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/2f31bdf1-c228-48cd-a293-2b602979bfd4",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
   },
   {
    "id": 32,
@@ -423,16 +531,40 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 24,
-   "title": "Our Demise: Despondence tour",
+   "id": 45,
+   "title": "Get Blended: a mixed-genre lineup celebrating Aus Music Month featuring: Renee Naccari, Cufflinx and Hati Hari",
    "start": "2026-11-05T08:30:00.000Z",
-   "price": null,
-   "status": "unknown",
+   "price": 16.35,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 46,
+   "title": "Our Demise “DESPONDENCE” TOUR- Melbourne",
+   "start": "2026-11-05T08:30:00.000Z",
+   "price": 23.5,
+   "status": "onsale",
    "url": "https://thetotehotel.oztix.com.au/outlet/event/6ad19aab-6c3d-4c32-a519-cad3dfc2f74c",
    "linkType": "tickets",
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 47,
+   "title": "Jazmin Micallef (Single Launch) w/ Bella Fior + Grace De Vos",
+   "start": "2026-11-05T09:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://baropen.oztix.com.au/outlet/event/0c24fd1f-7efa-4830-980a-de855655c632",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
   },
   {
    "id": 37,
@@ -459,8 +591,20 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 26,
-   "title": "Pollyman: Walking in Circles single launch",
+   "id": 50,
+   "title": "Cantrips (DJ set) in The Retreat Beer Garden",
+   "start": "2026-11-06T07:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/68607a9c-7647-4e4a-9d5c-2f5a778b8d2c",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 51,
+   "title": "Pollyman - 'Walking in Circles' Single Launch",
    "start": "2026-11-06T07:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -471,8 +615,20 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 27,
-   "title": "Loose Bricks: All In Good Time tour w/ Jimmy Harwood + Merkani",
+   "id": 52,
+   "title": "**FREE ENTRY** Hoodoo Express (Front Bar)",
+   "start": "2026-11-06T07:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/9e9aac24-0bed-47d2-85f0-f9981c637ca8",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 53,
+   "title": "Loose Bricks | All In Good Time Tour 2026 | Melbourne",
    "start": "2026-11-06T08:00:00.000Z",
    "price": 29.9,
    "status": "onsale",
@@ -483,28 +639,40 @@
    "suburb": "Northcote"
   },
   {
-   "id": 28,
-   "title": "Duvin: Irrelevant Magic launch",
+   "id": 54,
+   "title": "Duvin “Irrelevant Magic” launch",
    "start": "2026-11-06T08:00:00.000Z",
    "price": 17.33,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/duvin-%E2%80%9Cirrelevant-magic%E2%80%9D-launch/200860",
+   "url": "https://alternate.moshtix.com.au/v2/event/duvin-“irrelevant-magic”-launch/200860",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
   },
   {
-   "id": 29,
-   "title": "Twisted Fix: Shimmer single launch",
+   "id": 55,
+   "title": "Twisted Fix - Shimmer Single Launch",
    "start": "2026-11-06T08:00:00.000Z",
    "price": 22.43,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/twisted-fix-shimmer-single-launch/200851",
+   "url": "https://alternate.moshtix.com.au/v2/event/twisted-fix-shimmer-single-launch/200851",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 56,
+   "title": "Voyager \"Through Storms and Stars\"",
+   "start": "2026-11-06T08:30:00.000Z",
+   "price": 60.7,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/f95cf493-a3dc-4cbc-a88c-4c1b2b7ca091",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
   },
   {
    "id": 43,
@@ -519,12 +687,12 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 34,
-   "title": "The Tullamarines",
+   "id": 58,
+   "title": "THE TULLAMARINES 2026 TOUR",
    "start": "2026-11-06T09:00:00.000Z",
-   "price": null,
+   "price": 30,
    "status": "soldout",
-   "url": "https://www.moshtix.com.au/v2/event/the-tullamarines-2026-tour/199490",
+   "url": "https://alternate.moshtix.com.au/v2/event/the-tullamarines-2026-tour/199490",
    "linkType": "tickets",
    "venueId": "howler",
    "venue": "Howler",
@@ -567,11 +735,11 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 30,
-   "title": "Hellcat Speedracer: forever never here tour",
+   "id": 62,
+   "title": "Hellcat Speedracer | forever never here tour",
    "start": "2026-11-06T09:00:00.000Z",
-   "price": null,
-   "status": "unknown",
+   "price": 23.5,
+   "status": "onsale",
    "url": "https://thetotehotel.oztix.com.au/outlet/event/cb065747-02d9-437a-b11a-dc37dda48333",
    "linkType": "tickets",
    "venueId": "tote",
@@ -579,8 +747,8 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 31,
-   "title": "Pod People (ACT), Isua, Creep Diets + Blood of a Pomegranate",
+   "id": 63,
+   "title": "POD PEOPLE (ACT), ISUA, CREEP DIETS & BLOOD OF A POMEGRANATE LIVE AT THE TOTE - FRIDAY NOVEMBER 6TH",
    "start": "2026-11-06T09:00:00.000Z",
    "price": 28.6,
    "status": "onsale",
@@ -591,8 +759,8 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 33,
-   "title": "Sick Visor: ’06 Camry single launch",
+   "id": 64,
+   "title": "SICK VISOR ‘06 Camry single launch",
    "start": "2026-11-06T09:00:00.000Z",
    "price": 19.9,
    "status": "onsale",
@@ -627,8 +795,68 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 37,
-   "title": "The Hum: album launch matinee",
+   "id": 67,
+   "title": "Dërty Bërd (Single Launch) w/ Ludes + Tommy D Tommee D",
+   "start": "2026-11-06T09:30:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://baropen.oztix.com.au/outlet/event/3cdd9c4f-dba5-4e23-8a01-7fd5b6b3f8a2",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 68,
+   "title": "Salsodromo: Live band + Social Dancing at The Retreat Hotel Brunswick",
+   "start": "2026-11-06T09:30:00.000Z",
+   "price": 28.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/c44f5ea0-4fcf-4bb4-b384-71c63c91bad7",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 69,
+   "title": "**FREE ENTRY** Smoking Vinyl (Front Bar)",
+   "start": "2026-11-06T10:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/25310650-40f9-4b50-a347-f9212be30f22",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 70,
+   "title": "WAFT!",
+   "start": "2026-11-06T12:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/5e55f1b0-ca33-48fd-b7bb-32388b166a4d",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 71,
+   "title": "Al Carr - Colour To The Flame album launch",
+   "start": "2026-11-07T02:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/80157993-e8e7-4d11-80b4-8020db5525c2",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 72,
+   "title": "MATINEE: The Hum Album Launch",
    "start": "2026-11-07T02:00:00.000Z",
    "price": 23.5,
    "status": "onsale",
@@ -639,8 +867,8 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 38,
-   "title": "Dallas Terrors & Blown Clones",
+   "id": 73,
+   "title": "DALLAS TERRORS & BLOWN CLONES",
    "start": "2026-11-07T04:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -663,8 +891,44 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 40,
-   "title": "Samscout: album launch w/ Blake Appelqvist, Jessie Monk + NoLess",
+   "id": 75,
+   "title": "ECCA VANDAL - ‘Looking For People to Unfollow’ Album Tour (Matinee)",
+   "start": "2026-11-07T05:30:00.000Z",
+   "price": 44.37,
+   "status": "soldout",
+   "url": "https://alternate.moshtix.com.au/v2/event/ecca-vandal-‘looking-for-people-to-unfollow’-album-tour-matinee/196680",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 76,
+   "title": "Good Music presents All Star",
+   "start": "2026-11-07T06:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/373f0850-e6be-4778-a44c-4afbad4106b9",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 77,
+   "title": "Ant Eye Comedy (Gold Coin Donation)",
+   "start": "2026-11-07T07:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/4a8c56ea-c205-46f6-8d52-9098c04d6320",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 78,
+   "title": "SAMSCOUT (album launch)",
    "start": "2026-11-07T08:30:00.000Z",
    "price": 44,
    "status": "onsale",
@@ -688,8 +952,8 @@
    "suburb": "Clifton Hill"
   },
   {
-   "id": 41,
-   "title": "Ache w/ Keratin + World Sick",
+   "id": 80,
+   "title": "ACHE w/ Keratin and World Sick",
    "start": "2026-11-07T08:30:00.000Z",
    "price": 13.3,
    "status": "onsale",
@@ -748,7 +1012,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 44,
+   "id": 85,
    "title": "Leela Rose",
    "start": "2026-11-07T09:00:00.000Z",
    "price": 17.85,
@@ -784,12 +1048,24 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 47,
-   "title": "Ecca Vandal: Looking For People to Unfollow album tour",
+   "id": 88,
+   "title": "The Koi Fish w/ Mondo Cane + Wintermelon",
+   "start": "2026-11-07T09:30:00.000Z",
+   "price": 13.3,
+   "status": "onsale",
+   "url": "https://baropen.oztix.com.au/outlet/event/7d7458ac-32ff-4bf5-8802-aac6b71f564b",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 89,
+   "title": "ECCA VANDAL - ‘Looking For People to Unfollow’ Album Tour",
    "start": "2026-11-07T09:30:00.000Z",
    "price": 38.71,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/ecca-vandal-%E2%80%98looking-for-people-to-unfollow%E2%80%99-album-tour/196036",
+   "url": "https://alternate.moshtix.com.au/v2/event/ecca-vandal-‘looking-for-people-to-unfollow’-album-tour/196036",
    "linkType": "tickets",
    "venueId": "howler",
    "venue": "Howler",
@@ -809,7 +1085,7 @@
    "suburb": "Clifton Hill"
   },
   {
-   "id": 48,
+   "id": 91,
    "title": "Free Style Sunday! ft. Define This",
    "start": "2026-11-08T02:00:00.000Z",
    "price": 23.5,
@@ -821,16 +1097,28 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 49,
-   "title": "Soul Lane x Moth",
+   "id": 92,
+   "title": "Soul Lane X MOTH",
    "start": "2026-11-08T03:00:00.000Z",
    "price": 55.05,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/soul-lane-x-moth/201650",
+   "url": "https://alternate.moshtix.com.au/v2/event/soul-lane-x-moth/201650",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 93,
+   "title": "Isabelle Skye @ The Retreat Hotel Brunswick w/ Potluck",
+   "start": "2026-11-08T03:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/1aa4a11e-11e8-4016-bdbe-e6dd49b26a93",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 70,
@@ -845,6 +1133,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 95,
+   "title": "Vinyl Vixens ft. WaX FoX & Miss Gabrielle",
+   "start": "2026-11-08T06:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/12293319-e125-4e0f-980c-7642bea6f101",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 71,
    "title": "Buckleys At Bedtime w/ The Hollows & The Mods",
    "start": "2026-11-08T06:15:00.490Z",
@@ -855,6 +1155,42 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 97,
+   "title": "**FREE ENTRY** Ben Carr Quartet (Front Bar)",
+   "start": "2026-11-08T07:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/7c330a9d-7455-4eb8-ad2a-8edcdc6ec982",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 98,
+   "title": "Open Space (Light, Sound and Sculpture exhibition)",
+   "start": "2026-11-08T08:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/6234377a-5775-4e08-b3cb-7f31041c7b95",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 99,
+   "title": "Amos Roach",
+   "start": "2026-11-08T08:30:00.000Z",
+   "price": 30,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/6f2fbdaf-cc8c-4ab2-b010-69860e8461ec",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
   },
   {
    "id": 72,
@@ -881,6 +1217,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 102,
+   "title": "‘Social Sanctuary’ with Greta O'Leary, Stenn Francis-Deare + Bella Cloud",
+   "start": "2026-11-09T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/5c222112-b539-4438-81d2-f13529cc85dd",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 74,
    "title": "Transients: Carbo/Anderson/Keller",
    "start": "2026-11-09T08:30:00.000Z",
@@ -893,6 +1241,42 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 104,
+   "title": "Mother “Babygirl” Single Launch",
+   "start": "2026-11-10T08:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/3f77e7ac-c95c-47f2-bee1-34e921d4430c",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 105,
+   "title": "Make It Up Club",
+   "start": "2026-11-10T08:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/402b0c76-65f2-4ecd-9f36-ee2a0747da74",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 106,
+   "title": "**FREE ENTRY** Stink Tank The Drag Show (Band Room)",
+   "start": "2026-11-11T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/6af72d6f-30c3-4dd6-a34a-213a04047b37",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 75,
    "title": "FOMORA | NOVEMBER RESIDENCY",
    "start": "2026-11-11T09:00:00.000Z",
@@ -902,6 +1286,42 @@
    "linkType": "tickets",
    "venueId": "evelyn",
    "venue": "The Evelyn",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 108,
+   "title": "**FREE ENTRY** The Red 40 (Front Bar)",
+   "start": "2026-11-12T07:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/aaf5a504-ad96-48d0-a942-4e7fe394b1b2",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 109,
+   "title": "Bad Flâneur",
+   "start": "2026-11-12T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://baropen.oztix.com.au/outlet/event/ca12dd6e-36f9-40ee-8809-42b049d75829",
+   "linkType": "tickets",
+   "venueId": "baropen",
+   "venue": "Bar Open",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 110,
+   "title": "Fay Psalm - Debut Headliner",
+   "start": "2026-11-12T08:00:00.000Z",
+   "price": 17.35,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/55a3808e-4a85-44bc-a884-e6af58acefb0",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
    "suburb": "Fitzroy"
   },
   {
@@ -941,6 +1361,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 114,
+   "title": "SadBoi (CAN)",
+   "start": "2026-11-12T09:00:00.000Z",
+   "price": 59.9,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/744be11f-a313-422f-b41a-280caa7e7127",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 79,
    "title": "Fenn Wilson & The Weather Residency w/ Grace Mitchell and Mellowing",
    "start": "2026-11-12T09:00:00.879Z",
@@ -950,6 +1382,30 @@
    "linkType": "tickets",
    "venueId": "nighthawks",
    "venue": "Nighthawks",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 116,
+   "title": "Quarter Mile 'Gecko' Album Launch",
+   "start": "2026-11-13T08:00:00.000Z",
+   "price": 19.99,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/quarter-mile-gecko-album-launch/200858",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 117,
+   "title": "Dr Sure's Unusual Practice (8th Birthday)",
+   "start": "2026-11-13T08:00:00.000Z",
+   "price": 22.43,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/dr-sures-unusual-practice-8th-birthday/200232",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
    "suburb": "Collingwood"
   },
   {
@@ -965,6 +1421,18 @@
    "suburb": "Thornbury"
   },
   {
+   "id": 119,
+   "title": "SKUNKHOUR - \"Back to Basics\" w Xani Kolac",
+   "start": "2026-11-13T09:00:00.000Z",
+   "price": 59.9,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/skunkhour-back-to-basics-w-xani-kolac/197953",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 81,
    "title": "URTHBOY 'RECKLESS BLOOM' ALBUM TOUR",
    "start": "2026-11-13T09:00:00.000Z",
@@ -977,6 +1445,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 121,
+   "title": "Alta Falls - ‘Don't Make Me A Number’ EP Tour",
+   "start": "2026-11-13T09:00:00.000Z",
+   "price": 56.8,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/7a031fa9-613b-4cba-82bc-589a9eed98f5",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 82,
    "title": "Harriet Wraith and The Witches present... \"She's Not Your Muse\" EP Launch at The Evelyn Hotel",
    "start": "2026-11-13T09:00:00.000Z",
@@ -986,6 +1466,18 @@
    "linkType": "tickets",
    "venueId": "evelyn",
    "venue": "The Evelyn",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 123,
+   "title": "A Nightmare on Dangdut Street ft. The Jawa Pitu Band",
+   "start": "2026-11-13T09:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/2ebafbe9-73b2-4258-87ad-d9ab19c1da9b",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
    "suburb": "Fitzroy"
   },
   {
@@ -1037,6 +1529,42 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 128,
+   "title": "TIGERS JAW (USA) Australian Tour 2026",
+   "start": "2026-11-14T08:00:00.000Z",
+   "price": 74.9,
+   "status": "soldout",
+   "url": "https://alternate.moshtix.com.au/v2/event/tigers-jaw-usa-australian-tour-2026/196538",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 129,
+   "title": "Druid Fluids & Magic Machine",
+   "start": "2026-11-14T08:00:00.000Z",
+   "price": 34.66,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/druid-fluids-magic-machine/201149",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 130,
+   "title": "REVEREND HORTON HEAT - Australian Tour 2026",
+   "start": "2026-11-14T08:00:00.000Z",
+   "price": 89.9,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/5255d096-a502-4256-aff8-44987b59e635",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 87,
    "title": "Elena Jones 'Let Me Be Wrong' EP Launch",
    "start": "2026-11-14T08:30:00.000Z",
@@ -1073,6 +1601,30 @@
    "suburb": "Carlton"
   },
   {
+   "id": 134,
+   "title": "Nefeli Fasouli (GR)",
+   "start": "2026-11-14T09:00:00.000Z",
+   "price": 62,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/2260721f-0148-4d6b-b8e2-58d4409bf935",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 135,
+   "title": "22mackie (Live)",
+   "start": "2026-11-14T09:00:00.000Z",
+   "price": 28.6,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/50dba62c-7597-4d44-83dd-8577218f53dc",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 90,
    "title": "Down and Out with The Admired and Amberfield",
    "start": "2026-11-14T09:00:00.142Z",
@@ -1083,6 +1635,30 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 137,
+   "title": "Sunday Grunge ft. Dress",
+   "start": "2026-11-15T02:00:00.000Z",
+   "price": 14.8,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/e9ef4932-8d44-4eab-b563-1eadcaa70718",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 138,
+   "title": "Terrible Muriel (album launch - matinee)",
+   "start": "2026-11-15T03:30:00.000Z",
+   "price": 15.3,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/01882c05-f05a-40bf-98b9-5fb517de2f6a",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
   },
   {
    "id": 91,
@@ -1097,6 +1673,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 140,
+   "title": "7 YEARS OF ISU TAKI ft: Rodrigo Gallardo (Chile)",
+   "start": "2026-11-15T05:00:00.000Z",
+   "price": 43.35,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/7-years-of-isu-taki-ft-rodrigo-gallardo-chile/201314",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 92,
    "title": "Danny Ross",
    "start": "2026-11-15T05:00:00.095Z",
@@ -1109,6 +1697,42 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 142,
+   "title": "The Workers Comedy Club",
+   "start": "2026-11-15T07:30:00.000Z",
+   "price": 4.6,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/e95323b9-0a6a-4344-a3b3-14f9b80e88ac",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 143,
+   "title": "Lara Buchanan 'Skeleton of a Butterfly' EP Launch (All Ages)",
+   "start": "2026-11-15T08:00:00.000Z",
+   "price": 7.65,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/lara-buchanan-skeleton-of-a-butterfly-ep-launch-all-ages/201617",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 144,
+   "title": "Volition Bloom",
+   "start": "2026-11-15T08:00:00.000Z",
+   "price": 17.85,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/6008b0b3-95eb-45eb-b236-b96fd8a61555",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 93,
    "title": "MILKBAR LIVE AT NIGHTHAWKS",
    "start": "2026-11-15T08:15:00.804Z",
@@ -1119,6 +1743,30 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 146,
+   "title": "‘Social Sanctuary’ with feelings, Astari + Jac Donnelly",
+   "start": "2026-11-16T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/dbe066a0-c065-404d-be6a-b5868b340c46",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 147,
+   "title": "GENERATION WOMEN - Showstoppers 2026: The stories that stayed with us",
+   "start": "2026-11-18T07:30:00.000Z",
+   "price": 43.85,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/generation-women-showstoppers-2026-the-stories-that-stayed-with-us/201317",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
   },
   {
    "id": 94,
@@ -1143,6 +1791,42 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 150,
+   "title": "Jamie Koul",
+   "start": "2026-11-19T07:30:00.000Z",
+   "price": 25,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/9430bf55-99db-42ea-9d4c-f9e9445c48e8",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 151,
+   "title": "Kimi Runna 'Exotica' - Album Launch",
+   "start": "2026-11-19T08:00:00.000Z",
+   "price": 22.43,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/kimi-runna-exotica-album-launch/199701",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 152,
+   "title": "Dayuary Foundation Charity Concert",
+   "start": "2026-11-19T08:00:00.000Z",
+   "price": 20.95,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/2add6639-a44d-4f25-90c3-8042a512807e",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 96,
@@ -1193,6 +1877,30 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 157,
+   "title": "INFUSE LIVE AT THE SMITH STREET HOTEL",
+   "start": "2026-11-20T08:00:00.000Z",
+   "price": 17.33,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/infuse-live-at-the-smith-street-hotel/201104",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 158,
+   "title": "Roy Darby 'Oh My!' Album Launch Tour",
+   "start": "2026-11-20T08:00:00.000Z",
+   "price": 29.57,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/roy-darby-oh-my-album-launch-tour/201385",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
    "id": 100,
    "title": "Kosmetika - EU SEND OFF SHOW",
    "start": "2026-11-20T09:00:00.000Z",
@@ -1217,6 +1925,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 161,
+   "title": "Eric Hutchinson (USA)",
+   "start": "2026-11-20T09:00:00.000Z",
+   "price": 59.9,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/f8f036b5-d5c5-44ca-bfd1-c3f1acb0fe3f",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 102,
    "title": "WoodHill ‘Your Sound’ Album Launch Tour",
    "start": "2026-11-20T09:00:00.000Z",
@@ -1226,6 +1946,18 @@
    "linkType": "tickets",
    "venueId": "evelyn",
    "venue": "The Evelyn",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 163,
+   "title": "SHITCHAIR ALBUM LAUNCH ft. Rennie & the Shit Chair",
+   "start": "2026-11-20T09:00:00.000Z",
+   "price": 17.85,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/d79f3d40-a7f2-4058-981b-141bd488a39e",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
    "suburb": "Fitzroy"
   },
   {
@@ -1253,6 +1985,42 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 166,
+   "title": "Ahadadream and Riria Day Party",
+   "start": "2026-11-21T01:00:00.000Z",
+   "price": 54.72,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/ahadadream-and-riria-day-party/201725",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 167,
+   "title": "Project Vanta (All Ages Alcohol Free Matinee)",
+   "start": "2026-11-21T01:00:00.000Z",
+   "price": 27,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/90a7b4c8-31c3-45a1-b9b4-3674332b9dba",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 168,
+   "title": "FASEHORSE LOVE ft. FASEHORSE",
+   "start": "2026-11-21T02:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/11bbf5ee-1fca-48bb-9a6d-53f0e244b596",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 105,
    "title": "Women of the Wild: Mila May, Eadiella & Holly Monks",
    "start": "2026-11-21T03:15:00.992Z",
@@ -1263,6 +2031,42 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 170,
+   "title": "Jacoténe Australia Headline Tour",
+   "start": "2026-11-21T08:00:00.000Z",
+   "price": 30,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/jacotene-australia-headline-tour/199703",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 171,
+   "title": "ALL REGARDS 'LUCID' SINGLE LAUNCH",
+   "start": "2026-11-21T08:30:00.000Z",
+   "price": 29.57,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/all-regards-lucid-single-launch/200640",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 172,
+   "title": "SOUTHERN RITUAL - Mortiis / Nytt Land / TiR - Australian Ceremonies",
+   "start": "2026-11-21T08:30:00.000Z",
+   "price": 59.95,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/0108a4ae-29bd-49b0-a22f-38519867270a",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
   },
   {
    "id": 106,
@@ -1289,6 +2093,30 @@
    "suburb": "Carlton"
   },
   {
+   "id": 175,
+   "title": "Paranoid Android",
+   "start": "2026-11-21T09:00:00.000Z",
+   "price": 35.3,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/97f5400e-0b12-47f0-ad90-8254c7e7649f",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 176,
+   "title": "NANA'S PIE 'Till The Morning' Tour",
+   "start": "2026-11-21T09:00:00.000Z",
+   "price": 25,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/5173f637-d01f-4192-bae3-b7370fec5c8d",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 108,
    "title": "Blue Mode",
    "start": "2026-11-21T09:00:00.148Z",
@@ -1313,6 +2141,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 179,
+   "title": "OZZMOND",
+   "start": "2026-11-22T02:00:00.000Z",
+   "price": 23.5,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/e3a32a07-2e3c-42e5-83f4-8e20a0937225",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 110,
    "title": "Wind Wand with Bitimus and Celltowers",
    "start": "2026-11-22T03:00:00.393Z",
@@ -1325,6 +2165,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 181,
+   "title": "Sacred Cowboys (late matinee)",
+   "start": "2026-11-22T05:00:00.000Z",
+   "price": 38.35,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/92069948-761c-4a08-8ab3-71c87876fbd8",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 111,
    "title": "Rachel Clark",
    "start": "2026-11-22T05:00:00.953Z",
@@ -1334,6 +2186,18 @@
    "linkType": "details",
    "venueId": "edi",
    "venue": "Edinburgh Castle",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 183,
+   "title": "DELILAH BON - Australian East Coast Tour with NIGHTLIGHT",
+   "start": "2026-11-22T07:00:00.000Z",
+   "price": 69.9,
+   "status": "soldout",
+   "url": "https://alternate.moshtix.com.au/v2/event/delilah-bon-australian-east-coast-tour-with-nightlight/195028",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
    "suburb": "Brunswick"
   },
   {
@@ -1349,6 +2213,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 185,
+   "title": "MYLES BULLEN (USA) / Simo Soo / Maltese well monster",
+   "start": "2026-11-22T08:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/4bc0c652-b3c2-467a-a428-5c87fa8a036f",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 113,
    "title": "John Ives - Tides EP Launch",
    "start": "2026-11-22T08:15:00.480Z",
@@ -1361,6 +2237,30 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 187,
+   "title": "YĪN YĪN",
+   "start": "2026-11-22T09:00:00.000Z",
+   "price": 79.9,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/39cb3b04-0a54-4d97-81c6-05c80032dfcb",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
+  },
+  {
+   "id": 188,
+   "title": "‘Social Sanctuary’ with Mellowing, Great Australian Bank + Rhom Konnie",
+   "start": "2026-11-23T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/6676ba03-2e6b-4ab7-a1bb-bf77a61bde8c",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 114,
    "title": "ELLIOT & VINCENT (NZ) PLAY THE CURTIN",
    "start": "2026-11-25T08:00:00.000Z",
@@ -1371,6 +2271,18 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 190,
+   "title": "VADER - Reign Forever Australia",
+   "start": "2026-11-25T08:30:00.000Z",
+   "price": 61.65,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/df6dfc62-ff57-4680-9981-c06775ff70de",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
   },
   {
    "id": 115,
@@ -1397,6 +2309,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 193,
+   "title": "THE FOX IS EMO AF",
+   "start": "2026-11-26T08:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/e2477427-f8be-4c10-9756-f0165c482462",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 117,
    "title": "Suzie So Blue",
    "start": "2026-11-26T08:00:00.868Z",
@@ -1407,6 +2331,30 @@
    "venueId": "edi",
    "venue": "Edinburgh Castle",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 195,
+   "title": "MEMPHIS LK - Are You Holding On? Tour",
+   "start": "2026-11-26T08:30:00.000Z",
+   "price": 49.9,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/memphis-lk-are-you-holding-on-tour/201473",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 196,
+   "title": "Tamara & the dreams - Too True to Be Good (album launch)",
+   "start": "2026-11-26T08:30:00.000Z",
+   "price": 24,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/c3890caa-88db-4f9c-aad8-21556671784b",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
   },
   {
    "id": 118,
@@ -1430,6 +2378,42 @@
    "linkType": "tickets",
    "venueId": "nighthawks",
    "venue": "Nighthawks",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 199,
+   "title": "YLVA - Performing Hypoxia In Full",
+   "start": "2026-11-27T08:00:00.000Z",
+   "price": 38.71,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/ylva-performing-hypoxia-in-full/200255",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 200,
+   "title": "Azure Ryder ‘Even Flowers Can Bruise’ Album Tour",
+   "start": "2026-11-27T08:00:00.000Z",
+   "price": 29.57,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/azure-ryder-‘even-flowers-can-bruise’-album-tour/200743",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 201,
+   "title": "Caroline Rose (USA)",
+   "start": "2026-11-27T08:00:00.000Z",
+   "price": 59.9,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/caroline-rose-usa/199590",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
    "suburb": "Collingwood"
   },
   {
@@ -1457,6 +2441,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 204,
+   "title": "ROMANIE – It's Not That Funny Tour",
+   "start": "2026-11-27T09:00:00.000Z",
+   "price": 21.45,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/805c4ee3-14f2-4073-b9fa-a36efeecf42f",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 122,
    "title": "Goose Bay - 'Mr. Medicine' Single Launch",
    "start": "2026-11-27T09:00:00.000Z",
@@ -1466,6 +2462,18 @@
    "linkType": "tickets",
    "venueId": "evelyn",
    "venue": "The Evelyn",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 206,
+   "title": "The Resignators Spectre Boy single launch",
+   "start": "2026-11-27T09:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/ad11299c-ce02-4fec-b810-f37cf4636f6b",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
    "suburb": "Fitzroy"
   },
   {
@@ -1493,6 +2501,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 209,
+   "title": "MATINEE: Trashcore",
+   "start": "2026-11-28T02:00:00.000Z",
+   "price": 14.8,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/39f7d2b0-a498-45c5-9bbb-f758977f76a6",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 125,
    "title": "Jack Loftus with The New Millionaires and Clara Darcy",
    "start": "2026-11-28T04:00:00.468Z",
@@ -1517,6 +2537,42 @@
    "suburb": "Thornbury"
   },
   {
+   "id": 212,
+   "title": "DON’S PARTY - Election Night ’26 ft. Winternationale, Mote, S: Bahn and Signal Chain.",
+   "start": "2026-11-28T08:00:00.000Z",
+   "price": 17.33,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/don’s-party-election-night-’26-ft-winternationale-mote-s-bahn-and-signal-ch/201678",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 213,
+   "title": "THIS ROAD WE’RE ON: Quiet Essence live w/ Achey Peace & The Sun Is A Deadly Laser",
+   "start": "2026-11-28T08:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/this-road-we’re-on-quiet-essence-live-w-achey-peace-the-sun-is-a-deadly-laser/200277",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 214,
+   "title": "KARATE BOOGALOO - Access All Areas Album Launch",
+   "start": "2026-11-28T09:00:00.000Z",
+   "price": 38.71,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/karate-boogaloo-access-all-areas-album-launch/200145",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 127,
    "title": "SCREAMFEEDER LIVE!",
    "start": "2026-11-28T09:00:00.000Z",
@@ -1527,6 +2583,18 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 216,
+   "title": "Juice Webster (album launch)",
+   "start": "2026-11-28T09:00:00.000Z",
+   "price": 29.1,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/24a267d6-5362-45e7-8d12-35b81bacc59d",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
   },
   {
    "id": 128,
@@ -1565,6 +2633,30 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 220,
+   "title": "Zindzi & The Zillionaires",
+   "start": "2026-11-29T00:00:00.000Z",
+   "price": 29.1,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/92afd542-0164-4b96-b817-5646f8e6a24a",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 221,
+   "title": "HYPE & FRIENDS",
+   "start": "2026-11-29T03:00:00.000Z",
+   "price": 38.71,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/hype-friends/201854",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 131,
    "title": "Mopoke with Mystery Shoppers and The Blueprints",
    "start": "2026-11-29T03:00:00.199Z",
@@ -1589,6 +2681,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 224,
+   "title": "Bad Debts (album launch)",
+   "start": "2026-11-29T05:30:00.000Z",
+   "price": 13.3,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/7a30fcda-7422-4e99-9b1b-dea0170c6363",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 133,
    "title": "HARU NEMURI (JAPAN) - AUSTRALIA TOUR 2026",
    "start": "2026-11-29T08:00:00.000Z",
@@ -1599,6 +2703,42 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 226,
+   "title": "‘Social Sanctuary’ with Skyscraper Stan, Madeline Leman + The Darlings Family Trust",
+   "start": "2026-11-30T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/bba528e5-784d-4e09-8b3b-9cfe4f6dc949",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 227,
+   "title": "This is Daniel Serpa • “SIRPA” EP Launch",
+   "start": "2026-12-03T08:00:00.000Z",
+   "price": 22.43,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/this-is-daniel-serpa-•-“sirpa”-ep-launch/202042",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 228,
+   "title": "Ryan Harris",
+   "start": "2026-12-03T09:00:00.000Z",
+   "price": 40.4,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/7fd6d38b-436b-4b7e-9f11-3856b9250ee2",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
   },
   {
    "id": 134,
@@ -1613,6 +2753,30 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 230,
+   "title": "Uncle Acid and The Deadbeats",
+   "start": "2026-12-04T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/b8d193fb-d75f-4774-94fb-1ae0bf070e43",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
+  },
+  {
+   "id": 231,
+   "title": "JORDIE LANE & BAND - Habitual Album Launch w The Owls + Minna (UK)",
+   "start": "2026-12-04T08:30:00.000Z",
+   "price": 25,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/jordie-lane-band-habitual-album-launch-w-the-owls-minna-uk/198397",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 135,
    "title": "Blowers 'Blozone Layer' Album Launch w/ The Maggie Pills, Salmon Sisters, Lunatic",
    "start": "2026-12-04T09:00:00.000Z",
@@ -1623,6 +2787,30 @@
    "venueId": "cactus",
    "venue": "Cactus Room",
    "suburb": "Thornbury"
+  },
+  {
+   "id": 233,
+   "title": "The New Monos - Video Clip Launch",
+   "start": "2026-12-04T09:00:00.000Z",
+   "price": 23.5,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/31e9952b-52a5-4039-a4e2-e33244ceb234",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 234,
+   "title": "Anika (DE)",
+   "start": "2026-12-04T09:30:00.000Z",
+   "price": 54.9,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/615cdb49-455c-4c5d-834f-bb561b67688f",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
   },
   {
    "id": 136,
@@ -1637,6 +2825,42 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 236,
+   "title": "Willo - Smith St Hotel",
+   "start": "2026-12-05T05:00:00.000Z",
+   "price": 29.57,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/willo-smith-st-hotel/201648",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 237,
+   "title": "Stella Dunai (Debut Live Show)",
+   "start": "2026-12-05T08:00:00.000Z",
+   "price": 29.57,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/stella-dunai-debut-live-show/201969",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 238,
+   "title": "Cash Savage & The Last Drinks",
+   "start": "2026-12-05T08:00:00.000Z",
+   "price": 10,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/6bea9432-0a0f-4ace-93d3-6aeeef198570",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 137,
    "title": "Lovely Boys - 'Sponsorship' SINGLE LAUNCH",
    "start": "2026-12-05T09:00:00.000Z",
@@ -1649,6 +2873,18 @@
    "suburb": "Thornbury"
   },
   {
+   "id": 240,
+   "title": "ALLDAY PRESENTS EUPHORIA 2 | MELBOURNE",
+   "start": "2026-12-05T09:00:00.000Z",
+   "price": 54.72,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/allday-presents-euphoria-2-melbourne/200960",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 138,
    "title": "WILLIAM CRIGHTON BAND 'COLONIAL DRIFT' ENCORE SHOW",
    "start": "2026-12-05T09:00:00.000Z",
@@ -1659,6 +2895,30 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 242,
+   "title": "The Crystal Set",
+   "start": "2026-12-05T09:00:00.000Z",
+   "price": 40.4,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/00f659cf-8d6d-40b3-a9cd-64e4c1eff130",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 243,
+   "title": "Ablaze's Christmas Party ft. Ablaze + Big Red Fire Truck (Syd)",
+   "start": "2026-12-05T09:00:00.000Z",
+   "price": 33.95,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/987ee6ee-eec5-4c29-a63f-803f380d0dc0",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 139,
@@ -1685,6 +2945,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 246,
+   "title": "The 13th Kinematic Kristmas Show: a benefit for the Anna Wearne Trust",
+   "start": "2026-12-06T05:00:00.000Z",
+   "price": 10,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/2dfba60e-730e-4313-a1ea-85932696caed",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 141,
    "title": "Jade Paw",
    "start": "2026-12-06T05:00:00.418Z",
@@ -1695,6 +2967,30 @@
    "venueId": "edi",
    "venue": "Edinburgh Castle",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 248,
+   "title": "Blue Box Revue: An Unofficial Doctor Who Drag Show",
+   "start": "2026-12-06T08:00:00.000Z",
+   "price": 28.31,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/blue-box-revue-an-unofficial-doctor-who-drag-show/201328",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 249,
+   "title": "Sweet Death Machine & Friends",
+   "start": "2026-12-06T08:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/0c270ffc-647b-44a9-b244-83a8778d7c92",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 142,
@@ -1709,6 +3005,30 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 251,
+   "title": "COURTNEY MARIE ANDREWS (USA)",
+   "start": "2026-12-08T08:00:00.000Z",
+   "price": 64.31,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/courtney-marie-andrews-usa/199923",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 252,
+   "title": "DARREN HANLON XMAS SHOW with Truffle Pigs",
+   "start": "2026-12-09T08:00:00.000Z",
+   "price": 37.74,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/darren-hanlon-xmas-show-with-truffle-pigs/201047",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 143,
    "title": "GOOD MUSIC PRESENTS: CHICK",
    "start": "2026-12-09T08:00:00.000Z",
@@ -1719,6 +3039,54 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 254,
+   "title": "vianova (DE)",
+   "start": "2026-12-09T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/3bba0d57-372e-418d-b493-1dd79f9dbd5b",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 255,
+   "title": "HOUSE OF PROTECTION (USA)",
+   "start": "2026-12-10T08:30:00.000Z",
+   "price": 79.9,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/house-of-protection-usa/200008",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 256,
+   "title": "Jonathan Bufalino",
+   "start": "2026-12-10T08:30:00.000Z",
+   "price": 29.1,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/cf7fc7ac-05f1-40a6-be7e-098aafb4608f",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 257,
+   "title": "TWISTED TEENS (USA)",
+   "start": "2026-12-11T08:30:00.000Z",
+   "price": 59.82,
+   "status": "soldout",
+   "url": "https://alternate.moshtix.com.au/v2/event/twisted-teens-usa/199373",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
   },
   {
    "id": 144,
@@ -1733,6 +3101,30 @@
    "suburb": "Carlton"
   },
   {
+   "id": 259,
+   "title": "Queen of Hearts (EP launch)",
+   "start": "2026-12-11T09:00:00.000Z",
+   "price": 13.3,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/f3ede7d7-dbb1-411d-83d0-43add9957f9f",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 260,
+   "title": "DANI ENLI",
+   "start": "2026-12-11T09:00:00.000Z",
+   "price": 39.05,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/65c5ad8f-1b29-4a5c-82be-307625ac38e1",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 145,
    "title": "Hysteria with Headspin, Miss communication and Rare Phenomenon",
    "start": "2026-12-12T03:00:00.801Z",
@@ -1742,6 +3134,30 @@
    "linkType": "tickets",
    "venueId": "nighthawks",
    "venue": "Nighthawks",
+   "suburb": "Collingwood"
+  },
+  {
+   "id": 262,
+   "title": "Planet Pink - Sarah Sommers Live (Berlin)",
+   "start": "2026-12-12T08:00:00.000Z",
+   "price": 28.31,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/planet-pink-sarah-sommers-live-berlin/201488",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 263,
+   "title": "Adam Newling - The Bloody Solo Tour",
+   "start": "2026-12-12T08:00:00.000Z",
+   "price": 39.76,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/adam-newling-the-bloody-solo-tour/201449",
+   "linkType": "tickets",
+   "venueId": "smith",
+   "venue": "Smith St Hotel",
    "suburb": "Collingwood"
   },
   {
@@ -1769,6 +3185,42 @@
    "suburb": "Carlton"
   },
   {
+   "id": 266,
+   "title": "Foxton & Sugerman present The Gospel Project: A Christmas Special",
+   "start": "2026-12-12T09:00:00.000Z",
+   "price": 49.1,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/aeb668e0-471b-4e96-810b-894be7d4ca17",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 267,
+   "title": "SOULPHASE",
+   "start": "2026-12-12T09:00:00.000Z",
+   "price": 17.85,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/b184e964-d452-4dda-8ab3-84b83ab6af2c",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 268,
+   "title": "Finn Fair III (late matinee)",
+   "start": "2026-12-13T05:00:00.000Z",
+   "price": 13.3,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/585a992e-9aa1-497f-9bd9-8c6796456cd4",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 148,
    "title": "Ewan Short",
    "start": "2026-12-13T05:00:00.418Z",
@@ -1779,6 +3231,18 @@
    "venueId": "edi",
    "venue": "Edinburgh Castle",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 270,
+   "title": "The Workers Comedy Club",
+   "start": "2026-12-13T07:30:00.000Z",
+   "price": 4.6,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/0ac66b1d-cc6a-4511-8db6-6125807625a9",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 149,
@@ -1793,6 +3257,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 272,
+   "title": "‘Social Sanctuary’ with Myki Jay, Haley Holgate + Maisie B.",
+   "start": "2026-12-14T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/d86a384b-ff35-4e3f-8474-97ab597dbef3",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 150,
    "title": "The Legendary Cowthey and the Screamin' Cowbirds in Space",
    "start": "2026-12-17T09:15:00.481Z",
@@ -1803,6 +3279,30 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 274,
+   "title": "Nadia Reid",
+   "start": "2026-12-18T09:00:00.000Z",
+   "price": 48.05,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/ed747c80-fa1f-4b01-84e7-3cfc38f52602",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 275,
+   "title": "GLASSHOUSE",
+   "start": "2026-12-18T09:00:00.000Z",
+   "price": 17.85,
+   "status": "onsale",
+   "url": "https://theworkersclub.oztix.com.au/outlet/event/a4386999-2594-4007-8274-f8918d96eace",
+   "linkType": "tickets",
+   "venueId": "workers",
+   "venue": "The Workers Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 151,
@@ -1817,6 +3317,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 277,
+   "title": "THE GNOMES (and Friends)",
+   "start": "2026-12-19T08:00:00.000Z",
+   "price": 35,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/0c37a779-2095-457d-ac66-d25bb034710c",
+   "linkType": "tickets",
+   "venueId": "croxton",
+   "venue": "The Croxton Bandroom",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 152,
    "title": "Golden Scissor Puppets Presents GSPTV!",
    "start": "2026-12-19T08:30:00.000Z",
@@ -1829,6 +3341,30 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 279,
+   "title": "DEEZ NUTS - Australian Summer Tour 2026",
+   "start": "2026-12-19T09:00:00.000Z",
+   "price": 39.9,
+   "status": "onsale",
+   "url": "https://alternate.moshtix.com.au/v2/event/deez-nuts-australian-summer-tour-2026/202024",
+   "linkType": "tickets",
+   "venueId": "howler",
+   "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 280,
+   "title": "Icecream Hands (Xmas Show)",
+   "start": "2026-12-19T09:00:00.000Z",
+   "price": 46,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/c20d2b49-c88f-4f02-8031-d09bcf20ebe5",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
    "id": 153,
    "title": "Good Dogs Bite",
    "start": "2026-12-19T09:00:00.953Z",
@@ -1839,6 +3375,30 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 282,
+   "title": "Dan & Al (Xmas Show)",
+   "start": "2026-12-20T09:00:00.000Z",
+   "price": 45,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/693eae71-2ffe-4784-bf83-9729dfc144f7",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 283,
+   "title": "Shannen James | Christmas Party!",
+   "start": "2026-12-22T08:00:00.000Z",
+   "price": 29.9,
+   "status": "onsale",
+   "url": "https://tickets.northcotesocialclub.com/outlet/event/cf6cd910-74db-4ac4-bfcd-ea3dd0c07b8f",
+   "linkType": "tickets",
+   "venueId": "nsc",
+   "venue": "Northcote Social Club",
+   "suburb": "Northcote"
   }
  ]
 }
