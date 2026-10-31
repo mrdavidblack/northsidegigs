@@ -1,6 +1,24 @@
 {
- "generatedAt": "2026-10-31T04:16:55.995Z",
+ "generatedAt": "2026-10-31T06:00:01.320Z",
  "venues": [
+  {
+   "id": "retreat",
+   "name": "The Retreat Hotel",
+   "count": 46,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 64,
+    "failed": [],
+    "ticketLinks": 63,
+    "noEventData": [],
+    "firstFetches": [
+     "200 (rendered) https://retreathotelbrunswick.com.au/events",
+     "200 https://tickets.oztix.com.au/outlet/event/4e30252d-e902-40ce-866d-35864b4d27bd",
+     "200 https://tickets.oztix.com.au/outlet/event/061e2789-ad6f-4ea4-9404-977c9a7e6c27"
+    ]
+   }
+  },
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
@@ -86,6 +104,128 @@
      "200 https://www.leadbeaterhotel.com.au/gigs",
      "200 (rendered) https://www.leadbeaterhotel.com.au/gigs",
      "200 https://theleadbeaterhotel.oztix.com.au/outlet/event/eb8a2483-4530-4783-b562-7cecc2b19b29"
+    ]
+   }
+  },
+  {
+   "id": "graveyard",
+   "name": "The Graveyard",
+   "count": 4,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 6,
+    "failed": [],
+    "ticketLinks": 5,
+    "noEventData": [],
+    "firstFetches": [
+     "200 (rendered) https://www.thegraveyardbar.com/shows-1",
+     "200 https://www.eventbrite.com.au/e/gazey-dreams-at-the-graveyard-with-oceans-tickets-20038424",
+     "200 https://www.eventbrite.com.au/e/graveyard-goth-drag-tickets-1999304541704"
+    ]
+   }
+  },
+  {
+   "id": "deserthighways",
+   "name": "Desert Highways",
+   "count": 6,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://deserthighways.com/pages/gigs"
+    ]
+   }
+  },
+  {
+   "id": "railway",
+   "name": "Railway Hotel",
+   "count": 3,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 5,
+    "failed": [],
+    "ticketLinks": 3,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.railwayhotelfitzroy.com.au/ballroom-gigs",
+     "200 (rendered) https://www.railwayhotelfitzroy.com.au/ballroom-gigs",
+     "200 https://tickets.oztix.com.au/outlet/event/6e6d8be0-2f0c-42cd-97aa-6e694c1e025c"
+    ]
+   }
+  },
+  {
+   "id": "wesleyanne",
+   "name": "Wesley Anne",
+   "count": 39,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 49,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://wesleyanne.com.au/events?format=json",
+     "200 https://wesleyanne.com.au/events/fliryteoct",
+     "200 https://wesleyanne.com.au/events/janina-berlin-onur-puza"
+    ]
+   }
+  },
+  {
+   "id": "baroussou",
+   "name": "Bar Oussou",
+   "count": 23,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.baroussou.uk/wp-json/baroussou/v1/events"
+    ]
+   }
+  },
+  {
+   "id": "lomond",
+   "name": "The Lomond Hotel",
+   "count": 11,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 39,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.lomondhotel.com.au/events",
+     "200 https://www.lomondhotel.com.au/node/803",
+     "200 https://www.eventbrite.com.au/e/lomond-acoustica-presents-nick-charles-mick-pealing-and-bl"
+    ]
+   }
+  },
+  {
+   "id": "creature",
+   "name": "Creature Bar",
+   "count": 2,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 5,
+    "failed": [],
+    "ticketLinks": 2,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.creaturebar.com.au/events/",
+     "200 https://www.creaturebar.com.au/events/smash-creature-feature/",
+     "200 https://www.creaturebar.com.au/events/smash-creature-club/"
     ]
    }
   }

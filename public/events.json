@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-10-31T04:16:55.995Z",
+ "generatedAt": "2026-10-31T06:00:01.320Z",
  "timezone": "Australia/Melbourne",
  "events": [
+  {
+   "id": 1,
+   "title": "SCUZZ - All Things Heavy - Oct 30 - Nov 2",
+   "start": "2026-10-30T08:30:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/4e30252d-e902-40ce-866d-35864b4d27bd",
+   "linkType": "tickets",
+   "until": "2026-11-02T11:00:00.000Z",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
   {
    "id": 1,
    "title": "Mike Gurrieri",
@@ -14,6 +27,18 @@
    "venueId": "punters",
    "venue": "Punters Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 3,
+   "title": "Skip to the content · Roadkill Since 2012",
+   "start": "2026-10-31T03:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "url": "https://deserthighways.com/pages/gigs",
+   "linkType": "details",
+   "venueId": "deserthighways",
+   "venue": "Desert Highways",
+   "suburb": "Reservoir"
   },
   {
    "id": 1,
@@ -76,6 +101,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 9,
+   "title": "Fliryte",
+   "start": "2026-10-31T07:00:00.851Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/fliryteoct",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 3,
    "title": "Prom-O-Ween - Strawberry Fist Cake's Sweet 16th and 30 years of No Idea",
    "start": "2026-10-31T07:30:00.000Z",
@@ -86,6 +123,18 @@
    "venueId": "lastchance",
    "venue": "The Last Chance",
    "suburb": "North Melbourne"
+  },
+  {
+   "id": 11,
+   "title": "Asanti Beats",
+   "start": "2026-10-31T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/asanti-beats-2026-10-31",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
   },
   {
    "id": 4,
@@ -100,6 +149,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 13,
+   "title": "All Hallows Eve @ Creature",
+   "start": "2026-10-31T08:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/all-hallows-eve-creature",
+   "linkType": "tickets",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 4,
    "title": "THE DEVIL'S BALL: VICTORIAN GOTHIC EDITION FEAT. DANE BLACKLOCK AND THE PREACHER'S DAUGHTER",
    "start": "2026-10-31T08:00:00.000Z",
@@ -110,6 +171,18 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 15,
+   "title": "Graveyard Hellabilly Halloween",
+   "start": "2026-10-31T08:00:22.000Z",
+   "price": 27.78,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/graveyard-hellabilly-halloween-tickets-2001274628286",
+   "linkType": "tickets",
+   "venueId": "graveyard",
+   "venue": "The Graveyard",
+   "suburb": "Coburg North"
   },
   {
    "id": 5,
@@ -245,6 +318,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 27,
+   "title": "Ausecuma Beats",
+   "start": "2026-10-31T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/ausecuma-beats-2026-10-31",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 21,
    "title": "Milou Moon + Divers",
    "start": "2026-10-31T11:00:00.000Z",
@@ -267,6 +352,18 @@
    "venueId": "workers",
    "venue": "The Workers Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 30,
+   "title": "River Of Snakes · 'In Summerland' Instore Album Launch",
+   "start": "2026-11-01T03:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "url": "https://deserthighways.com/pages/gigs",
+   "linkType": "details",
+   "venueId": "deserthighways",
+   "venue": "Desert Highways",
+   "suburb": "Reservoir"
   },
   {
    "id": 17,
@@ -354,6 +451,18 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 38,
+   "title": "Janina Berlin & Onur Puza",
+   "start": "2026-11-01T07:00:00.596Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/janina-berlin-onur-puza",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 22,
    "title": "**FREE ENTRY** -escent (Front Bar)",
    "start": "2026-11-01T07:30:00.000Z",
@@ -414,6 +523,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 44,
+   "title": "Funk n Irie",
+   "start": "2026-11-01T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/funk-n-irie-2026-11-01",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 26,
    "title": "Black Cab (2nd show due to popular demand!)",
    "start": "2026-11-01T09:00:00.000Z",
@@ -449,6 +570,18 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 48,
+   "title": "Sunflower Jam",
+   "start": "2026-11-02T07:00:00.133Z",
+   "price": null,
+   "status": "free",
+   "url": "https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l-8bc7d-jflnf-lbdx8-3k488-kj5cn-9zxz4-sx4da-mg69k-4ny9w-7hbn6-p9zbz-y4nlm-3jrjp-hxc79-tzxzd-hftmb-bfezm-ajwj8-lgd3h-bhzf2-m3mka",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 29,
@@ -535,7 +668,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 35,
+   "id": 56,
    "title": "The Retreat's Birthday Bash feat. Arabella and the Heist + Platonic Sex + Hana & Jessie-Lee’s Bad Habits + Laura Norda + Pussy Horse + RED40PA!NCLUB",
    "start": "2026-11-03T04:00:00.000Z",
    "price": null,
@@ -631,7 +764,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 42,
+   "id": 64,
    "title": "Mario Kart Live",
    "start": "2026-11-04T08:30:00.000Z",
    "price": null,
@@ -689,6 +822,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 69,
+   "title": "Fliryte",
+   "start": "2026-11-05T07:00:00.734Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/fliryte-nov",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 46,
@@ -787,7 +932,7 @@
    "suburb": "Richmond"
   },
   {
-   "id": 51,
+   "id": 78,
    "title": "Get Blended: a mixed-genre lineup celebrating Aus Music Month featuring: Renee Naccari, Cufflinx and Hati Hari",
    "start": "2026-11-05T08:30:00.000Z",
    "price": 16.35,
@@ -860,6 +1005,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 84,
+   "title": "Orbit Resident",
+   "start": "2026-11-05T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/orbit-resident-1792898399655",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 72,
    "title": "Walla C",
    "start": "2026-11-05T13:00:00.000Z",
@@ -897,7 +1054,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 57,
+   "id": 88,
    "title": "Cantrips (DJ set) in The Retreat Beer Garden",
    "start": "2026-11-06T07:00:00.000Z",
    "price": null,
@@ -921,6 +1078,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 90,
+   "title": "Sanfona",
+   "start": "2026-11-06T07:00:00.455Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 59,
    "title": "**FREE ENTRY** Hoodoo Express (Front Bar)",
    "start": "2026-11-06T07:30:00.000Z",
@@ -931,6 +1100,18 @@
    "venueId": "baropen",
    "venue": "Bar Open",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 92,
+   "title": "Standing Circle",
+   "start": "2026-11-06T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/standing-circle-2026-11-06",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
   },
   {
    "id": 60,
@@ -967,6 +1148,18 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 96,
+   "title": "Wild Orchids and The Weeds",
+   "start": "2026-11-06T08:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-wild-orchids-and-the-weeds-tickets-2003646188687",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
   },
   {
    "id": 65,
@@ -1137,7 +1330,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 76,
+   "id": 111,
    "title": "Salsodromo: Live band + Social Dancing at The Retreat Hotel Brunswick",
    "start": "2026-11-06T09:30:00.000Z",
    "price": 28.05,
@@ -1174,6 +1367,18 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 114,
+   "title": "Afro Moses",
+   "start": "2026-11-06T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/afro-moses--2026-11-06",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 98,
    "title": "DINK + Stanley Circus",
    "start": "2026-11-06T11:00:00.000Z",
@@ -1186,7 +1391,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 79,
+   "id": 116,
    "title": "WAFT!",
    "start": "2026-11-06T12:00:00.000Z",
    "price": null,
@@ -1211,7 +1416,20 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 80,
+   "id": 118,
+   "title": "Aintree Sweet",
+   "start": "2026-11-06T13:00:00.000Z",
+   "timeTba": true,
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.lomondhotel.com.au/node/769",
+   "linkType": "details",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 119,
    "title": "Al Carr - Colour To The Flame album launch",
    "start": "2026-11-07T02:00:00.000Z",
    "price": null,
@@ -1233,6 +1451,18 @@
    "venueId": "workers",
    "venue": "The Workers Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 121,
+   "title": "Ash Acid + Jess Jean Ravens (Nsw)",
+   "start": "2026-11-07T03:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "url": "https://deserthighways.com/pages/gigs",
+   "linkType": "details",
+   "venueId": "deserthighways",
+   "venue": "Desert Highways",
+   "suburb": "Reservoir"
   },
   {
    "id": 85,
@@ -1307,7 +1537,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 85,
+   "id": 128,
    "title": "Good Music presents All Star",
    "start": "2026-11-07T06:00:00.000Z",
    "price": null,
@@ -1329,6 +1559,30 @@
    "venueId": "baropen",
    "venue": "Bar Open",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 130,
+   "title": "Freya & Tom McGowan",
+   "start": "2026-11-07T07:00:00.180Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/freya-and-tom-mcgowan-sep-w9ns5",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 131,
+   "title": "GAZEY DREAMS AT THE GRAVEYARD WITH OCEANS",
+   "start": "2026-11-07T08:00:25.000Z",
+   "price": 22.49,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/gazey-dreams-at-the-graveyard-with-oceans-tickets-2003842433661",
+   "linkType": "tickets",
+   "venueId": "graveyard",
+   "venue": "The Graveyard",
+   "suburb": "Coburg North"
   },
   {
    "id": 87,
@@ -1476,6 +1730,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 144,
+   "title": "Mic Conway and Robbie Long",
+   "start": "2026-11-07T09:00:00.535Z",
+   "price": 30,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/mic-conway-and-robbie-long-53nqwqjs",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 97,
    "title": "Steamboat Whistlers",
    "start": "2026-11-07T09:00:00.621Z",
@@ -1537,6 +1803,18 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 150,
+   "title": "King Marong & Afro Mandinko",
+   "start": "2026-11-07T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/king-marong-afro-mandinko-2026-11-07",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 107,
    "title": "Wooden Soldiers",
    "start": "2026-11-07T13:00:00.000Z",
@@ -1562,6 +1840,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 153,
+   "title": "KTV · 'All Over Now' Single Launch",
+   "start": "2026-11-08T03:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "url": "https://deserthighways.com/pages/gigs",
+   "linkType": "details",
+   "venueId": "deserthighways",
+   "venue": "Desert Highways",
+   "suburb": "Reservoir"
+  },
+  {
    "id": 104,
    "title": "Soul Lane X MOTH",
    "start": "2026-11-08T03:00:00.000Z",
@@ -1574,7 +1864,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 105,
+   "id": 155,
    "title": "Isabelle Skye @ The Retreat Hotel Brunswick w/ Potluck",
    "start": "2026-11-08T03:00:00.000Z",
    "price": 12.75,
@@ -1622,6 +1912,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 159,
+   "title": "BLACKBIRDS FC",
+   "start": "2026-11-08T04:00:00.739Z",
+   "price": 23,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/blackbirds-fc",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 108,
    "title": "evvy george",
    "start": "2026-11-08T05:00:00.000Z",
@@ -1659,7 +1961,19 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 110,
+   "id": 163,
+   "title": "Jim Green",
+   "start": "2026-11-08T06:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-jim-green-tickets-2003851214926",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 164,
    "title": "Vinyl Vixens ft. WaX FoX & Miss Gabrielle",
    "start": "2026-11-08T06:00:00.000Z",
    "price": null,
@@ -1681,6 +1995,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 166,
+   "title": "Janina Berlin & Onur Puza",
+   "start": "2026-11-08T07:00:00.329Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/janina-berlin-onur-puza-x3mnb",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 112,
@@ -1767,6 +2093,42 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 174,
+   "title": "dink",
+   "start": "2026-11-08T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/dink-2026-11-08",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 175,
+   "title": "Jason Heerah",
+   "start": "2026-11-08T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/jason-heerah-2026-11-08",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 176,
+   "title": "Sunflower Jam",
+   "start": "2026-11-09T07:00:00.489Z",
+   "price": null,
+   "status": "free",
+   "url": "https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l-8bc7d-jflnf-lbdx8-3k488-kj5cn-9zxz4-sx4da-mg69k-4ny9w-7hbn6-p9zbz-y4nlm-3jrjp-hxc79-tzxzd-hftmb-bfezm-ajwj8-lgd3h-bhzf2-m3mka-j9n7e",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 118,
    "title": "‘Social Sanctuary’ with Greta O'Leary, Stenn Francis-Deare + Bella Cloud",
    "start": "2026-11-09T08:00:00.000Z",
@@ -1801,6 +2163,18 @@
    "venueId": "punters",
    "venue": "Punters Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 180,
+   "title": "Do you want to play with Piano Atmosferix?",
+   "start": "2026-11-10T07:00:00.519Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5w-mwk87",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 120,
@@ -1875,6 +2249,18 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 187,
+   "title": "Mario Kart Live",
+   "start": "2026-11-11T08:30:00.000Z",
+   "price": 33.15,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/f3fb74b5-b1ed-4086-8476-30e553e6e6ca",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 124,
    "title": "**FREE ENTRY** Stink Tank The Drag Show (Band Room)",
    "start": "2026-11-11T09:00:00.000Z",
@@ -1899,6 +2285,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 190,
+   "title": "Les Thomas & Trudy Fatnowna",
+   "start": "2026-11-11T09:00:00.000Z",
+   "price": 10,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lomond-acoustica-presents-les-thomas-trudy-fatnowna-tickets-2003851302187",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 158,
    "title": "mrina - I KNOW WHAT I WANT...",
    "start": "2026-11-11T09:00:00.932Z",
@@ -1909,6 +2307,18 @@
    "venueId": "brunswickgreen",
    "venue": "Brunswick Green",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 192,
+   "title": "Fliryte",
+   "start": "2026-11-12T07:00:00.725Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/fliryte-nov-p8gk5",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 126,
@@ -1995,6 +2405,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 200,
+   "title": "Bite My Tongue EP Launch at The Retreat Hotel Brunswick w/ Laura and the Hell Cutz + Lyrah Gray",
+   "start": "2026-11-12T08:30:00.000Z",
+   "price": 15.85,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/226cfcbd-3be7-46eb-b0ab-8239c372af7e",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 132,
    "title": "Skylar Atlas Presents: CURIOUS LIVE, with support from Hardly Famous and brb",
    "start": "2026-11-12T08:30:00.000Z",
@@ -2056,6 +2478,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 206,
+   "title": "STAT Ensemble",
+   "start": "2026-11-12T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/stat-ensemble-2026-11-12",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 171,
    "title": "Kuzco",
    "start": "2026-11-12T13:00:00.000Z",
@@ -2067,6 +2501,54 @@
    "venueId": "punters",
    "venue": "Punters Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 208,
+   "title": "Natalie Ex in The Retreat Beer Garden",
+   "start": "2026-11-13T07:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/28ade58a-bf3c-4460-95b8-a32223b2609d",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 209,
+   "title": "Sanfona",
+   "start": "2026-11-13T07:00:00.398Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a-z8ahe",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 210,
+   "title": "GRAVEYARD FRIDAY 13TH FRENZEE",
+   "start": "2026-11-13T07:30:55.000Z",
+   "price": 33.08,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/graveyard-friday-13th-frenzee-tickets-2003744313180",
+   "linkType": "tickets",
+   "venueId": "graveyard",
+   "venue": "The Graveyard",
+   "suburb": "Coburg North"
+  },
+  {
+   "id": 211,
+   "title": "Gabe Fatin // Brian Abrahams",
+   "start": "2026-11-13T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/gabe-fatin-brian-abrahams-1792902560461",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
   },
   {
    "id": 136,
@@ -2091,6 +2573,30 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 214,
+   "title": "Monty Gray",
+   "start": "2026-11-13T08:30:00.000Z",
+   "price": 18.4,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/6e6d8be0-2f0c-42cd-97aa-6e694c1e025c",
+   "linkType": "tickets",
+   "venueId": "railway",
+   "venue": "Railway Hotel",
+   "suburb": "Fitzroy North"
+  },
+  {
+   "id": 215,
+   "title": "Little Guilt ‘Good Luck with that’ EP Tour",
+   "start": "2026-11-13T08:30:00.000Z",
+   "price": 28.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/d61e2a3d-51f8-465d-ba8f-856a22f8f749",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 146,
@@ -2274,6 +2780,30 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 231,
+   "title": "Caledonian Castaways",
+   "start": "2026-11-13T10:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-caledonian-castaways-tickets-2003954266155",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 232,
+   "title": "Max Konig",
+   "start": "2026-11-13T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/max-konig-1792902702235",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 189,
    "title": "GAZAL X byjaye",
    "start": "2026-11-13T11:00:00.000Z",
@@ -2320,6 +2850,18 @@
    "linkType": "tickets",
    "venueId": "bergy",
    "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 237,
+   "title": "Anatreptix at The Retreat",
+   "start": "2026-11-14T03:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/1feb06fc-a48d-4c43-8a83-33237428e5ef",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
   },
   {
@@ -2382,6 +2924,18 @@
    "venueId": "lulie",
    "venue": "Lulie Tavern",
    "suburb": "Abbotsford"
+  },
+  {
+   "id": 243,
+   "title": "Bludger",
+   "start": "2026-11-14T07:00:00.660Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/bludger-9ntt5",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 156,
@@ -2468,6 +3022,18 @@
    "suburb": "Thornbury"
   },
   {
+   "id": 251,
+   "title": "Saskia Robin w/ Matthew Kennedy and Juliet Taylor",
+   "start": "2026-11-14T08:30:00.000Z",
+   "price": 16,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/saskia-robin-matthew-kennedy-juliet-taylor",
+   "linkType": "tickets",
+   "venueId": "creature",
+   "venue": "Creature Bar",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 161,
    "title": "Golden Scissor Puppets Presents GSPTV!",
    "start": "2026-11-14T08:30:00.000Z",
@@ -2478,6 +3044,18 @@
    "venueId": "evelyn",
    "venue": "The Evelyn",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 253,
+   "title": "DOBBY | MARSHMALLOW",
+   "start": "2026-11-14T08:30:00.000Z",
+   "price": 28.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/5db4a7a6-dd04-462f-8237-3e5b90d56b24",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 162,
@@ -2552,6 +3130,30 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 260,
+   "title": "Amalia - Heaven In A Hurricane' Album Launch",
+   "start": "2026-11-14T09:00:00.726Z",
+   "price": 22,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/heaven-in-a-hurricane-album-launch",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 261,
+   "title": "Prayerbabies",
+   "start": "2026-11-14T10:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-prayerbabies-tickets-2003956830826",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 212,
    "title": "Antenna",
    "start": "2026-11-14T11:00:00.000Z",
@@ -2574,6 +3176,30 @@
    "venueId": "workers",
    "venue": "The Workers Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 264,
+   "title": "Pussy Horse",
+   "start": "2026-11-15T03:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "url": "https://deserthighways.com/pages/gigs",
+   "linkType": "details",
+   "venueId": "deserthighways",
+   "venue": "Desert Highways",
+   "suburb": "Reservoir"
+  },
+  {
+   "id": 265,
+   "title": "SO.Crates w/ Common Goods",
+   "start": "2026-11-15T03:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/c977e4e9-916f-4e4c-a5a2-efa4c0cc7839",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 169,
@@ -2624,6 +3250,18 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 270,
+   "title": "David Cosma Sunday Session",
+   "start": "2026-11-15T04:00:00.235Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/sunday-sessions-at-the-wesley-anne-with-lola-may-and-ziv-dan-lethbridge-and-david-cosma",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 172,
    "title": "7 YEARS OF ISU TAKI ft: Rodrigo Gallardo (Chile)",
    "start": "2026-11-15T05:00:00.000Z",
@@ -2670,6 +3308,18 @@
    "venueId": "bergy",
    "venue": "Bergy Bandroom",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 275,
+   "title": "Janina Berlin & Onur Puza",
+   "start": "2026-11-15T07:00:00.963Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/janina-berlin-onur-puza-x3mnb-h2rfj",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 174,
@@ -2756,6 +3406,30 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 283,
+   "title": "Wala is Life",
+   "start": "2026-11-15T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/wala-is-life-1792452219017",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 284,
+   "title": "Sunflower Jam",
+   "start": "2026-11-16T07:00:00.285Z",
+   "price": null,
+   "status": "free",
+   "url": "https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l-8bc7d-jflnf-lbdx8-3k488-h3psn",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 180,
    "title": "‘Social Sanctuary’ with feelings, Astari + Jac Donnelly",
    "start": "2026-11-16T08:00:00.000Z",
@@ -2790,6 +3464,18 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 288,
+   "title": "Do you want to play with Piano Atmosferix?",
+   "start": "2026-11-17T07:00:00.256Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5w-mwk87-wl8ma",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 232,
@@ -2840,6 +3526,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 293,
+   "title": "Orchestra Massive",
+   "start": "2026-11-18T08:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/68651de7-3afe-4237-94fd-8dc9d2bd5148",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 184,
    "title": "FOMORA | NOVEMBER RESIDENCY",
    "start": "2026-11-18T09:00:00.000Z",
@@ -2862,6 +3560,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 296,
+   "title": "Fliryte",
+   "start": "2026-11-19T07:00:00.872Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/fliryte-nov-p8gk5-sgpw7",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 186,
@@ -3021,6 +3731,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 310,
+   "title": "Ben Morgan",
+   "start": "2026-11-19T09:00:00.599Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/ben-morgan-at-the-wesley-anne",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 195,
    "title": "Fenn Wilson & The Weather Nighthawks Residency w/ Grace Mitchell and Mellowing",
    "start": "2026-11-19T09:00:00.656Z",
@@ -3031,6 +3753,30 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 312,
+   "title": "Orbit Resident",
+   "start": "2026-11-19T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/orbit-resident-1792452255909",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 313,
+   "title": "Orbit Resident",
+   "start": "2026-11-19T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/orbit-resident-1792903400329",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
   },
   {
    "id": 252,
@@ -3044,6 +3790,18 @@
    "venueId": "punters",
    "venue": "Punters Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 315,
+   "title": "Sanfona",
+   "start": "2026-11-20T07:00:00.575Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a-z8ahe-plc27",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 196,
@@ -3080,6 +3838,30 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 319,
+   "title": "Graveyard Perpetuum Machine",
+   "start": "2026-11-20T08:00:34.000Z",
+   "price": 22.49,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/graveyard-perpetuum-machine-tickets-2003382785842",
+   "linkType": "tickets",
+   "venueId": "graveyard",
+   "venue": "The Graveyard",
+   "suburb": "Coburg North"
+  },
+  {
+   "id": 320,
+   "title": "Vault Hill 'The Modern Way' Release Show with Identity Error, I Choose Violence (SA), Seventh Circle and Casino Blvd",
+   "start": "2026-11-20T08:30:00.000Z",
+   "price": 33.15,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/60cd2430-6692-4426-bade-9631c24647c0",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 199,
@@ -3140,6 +3922,18 @@
    "venueId": "nsc",
    "venue": "Northcote Social Club",
    "suburb": "Northcote"
+  },
+  {
+   "id": 326,
+   "title": "Thom Johnston - 'By the Bedside' Album Launch",
+   "start": "2026-11-20T09:00:00.000Z",
+   "price": 14.99,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/e0059f81-2c89-4dcb-a6ec-abb2eef6db84",
+   "linkType": "tickets",
+   "venueId": "railway",
+   "venue": "Railway Hotel",
+   "suburb": "Fitzroy North"
   },
   {
    "id": 203,
@@ -3214,6 +4008,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 333,
+   "title": "HEART AND SOUL TOUR || LEILA - One night only in Melbourne",
+   "start": "2026-11-20T09:00:00.687Z",
+   "price": 30,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/heart-and-soul-tour-or-or-leila-one-night-only-in-melbourne",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 208,
    "title": "Tttdc",
    "start": "2026-11-20T10:00:00.000Z",
@@ -3227,6 +4033,30 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 335,
+   "title": "The Romans",
+   "start": "2026-11-20T10:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-the-romans-tickets-2003851244013",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 336,
+   "title": "ChichaBelly",
+   "start": "2026-11-20T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/chichabelly-2026-11-20",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 268,
    "title": "Standing Circle",
    "start": "2026-11-20T11:00:00.000Z",
@@ -3237,6 +4067,18 @@
    "venueId": "punters",
    "venue": "Punters Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 338,
+   "title": "DJ TIM",
+   "start": "2026-11-20T12:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/7d58f450-44ec-4c5c-b8cc-49350896393a",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 209,
@@ -3275,6 +4117,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 342,
+   "title": "The Moonee Valley Drifters",
+   "start": "2026-11-21T02:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/cf4eaf32-e9c7-42df-ae89-ec66720dd3c0",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 211,
    "title": "FASEHORSE LOVE ft. FASEHORSE",
    "start": "2026-11-21T02:00:00.000Z",
@@ -3309,6 +4163,42 @@
    "venueId": "brunswickgreen",
    "venue": "Brunswick Green",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 346,
+   "title": "The Cartridge Family. Hillbilly harmony and hot licks with humor and haute couture...",
+   "start": "2026-11-21T06:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-the-cartridge-family-tickets-2003854437565",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 347,
+   "title": "Good Music presents All Star",
+   "start": "2026-11-21T06:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/9ca48fd3-e511-4e7f-931c-e49e07c6f25b",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 348,
+   "title": "Freya & Tom McGowan",
+   "start": "2026-11-21T07:00:00.072Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/freya-and-tom-mcgowan-sep-w9ns5-cex5c",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 213,
@@ -3491,6 +4381,30 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 364,
+   "title": "Pepper Creek Revival with Kelly Auty",
+   "start": "2026-11-21T10:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-pepper-creek-revival-with-kelly-auty-tickets-2003957206951",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 365,
+   "title": "Pindorama",
+   "start": "2026-11-21T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/pindorama-1792903560793",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 290,
    "title": "JNETT",
    "start": "2026-11-21T11:00:00.000Z",
@@ -3528,6 +4442,18 @@
    "venueId": "workers",
    "venue": "The Workers Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 369,
+   "title": "The Orbweavers",
+   "start": "2026-11-22T03:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/23b7fdce-55ec-4cf9-86be-b4d3a2974d35",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 227,
@@ -3627,6 +4553,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 378,
+   "title": "Paper Jane and Alison Ferrier & the Upshots",
+   "start": "2026-11-22T06:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-paper-jane-and-alison-ferrier-the-upshots-tickets-2003957852883",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
    "id": 233,
    "title": "DELILAH BON - Australian East Coast Tour with NIGHTLIGHT",
    "start": "2026-11-22T07:00:00.000Z",
@@ -3637,6 +4575,18 @@
    "venueId": "howler",
    "venue": "Howler",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 380,
+   "title": "Janina Berlin & Onur Puza",
+   "start": "2026-11-22T07:00:00.165Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/janina-berlin-onur-puza-x3mnb-h2rfj-arkw4",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 234,
@@ -3661,6 +4611,18 @@
    "venueId": "oldbar",
    "venue": "The Old Bar",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 383,
+   "title": "Blanco Tranco",
+   "start": "2026-11-22T08:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/565eca36-4c8e-45e8-9cfb-fb49d27a524e",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 236,
@@ -3723,6 +4685,18 @@
    "suburb": "Thornbury"
   },
   {
+   "id": 389,
+   "title": "Sunflower Jam",
+   "start": "2026-11-23T07:00:00.404Z",
+   "price": null,
+   "status": "free",
+   "url": "https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l-8bc7d-jflnf-lbdx8-3k488-h3psn-hsybm",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 240,
    "title": "‘Social Sanctuary’ with Mellowing, Great Australian Bank + Rhom Konnie",
    "start": "2026-11-23T08:00:00.000Z",
@@ -3745,6 +4719,30 @@
    "venueId": "punters",
    "venue": "Punters Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 392,
+   "title": "Do you want to play with Piano Atmosferix?",
+   "start": "2026-11-24T07:00:00.386Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5w-mwk87-wl8ma-7pw3d",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 393,
+   "title": "BLAK STAGE First Nations Open Mic Night",
+   "start": "2026-11-24T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/c1202900-42c2-4422-aad8-7bcee4a70752",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 258,
@@ -3771,6 +4769,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 396,
+   "title": "Amadou Suso in The Retreat front bar",
+   "start": "2026-11-25T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/2d237e12-4d27-468e-adcc-850d84dbc75a",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 242,
    "title": "VADER - Reign Forever Australia",
    "start": "2026-11-25T08:30:00.000Z",
@@ -3795,6 +4805,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 399,
+   "title": "Fliryte",
+   "start": "2026-11-26T07:00:00.209Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/fliryte-nov-p8gk5-sgpw7-4g83k",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 244,
    "title": "AUS MUSIC T-SHIRT DAY FEAT: KEVIN SILVESTER",
    "start": "2026-11-26T08:00:00.000Z",
@@ -3805,6 +4827,18 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 401,
+   "title": "BIRDGIRL's EOY Party w/ Workfriend & Michaeleah",
+   "start": "2026-11-26T08:00:00.000Z",
+   "price": 10,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/ac8fcaeb-e2d5-4750-9fb3-63ade778fe58",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 245,
@@ -3928,6 +4962,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 412,
+   "title": "Minna (UK)",
+   "start": "2026-11-26T09:00:00.393Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/minna-uk-7rs7y5ps",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 253,
    "title": "Fenn Wilson & The Weather Residency w/ Amazon and Techno 666",
    "start": "2026-11-26T12:30:00.126Z",
@@ -3938,6 +4984,30 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 414,
+   "title": "Rakhi",
+   "start": "2026-11-27T07:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/571fc499-1186-443b-8102-26a43b878e45",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 415,
+   "title": "Sanfona",
+   "start": "2026-11-27T07:00:00.865Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a-z8ahe-plc27-wspne",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 254,
@@ -3985,6 +5055,18 @@
    "linkType": "tickets",
    "venueId": "bergy",
    "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 420,
+   "title": "BOTH with Taz Flower and Lily Hallawell",
+   "start": "2026-11-27T08:30:00.000Z",
+   "price": 13.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/01d1a9d5-8b8b-455f-a0f5-08f42a327bed",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
   },
   {
@@ -4145,6 +5227,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 434,
+   "title": "Badger Reunion",
+   "start": "2026-11-28T03:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/4ca777c3-a9fe-4ea4-aa57-b0c6ac1059fd",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 269,
    "title": "SHLUFFY (NSW) // BILLY CART // MOPOKE (NSW)",
    "start": "2026-11-28T04:00:00.000Z",
@@ -4193,6 +5287,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 439,
+   "title": "LCO Trio",
+   "start": "2026-11-28T07:00:00.409Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/lco-trio-blmmh-8f9ny-f3exr-ebwl8-wn5cn-hkaf5-xllb9-kw6sm",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 272,
    "title": "Dom Sensitive - 'Pop Contest' LP Launch",
    "start": "2026-11-28T08:00:00.000Z",
@@ -4227,6 +5333,18 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 443,
+   "title": "Joel Leggett",
+   "start": "2026-11-28T08:30:00.000Z",
+   "price": 17.85,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/fed28601-0b56-48b8-a849-4259bafb4853",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 275,
@@ -4349,6 +5467,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 454,
+   "title": "Tandem Reserve",
+   "start": "2026-11-28T12:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/37900cd8-ddeb-466b-92c3-95bd6b29d3ea",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 285,
    "title": "Zindzi & The Zillionaires",
    "start": "2026-11-29T00:00:00.000Z",
@@ -4359,6 +5489,30 @@
    "venueId": "nsc",
    "venue": "Northcote Social Club",
    "suburb": "Northcote"
+  },
+  {
+   "id": 456,
+   "title": "Gospel Lunch with Kelly Auty & Kerri Simpson. Bringing gospel alive!",
+   "start": "2026-11-29T01:30:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://www.eventbrite.com.au/e/lowie-live-presents-gospel-lunch-tickets-2003852033374",
+   "linkType": "tickets",
+   "venueId": "lomond",
+   "venue": "The Lomond Hotel",
+   "suburb": "Brunswick East"
+  },
+  {
+   "id": 457,
+   "title": "TTTDC",
+   "start": "2026-11-29T03:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "url": "https://deserthighways.com/pages/gigs",
+   "linkType": "details",
+   "venueId": "deserthighways",
+   "venue": "Desert Highways",
+   "suburb": "Reservoir"
   },
   {
    "id": 286,
@@ -4395,6 +5549,18 @@
    "venueId": "punters",
    "venue": "Punters Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 461,
+   "title": "Alice & Jackson Hurwood",
+   "start": "2026-11-29T04:00:00.907Z",
+   "price": 25,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/alice-and-jackson-hurwood-live-in-concert",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 288,
@@ -4446,6 +5612,30 @@
    "suburb": "Northcote"
   },
   {
+   "id": 466,
+   "title": "Tony J King",
+   "start": "2026-11-29T07:00:00.718Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/tony-j-king-2868a-ps3r5-ksg4c-3d8yj-bzswd-ycjah-hmzrg-dkxky",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
+   "id": 467,
+   "title": "Old Time Jam Session w/ Double Dole String Band",
+   "start": "2026-11-29T07:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/7eb17602-3b14-4cf4-8b3f-e3183385f86d",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 291,
    "title": "Black Sea of Trees Cult of the Sun Album launch with Tanil Cagdas & Aidan Black Project",
    "start": "2026-11-29T07:30:00.000Z",
@@ -4480,6 +5670,30 @@
    "venueId": "brunswickgreen",
    "venue": "Brunswick Green",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 471,
+   "title": "Abiy Sahle and the Peace Band",
+   "start": "2026-11-29T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/abiy-sahle-and-the-peace-band-1792904449214",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 472,
+   "title": "Sunflower Jam",
+   "start": "2026-11-30T07:00:00.340Z",
+   "price": null,
+   "status": "free",
+   "url": "https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l-8bc7d-jflnf-lbdx8-3k488-h3psn-sdlxf",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 293,
@@ -4518,6 +5732,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 476,
+   "title": "Little Somebodies w/ Kira J",
+   "start": "2026-12-02T08:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/c2b928c9-24ed-480d-993e-5a7c5694b569",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 294,
    "title": "This is Daniel Serpa • “SIRPA” EP Launch",
    "start": "2026-12-03T08:00:00.000Z",
@@ -4551,6 +5777,18 @@
    "linkType": "tickets",
    "venueId": "bergy",
    "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 480,
+   "title": "Saturn's Sound (VOLUME TWO: Santa's Sound) w/ Gallagath, ItsRosieQuartz & Electric Self",
+   "start": "2026-12-03T08:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/ec5dc6be-9c38-4ced-9dae-2eee230c0251",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
   },
   {
@@ -4602,6 +5840,30 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 485,
+   "title": "Orbit Residentq",
+   "start": "2026-12-03T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/orbit-residentq-1792904496651",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 486,
+   "title": "Orbit Resident",
+   "start": "2026-12-03T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/orbit-resident-1792904500148",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 298,
    "title": "Kook joey",
    "start": "2026-12-03T13:00:00.000Z",
@@ -4636,6 +5898,18 @@
    "linkType": "tickets",
    "venueId": "howler",
    "venue": "Howler",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 490,
+   "title": "TOMMY & ROY - Tragedy! EP Release",
+   "start": "2026-12-04T08:30:00.000Z",
+   "price": 17.85,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/4488cd98-d75c-45bc-a59b-40b92b0e8c24",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
   },
   {
@@ -4711,6 +5985,18 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 497,
+   "title": "Blak Roots",
+   "start": "2026-12-04T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/blak-roots-1792904553266",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 328,
    "title": "RSOM EOY EVENT 2026",
    "start": "2026-12-05T02:45:00.000Z",
@@ -4781,6 +6067,18 @@
    "venueId": "croxton",
    "venue": "The Croxton Bandroom",
    "suburb": "Thornbury"
+  },
+  {
+   "id": 504,
+   "title": "Out of Office - Middle Management & fordy",
+   "start": "2026-12-05T08:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/88bce6c2-37dd-4c7d-9d68-3e46003e9a71",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 311,
@@ -4879,6 +6177,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 513,
+   "title": "Tom Harrington Summer Tour",
+   "start": "2026-12-05T09:00:00.731Z",
+   "price": 30,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/tom-harrington-summer-tour-melbourne",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 319,
    "title": "Supa Lucia \"Demolition Night\" Single Launch",
    "start": "2026-12-05T09:00:00.741Z",
@@ -4926,6 +6236,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 518,
+   "title": "Lucid 25th Anniversary Show",
+   "start": "2026-12-06T04:00:00.173Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/lucid-25th-anniversary-show",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 323,
@@ -5060,6 +6382,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 530,
+   "title": "Kid Dingo at The Retreat Hotel Brunswick w/ Mel Taylor + Davin Ojala/Toby Barrett",
+   "start": "2026-12-09T08:00:00.000Z",
+   "price": null,
+   "status": "free",
+   "url": "https://tickets.oztix.com.au/outlet/event/8bd6b6f6-4a46-432c-b0ed-9a0a78489885",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 333,
    "title": "Harry & the ettes",
    "start": "2026-12-09T13:00:00.000Z",
@@ -5118,6 +6452,30 @@
    "linkType": "details",
    "venueId": "brunswickgreen",
    "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 536,
+   "title": "Glass Fountain",
+   "start": "2026-12-10T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/glass-fountain-1792904754279",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 537,
+   "title": "Chiron Release Party w/ Velatine, Double Happiness, Ghost Hacked, The Revenant, DJ Naja",
+   "start": "2026-12-11T08:00:00.000Z",
+   "price": 19.9,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/59968298-50b8-4dfb-917e-d38ded20e29c",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
   },
   {
@@ -5193,6 +6551,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 544,
+   "title": "Shaun Kirk - Live at Wesley Anne, Northcote",
+   "start": "2026-12-11T09:00:00.885Z",
+   "price": 25,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/shaun-kirk-live-at-wesley-anne-northcote",
+   "linkType": "tickets",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 342,
    "title": "Hysteria with Headspin, Miss communication and Rare Phenomenon",
    "start": "2026-12-12T03:00:00.801Z",
@@ -5203,6 +6573,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 546,
+   "title": "Anatreptix at The Retreat",
+   "start": "2026-12-12T03:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/2c393c65-7368-4278-80a1-922dec17aa46",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 367,
@@ -5253,6 +6635,18 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 551,
+   "title": "Raised As Wolves",
+   "start": "2026-12-12T08:00:00.000Z",
+   "price": 17.85,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/d1a486c0-a2c8-4a8a-bf35-e1b63e47b8e3",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 346,
    "title": "LARGE MIRAGE - 'WATCHING' SINGLE TOUR w/ Special Guests",
    "start": "2026-12-12T08:30:00.000Z",
@@ -5263,6 +6657,18 @@
    "venueId": "cactus",
    "venue": "Cactus Room",
    "suburb": "Thornbury"
+  },
+  {
+   "id": 553,
+   "title": "Groom Epoch (album launch)",
+   "start": "2026-12-12T08:30:00.000Z",
+   "price": 24,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/46ae2118-b223-4248-bd96-f6dd5420a4a7",
+   "linkType": "tickets",
+   "venueId": "railway",
+   "venue": "Railway Hotel",
+   "suburb": "Fitzroy North"
   },
   {
    "id": 347,
@@ -5337,6 +6743,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 560,
+   "title": "Caelo",
+   "start": "2026-12-13T07:00:00.396Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/caelo",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
+  },
+  {
    "id": 353,
    "title": "The Workers Comedy Club",
    "start": "2026-12-13T07:30:00.000Z",
@@ -5394,6 +6812,18 @@
    "linkType": "details",
    "venueId": "brunswickgreen",
    "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 566,
+   "title": "Orchestra Massive",
+   "start": "2026-12-16T08:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/254ef3e9-caad-458a-a570-ab16893b2030",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
   },
   {
@@ -5493,6 +6923,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 575,
+   "title": "Balkanism",
+   "start": "2026-12-18T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://events.baroussou.com.au/balkanism-2026-12-18",
+   "linkType": "details",
+   "venueId": "baroussou",
+   "venue": "Bar Oussou",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 362,
    "title": "Year's End Rock Celebration",
    "start": "2026-12-19T03:00:00.742Z",
@@ -5503,6 +6945,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 577,
+   "title": "A Man Called Son",
+   "start": "2026-12-19T07:00:00.051Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://wesleyanne.com.au/events/a-man-called-son",
+   "linkType": "details",
+   "venueId": "wesleyanne",
+   "venue": "Wesley Anne",
+   "suburb": "Northcote"
   },
   {
    "id": 363,
@@ -5527,6 +6981,18 @@
    "venueId": "evelyn",
    "venue": "The Evelyn",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 580,
+   "title": "BELLA DEER - 'BLACK DOTS' SINGLE LAUNCH TOUR w/ AMANDUH + MEGAN KENNEDY",
+   "start": "2026-12-19T08:30:00.000Z",
+   "price": 20.95,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/778c12ee-5401-4eb6-a2e4-eb996a242b85",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 391,
@@ -5587,6 +7053,30 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 586,
+   "title": "Desert Fire (and The Flames) - \"Let Things Go\" Single Launch with guests The Suburban",
+   "start": "2026-12-20T03:30:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/3d4703f6-b2d1-4b86-b2b7-95a762d57bc6",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 587,
+   "title": "It's a very Roarcuss Xmas",
+   "start": "2026-12-20T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/6a62bac8-3b7a-4558-a367-8838bf961b8e",
+   "linkType": "tickets",
+   "venueId": "retreat",
+   "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
   },
   {
    "id": 369,
