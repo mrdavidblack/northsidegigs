@@ -55,7 +55,15 @@ html { scroll-padding-top: 88px; }
 .footer { margin-top: 96px; padding-top: 24px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 15px; line-height: 1.5; color: var(--muted); }
 .footer p { margin: 0; max-width: 620px; }
 
-/* Sticky header with collapsible filters */
+/* Filters sit open under the hero; the sticky header gets a Filters dropdown once they scroll away */
+.filters-inline { padding: 8px 0 8px; }
+.filter-set { display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: flex-start; }
+#panel-slot { flex: 1 1 auto; }
+.filter-toggle[hidden] { display: none; }
+.summary { visibility: hidden; }
+.summary.on { visibility: visible; }
+
+/* Sticky header */
 .topbar { position: sticky; top: 0; z-index: 30; background: rgba(10, 10, 10, 0.94); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--rule); }
 .topbar-row { max-width: 1280px; margin: 0 auto; padding: 10px clamp(16px, 4vw, 64px); display: flex; align-items: center; gap: 12px 20px; min-height: 64px; }
 .wordmark { text-decoration: none; font-weight: 900; font-size: 18px; letter-spacing: 0.02em; text-transform: uppercase; white-space: nowrap; }
@@ -69,10 +77,10 @@ html { scroll-padding-top: 88px; }
 .filter-toggle[aria-expanded="true"] .count { background: var(--bg); color: var(--fg); }
 .count[hidden], .filter-panel[hidden] { display: none; }
 
-.filter-panel { border-top: 1px solid var(--rule); max-height: calc(100vh - 64px); max-height: calc(100dvh - 64px); overflow-y: auto; }
+.filter-panel { position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--rule); border-top: 1px solid var(--rule); max-height: calc(100vh - 64px); max-height: calc(100dvh - 64px); overflow-y: auto; }
 .filter-panel-inner { max-width: 1280px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 64px) 28px; display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: flex-end; }
 .filter { display: flex; flex-direction: column; gap: 10px; }
-.filter-panel .btn.done { margin-left: auto; border: 0; cursor: pointer; font-family: Archivo, sans-serif; }
+.filter-panel .btn.done { margin-left: auto; margin-top: 4px; border: 0; cursor: pointer; font-family: Archivo, sans-serif; }
 .label .hint { letter-spacing: 0.04em; text-transform: none; opacity: 0.8; margin-left: 6px; }
 
 .venue-link { color: var(--fg); text-decoration: underline; text-decoration-color: var(--pill-border); text-underline-offset: 3px; text-decoration-thickness: 1px; }

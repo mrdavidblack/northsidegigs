@@ -23,7 +23,7 @@
     <a href="/" class="wordmark">Northside Gigs</a>
     <p class="summary" id="summary" aria-live="polite"></p>
     <div class="topbar-actions">
-      <button type="button" class="filter-toggle" id="filter-toggle" aria-expanded="false" aria-controls="filter-panel">
+      <button type="button" class="filter-toggle" hidden id="filter-toggle" aria-expanded="false" aria-controls="filter-panel">
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 4h12M4.5 8h7M7 12h2"/></svg>
         Filters <span class="count" id="filter-count" hidden></span>
       </button>
@@ -32,6 +32,20 @@
   </div>
   <div class="filter-panel" id="filter-panel" hidden>
     <div class="filter-panel-inner">
+      <div id="panel-slot"></div>
+      <button type="button" class="btn done" id="filter-done">Show gigs</button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="hero">
+    <h1>Northside<br>Gigs</h1>
+    <p class="lede">Band rooms and small venues across Melbourne's inner north. <strong id="tonight-count" class="accent"></strong> <span id="total-count"></span></p>
+  </section>
+
+  <section class="filters-inline" id="filters-inline" aria-label="Filters">
+    <div class="filter-set" id="filter-set">
       <div role="group" aria-labelledby="f-when" class="filter">
         <span id="f-when" class="label">When</span>
         <div class="pills" id="ranges"></div>
@@ -44,15 +58,7 @@
         <span id="f-sort" class="label">Sort by</span>
         <div class="pills" id="sorts"></div>
       </div>
-      <button type="button" class="btn done" id="filter-done">Show gigs</button>
     </div>
-  </div>
-</header>
-
-<div class="wrap">
-  <section class="hero">
-    <h1>Northside<br>Gigs</h1>
-    <p class="lede">Band rooms and small venues across Melbourne's inner north. <strong id="tonight-count" class="accent"></strong> <span id="total-count"></span></p>
   </section>
 
   <main id="list" aria-live="polite"><p class="loading">Loading gigs…</p></main>

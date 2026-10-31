@@ -159,14 +159,41 @@
 
   var panel = document.getElementById('filter-panel');
   var toggle = document.getElementById('filter-toggle');
+  var topbar = document.getElementById('topbar');
+  var inline = document.getElementById('filters-inline');
+  var filterSet = document.getElementById('filter-set');
+  var slot = document.getElementById('panel-slot');
+  var summary = document.getElementById('summary');
+
+  // The filters sit open under the hero. Once they scroll out of view the header gains a Filters button,
+  // and opening it moves the same controls into a dropdown under the header.
   function setPanel(open) {
+    if (open) {
+      inline.style.minHeight = inline.offsetHeight + 'px'; // keep the page from jumping while the controls move
+      slot.appendChild(filterSet);
+    } else {
+      inline.appendChild(filterSet);
+      inline.style.minHeight = '';
+    }
     panel.hidden = !open;
     toggle.setAttribute('aria-expanded', String(open));
   }
+  function pastFilters() {
+    var r = inline.getBoundingClientRect();
+    return r.bottom < topbar.querySelector('.topbar-row').offsetHeight;
+  }
+  function updateBar() {
+    var past = pastFilters();
+    toggle.hidden = !past;
+    summary.classList.toggle('on', past);
+    if (!past && !panel.hidden) setPanel(false);
+  }
+  window.addEventListener('scroll', updateBar, { passive: true });
+  window.addEventListener('resize', updateBar);
 
   document.addEventListener('click', function (ev) {
     if (ev.target.closest('#filter-toggle')) { setPanel(panel.hidden); return; }
-    if (ev.target.closest('#filter-done')) { setPanel(false); window.scrollTo({ top: Math.max(0, document.getElementById('list').offsetTop - 80), behavior: 'smooth' }); return; }
+    if (ev.target.closest('#filter-done')) { setPanel(false); return; }
     if (!panel.hidden && !ev.target.closest('#topbar')) setPanel(false);
     var b = ev.target.closest('button');
     if (!b) return;
@@ -184,6 +211,7 @@
     else return;
     syncUrl();
     render();
+    updateBar();
   });
 
   document.addEventListener('keydown', function (ev) {
