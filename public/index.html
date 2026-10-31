@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northside Gigs: band rooms and small venues in Melbourne's inner north</title>
+<meta name="description" content="Tonight's gigs and what's coming up at band rooms and small venues across Melbourne's inner north. Start times and direct ticket links.">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230A0A0A'/><text x='16' y='23' font-family='Arial Black,Arial' font-weight='900' font-size='18' fill='%23EDEAE2' text-anchor='middle'>NG</text></svg>">
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Site">
+    <a href="/" class="wordmark">Northside Gigs</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#submit">Submit a gig</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Northside<br>Gigs</h1>
+    <p class="lede">Band rooms and small venues across Melbourne's inner north. <strong id="tonight-count" class="accent"></strong> <span id="total-count"></span></p>
+  </header>
+
+  <div class="filters">
+    <div role="group" aria-labelledby="f-when" class="filter">
+      <span id="f-when" class="label">When</span>
+      <div class="pills" id="ranges"></div>
+    </div>
+    <div role="group" aria-labelledby="f-suburb" class="filter">
+      <span id="f-suburb" class="label">Suburb</span>
+      <div class="pills" id="suburbs"></div>
+    </div>
+    <div role="group" aria-labelledby="f-sort" class="filter">
+      <span id="f-sort" class="label">Sort by</span>
+      <div class="pills" id="sorts"></div>
+    </div>
+  </div>
+
+  <main id="list" aria-live="polite"><p class="loading">Loading gigs…</p></main>
+
+  <footer class="footer">
+    <p id="about">Listings come from venue websites and ticketing pages, updated twice a day. Times are start times from the ticket page, usually doors or the first act. Prices are the cheapest ticket still on sale. Check with the venue before you head out. <span id="updated"></span></p>
+    <p id="submit">Missing a gig or a venue? <a href="mailto:hello@northsidegigs.example">Tell us</a></p>
+  </footer>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

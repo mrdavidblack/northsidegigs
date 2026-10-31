@@ -1,0 +1,44 @@
+name: Update gigs
+
+on:
+  schedule:
+    - cron: '0 19 * * *'   # about 6am Melbourne (AEDT)
+    - cron: '0 5 * * *'    # about 4pm Melbourne (AEDT)
+  workflow_dispatch:
+    inputs:
+      venues:
+        description: 'Venue ids to scrape, space separated (blank = all)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Scrape venues
+        run: node scripts/scrape.mjs ${{ github.event.inputs.venues }}
+      - name: Commit if gigs changed
+        run: |
+          git config user.name "northside-gigs-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/events.json public/status.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update gigs $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
