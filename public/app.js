@@ -36,6 +36,10 @@
   var today = melbDate(new Date().toISOString());
   var tomorrow = addDays(today, 1);
 
+  // A festival or residency that started before today but runs on still counts as on today.
+  function lastDay(e) { return melbDate(e.until || e.start); }
+  function effDate(e) { var d = melbDate(e.start); return d < today ? today : d; }
+
   function weekendDays() {
     var wd = weekdayFmt.format(new Date(noonIso(today)));
     var order = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
@@ -66,17 +70,19 @@
   }
 
   function gigRow(e) {
-    var ymd = melbDate(e.start);
+    var ymd = effDate(e);
     var when = state.sort === 'suburb' ? shortDayFmt.format(new Date(noonIso(ymd))).replace(',', '') + ' · ' + timeLabel(e) : timeLabel(e);
+    var until = e.until && lastDay(e) > ymd ? '<span class="until">until ' + esc(dayLabel(new Date(noonIso(lastDay(e))))) + '</span>' : '';
+    var maps = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(e.venue + ' ' + e.suburb + ' VIC');
     var price = '', cls = '';
     if (e.status === 'soldout') { price = 'Sold out'; cls = 'soldout'; }
     else if (e.status === 'free') { price = 'Free'; cls = 'free'; }
     else if (e.price) { price = '$' + e.price.toFixed(2); }
     var cta = e.linkType === 'tickets' ? (e.status === 'soldout' ? 'Waitlist' : 'Tickets') : 'Details';
     return '<article class="gig">' +
-      '<div class="gig-time">' + esc(when) + '</div>' +
+      '<div class="gig-time">' + esc(when) + until + '</div>' +
       '<div class="gig-main"><h3 class="gig-title">' + esc(e.title) + '</h3>' +
-      '<p class="gig-venue"><strong>' + esc(e.venue) + '</strong> · ' + esc(e.suburb) + '</p></div>' +
+      '<p class="gig-venue"><a class="venue-link" href="' + esc(maps) + '" target="_blank" rel="noopener" aria-label="' + esc(e.venue + ' on Google Maps (opens in a new tab)') + '"><strong>' + esc(e.venue) + '</strong></a> · ' + esc(e.suburb) + '</p></div>' +
       '<div class="gig-act"><span class="price ' + cls + '">' + esc(price) + '</span>' +
       '<a class="btn" href="' + esc(e.url) + '" target="_blank" rel="noopener">' + cta +
       ' <span class="visually-hidden" style="position:absolute;left:-9999px">for ' + esc(e.title) + ' (opens in a new tab)</span>' +
@@ -85,8 +91,8 @@
   }
 
   function render() {
-    var upcoming = events.filter(function (e) { return melbDate(e.start) >= today; });
-    var tonightN = upcoming.filter(function (e) { return melbDate(e.start) === today; }).length;
+    var upcoming = events.filter(function (e) { return lastDay(e) >= today; });
+    var tonightN = upcoming.filter(function (e) { return effDate(e) === today; }).length;
     document.getElementById('tonight-count').textContent = tonightN + (tonightN === 1 ? ' gig tonight.' : ' gigs tonight.');
     document.getElementById('total-count').textContent = upcoming.length + ' coming up.';
 
@@ -99,8 +105,17 @@
     pills(document.getElementById('sorts'), 'sort', [['date', 'Date'], ['suburb', 'Suburb']]);
 
     var shown = upcoming.filter(function (e) {
-      return inRange(melbDate(e.start)) && (state.suburbs.length === 0 || state.suburbs.indexOf(e.suburb) >= 0);
+      return inRange(effDate(e)) && (state.suburbs.length === 0 || state.suburbs.indexOf(e.suburb) >= 0);
     });
+
+    // Header: what is selected, how many filters are on, and the button that closes the panel.
+    var rangeNames = { all: 'All upcoming', tonight: 'Tonight', weekend: 'This weekend', week: 'Next 7 days' };
+    var active = (state.range !== 'all' ? 1 : 0) + state.suburbs.length;
+    document.getElementById('summary').textContent = rangeNames[state.range] + ' · ' + (state.suburbs.length ? state.suburbs.join(', ') : 'All suburbs');
+    var badge = document.getElementById('filter-count');
+    badge.textContent = active ? String(active) : '';
+    badge.hidden = !active;
+    document.getElementById('filter-done').textContent = 'Show ' + shown.length + (shown.length === 1 ? ' gig' : ' gigs');
 
     var list = document.getElementById('list');
     if (!shown.length) {
@@ -112,7 +127,7 @@
     var groups = [];
     var byKey = {};
     shown.forEach(function (e) {
-      var k = state.sort === 'suburb' ? e.suburb : melbDate(e.start);
+      var k = state.sort === 'suburb' ? e.suburb : effDate(e);
       if (!byKey[k]) { byKey[k] = []; groups.push(k); }
       byKey[k].push(e);
     });
@@ -142,7 +157,17 @@
     history.replaceState(null, '', q ? '?' + q : location.pathname);
   }
 
+  var panel = document.getElementById('filter-panel');
+  var toggle = document.getElementById('filter-toggle');
+  function setPanel(open) {
+    panel.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+  }
+
   document.addEventListener('click', function (ev) {
+    if (ev.target.closest('#filter-toggle')) { setPanel(panel.hidden); return; }
+    if (ev.target.closest('#filter-done')) { setPanel(false); window.scrollTo({ top: Math.max(0, document.getElementById('list').offsetTop - 80), behavior: 'smooth' }); return; }
+    if (!panel.hidden && !ev.target.closest('#topbar')) setPanel(false);
     var b = ev.target.closest('button');
     if (!b) return;
     if (b.dataset.reset) { state = { range: 'all', suburbs: [], sort: 'date' }; }
@@ -159,6 +184,10 @@
     else return;
     syncUrl();
     render();
+  });
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key === 'Escape' && !panel.hidden) { setPanel(false); toggle.focus(); }
   });
 
   // Build the contact link in the browser so the address is not sitting in the page for spam bots.

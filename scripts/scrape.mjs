@@ -20,10 +20,20 @@ const TICKET_PATTERNS = [
   /https?:\/\/(?:www\.)?moshtix\.com\.au\/v2\/event\/[^"'\s<>?#]+\/\d+/gi,
   /https?:\/\/events\.humanitix\.com\/[a-z0-9-]+/gi,
   /https?:\/\/(?:www\.)?trybooking\.com\/[A-Z0-9]{4,6}\b/g,
+  /https?:\/\/(?:www\.)?eventbrite\.com\.au\/e\/[^"'\s<>?#]+/gi,
   /https?:\/\/[a-z0-9-]+\.iwannaticket\.com\.au\/[^"'\s<>]*event[^"'\s<>]*/gi,
   /https?:\/\/[a-z0-9-]+\.oztix\.com\.au\/Default\.aspx\?Event=\d+/gi,          // legacy Oztix outlets (The Last Chance)
   /\/Default\.aspx\?Event=\d+/gi
 ];
+
+// A gig that runs across several days (a festival, a residency weekend) keeps an "until" time.
+// Anything that just finishes after midnight is not multi-day.
+function asMultiDay(e) {
+  if (!e.end) return e;
+  const { end, ...rest } = e;
+  const span = Date.parse(end) - Date.parse(e.start);
+  return span >= 20 * 3600e3 && span <= 7 * 86400e3 ? { ...rest, until: end } : rest;
+}
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -53,7 +63,7 @@ async function get(url, { json = false } = {}) {
 
 // Headless Chrome, for listing pages built with JavaScript and for sites that block plain requests.
 let browser = null;
-async function render(url) {
+async function render(url, { clickText = null } = {}) {
   if (!browser) {
     const { chromium } = await import('playwright');
     browser = await chromium.launch();
@@ -65,6 +75,17 @@ async function render(url) {
     await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {});
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
     await page.waitForTimeout(1500);
+    if (clickText) {
+      // Some venues only list their first dozen gigs until you press a "Show more" button.
+      const re = new RegExp(clickText, 'i');
+      for (let i = 0; i < 25; i++) {
+        const btn = page.locator('button, a').filter({ hasText: re }).first();
+        if (!(await btn.count()) || !(await btn.isVisible().catch(() => false))) break;
+        await btn.scrollIntoViewIfNeeded().catch(() => {});
+        await btn.click({ timeout: 3000 }).catch(() => {});
+        await page.waitForTimeout(1200);
+      }
+    }
     let html = await page.content();
     // Include iframes (some venues embed their ticketing widget).
     for (const f of page.frames().slice(1, 6)) { try { html += await f.content(); } catch { /* cross-origin */ } }
@@ -103,6 +124,7 @@ function fromLd(ev, looseOffers = [], fallbackUrl) {
   return {
     title: decode(ev.name),
     start: normaliseStart(ev.startDate),
+    end: ev.endDate ? normaliseStart(ev.endDate) : undefined,
     price: minPrice && minPrice > 0 ? Math.round(minPrice * 100) / 100 : null,
     status,
     url: ev.url && /^https?:/.test(ev.url) ? ev.url : fallbackUrl,
@@ -171,9 +193,9 @@ async function linksStrategy(v) {
   let links = [];
   for (const page of v.pages) {
     try {
-      let html = v.render ? await render(page) : await get(page);
+      let html = (v.render || v.loadMore) ? await render(page, { clickText: v.loadMore }) : await get(page);
       let found = findTicketLinks(html, page);
-      if (!found.length && !v.render) {
+      if (!found.length && !v.render && !v.loadMore) {
         try { html = await render(page); found = findTicketLinks(html, page); } catch (e) { console.warn(`  render failed ${page}: ${e.message}`); }
       }
       links.push(...found);
@@ -333,7 +355,119 @@ async function muzeekStrategy(v) {
   return out;
 }
 
-const STRATEGIES = { muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
+const MONTH_NUM = { JAN: 1, FEB: 2, MAR: 3, APR: 4, MAY: 5, JUN: 6, JUL: 7, AUG: 8, SEP: 9, OCT: 10, NOV: 11, DEC: 12 };
+
+function tidyCaps(t) {
+  const x = String(t).trim();
+  if (x.length < 4 || x !== x.toUpperCase() || !/[A-Z]/.test(x)) return x;
+  return x.split(/(\s+)/).map((w) => {
+    // Short words with no vowels (TTTDC, KTV) are band initials: leave them in capitals.
+    if (/^[A-Z0-9]{2,6}$/.test(w) && !/[AEIOUY]/.test(w)) return w;
+    return w.toLowerCase().replace(/(^|[&+(/'"-])([a-z])/g, (m, p1, c) => p1 + c.toUpperCase());
+  }).join('');
+}
+
+// Bar Oussou: their own JSON feed. Only one-off gigs; the weekly open mic and spoken word nights are skipped.
+async function baroussouStrategy(v) {
+  const data = await get(v.pages[0], { json: true });
+  return (data.items ?? []).filter((i) => i.eventCategory === 'gig' && i.eventDate).map((i) => {
+    const [d, m, y] = i.eventDate.split('/');
+    const hhmm = /^\d{1,2}:\d{2}$/.test(i.eventTime ?? '') ? i.eventTime.padStart(5, '0') : null;
+    const price = parseFloat(String(i.ticketPrice ?? '').replace(/[^0-9.]/g, ''));
+    return {
+      title: decode(i.artistName),
+      start: melbourneToIso(`${y}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`, hhmm ?? '00:00'),
+      ...(hhmm ? {} : { timeTba: true }),
+      price: Number.isNaN(price) ? null : price,
+      status: i.isTicketed ? 'onsale' : 'unknown',
+      url: `https://events.baroussou.com.au/${i.slug}`,
+      linkType: 'details'
+    };
+  });
+}
+
+// Desert Highways record store: free in-store gigs listed as text blocks:
+//   TITLE LINES / "SAT 31 OCT 2026" / "2PM - FREE - ALL AGES" / "FB EVENT"
+// Gigs at other venues show a venue name instead of a time, so they are skipped (those venues list them).
+async function deserthighwaysStrategy(v) {
+  const $ = cheerio.load(await get(v.pages[0]));
+  $('script, style, noscript').remove();
+  $('br').replaceWith('\n');
+  $('p, h1, h2, h3, h4, h5, li, div, tr, td, a').append('\n');
+  const lines = $('body').text().split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
+  const stop = lines.findIndex((l) => /^PAST\b/i.test(l));
+  const L = stop >= 0 ? lines.slice(0, stop) : lines;
+  const DOW = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+  const dateRe = /^(MON|TUE|WED|THU|FRI|SAT|SUN)[A-Z]*\.?,?\s+(?:(\d{1,2})\s+([A-Z]{3})[A-Z]*|([A-Z]{3})[A-Z]*\s+(\d{1,2}))\s+(\d{4})$/i;
+  const out = [];
+  let buf = [];
+  for (let i = 0; i < L.length; i++) {
+    const line = L[i];
+    if (/^FB EVENT$/i.test(line)) { buf = []; continue; }
+    const m = line.match(dateRe);
+    if (!m) { buf.push(line); continue; }
+    const titleLines = buf.filter((b) => !/^UPCOMING/i.test(b));
+    buf = [];
+    const next = L[i + 1] ?? '';
+    const tm = next.match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)\b/i);
+    if (!tm || !titleLines.length) continue;
+    let day, mon, year = parseInt(m[6], 10);
+    if (m[2]) { day = parseInt(m[2], 10); mon = MONTH_NUM[m[3].toUpperCase()]; } else { mon = MONTH_NUM[m[4].toUpperCase()]; day = parseInt(m[5], 10); }
+    if (!mon) continue;
+    const want = DOW.indexOf(m[1].slice(0, 3).toUpperCase());
+    const fits = (y, mo) => { const d = new Date(Date.UTC(y, mo - 1, day)); return d.getUTCDate() === day && d.getUTCDay() === want; };
+    if (!fits(year, mon)) {
+      // The page has typos (it once said "SUN 01 OCT" for 1 November). Try the next few months for the weekday that fits.
+      for (let k = 1; k <= 3; k++) { let mo = mon + k; let y = year; if (mo > 12) { mo -= 12; y++; } if (fits(y, mo)) { mon = mo; year = y; break; } }
+    }
+    let h = parseInt(tm[1], 10);
+    if (/pm/i.test(tm[3]) && h < 12) h += 12;
+    if (/am/i.test(tm[3]) && h === 12) h = 0;
+    const date = `${year}-${String(mon).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+    const price = next.match(/\$(\d+(?:\.\d\d)?)/);
+    out.push({
+      title: titleLines.slice(0, 2).map(tidyCaps).join(' · '),
+      start: melbourneToIso(date, `${String(h).padStart(2, '0')}:${tm[2] ?? '00'}`),
+      price: price ? parseFloat(price[1]) : null,
+      status: /\bfree\b/i.test(next) ? 'free' : 'unknown',
+      url: v.pages[0],
+      linkType: 'details'
+    });
+  }
+  return out;
+}
+
+// The Lomond Hotel (Lowie Live): a plain event list, each gig linking to a page that usually carries an Eventbrite link.
+async function lomondStrategy(v) {
+  const page = v.pages[0];
+  const $ = cheerio.load(await get(page));
+  const re = /^(.*?)\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s+(\d{4})$/;
+  const items = new Map();
+  $('a[href^="/node/"]').each((_, el) => {
+    const m = $(el).text().replace(/\s+/g, ' ').trim().match(re);
+    if (!m) return;
+    const mon = MONTH_NUM[m[2].slice(0, 3).toUpperCase()];
+    items.set(new URL($(el).attr('href'), page).href, {
+      title: m[1].replace(/^(Lowie Live|Lomond Acoustica)\s+presents\s+/i, '').trim(),
+      date: `${m[4]}-${String(mon).padStart(2, '0')}-${m[3].padStart(2, '0')}`
+    });
+  });
+  const out = [];
+  for (const [url, it] of [...items].slice(0, 60)) {
+    let ticket = null;
+    try { ticket = findTicketLinks(await get(url), url)[0] ?? null; } catch { /* use the listing */ }
+    if (ticket) {
+      try {
+        const t = await readTicketPage(ticket);
+        if (t) { out.push({ ...t, title: it.title || t.title }); continue; }
+      } catch { /* fall through */ }
+    }
+    out.push({ title: it.title, start: melbourneToIso(it.date, '00:00'), timeTba: true, price: null, status: 'unknown', url, linkType: 'details' });
+  }
+  return out;
+}
+
+const STRATEGIES = { baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
 
 // ---- main ----
 
@@ -367,7 +501,8 @@ for (const v of venues) {
   try { events = await STRATEGIES[v.strategy](v); } catch (e) { error = e.message; console.warn(`  FAILED: ${e.message}`); }
   events = events
     .filter((e) => e && e.title && e.start)
-    .filter((e) => { const t = Date.parse(e.start); return t >= startOfToday && t <= horizon; })
+    .map(asMultiDay)
+    .filter((e) => { const s0 = Date.parse(e.start); const last = e.until ? Date.parse(e.until) : s0; return last >= startOfToday && s0 <= horizon; })
     .filter((e) => !GLOBAL_EXCLUDE.test(e.title) && !(exclude && exclude.test(e.title)))
     .map((e) => ({ ...e, venueId: v.id, venue: v.name, suburb: v.suburb }));
 

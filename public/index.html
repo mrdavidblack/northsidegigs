@@ -18,34 +18,42 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230A0A0A'/><text x='16' y='23' font-family='Arial Black,Arial' font-weight='900' font-size='18' fill='%23EDEAE2' text-anchor='middle'>NG</text></svg>">
 </head>
 <body>
-<div class="wrap">
-  <nav class="nav" aria-label="Site">
+<header class="topbar" id="topbar">
+  <div class="topbar-row">
     <a href="/" class="wordmark">Northside Gigs</a>
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#submit">Submit a gig</a>
-    </div>
-  </nav>
-
-  <header class="hero">
-    <h1>Northside<br>Gigs</h1>
-    <p class="lede">Band rooms and small venues across Melbourne's inner north. <strong id="tonight-count" class="accent"></strong> <span id="total-count"></span></p>
-  </header>
-
-  <div class="filters">
-    <div role="group" aria-labelledby="f-when" class="filter">
-      <span id="f-when" class="label">When</span>
-      <div class="pills" id="ranges"></div>
-    </div>
-    <div role="group" aria-labelledby="f-suburb" class="filter">
-      <span id="f-suburb" class="label">Suburb <span class="hint">pick any</span></span>
-      <div class="pills" id="suburbs"></div>
-    </div>
-    <div role="group" aria-labelledby="f-sort" class="filter">
-      <span id="f-sort" class="label">Sort by</span>
-      <div class="pills" id="sorts"></div>
+    <p class="summary" id="summary" aria-live="polite"></p>
+    <div class="topbar-actions">
+      <button type="button" class="filter-toggle" id="filter-toggle" aria-expanded="false" aria-controls="filter-panel">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 4h12M4.5 8h7M7 12h2"/></svg>
+        Filters <span class="count" id="filter-count" hidden></span>
+      </button>
+      <a href="#submit" class="topbar-link">Submit a gig</a>
     </div>
   </div>
+  <div class="filter-panel" id="filter-panel" hidden>
+    <div class="filter-panel-inner">
+      <div role="group" aria-labelledby="f-when" class="filter">
+        <span id="f-when" class="label">When</span>
+        <div class="pills" id="ranges"></div>
+      </div>
+      <div role="group" aria-labelledby="f-suburb" class="filter">
+        <span id="f-suburb" class="label">Suburb <span class="hint">pick any</span></span>
+        <div class="pills" id="suburbs"></div>
+      </div>
+      <div role="group" aria-labelledby="f-sort" class="filter">
+        <span id="f-sort" class="label">Sort by</span>
+        <div class="pills" id="sorts"></div>
+      </div>
+      <button type="button" class="btn done" id="filter-done">Show gigs</button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="hero">
+    <h1>Northside<br>Gigs</h1>
+    <p class="lede">Band rooms and small venues across Melbourne's inner north. <strong id="tonight-count" class="accent"></strong> <span id="total-count"></span></p>
+  </section>
 
   <main id="list" aria-live="polite"><p class="loading">Loading gigs…</p></main>
 

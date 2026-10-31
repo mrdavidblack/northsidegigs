@@ -1,5 +1,5 @@
 {
-  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie). render: true opens the listing in headless Chrome (use when the plain page shows old or missing gigs, as at the Bergy). muzeek: the muzeek.ai events widget API (Punters Club); link is the page visitors are sent to.",
+  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie). render: true opens the listing in headless Chrome (use when the plain page shows old or missing gigs, as at the Bergy). muzeek: the muzeek.ai events widget API (Punters Club); link is the page visitors are sent to. loadMore: text of a \"Show more\" button to keep clicking (opens the page in headless Chrome). baroussou, deserthighways, lomond: readers written for those three sites.",
   "venues": [
     {
       "id": "tote",
@@ -67,7 +67,8 @@
       "strategy": "links",
       "pages": [
         "https://retreathotelbrunswick.com.au/events"
-      ]
+      ],
+      "loadMore": "show more events"
     },
     {
       "id": "cactus",
@@ -208,6 +209,72 @@
       "pages": [
         "https://www.leadbeaterhotel.com.au/gigs"
       ]
+    },
+    {
+      "id": "graveyard",
+      "name": "The Graveyard",
+      "suburb": "Coburg North",
+      "strategy": "links",
+      "pages": [
+        "https://www.thegraveyardbar.com/shows-1"
+      ],
+      "render": true
+    },
+    {
+      "id": "deserthighways",
+      "name": "Desert Highways",
+      "suburb": "Reservoir",
+      "strategy": "deserthighways",
+      "pages": [
+        "https://deserthighways.com/pages/gigs"
+      ]
+    },
+    {
+      "id": "railway",
+      "name": "Railway Hotel",
+      "suburb": "Fitzroy North",
+      "strategy": "links",
+      "pages": [
+        "https://www.railwayhotelfitzroy.com.au/ballroom-gigs"
+      ]
+    },
+    {
+      "id": "wesleyanne",
+      "name": "Wesley Anne",
+      "suburb": "Northcote",
+      "strategy": "squarespace",
+      "pages": [
+        "https://wesleyanne.com.au/events"
+      ],
+      "exclude": "comedy"
+    },
+    {
+      "id": "baroussou",
+      "name": "Bar Oussou",
+      "suburb": "Brunswick",
+      "strategy": "baroussou",
+      "pages": [
+        "https://www.baroussou.uk/wp-json/baroussou/v1/events"
+      ]
+    },
+    {
+      "id": "lomond",
+      "name": "The Lomond Hotel",
+      "suburb": "Brunswick East",
+      "strategy": "lomond",
+      "pages": [
+        "https://www.lomondhotel.com.au/events"
+      ]
+    },
+    {
+      "id": "creature",
+      "name": "Creature Bar",
+      "suburb": "Brunswick East",
+      "strategy": "links",
+      "pages": [
+        "https://www.creaturebar.com.au/events/"
+      ],
+      "follow": "/events/[^/]+/?$"
     }
   ],
   "_disabled": {
