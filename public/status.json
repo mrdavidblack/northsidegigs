@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T04:04:40.806Z",
+ "generatedAt": "2026-10-31T04:16:55.995Z",
  "venues": [
   {
    "id": "bergy",
@@ -34,6 +34,58 @@
      "200 https://thehex.au/",
      "200 https://thehex.au/?20261107_dylan_cosgriff",
      "200 https://thehex.au/?20261108_wooden_soldiers"
+    ]
+   }
+  },
+  {
+   "id": "punters",
+   "name": "Punters Club",
+   "count": 25,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://muzeek.ai/api/e/c1e48566-fa6c-4a2b-bf25-52b747696232?page=1&limit=50"
+    ]
+   }
+  },
+  {
+   "id": "brunswickgreen",
+   "name": "Brunswick Green",
+   "count": 34,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 35,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/10/13/the-moreland-city-soul-revu",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/1/beer-garden-fliryte"
+    ]
+   }
+  },
+  {
+   "id": "leadbeater",
+   "name": "The Leadbeater Hotel",
+   "count": 9,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 11,
+    "failed": [],
+    "ticketLinks": 9,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.leadbeaterhotel.com.au/gigs",
+     "200 (rendered) https://www.leadbeaterhotel.com.au/gigs",
+     "200 https://theleadbeaterhotel.oztix.com.au/outlet/event/eb8a2483-4530-4783-b562-7cecc2b19b29"
     ]
    }
   }

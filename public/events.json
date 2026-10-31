@@ -1,7 +1,20 @@
 {
- "generatedAt": "2026-10-31T04:04:40.806Z",
+ "generatedAt": "2026-10-31T04:16:55.995Z",
  "timezone": "Australia/Melbourne",
  "events": [
+  {
+   "id": 1,
+   "title": "Mike Gurrieri",
+   "start": "2026-10-30T13:00:00.000Z",
+   "timeTba": true,
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
   {
    "id": 1,
    "title": "🎃 HALLOWEEN OF HAVOK 🎃",
@@ -25,6 +38,42 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 4,
+   "title": "BEER GARDEN: The Moreland City Soul Revue",
+   "start": "2026-10-31T05:00:00.163Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/10/13/the-moreland-city-soul-revue",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 5,
+   "title": "FORGE FESTIVAL",
+   "start": "2026-10-31T06:30:00.000Z",
+   "price": 34.7,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/eb8a2483-4530-4783-b562-7cecc2b19b29",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
+  },
+  {
+   "id": 6,
+   "title": "Sweetie & Friends",
+   "start": "2026-10-31T07:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 3,
@@ -196,6 +245,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 21,
+   "title": "Milou Moon + Divers",
+   "start": "2026-10-31T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 16,
    "title": "Halloween at The Workers Club ft. In Lucid Dreams (Single Launch)",
    "start": "2026-11-01T02:00:00.000Z",
@@ -244,6 +305,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 26,
+   "title": "The Punters - Live Trad Jazz",
+   "start": "2026-11-01T04:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 20,
    "title": "Danny Ross",
    "start": "2026-11-01T05:00:00.095Z",
@@ -253,6 +326,18 @@
    "linkType": "details",
    "venueId": "edi",
    "venue": "Edinburgh Castle",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 28,
+   "title": "BEER GARDEN: Fliryte",
+   "start": "2026-11-01T05:00:00.194Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/1/beer-garden-fliryte",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
    "suburb": "Brunswick"
   },
   {
@@ -279,6 +364,18 @@
    "venueId": "baropen",
    "venue": "Bar Open",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 31,
+   "title": "JAZZ JAM OPEN MIC",
+   "start": "2026-11-01T08:00:00.245Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/1/jazz-jam",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 23,
@@ -414,6 +511,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 43,
+   "title": "OUR WEEKENDS END ON MONDAYS PUBLIC HOLIDAY EVE WITH S:BAHN + LXRP",
+   "start": "2026-11-02T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 34,
    "title": "Tee Vee Repairmann Live at The Tote w/ The Sprouts and Billy Gardner & Friends",
    "start": "2026-11-02T09:00:00.000Z",
@@ -435,6 +544,18 @@
    "linkType": "tickets",
    "venueId": "retreat",
    "venue": "The Retreat Hotel",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 46,
+   "title": "CLOSED FOR PUBLIC HOLIDAY- TUESDAY 3RD NOV",
+   "start": "2026-11-03T05:00:00.226Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/3/closed-for-public-holiday-tuesday-3rd-nov",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
    "suburb": "Brunswick"
   },
   {
@@ -546,6 +667,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 56,
+   "title": "Quiet Electric",
+   "start": "2026-11-04T09:00:00.427Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/4/quiet-electric",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 45,
    "title": "Beanbo",
    "start": "2026-11-04T09:00:00.649Z",
@@ -606,6 +739,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 62,
+   "title": "Community Chess Club",
+   "start": "2026-11-05T08:00:00.867Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-hccbz-2kg9l-m2lw6-jnr6m",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 49,
    "title": "Barney McAll: Unforeseen",
    "start": "2026-11-05T08:30:00.000Z",
@@ -628,6 +773,18 @@
    "venueId": "jazzlab",
    "venue": "The Jazzlab",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 65,
+   "title": "At Dawn We Run - Debut Gig",
+   "start": "2026-11-05T08:30:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/8af86be1-3f2c-4014-b4df-0482ecf4d5a2",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
   },
   {
    "id": 51,
@@ -679,6 +836,18 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 70,
+   "title": "Michelle Nicolle + Guests Steven Grant (accordion) and Tom Lee (bass)",
+   "start": "2026-11-05T09:00:00.815Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon-hunt-clarinet-tom-lee-bass-trkga-tjxpe-45nb2-5pmzp-t8x7g-5smjp-kssat-nw6gy",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 55,
    "title": "Henry & Nancy",
    "start": "2026-11-05T09:15:00.954Z",
@@ -689,6 +858,31 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 72,
+   "title": "Walla C",
+   "start": "2026-11-05T13:00:00.000Z",
+   "timeTba": true,
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 73,
+   "title": "Intervarsity Battle of the Bands 2026",
+   "start": "2026-11-06T06:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/794e896f-ab6a-4dd9-8d01-eec497ee37b3",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
   },
   {
    "id": 56,
@@ -980,6 +1174,18 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 98,
+   "title": "DINK + Stanley Circus",
+   "start": "2026-11-06T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 79,
    "title": "WAFT!",
    "start": "2026-11-06T12:00:00.000Z",
@@ -990,6 +1196,19 @@
    "venueId": "retreat",
    "venue": "The Retreat Hotel",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 100,
+   "title": "Callum Vass",
+   "start": "2026-11-06T13:00:00.000Z",
+   "timeTba": true,
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 80,
@@ -1050,6 +1269,30 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 106,
+   "title": "British India",
+   "start": "2026-11-07T05:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 107,
+   "title": "BEER GARDEN: Los Derros",
+   "start": "2026-11-07T05:00:00.662Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/7/beer-garden-los-derros",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 84,
@@ -1183,6 +1426,18 @@
    "venueId": "lastchance",
    "venue": "The Last Chance",
    "suburb": "North Melbourne"
+  },
+  {
+   "id": 119,
+   "title": "The Australian Bring Me The Horizon Show",
+   "start": "2026-11-07T09:00:00.000Z",
+   "price": 34.7,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/be7fde50-0105-4193-93b1-ee6359ed7311",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
   },
   {
    "id": 94,
@@ -1331,6 +1586,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 132,
+   "title": "The Punters - Live Trad Jazz",
+   "start": "2026-11-08T04:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 106,
    "title": "Friars Tuck x Girl Kitchen - FREE SHOW",
    "start": "2026-11-08T04:00:00.000Z",
@@ -1366,6 +1633,18 @@
    "venueId": "lulie",
    "venue": "Lulie Tavern",
    "suburb": "Abbotsford"
+  },
+  {
+   "id": 136,
+   "title": "BEER GARDEN: RETRATOS ENSEMBLE",
+   "start": "2026-11-08T05:00:00.084Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/8/beer-garden-retratos-ensemble",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 109,
@@ -1512,6 +1791,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 149,
+   "title": "OUR WEEKENDS END ON MONDAYS with wriding + Darning",
+   "start": "2026-11-09T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 120,
    "title": "Mother “Babygirl” Single Launch",
    "start": "2026-11-10T08:00:00.000Z",
@@ -1534,6 +1825,18 @@
    "venueId": "baropen",
    "venue": "Bar Open",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 152,
+   "title": "TINKY TUESDAY",
+   "start": "2026-11-10T09:00:00.257Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/7/tinky-tuesday-4gmlk-43r37-g8axd-ra2ep-8lgwy-edm32-nxwwc",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 128,
@@ -1594,6 +1897,18 @@
    "venueId": "evelyn",
    "venue": "The Evelyn",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 158,
+   "title": "mrina - I KNOW WHAT I WANT...",
+   "start": "2026-11-11T09:00:00.932Z",
+   "price": null,
+   "status": "free",
+   "url": "https://events.humanitix.com/i-know-what-i-want",
+   "linkType": "tickets",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 126,
@@ -1717,6 +2032,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 169,
+   "title": "WTF TUESDAY - SPECIAL THURSDAY EDITION! Guests TBC",
+   "start": "2026-11-12T09:00:00.792Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/10/13/wtf-tuesday-alex-siderov-amp-rustik-chairs-8k2r4",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 135,
    "title": "Fenn Wilson & The Weather Residency w/ Grace Mitchell and Mellowing",
    "start": "2026-11-12T09:00:00.879Z",
@@ -1727,6 +2054,19 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 171,
+   "title": "Kuzco",
+   "start": "2026-11-12T13:00:00.000Z",
+   "timeTba": true,
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 136,
@@ -1837,6 +2177,18 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 181,
+   "title": "Manorism",
+   "start": "2026-11-13T09:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/c6a507da-59e1-4f10-b961-be498997fbe6",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
+  },
+  {
    "id": 144,
    "title": "PLANET OF THE 8s",
    "start": "2026-11-13T09:00:00.000Z",
@@ -1922,6 +2274,31 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 189,
+   "title": "GAZAL X byjaye",
+   "start": "2026-11-13T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 190,
+   "title": "Dawn Again",
+   "start": "2026-11-13T13:00:00.000Z",
+   "timeTba": true,
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 151,
    "title": "Edinburgh Castle's 20th Birthday Party",
    "start": "2026-11-14T01:00:00.345Z",
@@ -1982,6 +2359,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 196,
+   "title": "BEER GARDEN: BOOF",
+   "start": "2026-11-14T05:00:00.360Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/14/beer-garden-boof",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 155,
    "title": "honk",
    "start": "2026-11-14T06:00:00.000Z",
@@ -2029,6 +2418,18 @@
    "venueId": "croxton",
    "venue": "The Croxton Bandroom",
    "suburb": "Thornbury"
+  },
+  {
+   "id": 201,
+   "title": "A Night In Texas \"The Darkest Side Of Humanity\" East Coast Tour",
+   "start": "2026-11-14T08:00:00.000Z",
+   "price": 29.95,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/ca6ff711-5a04-4c66-8398-206cffeec516",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
   },
   {
    "id": 159,
@@ -2151,6 +2552,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 212,
+   "title": "Antenna",
+   "start": "2026-11-14T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 168,
    "title": "Sunday Grunge ft. Dress",
    "start": "2026-11-15T02:00:00.000Z",
@@ -2187,6 +2600,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 216,
+   "title": "The Punters - Live Trad Jazz",
+   "start": "2026-11-15T04:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 171,
    "title": "Love Music. Fuck AI.",
    "start": "2026-11-15T04:00:00.000Z",
@@ -2220,6 +2645,18 @@
    "linkType": "details",
    "venueId": "edi",
    "venue": "Edinburgh Castle",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 220,
+   "title": "BEER GARDEN: The Daztones",
+   "start": "2026-11-15T05:00:00.102Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/15/beer-garden-the-daztones",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
    "suburb": "Brunswick"
   },
   {
@@ -2283,6 +2720,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 226,
+   "title": "Jamie Holmes QUARTET",
+   "start": "2026-11-15T08:00:00.700Z",
+   "price": 15.5,
+   "status": "onsale",
+   "url": "https://events.humanitix.com/jamie-holmes-quartet-the-brunny-green",
+   "linkType": "tickets",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 178,
    "title": "MILKBAR LIVE AT NIGHTHAWKS",
    "start": "2026-11-15T08:15:00.804Z",
@@ -2319,6 +2768,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 230,
+   "title": "OUR WEEKENDS END ON MONDAYS with FISHTALE + Dolly Lou & The Marionettes",
+   "start": "2026-11-16T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 181,
    "title": "Westival '26",
    "start": "2026-11-17T07:00:00.000Z",
@@ -2329,6 +2790,18 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 232,
+   "title": "Tongue Tied - Storytelling Event",
+   "start": "2026-11-17T08:00:00.622Z",
+   "price": null,
+   "status": "free",
+   "url": "https://events.humanitix.com/tongue-tied-u3rxuv6w",
+   "linkType": "tickets",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 182,
@@ -2353,6 +2826,18 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 235,
+   "title": "BLUEGRASS JAM NIGHT",
+   "start": "2026-11-18T08:00:00.107Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/5/21/bluegrass-jam-night-nf8tj-2x56h-jksc9-9h4mj",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 184,
@@ -2439,6 +2924,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 243,
+   "title": "Community Chess Club",
+   "start": "2026-11-19T08:00:00.352Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-hccbz-2kg9l-m2lw6-jnr6m-gbg2f",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 190,
    "title": "Suzie So Blue",
    "start": "2026-11-19T08:00:00.741Z",
@@ -2475,6 +2972,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 247,
+   "title": "Nathan Vega Presents: If Not For You - Live",
+   "start": "2026-11-19T08:30:00.000Z",
+   "price": 28.85,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/7465469d-29df-4ea6-b95a-cd76bb5779d5",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
+  },
+  {
    "id": 193,
    "title": "SPLIT LIP START A RIOT LIVE AT THE TOTE",
    "start": "2026-11-19T08:30:00.000Z",
@@ -2500,6 +3009,18 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 250,
+   "title": "Michelle Nicolle + Guests Jordan Murray (trombone) and Tom Lee (bass)",
+   "start": "2026-11-19T09:00:00.293Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon-hunt-clarinet-tom-lee-bass-trkga-tjxpe-45nb2-5pmzp-t8x7g-5smjp-kssat-nw6gy-akj8t",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 195,
    "title": "Fenn Wilson & The Weather Nighthawks Residency w/ Grace Mitchell and Mellowing",
    "start": "2026-11-19T09:00:00.656Z",
@@ -2510,6 +3031,19 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 252,
+   "title": "Mullen",
+   "start": "2026-11-19T13:00:00.000Z",
+   "timeTba": true,
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 196,
@@ -2620,6 +3154,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 262,
+   "title": "KHAN 'Welcome Home/End of Year' show",
+   "start": "2026-11-20T09:00:00.000Z",
+   "price": 39.79,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/b713f0e8-6e07-4e92-8e68-c962736da6cd",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
+  },
+  {
    "id": 204,
    "title": "GDP (USA)",
    "start": "2026-11-20T09:00:00.000Z",
@@ -2681,6 +3227,18 @@
    "suburb": "Abbotsford"
   },
   {
+   "id": 268,
+   "title": "Standing Circle",
+   "start": "2026-11-20T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 209,
    "title": "Ahadadream and Riria Day Party",
    "start": "2026-11-21T01:00:00.000Z",
@@ -2739,6 +3297,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 274,
+   "title": "BEER GARDEN: Dub Sessions",
+   "start": "2026-11-21T05:00:00.150Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/21/beer-garden-dub-sessions",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 213,
@@ -2849,6 +3419,18 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 284,
+   "title": "HARLOTT – Exsequis Album Launch",
+   "start": "2026-11-21T09:00:00.000Z",
+   "price": 29,
+   "status": "onsale",
+   "url": "https://theleadbeaterhotel.oztix.com.au/outlet/event/970bf817-c6b2-4bfa-bb92-589e558742c0",
+   "linkType": "tickets",
+   "venueId": "leadbeater",
+   "venue": "The Leadbeater Hotel",
+   "suburb": "Richmond"
+  },
+  {
    "id": 221,
    "title": "SMALLWAYS (NSW)",
    "start": "2026-11-21T09:00:00.000Z",
@@ -2909,6 +3491,21 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 290,
+   "title": "JNETT",
+   "start": "2026-11-21T11:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "lineup": [
+    "JNETT"
+   ],
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 242,
    "title": "LOUD WOMEN FESTIVAL AUSTRALIA - NAARM/Melbourne 2026",
    "start": "2026-11-22T00:30:00.000Z",
@@ -2943,6 +3540,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 294,
+   "title": "The Punters - Live Trad Jazz",
+   "start": "2026-11-22T04:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 228,
@@ -2992,6 +3601,18 @@
    "venueId": "nsc",
    "venue": "Northcote Social Club",
    "suburb": "Northcote"
+  },
+  {
+   "id": 299,
+   "title": "BEER GARDEN: La Mauvaise Réputation",
+   "start": "2026-11-22T05:00:00.697Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/22/beer-garden-la-mauvaise-rputation",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 232,
@@ -3066,6 +3687,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 306,
+   "title": "Baker, Mellonie & Adams (BMA) - Vinyl Single Launch (w/ Private Stash duo)",
+   "start": "2026-11-22T08:00:00.906Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/4c6f464b-ff27-4015-8593-6e2f7df07a1b",
+   "linkType": "tickets",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 238,
    "title": "John Ives - Tides EP Launch",
    "start": "2026-11-22T08:15:00.480Z",
@@ -3100,6 +3733,18 @@
    "venueId": "nsc",
    "venue": "Northcote Social Club",
    "suburb": "Northcote"
+  },
+  {
+   "id": 310,
+   "title": "OUR WEEKENDS END ON MONDAYS with Duvin",
+   "start": "2026-11-23T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
   },
   {
    "id": 258,
@@ -3269,6 +3914,18 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 325,
+   "title": "Michelle Nicolle + Guests Sam LeMann (guitar) and Hugh Stuckey (guitar)",
+   "start": "2026-11-26T09:00:00.071Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon-hunt-clarinet-tom-lee-bass-trkga-tjxpe-45nb2-5pmzp-t8x7g-5smjp-kssat-nw6gy-akj8t-s6rbz",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 253,
@@ -3463,6 +4120,19 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 342,
+   "title": "Jasper Miles",
+   "start": "2026-11-27T13:00:00.000Z",
+   "timeTba": true,
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 268,
    "title": "MATINEE: Trashcore",
    "start": "2026-11-28T02:00:00.000Z",
@@ -3509,6 +4179,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 347,
+   "title": "BEER GARDEN: Two Bean Soup",
+   "start": "2026-11-28T05:00:00.385Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/10/23/beer-garden-two-bean-soup",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 272,
@@ -3703,6 +4385,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 364,
+   "title": "The Punters - Live Trad Jazz",
+   "start": "2026-11-29T04:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
    "id": 288,
    "title": "Alex hamilton & foggy notion",
    "start": "2026-11-29T05:00:00.000Z",
@@ -3714,6 +4408,18 @@
    "venueId": "lulie",
    "venue": "Lulie Tavern",
    "suburb": "Abbotsford"
+  },
+  {
+   "id": 366,
+   "title": "BEER GARDEN: Gabe Fatin and Brian Abrahams",
+   "start": "2026-11-29T05:00:00.190Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/29/beer-garden-gabe-fatin-and-brian-abrahams",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 289,
@@ -3764,6 +4470,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 371,
+   "title": "FINE AND GOOD LIFE DRAWING",
+   "start": "2026-11-29T08:00:00.186Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/9/28/fine-and-good-life-drawing-eg7x8-85ts6-9z46n",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 293,
    "title": "‘Social Sanctuary’ with Skyscraper Stan, Madeline Leman + The Darlings Family Trust",
    "start": "2026-11-30T08:00:00.000Z",
@@ -3776,6 +4494,30 @@
    "suburb": "Northcote"
   },
   {
+   "id": 373,
+   "title": "OUR WEEKENDS END ON MONDAYS with Human Noise + Louis McDonald",
+   "start": "2026-11-30T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.puntersclubfitzroy.com/whats-on",
+   "linkType": "details",
+   "venueId": "punters",
+   "venue": "Punters Club",
+   "suburb": "Fitzroy"
+  },
+  {
+   "id": 374,
+   "title": "TINKY TUESDAY",
+   "start": "2026-12-01T09:00:00.928Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/7/tinky-tuesday-4gmlk-43r37-g8axd-ra2ep-8lgwy-edm32-nxwwc-y4swz",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 294,
    "title": "This is Daniel Serpa • “SIRPA” EP Launch",
    "start": "2026-12-03T08:00:00.000Z",
@@ -3786,6 +4528,18 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 376,
+   "title": "Community Chess Club",
+   "start": "2026-12-03T08:00:00.750Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-hccbz-2kg9l-m2lw6-jnr6m-ssct8",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 315,
@@ -3834,6 +4588,18 @@
    "venueId": "evelyn",
    "venue": "The Evelyn",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 381,
+   "title": "Michelle Nicolle + Guests Jon Hunt (clarinet, alto sax) and Tom Lee (bass)",
+   "start": "2026-12-03T09:00:00.208Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon-hunt-clarinet-tom-lee-bass-trkga-tjxpe-45nb2-5pmzp-t8x7g-5smjp-kssat-nw6gy-akj8t-s6rbz-lw99p",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 298,
@@ -4222,6 +4988,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 414,
+   "title": "JAZZ JAM OPEN MIC",
+   "start": "2026-12-06T08:30:00.558Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/5/jazz-jam-open-mic-35mfj-wemhh-7aphz-db9p4-p2rtw-6xfwx",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 328,
    "title": "CUUHRAIG - Melbourne",
    "start": "2026-12-06T09:00:00.000Z",
@@ -4329,6 +5107,18 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 424,
+   "title": "Michelle Nicolle + Guests Angela Davis (alto sax) and Tom Lee (bass)",
+   "start": "2026-12-10T09:00:00.538Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon-hunt-clarinet-tom-lee-bass-trkga-tjxpe-45nb2-5pmzp-t8x7g-5smjp-kssat-nw6gy-akj8t-s6rbz-c3sxt",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 360,
@@ -4595,6 +5385,30 @@
    "suburb": "Northcote"
   },
   {
+   "id": 447,
+   "title": "BLUEGRASS JAM NIGHT",
+   "start": "2026-12-16T08:00:00.277Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/5/21/bluegrass-jam-night-nf8tj-2x56h-jksc9-9h4mj-wwbkw",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 448,
+   "title": "Community Chess Club",
+   "start": "2026-12-17T08:00:00.751Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-hccbz-2kg9l-m2lw6-jnr6m-ssct8-nzgab",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 357,
    "title": "One Year of Unregistered Firearm Celebration",
    "start": "2026-12-17T08:30:00.000Z",
@@ -4605,6 +5419,18 @@
    "venueId": "lastchance",
    "venue": "The Last Chance",
    "suburb": "North Melbourne"
+  },
+  {
+   "id": 450,
+   "title": "Michelle Nicolle + Guests Mat Jodrell (trumpet) and Tom Lee (bass)",
+   "start": "2026-12-17T09:00:00.896Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon-hunt-clarinet-tom-lee-bass-trkga-tjxpe-45nb2-5pmzp-t8x7g-5smjp-kssat-nw6gy-kt2da",
+   "linkType": "details",
+   "venueId": "brunswickgreen",
+   "venue": "Brunswick Green",
+   "suburb": "Brunswick"
   },
   {
    "id": 358,
