@@ -316,6 +316,8 @@ const { venues } = JSON.parse(await readFile(new URL('../venues.json', import.me
 const only = process.argv.slice(2);
 let previous = { events: [] };
 try { previous = JSON.parse(await readFile(new URL('../public/events.json', import.meta.url))); } catch { /* first run */ }
+let previousStatus = { venues: [] };
+try { previousStatus = JSON.parse(await readFile(new URL('../public/status.json', import.meta.url))); } catch { /* first run */ }
 
 const now = Date.now();
 const todayMelb = new Intl.DateTimeFormat('en-CA', { timeZone: TZ }).format(new Date()); // YYYY-MM-DD
@@ -328,6 +330,8 @@ const status = { generatedAt: new Date().toISOString(), venues: [] };
 for (const v of venues) {
   if (only.length && !only.includes(v.id)) {
     all.push(...previous.events.filter((e) => e.venueId === v.id));
+    const ps = previousStatus.venues.find((x) => x.id === v.id);
+    if (ps) status.venues.push(ps);
     continue;
   }
   console.log(`> ${v.name}`);

@@ -20,7 +20,7 @@
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
-  function dayLabel(d) { return dayLabel(d).replace(',', ''); }
+  function dayLabel(d) { return dayFmt.format(d).replace(',', ''); }
   function melbDate(iso) { return dateFmt.format(new Date(iso)); }
   function addDays(ymd, n) {
     var d = new Date(ymd + 'T12:00:00Z');
@@ -162,7 +162,8 @@
       }
       render();
     })
-    .catch(function () {
+    .catch(function (err) {
+      console.error('Gig list error', err);
       document.getElementById('list').innerHTML = '<p class="loading">Couldn’t load the gig list. Try refreshing.</p>';
     });
 })();
