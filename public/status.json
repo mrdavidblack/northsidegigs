@@ -1,0 +1,152 @@
+{
+ "generatedAt": "2026-10-31T02:57:07.858Z",
+ "venues": [
+  {
+   "id": "tote",
+   "name": "The Tote",
+   "count": 10,
+   "keptFromLastRun": true,
+   "error": null
+  },
+  {
+   "id": "oldbar",
+   "name": "The Old Bar",
+   "count": 4,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "workers",
+   "name": "The Workers Club",
+   "count": 6,
+   "keptFromLastRun": true,
+   "error": null
+  },
+  {
+   "id": "nsc",
+   "name": "Northcote Social Club",
+   "count": 6,
+   "keptFromLastRun": true,
+   "error": null
+  },
+  {
+   "id": "evelyn",
+   "name": "The Evelyn",
+   "count": 17,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "curtin",
+   "name": "John Curtin Hotel",
+   "count": 19,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "retreat",
+   "name": "The Retreat Hotel",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "cactus",
+   "name": "Cactus Room",
+   "count": 14,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "baropen",
+   "name": "Bar Open",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "lulie",
+   "name": "Lulie Tavern",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "croxton",
+   "name": "The Croxton Bandroom",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "bergy",
+   "name": "Bergy Bandroom",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "lastchance",
+   "name": "The Last Chance",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "smith",
+   "name": "Smith St Hotel",
+   "count": 4,
+   "keptFromLastRun": true,
+   "error": null
+  },
+  {
+   "id": "howler",
+   "name": "Howler",
+   "count": 3,
+   "keptFromLastRun": true,
+   "error": "403 https://www.moshtix.com.au/v2/Home/VenueDetail/4534"
+  },
+  {
+   "id": "pennyblack",
+   "name": "The Penny Black",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "catfish",
+   "name": "The Catfish",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "jazzlab",
+   "name": "The Jazzlab",
+   "count": 12,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "nighthawks",
+   "name": "Nighthawks",
+   "count": 36,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "edi",
+   "name": "Edinburgh Castle",
+   "count": 20,
+   "keptFromLastRun": false,
+   "error": null
+  },
+  {
+   "id": "hex",
+   "name": "The Hex",
+   "count": 2,
+   "keptFromLastRun": false,
+   "error": null
+  }
+ ]
+}
