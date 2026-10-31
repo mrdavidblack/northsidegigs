@@ -362,7 +362,8 @@ function tidyCaps(t) {
   if (x.length < 4 || x !== x.toUpperCase() || !/[A-Z]/.test(x)) return x;
   return x.split(/(\s+)/).map((w) => {
     // Short words with no vowels (TTTDC, KTV) are band initials: leave them in capitals.
-    if (/^[A-Z0-9]{2,6}$/.test(w) && !/[AEIOUY]/.test(w)) return w;
+    const core = w.replace(/^[^A-Z0-9]+|[^A-Z0-9]+$/g, '');
+    if (/^[A-Z0-9]{2,6}$/.test(core) && !/[AEIOUY]/.test(core)) return w;
     return w.toLowerCase().replace(/(^|[&+(/'"-])([a-z])/g, (m, p1, c) => p1 + c.toUpperCase());
   }).join('');
 }
@@ -403,7 +404,7 @@ async function deserthighwaysStrategy(v) {
   let buf = [];
   for (let i = 0; i < L.length; i++) {
     const line = L[i];
-    if (/^FB EVENT$/i.test(line)) { buf = []; continue; }
+    if (/^FB EVENT$/i.test(line) || /^UPCOMING\b/i.test(line)) { buf = []; continue; }
     const m = line.match(dateRe);
     if (!m) { buf.push(line); continue; }
     const titleLines = buf.filter((b) => !/^UPCOMING/i.test(b));
@@ -437,6 +438,52 @@ async function deserthighwaysStrategy(v) {
   return out;
 }
 
+// Creature Bar: one calendar page with every month. Each gig reads: MONTH / day / weekday / time / title / price / "Read More".
+async function creatureStrategy(v) {
+  const page = v.pages[0];
+  const $ = cheerio.load(await get(page));
+  $('script, style, noscript').remove();
+  const hrefs = [];
+  $('a').each((_, a) => { if (/read more/i.test($(a).text())) hrefs.push(new URL($(a).attr('href') ?? '', page).href); });
+  $('br').replaceWith('\n');
+  $('p, h1, h2, h3, h4, h5, li, div, tr, td, a, span, time').append('\n');
+  const lines = $('body').text().split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
+  const MONTHS = ['JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUGUST', 'SEPTEMBER', 'OCTOBER', 'NOVEMBER', 'DECEMBER'];
+  const nowY = parseInt(new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric' }).format(new Date()), 10);
+  const nowM = parseInt(new Intl.DateTimeFormat('en-CA', { timeZone: TZ, month: 'numeric' }).format(new Date()), 10);
+  const found = [];
+  let month = null; let lastDay = 0; let yearBump = 0;
+  for (let i = 0; i < lines.length; i++) {
+    const mi = MONTHS.indexOf(lines[i].toUpperCase());
+    if (mi >= 0) { month = mi + 1; lastDay = 0; yearBump = 0; continue; }
+    if (!month || !/^\d{1,2}$/.test(lines[i]) || !/^(MON|TUE|WED|THU|FRI|SAT|SUN)$/i.test(lines[i + 1] ?? '')) continue;
+    // If a month heading is missing, a day number that goes backwards means the next month started.
+    if (parseInt(lines[i], 10) < lastDay) { month = month === 12 ? 1 : month + 1; if (month === 1) yearBump++; }
+    lastDay = parseInt(lines[i], 10);
+    const tm = (lines[i + 2] ?? '').match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$/i);
+    const title = lines[i + 3];
+    if (!tm || !title) continue;
+    let price = null; let free = false;
+    for (let k = i + 4; k < Math.min(i + 8, lines.length) && !/^read more$/i.test(lines[k]); k++) {
+      const pm = lines[k].match(/^\$(\d+(?:\.\d\d)?)/);
+      if (pm) price = parseFloat(pm[1]);
+      if (/^free( entry)?$/i.test(lines[k])) free = true;
+    }
+    let h = parseInt(tm[1], 10);
+    if (/pm/i.test(tm[3]) && h < 12) h += 12;
+    if (/am/i.test(tm[3]) && h === 12) h = 0;
+    const year = (month < nowM - 1 ? nowY + 1 : nowY) + yearBump;
+    found.push({
+      title: decode(title),
+      start: melbourneToIso(`${year}-${String(month).padStart(2, '0')}-${lines[i].padStart(2, '0')}`, `${String(h).padStart(2, '0')}:${tm[2] ?? '00'}`),
+      price, status: free ? 'free' : (price ? 'onsale' : 'unknown'),
+      linkType: 'details'
+    });
+  }
+  // Each gig has its own page; the "Read More" links are in the same order.
+  return found.map((e, i) => ({ ...e, url: hrefs.length === found.length ? hrefs[i] : page }));
+}
+
 // The Lomond Hotel (Lowie Live): a plain event list, each gig linking to a page that usually carries an Eventbrite link.
 async function lomondStrategy(v) {
   const page = v.pages[0];
@@ -467,7 +514,7 @@ async function lomondStrategy(v) {
   return out;
 }
 
-const STRATEGIES = { baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
+const STRATEGIES = { creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
 
 // ---- main ----
 

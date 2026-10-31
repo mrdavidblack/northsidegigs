@@ -1,5 +1,5 @@
 {
-  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie). render: true opens the listing in headless Chrome (use when the plain page shows old or missing gigs, as at the Bergy). muzeek: the muzeek.ai events widget API (Punters Club); link is the page visitors are sent to. loadMore: text of a \"Show more\" button to keep clicking (opens the page in headless Chrome). baroussou, deserthighways, lomond: readers written for those three sites.",
+  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie). render: true opens the listing in headless Chrome (use when the plain page shows old or missing gigs, as at the Bergy). muzeek: the muzeek.ai events widget API (Punters Club); link is the page visitors are sent to. loadMore: text of a \"Show more\" button to keep clicking (opens the page in headless Chrome). baroussou, deserthighways, lomond: readers written for those three sites. creature: reads the Creature Bar calendar page.",
   "venues": [
     {
       "id": "tote",
@@ -68,7 +68,8 @@
       "pages": [
         "https://retreathotelbrunswick.com.au/events"
       ],
-      "loadMore": "show more events"
+      "loadMore": "show more events",
+      "exclude": "mario kart"
     },
     {
       "id": "cactus",
@@ -270,11 +271,10 @@
       "id": "creature",
       "name": "Creature Bar",
       "suburb": "Brunswick East",
-      "strategy": "links",
+      "strategy": "creature",
       "pages": [
         "https://www.creaturebar.com.au/events/"
-      ],
-      "follow": "/events/[^/]+/?$"
+      ]
     }
   ],
   "_disabled": {
