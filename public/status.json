@@ -1,25 +1,21 @@
 {
- "generatedAt": "2026-10-31T03:30:08.160Z",
+ "generatedAt": "2026-10-31T03:39:44.693Z",
  "venues": [
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 0,
+   "count": 27,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 83,
+    "fetched": 30,
     "failed": [],
-    "ticketLinks": 41,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/62737605-caa8-40c6-970a-b3ac8c8b2744",
-     "https://tickets.oztix.com.au/outlet/event/22e2e04a-cade-4ccb-9e98-4bc017340535",
-     "https://tickets.oztix.com.au/outlet/event/faba0961-2009-459d-b112-8488eac25cf3"
-    ],
+    "ticketLinks": 29,
+    "noEventData": [],
     "firstFetches": [
-     "200 https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/62737605-caa8-40c6-970a-b3ac8c8b2744",
-     "200 (rendered) https://tickets.oztix.com.au/outlet/event/62737605-caa8-40c6-970a-b3ac8c8b2744"
+     "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
+     "200 https://tickets.oztix.com.au/outlet/event/e9c511f8-b1b0-4b15-bf62-38a49bd6403a",
+     "200 https://tickets.oztix.com.au/outlet/event/0823d49e-e620-4174-8d7a-f8604af809b1"
     ]
    }
   }

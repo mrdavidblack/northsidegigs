@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T03:30:08.160Z",
+ "generatedAt": "2026-10-31T03:39:44.693Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -37,6 +37,18 @@
    "venueId": "lastchance",
    "venue": "The Last Chance",
    "suburb": "North Melbourne"
+  },
+  {
+   "id": 4,
+   "title": "MELBOURNE’S MOST FRIGHTENING ft: GUTLESS, TUMOUR, SCATTERED LIMBS, DEATH TAX and BLIGHT",
+   "start": "2026-10-31T08:00:00.000Z",
+   "price": 28,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/e9c511f8-b1b0-4b15-bf62-38a49bd6403a",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 4,
@@ -558,6 +570,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 48,
+   "title": "Surf Trash 'No Chaser' Album Tour",
+   "start": "2026-11-05T08:00:00.000Z",
+   "price": 35,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/0823d49e-e620-4174-8d7a-f8604af809b1",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 47,
    "title": "Tenderheart / Turge / Keyo Roses Flying Circus",
    "start": "2026-11-05T08:00:00.000Z",
@@ -749,6 +773,18 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 65,
+   "title": "Cry Club + Worm Girlz + FVNERAL + Sunsick Daisy present: The Gay Agenda",
+   "start": "2026-11-06T08:30:00.000Z",
+   "price": 43.35,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/e0a1d968-cec1-48d2-b8bc-73eaf8beba44",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 63,
@@ -980,6 +1016,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 85,
+   "title": "Idols Minds are Back!",
+   "start": "2026-11-07T04:00:00.000Z",
+   "price": 19.9,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/09342aa6-d3f6-403f-aa50-d7b67f4d49a5",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 82,
    "title": "DALLAS TERRORS & BLOWN CLONES",
    "start": "2026-11-07T04:00:00.000Z",
@@ -1075,6 +1123,18 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 94,
+   "title": "The Colliflowers 'Unforgettable Love' Tour",
+   "start": "2026-11-07T09:00:00.000Z",
+   "price": 28.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/003922f5-efd1-45fe-8794-3136bd19f094",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 90,
@@ -1356,6 +1416,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 118,
+   "title": "The Bawdies 'This is the Party' Aus Tour",
+   "start": "2026-11-08T07:30:00.000Z",
+   "price": 64.3,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/d13668cf-2f68-4c22-bab8-aaa12f0d23da",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 113,
    "title": "Mosh for Palestine - Supported by Heavy Delay, The cufflinx, your last words.",
    "start": "2026-11-08T07:30:00.000Z",
@@ -1464,6 +1536,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 128,
+   "title": "Lucy Tuck Single Launch",
+   "start": "2026-11-11T08:00:00.000Z",
+   "price": 22.95,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/6d6ecd56-2606-4ca9-adf7-25b05327eaee",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 122,
    "title": "DOLE NIGHT w/ Flicker Vetigo + Smooth Brains + Namaric",
    "start": "2026-11-11T08:00:00.000Z",
@@ -1534,6 +1618,18 @@
    "venueId": "baropen",
    "venue": "Bar Open",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 135,
+   "title": "Sophie Salter Debut Headline Show",
+   "start": "2026-11-12T08:00:00.000Z",
+   "price": 19.9,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/d7e79b7d-dc47-4f2b-a96d-3ce4b2da7750",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 128,
@@ -1655,6 +1751,18 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 146,
+   "title": "Civic Video ‘Making Room For Others Tour’",
+   "start": "2026-11-13T09:00:00.000Z",
+   "price": 28.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/384dd21b-bf5c-40db-886f-acbd5bab30d2",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 138,
@@ -1826,6 +1934,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 161,
+   "title": "harrykirby 'All Your Friends' Tour",
+   "start": "2026-11-14T02:00:00.000Z",
+   "price": 30,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/58b28acb-5579-4817-b0ed-07445d4ea6e7",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 152,
    "title": "Grevillea Live at Last Chance Front Bar - FREE ENTRY!!",
    "start": "2026-11-14T04:00:00.000Z",
@@ -1921,6 +2041,18 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 170,
+   "title": "MAJAK DOOR ‘SO GOOD’ SINGLE LAUNCH",
+   "start": "2026-11-14T08:30:00.000Z",
+   "price": 33.15,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/9ea97349-c98e-40ff-ba46-eea3ae3a30c8",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 160,
@@ -2091,6 +2223,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 185,
+   "title": "Amanduh - 'Hot Head' Single Launch",
+   "start": "2026-11-15T06:00:00.000Z",
+   "price": 26.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/1b0a3c0f-ce2a-46c9-8d87-88f0b71378e5",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 174,
    "title": "The Workers Comedy Club",
    "start": "2026-11-15T07:30:00.000Z",
@@ -2245,6 +2389,18 @@
    "venueId": "nsc",
    "venue": "Northcote Social Club",
    "suburb": "Northcote"
+  },
+  {
+   "id": 199,
+   "title": "Erica Avenue - Live at the Bergy Bandroom",
+   "start": "2026-11-19T08:00:00.000Z",
+   "price": 22.95,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/3aacd9ee-7fc5-4b4d-a7f1-9c77e0f49fc8",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 187,
@@ -2404,6 +2560,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 213,
+   "title": "VANISHING POINT - Eremition album launch w/ BLACK MAJESTY",
+   "start": "2026-11-20T09:00:00.000Z",
+   "price": 38.25,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/8b10b0bf-986f-4685-a2e9-02c278987dc9",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 200,
    "title": "Kosmetika - EU SEND OFF SHOW",
    "start": "2026-11-20T09:00:00.000Z",
@@ -2537,6 +2705,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 225,
+   "title": "Bianca Berto - 'My World' Single Launch",
+   "start": "2026-11-21T02:00:00.000Z",
+   "price": 11.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/582b59cd-b611-4a1d-90a6-66d4c9c203eb",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 211,
    "title": "FASEHORSE LOVE ft. FASEHORSE",
    "start": "2026-11-21T02:00:00.000Z",
@@ -2583,6 +2763,18 @@
    "venueId": "tote",
    "venue": "The Tote",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 230,
+   "title": "Grace de Vos Presents: the 'Let's Paint The Mirror' EP Launch.",
+   "start": "2026-11-21T08:30:00.000Z",
+   "price": 14.3,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/aa71403d-ddae-4d0d-8d35-68080d26f905",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 215,
@@ -2715,6 +2907,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 242,
+   "title": "LOUD WOMEN FESTIVAL AUSTRALIA - NAARM/Melbourne 2026",
+   "start": "2026-11-22T00:30:00.000Z",
+   "price": 22.95,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/46f48941-9f28-432f-b2ba-ae5829a9fb50",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 226,
@@ -2898,6 +3102,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 258,
+   "title": "Princes Hill Year 10 Music Night",
+   "start": "2026-11-25T07:00:00.000Z",
+   "price": 13.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/dea74d7e-7962-4518-a906-36509b1fb39d",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 241,
    "title": "ELLIOT & VINCENT (NZ) PLAY THE CURTIN",
    "start": "2026-11-25T08:00:00.000Z",
@@ -3006,6 +3222,18 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 268,
+   "title": "Charlie Pittman East Coast Tour 2026",
+   "start": "2026-11-26T09:00:00.000Z",
+   "price": 35,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/0230c896-8427-42af-9dd6-7908cf8654ec",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 250,
    "title": "Neon goblin + Sweet Nothing",
    "start": "2026-11-26T09:00:00.000Z",
@@ -3089,6 +3317,18 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 276,
+   "title": "Bagful Of Beez Album Launch of 'In Parallax'",
+   "start": "2026-11-27T08:30:00.000Z",
+   "price": 22.95,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/f0f28138-4cc9-4e19-b1bd-d6af14035844",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 257,
@@ -3548,6 +3788,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 315,
+   "title": "Elle Murphy - 'Swapsies' Tour",
+   "start": "2026-12-03T08:30:00.000Z",
+   "price": 22.95,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/63a5f452-a9c3-4107-9c6b-dcabbb287b85",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 295,
    "title": "Cosimo w/ Wriding & Frog-eating Bat",
    "start": "2026-12-03T08:30:00.000Z",
@@ -3693,6 +3945,18 @@
    "suburb": "North Melbourne"
   },
   {
+   "id": 328,
+   "title": "RSOM EOY EVENT 2026",
+   "start": "2026-12-05T02:45:00.000Z",
+   "price": 16.85,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/dc74d9c4-74d0-4639-b6e3-cc9a6e6e9796",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 307,
    "title": "Sanszu/Celltowers/Morlyn Insulators",
    "start": "2026-12-05T04:00:00.733Z",
@@ -3715,6 +3979,18 @@
    "venueId": "smith",
    "venue": "Smith St Hotel",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 331,
+   "title": "Liquid Zoo 'DON'T FEED THE ANIMALS' Tour",
+   "start": "2026-12-05T08:00:00.000Z",
+   "price": 28.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/9abb24f5-e84b-44aa-a87e-186c032e504d",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 309,
@@ -4055,6 +4331,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 360,
+   "title": "FANGZ - The Final Tour | Melbourne",
+   "start": "2026-12-11T08:30:00.000Z",
+   "price": 28.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/8dd533ce-2f1d-450a-991e-2943fa7e8bc3",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 337,
    "title": "TWISTED TEENS (USA)",
    "start": "2026-12-11T08:30:00.000Z",
@@ -4125,6 +4413,18 @@
    "venueId": "nighthawks",
    "venue": "Nighthawks",
    "suburb": "Collingwood"
+  },
+  {
+   "id": 367,
+   "title": "OBLIVIOUS MAXIMUS and FRIENDS & ENEMIES - CHRISTMAS PARTY!",
+   "start": "2026-12-12T06:30:00.000Z",
+   "price": 22.95,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/2d60d399-140e-4dc9-bda8-616e5c86ec9b",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 343,
@@ -4319,6 +4619,18 @@
    "suburb": "Collingwood"
   },
   {
+   "id": 384,
+   "title": "The Seven Ups Xmas Special",
+   "start": "2026-12-18T09:00:00.000Z",
+   "price": 38.25,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/6bc9f2fb-8883-4f7f-98d6-711aa4d3e502",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
    "id": 359,
    "title": "Nadia Reid",
    "start": "2026-12-18T09:00:00.000Z",
@@ -4389,6 +4701,18 @@
    "venueId": "evelyn",
    "venue": "The Evelyn",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 391,
+   "title": "Selfish Sons 2026 Tour | Melbourne",
+   "start": "2026-12-19T09:00:00.000Z",
+   "price": 29.9,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/b7185e18-51e4-4743-bccd-7dd2909591bf",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
   },
   {
    "id": 365,
