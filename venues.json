@@ -275,6 +275,16 @@
       "pages": [
         "https://www.creaturebar.com.au/events/"
       ]
+    },
+    {
+      "id": "ballroom",
+      "name": "Brunswick Ballroom",
+      "suburb": "Brunswick",
+      "strategy": "links",
+      "pages": [
+        "https://brunswickballroom.com.au/whats-on/"
+      ],
+      "render": true
     }
   ],
   "_disabled": {
