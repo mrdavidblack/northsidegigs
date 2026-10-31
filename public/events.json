@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-31T03:39:44.693Z",
+ "generatedAt": "2026-10-31T04:04:40.806Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
    "id": 1,
-   "title": "\ud83c\udf83 HALLOWEEN OF HAVOK \ud83c\udf83",
+   "title": "🎃 HALLOWEEN OF HAVOK 🎃",
    "start": "2026-10-31T04:00:00.000Z",
    "price": 16.35,
    "status": "onsale",
@@ -40,7 +40,7 @@
   },
   {
    "id": 4,
-   "title": "MELBOURNE\u2019S MOST FRIGHTENING ft: GUTLESS, TUMOUR, SCATTERED LIMBS, DEATH TAX and BLIGHT",
+   "title": "MELBOURNE’S MOST FRIGHTENING ft: GUTLESS, TUMOUR, SCATTERED LIMBS, DEATH TAX and BLIGHT",
    "start": "2026-10-31T08:00:00.000Z",
    "price": 28,
    "status": "onsale",
@@ -101,7 +101,7 @@
   },
   {
    "id": 8,
-   "title": "Le Shiv - Yada Yada national album tour \u2013 MELBOURNE",
+   "title": "Le Shiv - Yada Yada national album tour – MELBOURNE",
    "start": "2026-10-31T09:00:00.000Z",
    "price": 37.34,
    "status": "onsale",
@@ -427,7 +427,7 @@
   },
   {
    "id": 35,
-   "title": "The Retreat's Birthday Bash feat. Arabella and the Heist + Platonic Sex + Hana & Jessie-Lee\u2019s Bad Habits + Laura Norda + Pussy Horse + RED40PA!NCLUB",
+   "title": "The Retreat's Birthday Bash feat. Arabella and the Heist + Platonic Sex + Hana & Jessie-Lee’s Bad Habits + Laura Norda + Pussy Horse + RED40PA!NCLUB",
    "start": "2026-11-03T04:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -463,7 +463,7 @@
   },
   {
    "id": 38,
-   "title": "The JazzLab Jams \u2013 Hosted by The Hue Blanes Trio",
+   "title": "The JazzLab Jams – Hosted by The Hue Blanes Trio",
    "start": "2026-11-03T08:30:00.000Z",
    "price": 10,
    "status": "onsale",
@@ -523,7 +523,7 @@
   },
   {
    "id": 43,
-   "title": "Honey Eyed w/ NY\u00cbRA + Ron Armstrong",
+   "title": "Honey Eyed w/ NYËRA + Ron Armstrong",
    "start": "2026-11-04T09:00:00.000Z",
    "price": 15,
    "status": "onsale",
@@ -643,7 +643,7 @@
   },
   {
    "id": 52,
-   "title": "Our Demise \u201cDESPONDENCE\u201d TOUR- Melbourne",
+   "title": "Our Demise “DESPONDENCE” TOUR- Melbourne",
    "start": "2026-11-05T08:30:00.000Z",
    "price": 23.5,
    "status": "onsale",
@@ -752,11 +752,11 @@
   },
   {
    "id": 61,
-   "title": "Duvin \u201cIrrelevant Magic\u201d launch",
+   "title": "Duvin “Irrelevant Magic” launch",
    "start": "2026-11-06T08:00:00.000Z",
    "price": 17.33,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/duvin-\u201cirrelevant-magic\u201d-launch/200860",
+   "url": "https://www.moshtix.com.au/v2/event/duvin-“irrelevant-magic”-launch/200860",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
@@ -896,7 +896,7 @@
   },
   {
    "id": 72,
-   "title": "SICK VISOR \u201806 Camry single launch",
+   "title": "SICK VISOR ‘06 Camry single launch",
    "start": "2026-11-06T09:00:00.000Z",
    "price": 19.9,
    "status": "onsale",
@@ -932,7 +932,7 @@
   },
   {
    "id": 75,
-   "title": "D\u00ebrty B\u00ebrd (Single Launch) w/ Ludes + Tommy D Tommee D",
+   "title": "Dërty Bërd (Single Launch) w/ Ludes + Tommy D Tommee D",
    "start": "2026-11-06T09:30:00.000Z",
    "price": 20,
    "status": "onsale",
@@ -1053,11 +1053,11 @@
   },
   {
    "id": 84,
-   "title": "ECCA VANDAL - \u2018Looking For People to Unfollow\u2019 Album Tour (Matinee)",
+   "title": "ECCA VANDAL - ‘Looking For People to Unfollow’ Album Tour (Matinee)",
    "start": "2026-11-07T05:30:00.000Z",
    "price": 44.37,
    "status": "soldout",
-   "url": "https://www.moshtix.com.au/v2/event/ecca-vandal-\u2018looking-for-people-to-unfollow\u2019-album-tour-matinee/196680",
+   "url": "https://www.moshtix.com.au/v2/event/ecca-vandal-‘looking-for-people-to-unfollow’-album-tour-matinee/196680",
    "linkType": "tickets",
    "venueId": "howler",
    "venue": "Howler",
@@ -1100,7 +1100,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 88,
+   "id": 92,
    "title": "Dylan Cosgriff",
    "start": "2026-11-07T08:30:00.000Z",
    "timeTba": false,
@@ -1162,7 +1162,7 @@
   },
   {
    "id": 92,
-   "title": "Lillian Albazi and Oscar Neyland \u201cBright Phantoms\u201d Debut Album Launch + Holly Moore and Aaron Choulai",
+   "title": "Lillian Albazi and Oscar Neyland “Bright Phantoms” Debut Album Launch + Holly Moore and Aaron Choulai",
    "start": "2026-11-07T09:00:00.000Z",
    "price": 40,
    "status": "onsale",
@@ -1258,11 +1258,11 @@
   },
   {
    "id": 100,
-   "title": "ECCA VANDAL - \u2018Looking For People to Unfollow\u2019 Album Tour",
+   "title": "ECCA VANDAL - ‘Looking For People to Unfollow’ Album Tour",
    "start": "2026-11-07T09:30:00.000Z",
    "price": 38.71,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/ecca-vandal-\u2018looking-for-people-to-unfollow\u2019-album-tour/196036",
+   "url": "https://www.moshtix.com.au/v2/event/ecca-vandal-‘looking-for-people-to-unfollow’-album-tour/196036",
    "linkType": "tickets",
    "venueId": "howler",
    "venue": "Howler",
@@ -1282,7 +1282,7 @@
    "suburb": "Abbotsford"
   },
   {
-   "id": 102,
+   "id": 107,
    "title": "Wooden Soldiers",
    "start": "2026-11-07T13:00:00.000Z",
    "timeTba": true,
@@ -1489,7 +1489,7 @@
   },
   {
    "id": 118,
-   "title": "\u2018Social Sanctuary\u2019 with Greta O'Leary, Stenn Francis-Deare + Bella Cloud",
+   "title": "‘Social Sanctuary’ with Greta O'Leary, Stenn Francis-Deare + Bella Cloud",
    "start": "2026-11-09T08:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -1513,7 +1513,7 @@
   },
   {
    "id": 120,
-   "title": "Mother \u201cBabygirl\u201d Single Launch",
+   "title": "Mother “Babygirl” Single Launch",
    "start": "2026-11-10T08:00:00.000Z",
    "price": 12.75,
    "status": "onsale",
@@ -1609,7 +1609,7 @@
   },
   {
    "id": 127,
-   "title": "Bad Fl\u00e2neur",
+   "title": "Bad Flâneur",
    "start": "2026-11-12T08:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -1754,7 +1754,7 @@
   },
   {
    "id": 146,
-   "title": "Civic Video \u2018Making Room For Others Tour\u2019",
+   "title": "Civic Video ‘Making Room For Others Tour’",
    "start": "2026-11-13T09:00:00.000Z",
    "price": 28.05,
    "status": "onsale",
@@ -1802,7 +1802,7 @@
   },
   {
    "id": 141,
-   "title": "Alta Falls - \u2018Don't Make Me A Number\u2019 EP Tour",
+   "title": "Alta Falls - ‘Don't Make Me A Number’ EP Tour",
    "start": "2026-11-13T09:00:00.000Z",
    "price": 56.8,
    "status": "onsale",
@@ -1826,7 +1826,7 @@
   },
   {
    "id": 143,
-   "title": "H\u00c4VITT\u00c4J\u00c4T - LAUNCH PARTY FOR THE NEW 7\" EP 'ILMAN TOIVOA'",
+   "title": "HÄVITTÄJÄT - LAUNCH PARTY FOR THE NEW 7\" EP 'ILMAN TOIVOA'",
    "start": "2026-11-13T09:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -1862,7 +1862,7 @@
   },
   {
    "id": 146,
-   "title": "Public Figures 'Push My Buttons' Tour \u2014 Naarm/Melbourne",
+   "title": "Public Figures 'Push My Buttons' Tour — Naarm/Melbourne",
    "start": "2026-11-13T09:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -2044,7 +2044,7 @@
   },
   {
    "id": 170,
-   "title": "MAJAK DOOR \u2018SO GOOD\u2019 SINGLE LAUNCH",
+   "title": "MAJAK DOOR ‘SO GOOD’ SINGLE LAUNCH",
    "start": "2026-11-14T08:30:00.000Z",
    "price": 33.15,
    "status": "onsale",
@@ -2260,7 +2260,7 @@
   },
   {
    "id": 176,
-   "title": "Hazelwood Project play Jazz at the Tote with The Owen Wilkins Quartet and So Called \u201cFree-Thinkers\u201d",
+   "title": "Hazelwood Project play Jazz at the Tote with The Owen Wilkins Quartet and So Called “Free-Thinkers”",
    "start": "2026-11-15T08:00:00.000Z",
    "price": 16.35,
    "status": "onsale",
@@ -2308,7 +2308,7 @@
   },
   {
    "id": 180,
-   "title": "\u2018Social Sanctuary\u2019 with feelings, Astari + Jac Donnelly",
+   "title": "‘Social Sanctuary’ with feelings, Astari + Jac Donnelly",
    "start": "2026-11-16T08:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -2609,7 +2609,7 @@
   },
   {
    "id": 203,
-   "title": "WoodHill \u2018Your Sound\u2019 Album Launch Tour",
+   "title": "WoodHill ‘Your Sound’ Album Launch Tour",
    "start": "2026-11-20T09:00:00.000Z",
    "price": 17.85,
    "status": "onsale",
@@ -2742,7 +2742,7 @@
   },
   {
    "id": 213,
-   "title": "Jacot\u00e9ne Australia Headline Tour",
+   "title": "Jacoténe Australia Headline Tour",
    "start": "2026-11-21T08:00:00.000Z",
    "price": 30,
    "status": "onsale",
@@ -3079,7 +3079,7 @@
   },
   {
    "id": 239,
-   "title": "Y\u012aN Y\u012aN",
+   "title": "YĪN YĪN",
    "start": "2026-11-22T09:00:00.000Z",
    "price": 79.9,
    "status": "onsale",
@@ -3091,7 +3091,7 @@
   },
   {
    "id": 240,
-   "title": "\u2018Social Sanctuary\u2019 with Mellowing, Great Australian Bank + Rhom Konnie",
+   "title": "‘Social Sanctuary’ with Mellowing, Great Australian Bank + Rhom Konnie",
    "start": "2026-11-23T08:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -3296,11 +3296,11 @@
   },
   {
    "id": 255,
-   "title": "Azure Ryder \u2018Even Flowers Can Bruise\u2019 Album Tour",
+   "title": "Azure Ryder ‘Even Flowers Can Bruise’ Album Tour",
    "start": "2026-11-27T08:00:00.000Z",
    "price": 29.57,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/azure-ryder-\u2018even-flowers-can-bruise\u2019-album-tour/200743",
+   "url": "https://www.moshtix.com.au/v2/event/azure-ryder-‘even-flowers-can-bruise’-album-tour/200743",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
@@ -3356,7 +3356,7 @@
   },
   {
    "id": 259,
-   "title": "ROMANIE \u2013 It's Not That Funny Tour",
+   "title": "ROMANIE – It's Not That Funny Tour",
    "start": "2026-11-27T09:00:00.000Z",
    "price": 21.45,
    "status": "onsale",
@@ -3452,7 +3452,7 @@
   },
   {
    "id": 267,
-   "title": "SEIMS \u201cSorry, Perth. It\u2019s Not You, It\u2019s Us\u201d National Tour with special guests Mad Vantage and Precious Mess",
+   "title": "SEIMS “Sorry, Perth. It’s Not You, It’s Us” National Tour with special guests Mad Vantage and Precious Mess",
    "start": "2026-11-27T10:00:00.000Z",
    "price": 23.5,
    "status": "onsale",
@@ -3524,11 +3524,11 @@
   },
   {
    "id": 273,
-   "title": "DON\u2019S PARTY - Election Night \u201926 ft. Winternationale, Mote, S: Bahn and Signal Chain.",
+   "title": "DON’S PARTY - Election Night ’26 ft. Winternationale, Mote, S: Bahn and Signal Chain.",
    "start": "2026-11-28T08:00:00.000Z",
    "price": 17.33,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/don\u2019s-party-election-night-\u201926-ft-winternationale-mote-s-bahn-and-signal-ch/201678",
+   "url": "https://www.moshtix.com.au/v2/event/don’s-party-election-night-’26-ft-winternationale-mote-s-bahn-and-signal-ch/201678",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
@@ -3536,11 +3536,11 @@
   },
   {
    "id": 274,
-   "title": "THIS ROAD WE\u2019RE ON: Quiet Essence live w/ Achey Peace & The Sun Is A Deadly Laser",
+   "title": "THIS ROAD WE’RE ON: Quiet Essence live w/ Achey Peace & The Sun Is A Deadly Laser",
    "start": "2026-11-28T08:00:00.000Z",
    "price": 20,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/this-road-we\u2019re-on-quiet-essence-live-w-achey-peace-the-sun-is-a-deadly-laser/200277",
+   "url": "https://www.moshtix.com.au/v2/event/this-road-we’re-on-quiet-essence-live-w-achey-peace-the-sun-is-a-deadly-laser/200277",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
@@ -3584,7 +3584,7 @@
   },
   {
    "id": 278,
-   "title": "Smacked Youth \u2013 Aus Ball of Fire Tour \u2013 Melbourne",
+   "title": "Smacked Youth – Aus Ball of Fire Tour – Melbourne",
    "start": "2026-11-28T09:00:00.000Z",
    "price": 23.5,
    "status": "onsale",
@@ -3765,7 +3765,7 @@
   },
   {
    "id": 293,
-   "title": "\u2018Social Sanctuary\u2019 with Skyscraper Stan, Madeline Leman + The Darlings Family Trust",
+   "title": "‘Social Sanctuary’ with Skyscraper Stan, Madeline Leman + The Darlings Family Trust",
    "start": "2026-11-30T08:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -3777,11 +3777,11 @@
   },
   {
    "id": 294,
-   "title": "This is Daniel Serpa \u2022 \u201cSIRPA\u201d EP Launch",
+   "title": "This is Daniel Serpa • “SIRPA” EP Launch",
    "start": "2026-12-03T08:00:00.000Z",
    "price": 22.43,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/this-is-daniel-serpa-\u2022-\u201csirpa\u201d-ep-launch/202042",
+   "url": "https://www.moshtix.com.au/v2/event/this-is-daniel-serpa-•-“sirpa”-ep-launch/202042",
    "linkType": "tickets",
    "venueId": "smith",
    "venue": "Smith St Hotel",
@@ -3825,7 +3825,7 @@
   },
   {
    "id": 297,
-   "title": "fauna Presents: \u2018WHAT\u2019S THE MATTER\u2019 Single Launch!!!",
+   "title": "fauna Presents: ‘WHAT’S THE MATTER’ Single Launch!!!",
    "start": "2026-12-03T09:00:00.000Z",
    "price": 12.8,
    "status": "onsale",
@@ -3934,7 +3934,7 @@
   },
   {
    "id": 306,
-   "title": "\u017dIVA, Ex Ponto & Promaja",
+   "title": "ŽIVA, Ex Ponto & Promaja",
    "start": "2026-12-04T09:30:00.000Z",
    "price": 23.5,
    "status": "onsale",
@@ -4090,7 +4090,7 @@
   },
   {
    "id": 317,
-   "title": "\u2671 DECEITS \u2671 Australian Tour",
+   "title": "♱ DECEITS ♱ Australian Tour",
    "start": "2026-12-05T09:00:00.000Z",
    "price": 49,
    "status": "onsale",
@@ -4452,7 +4452,7 @@
   },
   {
    "id": 345,
-   "title": "Turbojugend Melbourne presents\u2026 Grindhouse\u2026..",
+   "title": "Turbojugend Melbourne presents… Grindhouse…..",
    "start": "2026-12-12T08:00:00.000Z",
    "price": 16.35,
    "status": "onsale",
@@ -4584,7 +4584,7 @@
   },
   {
    "id": 356,
-   "title": "\u2018Social Sanctuary\u2019 with Myki Jay, Haley Holgate + Maisie B.",
+   "title": "‘Social Sanctuary’ with Myki Jay, Haley Holgate + Maisie B.",
    "start": "2026-12-14T08:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -4644,7 +4644,7 @@
   },
   {
    "id": 360,
-   "title": "CLAMM \u2018And In Glue\u2019 Australian Album Tour",
+   "title": "CLAMM ‘And In Glue’ Australian Album Tour",
    "start": "2026-12-18T09:00:00.000Z",
    "price": 28.6,
    "status": "onsale",

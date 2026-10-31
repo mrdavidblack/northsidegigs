@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T03:39:44.693Z",
+ "generatedAt": "2026-10-31T04:04:40.806Z",
  "venues": [
   {
    "id": "bergy",
@@ -16,6 +16,24 @@
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
      "200 https://tickets.oztix.com.au/outlet/event/e9c511f8-b1b0-4b15-bf62-38a49bd6403a",
      "200 https://tickets.oztix.com.au/outlet/event/0823d49e-e620-4174-8d7a-f8604af809b1"
+    ]
+   }
+  },
+  {
+   "id": "hex",
+   "name": "The Hex",
+   "count": 2,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 3,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://thehex.au/",
+     "200 https://thehex.au/?20261107_dylan_cosgriff",
+     "200 https://thehex.au/?20261108_wooden_soldiers"
     ]
    }
   }
