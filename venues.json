@@ -1,26 +1,187 @@
 {
-  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue.",
+  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie).",
   "venues": [
-    { "id": "tote", "name": "The Tote", "suburb": "Collingwood", "strategy": "links", "pages": ["https://thetotehotel.com/", "https://thetotehotel.oztix.com.au/"] },
-    { "id": "oldbar", "name": "The Old Bar", "suburb": "Fitzroy", "strategy": "links", "pages": ["https://www.theoldbar.com.au/", "https://theoldbar.oztix.com.au/"] },
-    { "id": "workers", "name": "The Workers Club", "suburb": "Fitzroy", "strategy": "links", "pages": ["https://www.theworkersclub.com.au/", "https://theworkersclub.oztix.com.au/"], "exclude": "nieuw mondays|cup day" },
-    { "id": "nsc", "name": "Northcote Social Club", "suburb": "Northcote", "strategy": "links", "pages": ["https://northcotesocialclub.com/gigs/"] },
-    { "id": "evelyn", "name": "The Evelyn", "suburb": "Fitzroy", "strategy": "links", "pages": ["https://evelynhotel.com.au/events"], "follow": "/events/event-\\d+" },
-    { "id": "curtin", "name": "John Curtin Hotel", "suburb": "Carlton", "strategy": "links", "pages": ["https://www.johncurtinhotel.com/gigs"] },
-    { "id": "retreat", "name": "The Retreat Hotel", "suburb": "Brunswick", "strategy": "links", "pages": ["https://retreathotelbrunswick.com.au/events"] },
-    { "id": "cactus", "name": "Cactus Room", "suburb": "Thornbury", "strategy": "links", "pages": ["http://www.cactusroom.com.au/events.html"] },
-    { "id": "baropen", "name": "Bar Open", "suburb": "Fitzroy", "strategy": "links", "pages": ["https://baropen.com.au/"] },
-    { "id": "lulie", "name": "Lulie Tavern", "suburb": "Abbotsford", "strategy": "links", "pages": ["https://www.lulietavern.com/gig-guide"] },
-    { "id": "croxton", "name": "The Croxton Bandroom", "suburb": "Thornbury", "strategy": "links", "pages": ["http://thecroxton.com.au/"] },
-    { "id": "bergy", "name": "Bergy Bandroom", "suburb": "Brunswick", "strategy": "links", "pages": ["https://thebergyseltzer.com.au/"] },
-    { "id": "lastchance", "name": "The Last Chance", "suburb": "North Melbourne", "strategy": "links", "pages": ["https://thelastchance.oztix.com.au/"] },
-    { "id": "smith", "name": "Smith St Hotel", "suburb": "Collingwood", "strategy": "links", "pages": ["https://smithsthotel.com.au/gigs/"] },
-    { "id": "howler", "name": "Howler", "suburb": "Brunswick", "strategy": "jsonld", "pages": ["https://www.moshtix.com.au/v2/Home/VenueDetail/4534"], "exclude": "storyslam|industry link|burlesque|sky disco|trivia" },
-    { "id": "pennyblack", "name": "The Penny Black", "suburb": "Brunswick", "strategy": "links", "pages": ["https://www.thepennyblack.com.au/gig-guide"] },
-    { "id": "catfish", "name": "The Catfish", "suburb": "Fitzroy", "strategy": "links", "pages": ["https://thecatfish.iwannaticket.com.au/"] },
-    { "id": "jazzlab", "name": "The Jazzlab", "suburb": "Brunswick", "strategy": "jsonld", "pages": ["https://thejazzlab.com.au/"] },
-    { "id": "nighthawks", "name": "Nighthawks", "suburb": "Collingwood", "strategy": "squarespace", "pages": ["https://nighthawksbar.com.au/allgigs"] },
-    { "id": "edi", "name": "Edinburgh Castle", "suburb": "Brunswick", "strategy": "squarespace", "pages": ["https://www.edinburghcastle.net.au/gig-guide"], "exclude": "trivia|open mic" },
-    { "id": "hex", "name": "The Hex", "suburb": "Clifton Hill", "strategy": "hex", "pages": ["https://thehex.au/"] }
-  ]
+    {
+      "id": "tote",
+      "name": "The Tote",
+      "suburb": "Collingwood",
+      "strategy": "links",
+      "pages": [
+        "https://thetotehotel.com/",
+        "https://thetotehotel.oztix.com.au/"
+      ]
+    },
+    {
+      "id": "oldbar",
+      "name": "The Old Bar",
+      "suburb": "Fitzroy",
+      "strategy": "links",
+      "pages": [
+        "https://www.theoldbar.com.au/",
+        "https://theoldbar.oztix.com.au/"
+      ]
+    },
+    {
+      "id": "workers",
+      "name": "The Workers Club",
+      "suburb": "Fitzroy",
+      "strategy": "links",
+      "pages": [
+        "https://www.theworkersclub.com.au/",
+        "https://theworkersclub.oztix.com.au/"
+      ],
+      "exclude": "nieuw mondays|cup day"
+    },
+    {
+      "id": "nsc",
+      "name": "Northcote Social Club",
+      "suburb": "Northcote",
+      "strategy": "links",
+      "pages": [
+        "https://northcotesocialclub.com/gigs/"
+      ]
+    },
+    {
+      "id": "evelyn",
+      "name": "The Evelyn",
+      "suburb": "Fitzroy",
+      "strategy": "links",
+      "pages": [
+        "https://evelynhotel.com.au/events"
+      ],
+      "follow": "/events/event-\\d+"
+    },
+    {
+      "id": "curtin",
+      "name": "John Curtin Hotel",
+      "suburb": "Carlton",
+      "strategy": "links",
+      "pages": [
+        "https://www.johncurtinhotel.com/gigs"
+      ]
+    },
+    {
+      "id": "retreat",
+      "name": "The Retreat Hotel",
+      "suburb": "Brunswick",
+      "strategy": "links",
+      "pages": [
+        "https://retreathotelbrunswick.com.au/events"
+      ]
+    },
+    {
+      "id": "cactus",
+      "name": "Cactus Room",
+      "suburb": "Thornbury",
+      "strategy": "links",
+      "pages": [
+        "http://www.cactusroom.com.au/events.html"
+      ]
+    },
+    {
+      "id": "baropen",
+      "name": "Bar Open",
+      "suburb": "Fitzroy",
+      "strategy": "links",
+      "pages": [
+        "https://baropen.com.au/"
+      ]
+    },
+    {
+      "id": "lulie",
+      "name": "Lulie Tavern",
+      "suburb": "Abbotsford",
+      "strategy": "textlist",
+      "pages": [
+        "https://www.lulietavern.com/gig-guide"
+      ]
+    },
+    {
+      "id": "croxton",
+      "name": "The Croxton Bandroom",
+      "suburb": "Thornbury",
+      "strategy": "links",
+      "pages": [
+        "http://thecroxton.com.au/"
+      ]
+    },
+    {
+      "id": "bergy",
+      "name": "Bergy Bandroom",
+      "suburb": "Brunswick",
+      "strategy": "links",
+      "pages": [
+        "https://thebergy.com.au/index.php/live-music-brunswick/"
+      ]
+    },
+    {
+      "id": "lastchance",
+      "name": "The Last Chance",
+      "suburb": "North Melbourne",
+      "strategy": "links",
+      "pages": [
+        "https://thelastchance.oztix.com.au/"
+      ]
+    },
+    {
+      "id": "smith",
+      "name": "Smith St Hotel",
+      "suburb": "Collingwood",
+      "strategy": "links",
+      "pages": [
+        "https://smithsthotel.com.au/gigs/"
+      ]
+    },
+    {
+      "id": "howler",
+      "name": "Howler",
+      "suburb": "Brunswick",
+      "strategy": "jsonld",
+      "pages": [
+        "https://www.moshtix.com.au/v2/Home/VenueDetail/4534"
+      ],
+      "exclude": "storyslam|industry link|burlesque|sky disco|trivia"
+    },
+    {
+      "id": "jazzlab",
+      "name": "The Jazzlab",
+      "suburb": "Brunswick",
+      "strategy": "jsonld",
+      "pages": [
+        "https://thejazzlab.com.au/"
+      ]
+    },
+    {
+      "id": "nighthawks",
+      "name": "Nighthawks",
+      "suburb": "Collingwood",
+      "strategy": "squarespace",
+      "pages": [
+        "https://nighthawksbar.com.au/allgigs"
+      ]
+    },
+    {
+      "id": "edi",
+      "name": "Edinburgh Castle",
+      "suburb": "Brunswick",
+      "strategy": "squarespace",
+      "pages": [
+        "https://www.edinburghcastle.net.au/gig-guide"
+      ],
+      "exclude": "trivia|open mic"
+    },
+    {
+      "id": "hex",
+      "name": "The Hex",
+      "suburb": "Clifton Hill",
+      "strategy": "hex",
+      "pages": [
+        "https://thehex.au/"
+      ]
+    }
+  ],
+  "_disabled": {
+    "pennyblack": "Site no longer lists gigs (checked 31 Oct 2026)",
+    "catfish": "iwannaticket page has no events (checked 31 Oct 2026); find where they list gigs now"
+  }
 }

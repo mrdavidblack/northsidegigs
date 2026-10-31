@@ -20,7 +20,9 @@ const TICKET_PATTERNS = [
   /https?:\/\/(?:www\.)?moshtix\.com\.au\/v2\/event\/[^"'\s<>?#]+\/\d+/gi,
   /https?:\/\/events\.humanitix\.com\/[a-z0-9-]+/gi,
   /https?:\/\/(?:www\.)?trybooking\.com\/[A-Z0-9]{4,6}\b/g,
-  /https?:\/\/[a-z0-9-]+\.iwannaticket\.com\.au\/[^"'\s<>]*event[^"'\s<>]*/gi
+  /https?:\/\/[a-z0-9-]+\.iwannaticket\.com\.au\/[^"'\s<>]*event[^"'\s<>]*/gi,
+  /https?:\/\/[a-z0-9-]+\.oztix\.com\.au\/Default\.aspx\?Event=\d+/gi,          // legacy Oztix outlets (The Last Chance)
+  /\/Default\.aspx\?Event=\d+/gi
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -137,13 +139,22 @@ function findTicketLinks(html, base) {
   const hrefs = [];
   $('a[href], iframe[src]').each((_, el) => hrefs.push($(el).attr('href') || $(el).attr('src')));
   const text = hrefs.map((h) => { try { return new URL(h, base).href; } catch { return ''; } }).join('\n') + '\n' + html;
-  for (const re of TICKET_PATTERNS) for (const m of text.matchAll(re)) found.add(m[0].replace(/&amp;/g, '&').replace(/[).,;]+$/, ''));
+  for (const re of TICKET_PATTERNS) for (const m of text.matchAll(re)) {
+    let u = m[0].replace(/&amp;/g, '&').replace(/[).,;]+$/, '');
+    try { u = new URL(u, base).href; } catch { continue; }
+    found.add(u);
+  }
   return [...found];
 }
 
 async function readTicketPage(url) {
-  const html = await get(url);
-  const blocks = ldBlocks(html);
+  let html = await get(url);
+  let blocks = ldBlocks(html);
+  if (!blocks.some(isEvent) && /Default\.aspx\?Event=/i.test(url)) {
+    // Legacy Oztix link: find the new event page it points to and read that.
+    const m = html.match(/https?:\/\/[a-z0-9.-]+\/outlet\/event\/[0-9a-f-]{36}/i) || html.match(/\/outlet\/event\/[0-9a-f-]{36}/i);
+    if (m) { url = new URL(m[0], url).href; html = await get(url); blocks = ldBlocks(html); }
+  }
   const ev = blocks.find(isEvent);
   if (!ev) return null;
   const loose = blocks.filter((b) => b['@type'] === 'Offer');
@@ -254,7 +265,46 @@ async function hexStrategy(v) {
   return out;
 }
 
-const STRATEGIES = { links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
+// Plain text gig list: month headings, then lines like "31 - BAND NAME + SUPPORT FROM 8PM".
+async function textlistStrategy(v) {
+  const MONTHS = ['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'];
+  const out = [];
+  for (const page of v.pages) {
+    const $ = cheerio.load(await get(page));
+    $('br').replaceWith('\n');
+    $('p, h1, h2, h3, h4, li, div').append('\n');
+    const lines = $('body').text().split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
+    const nowY = parseInt(new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric' }).format(new Date()), 10);
+    const nowM = parseInt(new Intl.DateTimeFormat('en-CA', { timeZone: TZ, month: 'numeric' }).format(new Date()), 10);
+    let month = null;
+    const seen = new Set();
+    for (const line of lines) {
+      const mi = MONTHS.indexOf(line.toUpperCase().replace(/[^A-Z]/g, ''));
+      if (mi >= 0) { month = mi + 1; continue; }
+      const m = line.match(/^(\d{1,2})\s*[-–—]\s*(.+?)(?:\s+from\s+(\d{1,2})(?:[:.](\d{2}))?\s*(am|pm))?\s*$/i);
+      if (!m || !month) continue;
+      let h = m[3] ? parseInt(m[3], 10) : null;
+      if (h !== null && (!m[5] || /pm/i.test(m[5])) && h < 12) h += 12;
+      const year = month < nowM - 1 ? nowY + 1 : nowY;
+      const date = `${year}-${String(month).padStart(2, '0')}-${m[1].padStart(2, '0')}`;
+      const title = m[2].replace(/!+/g, '!').trim();
+      const key = date + title;
+      if (seen.has(key)) continue; seen.add(key);
+      out.push({
+        title: title.length > 4 && title === title.toUpperCase() ? title.toLowerCase().replace(/(^|[\s&+(/-])([a-z])/g, (a, b, c) => b + c.toUpperCase()) : title,
+        start: melbourneToIso(date, h === null ? '00:00' : `${String(h).padStart(2, '0')}:${m[4] ?? '00'}`),
+        timeTba: h === null,
+        price: null,
+        status: /free/i.test(title) ? 'free' : 'unknown',
+        url: page,
+        linkType: 'details'
+      });
+    }
+  }
+  return out;
+}
+
+const STRATEGIES = { textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
 
 // ---- main ----
 
