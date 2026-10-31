@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T06:09:13.232Z",
+ "generatedAt": "2026-10-31T06:43:11.176Z",
  "venues": [
   {
    "id": "retreat",
@@ -224,6 +224,24 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.creaturebar.com.au/events/"
+    ]
+   }
+  },
+  {
+   "id": "ballroom",
+   "name": "Brunswick Ballroom",
+   "count": 54,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 147,
+    "failed": [],
+    "ticketLinks": 73,
+    "noEventData": [],
+    "firstFetches": [
+     "200 (rendered) https://brunswickballroom.com.au/whats-on/",
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/ball-of-the-damned/199926",
+     "200 https://www.moshtix.com.au/v2/event/ball-of-the-damned/199926"
     ]
    }
   }
