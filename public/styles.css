@@ -94,3 +94,7 @@ html { scroll-padding-top: 88px; }
   .filter-panel .btn.done { width: 100%; justify-content: center; margin-left: 0; }
   .group:first-child { margin-top: 24px; }
 }
+
+@media (min-width: 701px) {
+  .group-head { padding-bottom: 24px; }
+}
