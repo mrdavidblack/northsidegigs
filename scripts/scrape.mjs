@@ -439,6 +439,16 @@ async function deserthighwaysStrategy(v) {
 }
 
 // Creature Bar: one calendar page with every month. Each gig reads: MONTH / day / weekday / time / title / price / "Read More".
+// Match a gig title to its detail page by slug (e.g. "Creature Feature" -> /events/creature-feature/ or smash-creature-feature).
+function creatureLink(title, hrefs, page) {
+  const slug = title.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const uniq = [...new Set(hrefs)].filter((h) => /\/events\/[^/]+/.test(h));
+  const last = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
+  const hit = uniq.find((h) => last(h) === slug)
+    ?? uniq.find((h) => slug && (last(h).startsWith(slug) || slug.startsWith(last(h)) || last(h).includes(slug)));
+  return hit ?? page;
+}
+
 async function creatureStrategy(v) {
   const page = v.pages[0];
   const $ = cheerio.load(await get(page));
@@ -482,7 +492,7 @@ async function creatureStrategy(v) {
       start: melbourneToIso(`${year}-${String(month).padStart(2, '0')}-${lines[i].padStart(2, '0')}`, `${String(h).padStart(2, '0')}:${tm[2] ?? '00'}`),
       price, status: free ? 'free' : (price ? 'onsale' : 'unknown'),
       linkType: 'details',
-      url: hrefs.length === rmCount ? (hrefs[rmBefore[i]] ?? page) : page
+      url: hrefs.length === rmCount ? (hrefs[rmBefore[i]] ?? page) : creatureLink(title, hrefs, page)
     });
   }
   return found;
