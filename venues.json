@@ -1,5 +1,5 @@
 {
-  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie).",
+  "_readme": "One entry per venue. strategy: links (find ticket links on the listing pages, then read each ticket page), jsonld (events are marked up on the listing page itself), squarespace (Squarespace events collection), hex (The Hex's own site). follow: a regex for the venue's own event pages to open before looking for ticket links. exclude: a regex of titles to skip at this venue. textlist: a plain text list of \"DD - TITLE FROM 8PM\" lines under month headings (Lulie). render: true opens the listing in headless Chrome (use when the plain page shows old or missing gigs, as at the Bergy).",
   "venues": [
     {
       "id": "tote",
@@ -112,7 +112,8 @@
       "strategy": "links",
       "pages": [
         "https://thebergy.com.au/index.php/live-music-brunswick/"
-      ]
+      ],
+      "render": true
     },
     {
       "id": "lastchance",

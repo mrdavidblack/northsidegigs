@@ -171,9 +171,9 @@ async function linksStrategy(v) {
   let links = [];
   for (const page of v.pages) {
     try {
-      let html = await get(page);
+      let html = v.render ? await render(page) : await get(page);
       let found = findTicketLinks(html, page);
-      if (!found.length) {
+      if (!found.length && !v.render) {
         try { html = await render(page); found = findTicketLinks(html, page); } catch (e) { console.warn(`  render failed ${page}: ${e.message}`); }
       }
       links.push(...found);
