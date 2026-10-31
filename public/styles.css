@@ -104,3 +104,7 @@ html { scroll-padding-top: 88px; }
 @media (max-width: 700px) {
   .gig-time { flex: 1 1 100%; white-space: nowrap; }
 }
+
+@media (min-width: 701px) {
+  .group { padding-top: 32px; }
+}
