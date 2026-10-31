@@ -524,7 +524,17 @@ async function lomondStrategy(v) {
     if (ticket) {
       try {
         const t = await readTicketPage(ticket);
-        if (t) { out.push({ ...t, title: it.title || t.title }); continue; }
+        if (t) {
+          // Residency pages on Eventbrite are one recurring listing: the start is the first night, long past.
+          // Trust the venue's own date and keep the ticket page's clock time.
+          const localDate = new Intl.DateTimeFormat('en-CA', { timeZone: TZ }).format(new Date(t.start));
+          if (localDate !== it.date) {
+            const hhmm = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(new Date(t.start));
+            t.start = melbourneToIso(it.date, hhmm);
+            delete t.end; delete t.until;
+          }
+          out.push({ ...t, title: it.title || t.title }); continue;
+        }
       } catch { /* fall through */ }
     }
     out.push({ title: it.title, start: melbourneToIso(it.date, '00:00'), timeTba: true, price: null, status: 'unknown', url, linkType: 'details' });
