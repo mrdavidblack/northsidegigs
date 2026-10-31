@@ -364,7 +364,7 @@ const seen = new Set();
 const final = all
   .filter((e) => { if (seen.has(e.url + e.start)) return false; seen.add(e.url + e.start); return true; })
   .sort((a, b) => Date.parse(a.start) - Date.parse(b.start) || a.venue.localeCompare(b.venue))
-  .map((e, i) => ({ id: i + 1, ...e }));
+  .map((e, i) => ({ id: i + 1, ...e, url: e.url.replace('//alternate.moshtix.com.au/', '//www.moshtix.com.au/') }));
 
 await writeFile(new URL('../public/events.json', import.meta.url), JSON.stringify({ generatedAt: status.generatedAt, timezone: TZ, events: final }, null, 1));
 await writeFile(new URL('../public/status.json', import.meta.url), JSON.stringify(status, null, 1));
