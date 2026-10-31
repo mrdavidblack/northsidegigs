@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T06:06:46.896Z",
+ "generatedAt": "2026-10-31T06:09:13.232Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -734,7 +734,7 @@
    "price": 5,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-feature/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -878,7 +878,7 @@
    "price": null,
    "status": "free",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-club/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -2243,7 +2243,7 @@
    "price": 5,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-feature/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -3040,7 +3040,7 @@
    "price": 16,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/2026/11/14/saskia/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -3520,7 +3520,7 @@
    "price": 5,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-feature/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -3736,7 +3736,7 @@
    "price": null,
    "status": "unknown",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/2026/11/19/legs-for-breakfast/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -3894,7 +3894,7 @@
    "price": 15,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/2026/11/20/poison-fish/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -4255,7 +4255,7 @@
    "price": 15,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/2026/11/21/coco-benny-and-friends/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -4823,7 +4823,7 @@
    "price": 5,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-feature/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -5822,7 +5822,7 @@
    "price": 5,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-feature/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -5846,7 +5846,7 @@
    "price": null,
    "status": "free",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-club/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -6460,7 +6460,7 @@
    "price": 5,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-feature/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -6929,7 +6929,7 @@
    "price": 5,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-feature/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
@@ -7241,7 +7241,7 @@
    "price": 5,
    "status": "onsale",
    "linkType": "details",
-   "url": "https://www.creaturebar.com.au/events/",
+   "url": "https://www.creaturebar.com.au/events/smash-creature-feature/",
    "venueId": "creature",
    "venue": "Creature Bar",
    "suburb": "Brunswick East"
