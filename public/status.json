@@ -1,103 +1,249 @@
 {
- "generatedAt": "2026-10-31T03:00:53.623Z",
+ "generatedAt": "2026-10-31T03:02:08.625Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
    "count": 10,
    "keptFromLastRun": true,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 2,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://thetotehotel.com/",
+     "200 https://thetotehotel.oztix.com.au/"
+    ]
+   }
   },
   {
    "id": "oldbar",
    "name": "The Old Bar",
    "count": 4,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 9,
+    "failed": [],
+    "ticketLinks": 7,
+    "noEventData": [
+     "https://theoldbar.oztix.com.au/outlet/event/3cc6d6f7-b72f-44d4-9d17-327e392a6a6e",
+     "https://theoldbar.oztix.com.au/outlet/event/786b634b-391c-4089-afd2-2e09e60e61dd",
+     "https://theoldbar.oztix.com.au/outlet/event/d9a4a3e8-5ca7-4f34-b5cb-87036100f8b4"
+    ],
+    "firstFetches": [
+     "200 https://www.theoldbar.com.au/",
+     "200 https://theoldbar.oztix.com.au/",
+     "200 https://theoldbar.oztix.com.au/outlet/event/55c0a984-0c3c-4810-ac40-dfcbf885304b"
+    ]
+   }
   },
   {
    "id": "workers",
    "name": "The Workers Club",
    "count": 6,
    "keptFromLastRun": true,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 2,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.theworkersclub.com.au/",
+     "200 https://theworkersclub.oztix.com.au/"
+    ]
+   }
   },
   {
    "id": "nsc",
    "name": "Northcote Social Club",
    "count": 6,
    "keptFromLastRun": true,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://northcotesocialclub.com/gigs/"
+    ]
+   }
   },
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
    "count": 0,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://retreathotelbrunswick.com.au/events"
+    ]
+   }
   },
   {
    "id": "baropen",
    "name": "Bar Open",
    "count": 0,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://baropen.com.au/"
+    ]
+   }
   },
   {
    "id": "lulie",
    "name": "Lulie Tavern",
    "count": 0,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.lulietavern.com/gig-guide"
+    ]
+   }
   },
   {
    "id": "croxton",
    "name": "The Croxton Bandroom",
    "count": 0,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 http://thecroxton.com.au/"
+    ]
+   }
   },
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
    "count": 0,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://thebergyseltzer.com.au/"
+    ]
+   }
   },
   {
    "id": "lastchance",
    "name": "The Last Chance",
    "count": 0,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://thelastchance.oztix.com.au/"
+    ]
+   }
   },
   {
    "id": "smith",
    "name": "Smith St Hotel",
    "count": 4,
    "keptFromLastRun": true,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 24,
+    "failed": [
+     "403 https://www.moshtix.com.au/v2/event/i-hate-mondays-w-cotto-dameeeela/201989",
+     "403 https://www.moshtix.com.au/v2/event/total-vinyl-mania/201674",
+     "403 https://www.moshtix.com.au/v2/event/duvin-%E2%80%9Cirrelevant-magic%E2%80%9D-launch/200860",
+     "403 https://www.moshtix.com.au/v2/event/twisted-fix-shimmer-single-launch/200851",
+     "403 https://www.moshtix.com.au/v2/event/renegade-pub-footy-ball-2026/200126"
+    ],
+    "ticketLinks": 23,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://smithsthotel.com.au/gigs/",
+     "403 https://www.moshtix.com.au/v2/event/i-hate-mondays-w-cotto-dameeeela/201989",
+     "403 https://www.moshtix.com.au/v2/event/total-vinyl-mania/201674"
+    ]
+   }
   },
   {
    "id": "howler",
    "name": "Howler",
    "count": 3,
    "keptFromLastRun": true,
-   "error": "403 https://www.moshtix.com.au/v2/Home/VenueDetail/4534"
+   "error": "403 https://www.moshtix.com.au/v2/Home/VenueDetail/4534",
+   "debug": {
+    "fetched": 1,
+    "failed": [
+     "403 https://www.moshtix.com.au/v2/Home/VenueDetail/4534"
+    ],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "403 https://www.moshtix.com.au/v2/Home/VenueDetail/4534"
+    ]
+   }
   },
   {
    "id": "pennyblack",
    "name": "The Penny Black",
    "count": 0,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [
+     "404 https://www.thepennyblack.com.au/gig-guide"
+    ],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "404 https://www.thepennyblack.com.au/gig-guide"
+    ]
+   }
   },
   {
    "id": "catfish",
    "name": "The Catfish",
    "count": 0,
    "keptFromLastRun": false,
-   "error": null
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": 0,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://thecatfish.iwannaticket.com.au/"
+    ]
+   }
   }
  ]
 }
