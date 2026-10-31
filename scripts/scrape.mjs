@@ -25,10 +25,16 @@ const TICKET_PATTERNS = [
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
+let diag = null; // per-venue diagnostics, reset for each venue
+
 async function get(url, { json = false } = {}) {
-  const res = await fetch(url, { headers: { 'user-agent': UA, accept: json ? 'application/json' : 'text/html,*/*' }, redirect: 'follow' });
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
+  const headers = (ua) => ({ 'user-agent': ua, accept: json ? 'application/json' : 'text/html,application/xhtml+xml,*/*', 'accept-language': 'en-AU,en;q=0.9' });
+  let res = await fetch(url, { headers: headers(UA), redirect: 'follow' });
+  if (res.status === 403 || res.status === 429) { await sleep(1500); res = await fetch(url, { headers: headers(BROWSER_UA), redirect: 'follow' }); }
   await sleep(DELAY_MS);
+  if (diag) diag.fetches.push(`${res.status} ${url.slice(0, 90)}`);
+  if (!res.ok) throw new Error(`${res.status} ${url}`);
   return json ? res.json() : res.text();
 }
 
@@ -133,9 +139,10 @@ async function linksStrategy(v) {
   // Oztix white-label and generic URLs for the same event: keep one per event id.
   const seen = new Set();
   links = links.filter((l) => { const k = (l.match(/[0-9a-f-]{36}|\/\d+$/i) || [l])[0]; if (seen.has(k)) return false; seen.add(k); return true; });
+  if (diag) diag.ticketLinks = links.length;
   const out = [];
   for (const l of links.slice(0, 80)) {
-    try { const e = await readTicketPage(l); if (e) out.push(e); } catch (err) { console.warn(`  ticket page failed ${l}: ${err.message}`); }
+    try { const e = await readTicketPage(l); if (e) out.push(e); else if (diag) diag.noEventData.push(l.slice(0, 90)); } catch (err) { console.warn(`  ticket page failed ${l}: ${err.message}`); }
   }
   return out;
 }
@@ -233,6 +240,7 @@ for (const v of venues) {
     continue;
   }
   console.log(`> ${v.name}`);
+  diag = { fetches: [], ticketLinks: null, noEventData: [] };
   const exclude = v.exclude ? new RegExp(v.exclude, 'i') : null;
   let events = [];
   let error = null;
@@ -250,7 +258,9 @@ for (const v of venues) {
     if (prev.length) { events = prev; kept = true; }
   }
   console.log(`  ${events.length} gigs${kept ? ' (kept from last run)' : ''}`);
-  status.venues.push({ id: v.id, name: v.name, count: events.length, keptFromLastRun: kept, error });
+  const fails = diag.fetches.filter((f) => !f.startsWith('200'));
+  status.venues.push({ id: v.id, name: v.name, count: events.length, keptFromLastRun: kept, error,
+    debug: { fetched: diag.fetches.length, failed: fails.slice(0, 5), ticketLinks: diag.ticketLinks, noEventData: diag.noEventData.slice(0, 3), firstFetches: diag.fetches.slice(0, 3) } });
   all.push(...events);
 }
 
