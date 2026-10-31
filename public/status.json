@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T06:43:11.176Z",
+ "generatedAt": "2026-10-31T06:48:50.279Z",
  "venues": [
   {
    "id": "retreat",
@@ -34,6 +34,23 @@
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
      "200 https://tickets.oztix.com.au/outlet/event/e9c511f8-b1b0-4b15-bf62-38a49bd6403a",
      "200 https://tickets.oztix.com.au/outlet/event/0823d49e-e620-4174-8d7a-f8604af809b1"
+    ]
+   }
+  },
+  {
+   "id": "howler",
+   "name": "Howler",
+   "count": 23,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 2,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 (alt) https://alternate.moshtix.com.au/v2/Home/VenueDetail/4534",
+     "200 https://www.moshtix.com.au/v2/Home/VenueDetail/4534"
     ]
    }
   },
@@ -230,7 +247,7 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 54,
+   "count": 51,
    "keptFromLastRun": false,
    "error": null,
    "debug": {

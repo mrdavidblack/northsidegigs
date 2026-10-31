@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T06:43:11.176Z",
+ "generatedAt": "2026-10-31T06:48:50.279Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -209,7 +209,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 6,
+   "id": 18,
    "title": "I BUILT THE SKY - Promise Me You'll Thrive Album Launch",
    "start": "2026-10-31T09:00:00.000Z",
    "price": 54.72,
@@ -1282,10 +1282,10 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 65,
+   "id": 107,
    "title": "THE TULLAMARINES 2026 TOUR",
    "start": "2026-11-06T09:00:00.000Z",
-   "price": 30,
+   "price": null,
    "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/the-tullamarines-2026-tour/199490",
    "linkType": "tickets",
@@ -1528,8 +1528,8 @@
    "id": 127,
    "title": "SMALL FRY ROCK FEAT. PATIENCE (THE GRATES) & ISABELLA MANFREDI (THE PREATURES)",
    "start": "2026-11-07T01:00:00.000Z",
-   "price": null,
-   "status": "free",
+   "price": 26.52,
+   "status": "onsale",
    "url": "https://www.moshtix.com.au/v2/event/small-fry-rock-feat-patience-the-grates-isabella-manfredi-the-preatures/200061",
    "linkType": "tickets",
    "venueId": "ballroom",
@@ -1645,10 +1645,10 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 84,
+   "id": 137,
    "title": "ECCA VANDAL - ‘Looking For People to Unfollow’ Album Tour (Matinee)",
    "start": "2026-11-07T05:30:00.000Z",
-   "price": 44.37,
+   "price": null,
    "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/ecca-vandal-‘looking-for-people-to-unfollow’-album-tour-matinee/196680",
    "linkType": "tickets",
@@ -1922,11 +1922,11 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 100,
+   "id": 160,
    "title": "ECCA VANDAL - ‘Looking For People to Unfollow’ Album Tour",
    "start": "2026-11-07T09:30:00.000Z",
-   "price": 38.71,
-   "status": "onsale",
+   "price": null,
+   "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/ecca-vandal-‘looking-for-people-to-unfollow’-album-tour/196036",
    "linkType": "tickets",
    "venueId": "howler",
@@ -2540,8 +2540,8 @@
    "id": 211,
    "title": "TEX PERKINS & MATT WALKER",
    "start": "2026-11-12T07:30:00.000Z",
-   "price": null,
-   "status": "free",
+   "price": 57.63,
+   "status": "onsale",
    "url": "https://www.moshtix.com.au/v2/event/tex-perkins-matt-walker/198040",
    "linkType": "tickets",
    "venueId": "ballroom",
@@ -2875,7 +2875,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 139,
+   "id": 239,
    "title": "SKUNKHOUR - \"Back to Basics\" w Xani Kolac",
    "start": "2026-11-13T09:00:00.000Z",
    "price": 59.9,
@@ -3205,8 +3205,8 @@
    "id": 266,
    "title": "CASEY DONOVAN - END OF TOUR WRAP PARTY SHOW",
    "start": "2026-11-14T07:30:00.000Z",
-   "price": null,
-   "status": "free",
+   "price": 81.04,
+   "status": "onsale",
    "url": "https://www.moshtix.com.au/v2/event/casey-donovan-end-of-tour-wrap-party-show/186491",
    "linkType": "tickets",
    "venueId": "ballroom",
@@ -3214,10 +3214,10 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 156,
+   "id": 267,
    "title": "TIGERS JAW (USA) Australian Tour 2026",
    "start": "2026-11-14T08:00:00.000Z",
-   "price": 74.9,
+   "price": null,
    "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/tigers-jaw-usa-australian-tour-2026/196538",
    "linkType": "tickets",
@@ -3538,7 +3538,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 172,
+   "id": 294,
    "title": "7 YEARS OF ISU TAKI ft: Rodrigo Gallardo (Chile)",
    "start": "2026-11-15T05:00:00.000Z",
    "price": 43.35,
@@ -3778,7 +3778,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 182,
+   "id": 314,
    "title": "GENERATION WOMEN - Showstoppers 2026: The stories that stayed with us",
    "start": "2026-11-18T07:30:00.000Z",
    "price": 43.85,
@@ -3889,7 +3889,7 @@
    "id": 323,
    "title": "#1 DADS",
    "start": "2026-11-19T07:30:00.000Z",
-   "price": 39.9,
+   "price": null,
    "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/1-dads/199089",
    "linkType": "tickets",
@@ -4155,7 +4155,7 @@
    "id": 345,
    "title": "FLYTE (UK)",
    "start": "2026-11-20T07:30:00.000Z",
-   "price": 67.83,
+   "price": null,
    "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/flyte-uk/193769",
    "linkType": "tickets",
@@ -4465,7 +4465,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 209,
+   "id": 371,
    "title": "Ahadadream and Riria Day Party",
    "start": "2026-11-21T01:00:00.000Z",
    "price": 54.72,
@@ -5009,10 +5009,10 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 233,
+   "id": 416,
    "title": "DELILAH BON - Australian East Coast Tour with NIGHTLIGHT",
    "start": "2026-11-22T07:00:00.000Z",
-   "price": 69.9,
+   "price": null,
    "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/delilah-bon-australian-east-coast-tour-with-nightlight/195028",
    "linkType": "tickets",
@@ -5216,8 +5216,8 @@
    "id": 433,
    "title": "JAMES BLUNDELL - PATIENCE WINS TOUR (A LIFE OF SONGS, STORIES & SURVIVAL) + BRIAR BLUNDELL",
    "start": "2026-11-25T07:00:00.000Z",
-   "price": null,
-   "status": "free",
+   "price": 46.92,
+   "status": "onsale",
    "url": "https://www.moshtix.com.au/v2/event/james-blundell-patience-wins-tour-a-life-of-songs-stories-survival-briar/196904",
    "linkType": "tickets",
    "venueId": "ballroom",
@@ -5345,7 +5345,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 247,
+   "id": 444,
    "title": "MEMPHIS LK - Are You Holding On? Tour",
    "start": "2026-11-26T08:30:00.000Z",
    "price": 49.9,
@@ -5466,18 +5466,6 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 454,
-   "title": "'PRIVATE BIRTHDAY PARTY'",
-   "start": "2026-11-27T07:00:00.000Z",
-   "price": null,
-   "status": "unknown",
-   "url": "https://www.moshtix.com.au/v2/event/private-birthday-party/196544",
-   "linkType": "tickets",
-   "venueId": "ballroom",
-   "venue": "Brunswick Ballroom",
-   "suburb": "Brunswick"
-  },
-  {
    "id": 420,
    "title": "Rakhi",
    "start": "2026-11-27T07:00:00.000Z",
@@ -5502,7 +5490,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 254,
+   "id": 456,
    "title": "YLVA - Performing Hypoxia In Full",
    "start": "2026-11-27T08:00:00.000Z",
    "price": 38.71,
@@ -5803,24 +5791,12 @@
    "suburb": "Northcote"
   },
   {
-   "id": 482,
+   "id": 481,
    "title": "LAST OF THE ANGRY YOUNG MEN",
    "start": "2026-11-28T07:30:00.000Z",
    "price": 38.76,
    "status": "onsale",
    "url": "https://www.moshtix.com.au/v2/event/last-of-the-angry-young-men/200367",
-   "linkType": "tickets",
-   "venueId": "ballroom",
-   "venue": "Brunswick Ballroom",
-   "suburb": "Brunswick"
-  },
-  {
-   "id": 483,
-   "title": "PRIVATE WEDDING",
-   "start": "2026-11-28T08:00:00.000Z",
-   "price": null,
-   "status": "free",
-   "url": "https://www.moshtix.com.au/v2/event/private-wedding/196543",
    "linkType": "tickets",
    "venueId": "ballroom",
    "venue": "Brunswick Ballroom",
@@ -5875,7 +5851,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 275,
+   "id": 486,
    "title": "KARATE BOOGALOO - Access All Areas Album Launch",
    "start": "2026-11-28T09:00:00.000Z",
    "price": 38.71,
@@ -6031,7 +6007,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 501,
+   "id": 499,
    "title": "A LITTLE BIT OF HOPE, AN AFTERNOON WITH THE BRUNSWICK WOMEN'S CHOIR",
    "start": "2026-11-29T02:00:00.000Z",
    "price": 9.18,
@@ -6055,7 +6031,7 @@
    "suburb": "Reservoir"
   },
   {
-   "id": 286,
+   "id": 501,
    "title": "HYPE & FRIENDS",
    "start": "2026-11-29T03:00:00.000Z",
    "price": 38.71,
@@ -6404,7 +6380,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 532,
+   "id": 530,
    "title": "CAMILLA ROSE SULLIVAN / GIRL FRIDAY / CELINE YAP",
    "start": "2026-12-03T09:30:00.000Z",
    "price": null,
@@ -6453,11 +6429,11 @@
    "suburb": "Abbotsford"
   },
   {
-   "id": 536,
+   "id": 534,
    "title": "TSITSANIS & BELLOU: A LEGACY IN SONG",
    "start": "2026-12-04T07:30:00.000Z",
-   "price": null,
-   "status": "free",
+   "price": 29.58,
+   "status": "onsale",
    "url": "https://www.moshtix.com.au/v2/event/tsitsanis-bellou-a-legacy-in-song/197613",
    "linkType": "tickets",
    "venueId": "ballroom",
@@ -6477,7 +6453,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 300,
+   "id": 536,
    "title": "JORDIE LANE & BAND - Habitual Album Launch w The Owls + Minna (UK)",
    "start": "2026-12-04T08:30:00.000Z",
    "price": 25,
@@ -6585,7 +6561,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 547,
+   "id": 545,
    "title": "CAIRO CLUB ORCHESTRA END OF YEAR CELEBRATION",
    "start": "2026-12-05T01:00:00.000Z",
    "price": 24.48,
@@ -6633,19 +6609,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 551,
-   "title": "PRIVATE WEDDING",
-   "start": "2026-12-05T07:00:00.000Z",
-   "price": null,
-   "status": "free",
-   "url": "https://www.moshtix.com.au/v2/event/private-wedding/192898",
-   "linkType": "tickets",
-   "venueId": "ballroom",
-   "venue": "Brunswick Ballroom",
-   "suburb": "Brunswick"
-  },
-  {
-   "id": 552,
+   "id": 549,
    "title": "WES CARR - THE SPRINGSTEEN SONGBOOK 'UNPLUGGED'",
    "start": "2026-12-05T07:30:00.000Z",
    "price": 46.92,
@@ -6717,7 +6681,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 312,
+   "id": 555,
    "title": "ALLDAY PRESENTS EUPHORIA 2 | MELBOURNE",
    "start": "2026-12-05T09:00:00.000Z",
    "price": 54.72,
@@ -6825,7 +6789,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 567,
+   "id": 564,
    "title": "KINETIKA",
    "start": "2026-12-05T09:30:00.000Z",
    "price": null,
@@ -6862,7 +6826,7 @@
    "suburb": "Abbotsford"
   },
   {
-   "id": 570,
+   "id": 567,
    "title": "THE HONEY SLIDERS PLAY HARVEST",
    "start": "2026-12-06T02:00:00.000Z",
    "price": 77.01,
@@ -6934,7 +6898,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 326,
+   "id": 573,
    "title": "Blue Box Revue: An Unofficial Doctor Who Drag Show",
    "start": "2026-12-06T08:00:00.000Z",
    "price": 28.31,
@@ -6982,7 +6946,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 329,
+   "id": 577,
    "title": "COURTNEY MARIE ANDREWS (USA)",
    "start": "2026-12-08T08:00:00.000Z",
    "price": 64.31,
@@ -7006,7 +6970,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 330,
+   "id": 579,
    "title": "DARREN HANLON XMAS SHOW with Truffle Pigs",
    "start": "2026-12-09T08:00:00.000Z",
    "price": 37.74,
@@ -7067,7 +7031,7 @@
    "suburb": "Abbotsford"
   },
   {
-   "id": 587,
+   "id": 584,
    "title": "GRANT STREET ORCHESTRA END OF YEAR SHOW",
    "start": "2026-12-10T07:30:00.000Z",
    "price": 19.38,
@@ -7079,7 +7043,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 334,
+   "id": 585,
    "title": "HOUSE OF PROTECTION (USA)",
    "start": "2026-12-10T08:30:00.000Z",
    "price": 79.9,
@@ -7163,10 +7127,10 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 337,
+   "id": 592,
    "title": "TWISTED TEENS (USA)",
    "start": "2026-12-11T08:30:00.000Z",
-   "price": 59.82,
+   "price": null,
    "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/twisted-teens-usa/199373",
    "linkType": "tickets",
@@ -7235,7 +7199,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 601,
+   "id": 598,
    "title": "BITIMUS / SUPER STAR FIGHTER JET PILOTS / BIG BREAKFAST",
    "start": "2026-12-11T09:30:00.000Z",
    "price": null,
@@ -7271,7 +7235,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 604,
+   "id": 601,
    "title": "THE MIDNIGHTERS",
    "start": "2026-12-12T05:30:00.000Z",
    "price": null,
@@ -7295,7 +7259,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 343,
+   "id": 603,
    "title": "Planet Pink - Sarah Sommers Live (Berlin)",
    "start": "2026-12-12T08:00:00.000Z",
    "price": 28.31,
@@ -7415,7 +7379,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 616,
+   "id": 613,
    "title": "TONY & GAGA - AN OPULENT BIG BAND CHRISTMAS",
    "start": "2026-12-13T01:00:00.000Z",
    "price": 63.75,
@@ -7595,7 +7559,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 631,
+   "id": 628,
    "title": "YACHT ROCK REVIVAL - STUDIO 54 CHRISTMAS EDITION",
    "start": "2026-12-18T07:30:00.000Z",
    "price": 55.08,
@@ -7667,7 +7631,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 637,
+   "id": 634,
    "title": "NORTHERN VOICES SOCIAL CHOIR",
    "start": "2026-12-19T02:00:00.000Z",
    "price": 24.48,
@@ -7691,7 +7655,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 639,
+   "id": 636,
    "title": "THE MOONEE VALLEY DRIFTERS",
    "start": "2026-12-19T05:30:00.000Z",
    "price": null,
@@ -7763,7 +7727,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 365,
+   "id": 642,
    "title": "DEEZ NUTS - Australian Summer Tour 2026",
    "start": "2026-12-19T09:00:00.000Z",
    "price": 39.9,
@@ -7823,12 +7787,12 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 650,
+   "id": 647,
    "title": "WILBUR WILDE'S ROCK ROYALTY REVIEW",
    "start": "2026-12-20T06:30:00.000Z",
    "price": 49.98,
    "status": "onsale",
-   "url": "https://www.moshtix.com.au/v2/event/wilbur-wildes-rock-royalty-review&#160;/201535",
+   "url": "https://www.moshtix.com.au/v2/event/wilbur-wildes-rock-royalty-review/201535",
    "linkType": "tickets",
    "venueId": "ballroom",
    "venue": "Brunswick Ballroom",
@@ -7883,7 +7847,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 655,
+   "id": 652,
    "title": "THEE MARSHMALLOW OVERCOAT",
    "start": "2026-12-24T06:00:00.000Z",
    "price": 41.82,
