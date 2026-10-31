@@ -82,7 +82,7 @@
     return '<article class="gig">' +
       '<div class="gig-time">' + esc(when) + until + '</div>' +
       '<div class="gig-main"><h3 class="gig-title">' + esc(e.title) + '</h3>' +
-      '<p class="gig-venue"><a class="venue-link" href="' + esc(maps) + '" target="_blank" rel="noopener" aria-label="' + esc(e.venue + ' on Google Maps (opens in a new tab)') + '"><strong>' + esc(e.venue) + '</strong></a> · ' + esc(e.suburb) + '</p></div>' +
+      '<p class="gig-venue"><a class="venue-link" href="' + esc(maps) + '" target="_blank" rel="noopener" aria-label="' + esc(e.venue + ' on Google Maps (opens in a new tab)') + '"><span class="pin-wrap"><svg class="pin" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 14.5s4.5-4.2 4.5-7.8a4.5 4.5 0 0 0-9 0c0 3.6 4.5 7.8 4.5 7.8z"/><circle cx="8" cy="6.7" r="1.6"/></svg></span><strong>' + esc(e.venue) + '</strong></a> · ' + esc(e.suburb) + '</p></div>' +
       '<div class="gig-act"><span class="price ' + cls + '">' + esc(price) + '</span>' +
       '<a class="btn" href="' + esc(e.url) + '" target="_blank" rel="noopener">' + cta +
       ' <span class="visually-hidden" style="position:absolute;left:-9999px">for ' + esc(e.title) + ' (opens in a new tab)</span>' +
