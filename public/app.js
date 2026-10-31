@@ -9,9 +9,9 @@
 
   var params = new URLSearchParams(location.search);
   var state = {
-    range: params.get('when') || 'all',
+    range: params.get('when') || 'tonight',
     suburbs: (params.get('suburb') || '').split(',').filter(Boolean),
-    sort: params.get('sort') || 'date'
+    sort: params.get('sort') || 'suburb'
   };
   var events = [];
 
@@ -150,9 +150,9 @@
 
   function syncUrl() {
     var p = new URLSearchParams();
-    if (state.range !== 'all') p.set('when', state.range);
+    if (state.range !== 'tonight') p.set('when', state.range);
     if (state.suburbs.length) p.set('suburb', state.suburbs.join(','));
-    if (state.sort !== 'date') p.set('sort', state.sort);
+    if (state.sort !== 'suburb') p.set('sort', state.sort);
     var q = p.toString();
     history.replaceState(null, '', q ? '?' + q : location.pathname);
   }
@@ -197,7 +197,7 @@
     if (!panel.hidden && !ev.target.closest('#topbar')) setPanel(false);
     var b = ev.target.closest('button');
     if (!b) return;
-    if (b.dataset.reset) { state = { range: 'all', suburbs: [], sort: 'date' }; }
+    if (b.dataset.reset) { state = { range: 'all', suburbs: [], sort: 'suburb' }; }
     else if (b.dataset.key === 'suburbs') {
       // Suburbs combine: tap to add or remove; All clears the selection.
       var v = b.dataset.val;
