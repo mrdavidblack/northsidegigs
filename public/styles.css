@@ -31,10 +31,9 @@ html { scroll-padding-top: 88px; }
 .pill[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
 .pill:focus-visible, a:focus-visible { outline: 2px solid var(--fg); outline-offset: 3px; }
 
-.group { display: flex; flex-direction: column; margin-top: clamp(40px, 6vw, 72px); border-top: 3px solid var(--fg); padding-top: 16px; }
+.group { display: flex; flex-direction: column; margin-top: clamp(40px, 6vw, 72px); border-top: 3px solid var(--subhead); padding-top: 16px; }
 .group-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 24px; padding-bottom: 8px; }
 .group-head h2 { margin: 0; font-family: var(--display); font-weight: 900; font-size: clamp(64px, 9vw, 116px); line-height: 0.74; letter-spacing: -0.02em; text-transform: uppercase; color: var(--subhead); }
-.group-head h2.is-today { color: var(--accent); }
 .group-sub { font-family: var(--mono); font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 
 .gig { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 32px; padding: 22px 0; border-bottom: 1px solid var(--rule); }
