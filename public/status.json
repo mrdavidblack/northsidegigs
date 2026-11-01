@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-10-31T22:23:11.811Z",
+ "generatedAt": "2026-11-01T11:43:07.879Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 42,
+   "count": 52,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 51,
+    "fetched": 61,
     "failed": [],
-    "ticketLinks": 48,
+    "ticketLinks": 58,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -22,7 +22,7 @@
   {
    "id": "oldbar",
    "name": "The Old Bar",
-   "count": 19,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -37,7 +37,7 @@
     "firstFetches": [
      "200 https://www.theoldbar.com.au/",
      "200 https://theoldbar.oztix.com.au/",
-     "200 https://theoldbar.oztix.com.au/outlet/event/55c0a984-0c3c-4810-ac40-dfcbf885304b"
+     "200 https://theoldbar.oztix.com.au/outlet/event/03f4c779-d61d-454f-89b8-64b5bc07d704"
     ]
    }
   },
@@ -80,7 +80,7 @@
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 16,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -155,16 +155,17 @@
    "id": "baropen",
    "name": "Bar Open",
    "count": 18,
-   "keptFromLastRun": true,
+   "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 2,
+    "fetched": 22,
     "failed": [],
-    "ticketLinks": 0,
+    "ticketLinks": 20,
     "noEventData": [],
     "firstFetches": [
      "200 https://baropen.com.au/",
-     "200 (rendered) https://baropen.com.au/"
+     "200 (rendered) https://baropen.com.au/",
+     "200 https://baropen.oztix.com.au/outlet/event/28629b67-9448-4c34-af0a-6d099df90ce4"
     ]
    }
   },
@@ -259,7 +260,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 22,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -292,11 +293,11 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 34,
+   "count": 32,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 37,
+    "fetched": 34,
     "failed": [
      "404 https://events.humanitix.com/aquaplane-with-oil-rig-and-moths",
      "404 https://events.humanitix.com/groom-epoch-shadow-kaleidoscope-tour",
@@ -306,19 +307,19 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/jack-ray-ned-baulderstone-live-at-nighthawks",
-     "200 https://events.humanitix.com/chrome-gypsy-single-launch"
+     "200 https://events.humanitix.com/beanbotime",
+     "200 https://events.humanitix.com/henry-and-nancy-nighthawks"
     ]
    }
   },
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 19,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 28,
+    "fetched": 27,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
      "404 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party-20-years-of-beers-and-",
@@ -329,8 +330,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/danny-rossapril-29mxk-xbr7g-875eb",
-     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe"
+     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe",
+     "200 https://www.edinburghcastle.net.au/gig-guide/suzie-so-blue"
     ]
    }
   },
@@ -355,7 +356,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 22,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -371,18 +372,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 33,
+   "count": 31,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 34,
+    "fetched": 32,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/1/beer-garden-fliryte",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/1/jazz-jam"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/3/closed-for-public-holiday-tu",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/4/quiet-electric"
     ]
    }
   },
@@ -459,18 +460,18 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 38,
+   "count": 37,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 48,
+    "fetched": 47,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/janina-berlin-onur-puza",
-     "200 https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l"
+     "200 https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l",
+     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx"
     ]
    }
   },
@@ -531,9 +532,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 143,
+    "fetched": 141,
     "failed": [],
-    "ticketLinks": 71,
+    "ticketLinks": 70,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
