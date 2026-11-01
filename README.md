@@ -1,6 +1,6 @@
 # Northside Gigs
 
-Gig guide for band rooms and small venues in Melbourne's inner north.
+Gig guide for band rooms and small venues in Melbourne's north.
 
 - `public/` is the whole website: `index.html`, `styles.css`, `app.js`, and `events.json` (the gig list).
 - `venues.json` lists the venues and how to read each one.
