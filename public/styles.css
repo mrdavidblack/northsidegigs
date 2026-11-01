@@ -114,3 +114,10 @@ html { scroll-padding-top: 88px; }
 @media (min-width: 701px) {
   .group { padding-top: 32px; }
 }
+
+/* Phones: show the top three suburbs, the rest behind a More button */
+.pill-more { display: none; border-style: dashed; }
+@media (max-width: 700px) {
+  .pill-more { display: inline-flex; align-items: center; }
+  #suburbs:not(.expanded) .pill-extra { display: none; }
+}

@@ -14,6 +14,7 @@
     sort: params.get('sort') || 'suburb'
   };
   var events = [];
+  var suburbsExpanded = false;
   var fellBack = false;
 
   function esc(s) {
@@ -106,6 +107,20 @@
     pills(document.getElementById('suburbs'), 'suburbs', [['all', 'All']].concat(suburbs.map(function (s) { return [s, s]; })),
       function (v) { return v === 'all' ? state.suburbs.length === 0 : state.suburbs.indexOf(v) >= 0; });
     pills(document.getElementById('sorts'), 'sort', [['date', 'Date'], ['suburb', 'Suburb']]);
+    // On phones only the three busiest suburbs show by default; the rest sit behind a More button.
+    var counts = {};
+    upcoming.forEach(function (e) { counts[e.suburb] = (counts[e.suburb] || 0) + 1; });
+    var top3 = suburbs.slice().sort(function (x, y) { return (counts[y] - counts[x]) || (x < y ? -1 : 1); }).slice(0, 3);
+    var subEl = document.getElementById('suburbs');
+    var hiddenN = 0;
+    Array.prototype.forEach.call(subEl.querySelectorAll('.pill'), function (btn) {
+      var v = btn.dataset.val;
+      if (v !== 'all' && top3.indexOf(v) < 0 && state.suburbs.indexOf(v) < 0) { btn.classList.add('pill-extra'); hiddenN++; }
+    });
+    subEl.classList.toggle('expanded', suburbsExpanded);
+    if (hiddenN) {
+      subEl.insertAdjacentHTML('beforeend', '<button type="button" class="pill pill-more" data-more="1" aria-expanded="' + suburbsExpanded + '">' + (suburbsExpanded ? 'Fewer' : '+' + hiddenN + ' more') + '</button>');
+    }
 
     var shown = upcoming.filter(function (e) {
       return inRange(effDate(e)) && (state.suburbs.length === 0 || state.suburbs.indexOf(e.suburb) >= 0);
@@ -200,6 +215,7 @@
     if (!panel.hidden && !ev.target.closest('#topbar')) setPanel(false);
     var b = ev.target.closest('button');
     if (!b) return;
+    if (b.dataset.more) { suburbsExpanded = !suburbsExpanded; render(); return; }
     if (b.dataset.reset) { state = { range: 'all', suburbs: [], sort: 'suburb' }; }
     else if (b.dataset.key === 'suburbs') {
       // Suburbs combine: tap to add or remove; All clears the selection.
