@@ -254,6 +254,7 @@
   }
   fitHeadline();
   window.addEventListener('resize', fitHeadline);
+  if (window.ResizeObserver) new ResizeObserver(fitHeadline).observe(document.querySelector('.hero h1'));
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitHeadline);
 
   // Build the contact link in the browser so the address is not sitting in the page for spam bots.
