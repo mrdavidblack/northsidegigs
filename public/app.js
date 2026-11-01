@@ -237,6 +237,25 @@
     if (ev.key === 'Escape' && !panel.hidden) { setPanel(false); toggle.focus(); }
   });
 
+
+  // On phones, size the headline so "Northside" runs the full width of the content column.
+  function fitHeadline() {
+    var h = document.querySelector('.hero h1');
+    if (!h) return;
+    if (!window.matchMedia('(max-width: 700px)').matches) { h.style.fontSize = ''; return; }
+    var node = h.firstChild;
+    if (!node || node.nodeType !== 3) return;
+    h.style.fontSize = '100px';
+    var range = document.createRange();
+    range.selectNodeContents(node);
+    var textW = range.getBoundingClientRect().width;
+    var availW = h.clientWidth;
+    if (textW > 0 && availW > 0) h.style.fontSize = Math.floor((100 * availW / textW) * 0.99 * 10) / 10 + 'px';
+  }
+  fitHeadline();
+  window.addEventListener('resize', fitHeadline);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitHeadline);
+
   // Build the contact link in the browser so the address is not sitting in the page for spam bots.
   var c = document.getElementById('contact');
   if (c) { var addr = c.dataset.u + '@' + c.dataset.d; c.href = 'mailto:' + addr + '?subject=' + encodeURIComponent('Northside Gigs: missing gig or venue'); }
