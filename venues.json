@@ -203,15 +203,6 @@
       ]
     },
     {
-      "id": "leadbeater",
-      "name": "The Leadbeater Hotel",
-      "suburb": "Richmond",
-      "strategy": "links",
-      "pages": [
-        "https://www.leadbeaterhotel.com.au/gigs"
-      ]
-    },
-    {
       "id": "graveyard",
       "name": "The Graveyard",
       "suburb": "Coburg North",
@@ -286,10 +277,20 @@
       ],
       "render": true,
       "exclude": "private (birthday|wedding|function|event)"
+    },
+    {
+      "id": "uptown",
+      "name": "Uptown Jazz Cafe",
+      "suburb": "Fitzroy",
+      "strategy": "uptown",
+      "pages": [
+        "https://www.uptownjazzcafe.com/index.php"
+      ]
     }
   ],
   "_disabled": {
     "pennyblack": "Site no longer lists gigs (checked 31 Oct 2026)",
-    "catfish": "iwannaticket page has no events (checked 31 Oct 2026); find where they list gigs now"
+    "catfish": "iwannaticket page has no events (checked 31 Oct 2026); find where they list gigs now",
+    "leadbeater": "removed by request: only venue in Richmond (https://www.leadbeaterhotel.com.au/gigs, links strategy)"
   }
 }

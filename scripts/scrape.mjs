@@ -542,7 +542,45 @@ async function lomondStrategy(v) {
   return out;
 }
 
-const STRATEGIES = { creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
+// Uptown Jazz Cafe: one page per month (jan.php ... dec.php), each a list of "Wednesday 04" / act-name pairs.
+// Nothing marks the year, and months that have not been updated keep last year's listing, so a gig is only
+// kept when its weekday matches the date in the year we expect. Music starts at 8pm (stated on the venue's own site).
+async function uptownStrategy(v) {
+  const base = v.pages[0].replace(/\/[^/]*$/, '/');
+  const MON = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+  const DOWS = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+  const [ty, tm] = new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit' }).format(new Date()).split('-').map(Number);
+  const out = [];
+  for (let k = 0; k < 3; k++) {
+    const m0 = tm - 1 + k;
+    const year = ty + Math.floor(m0 / 12);
+    const month = (m0 % 12) + 1;
+    const url = `${base}${MON[month - 1]}.php`;
+    let html;
+    try { html = await get(url); } catch { continue; }
+    const $ = cheerio.load(html);
+    $('script, style, noscript').remove();
+    $('br').replaceWith('\n');
+    $('p, h1, h2, h3, h4, h5, li, div, tr, td, a, span').append('\n');
+    const lines = $('body').text().replace(/\u00a0/g, ' ').split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
+    let kept = 0; let stale = 0;
+    for (let i = 0; i < lines.length; i++) {
+      const m = lines[i].match(/^(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)\s+(\d{1,2})$/i);
+      if (!m) continue;
+      const day = parseInt(m[2], 10);
+      const title = lines[i + 1];
+      if (!title || /^(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)\s+\d/i.test(title)) continue;
+      if (DOWS[new Date(Date.UTC(year, month - 1, day)).getUTCDay()] !== m[1].toLowerCase()) { stale++; continue; }
+      const date = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+      out.push({ title, start: melbourneToIso(date, '20:00'), price: null, status: 'unknown', url, linkType: 'details' });
+      kept++;
+    }
+    console.log(`  uptown ${MON[month - 1]}: ${kept} gigs${stale ? `, ${stale} skipped (weekday does not match ${year}, page not updated)` : ''}`);
+  }
+  return out;
+}
+
+const STRATEGIES = { uptown: uptownStrategy, creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
 
 // ---- main ----
 
