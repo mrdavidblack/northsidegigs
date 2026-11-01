@@ -256,6 +256,8 @@
   window.addEventListener('resize', fitHeadline);
   if (window.ResizeObserver) new ResizeObserver(fitHeadline).observe(document.querySelector('.hero h1'));
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitHeadline);
+  if (document.fonts && document.fonts.addEventListener) document.fonts.addEventListener('loadingdone', fitHeadline);
+  window.addEventListener('load', fitHeadline);
 
   // Build the contact link in the browser so the address is not sitting in the page for spam bots.
   var c = document.getElementById('contact');
@@ -270,6 +272,8 @@
         document.getElementById('updated').textContent = 'Last updated ' + dayLabel(d) + ', ' + timeFmt.format(d).replace(/\s/g, '').toLowerCase() + '.';
       }
       render();
+      // The page scrollbar can appear once the list is in, which narrows the headline's column.
+      requestAnimationFrame(function () { requestAnimationFrame(fitHeadline); });
     })
     .catch(function (err) {
       console.error('Gig list error', err);
