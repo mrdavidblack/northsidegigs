@@ -6,6 +6,7 @@
   --pill-border: #474747;
   --accent: #F3ECD6;
   --subhead: #A09E98;
+  --pad: 5vw;
   --mono: 'IBM Plex Mono', ui-monospace, monospace;
   --sans: 'Sofia Sans', system-ui, sans-serif;
   --title: 'Sofia Sans Semi Condensed', 'Sofia Sans', system-ui, sans-serif;
@@ -15,19 +16,17 @@
 html { background: var(--bg); }
 body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
 a { color: var(--fg); }
-.wrap { max-width: 1280px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 64px) 96px; }
+.wrap { margin: 0; padding: 0 var(--pad) 96px; }
 html { scroll-padding-top: 88px; }
 
 
 .hero { position: relative; overflow: hidden; isolation: isolate; border-radius: 24px; display: flex; flex-direction: column; gap: 24px;
-  /* The map frame can grow to 1600px, centred; the text stays on the content column's left edge so it lines up with the suburb headings. */
-  --frame-w: min(1600px, 100vw - 32px);
-  --content-w: calc(min(1280px, 100vw) - 2 * clamp(16px, 4vw, 64px));
-  width: var(--frame-w); margin: 24px 0 0 calc(50% - var(--frame-w) / 2);
-  padding: clamp(32px, 6vw, 80px) calc((var(--frame-w) - var(--content-w)) / 2) clamp(32px, 4.4vw, 56px); }
+  /* The map frame reaches to 16px from each screen edge; the text stays on the content edge so it lines up with the suburb headings. */
+  width: calc(100% + 2 * (var(--pad) - 16px)); margin: 24px 0 0 calc(16px - var(--pad));
+  padding: clamp(32px, 6vw, 80px) calc(var(--pad) - 16px) clamp(32px, 4.4vw, 56px); }
 .hero::before { content: ""; position: absolute; inset: 0; z-index: -2; background: url(/map.webp) center / cover no-repeat; opacity: 0.5; }
 .hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to bottom, rgba(20, 20, 20, 0) 50%, var(--bg) 100%); }
-@media (max-width: 700px) { .hero { width: auto; margin: 0 calc(-1 * clamp(16px, 4vw, 64px)); border-radius: 0; padding-left: clamp(16px, 4vw, 64px); padding-right: clamp(16px, 4vw, 64px); } section.hero h1 { font-size: clamp(64px, 9vw, 116px); } .hero::before { background-image: url(/map-sm.webp); } }
+@media (max-width: 700px) { :root { --pad: clamp(16px, 4vw, 28px); } .hero { width: auto; margin: 0 calc(-1 * var(--pad)); border-radius: 0; padding-left: var(--pad); padding-right: var(--pad); } section.hero h1 { font-size: clamp(64px, 9vw, 116px); } .hero::before { background-image: url(/map-sm.webp); } }
 .hero h1 { margin: 0; font-family: var(--display); font-weight: 900; font-size: clamp(92px, 14.8vw, 190px); line-height: 0.74; letter-spacing: -0.02em; text-transform: uppercase; }
 .lede { margin: 0; max-width: 640px; font-size: clamp(20px, 1.9vw, 24px); line-height: 1.4; }
 .accent { color: var(--accent); font-weight: 700; }
@@ -76,7 +75,7 @@ html { scroll-padding-top: 88px; }
 
 /* Sticky header */
 .topbar { position: sticky; top: 0; z-index: 30; background: rgba(20, 20, 20, 0.94); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-bottom: 1px solid var(--rule); }
-.topbar-row { max-width: 1280px; margin: 0 auto; padding: 10px clamp(16px, 4vw, 64px); display: flex; align-items: center; gap: 12px 20px; min-height: 64px; }
+.topbar-row { margin: 0; padding: 10px var(--pad); display: flex; align-items: center; gap: 12px 20px; min-height: 64px; }
 .wordmark { text-decoration: none; font-family: var(--display); font-weight: 900; font-size: 28px; line-height: 1; letter-spacing: 0.02em; text-transform: uppercase; white-space: nowrap; }
 .summary { margin: 0; flex: 1 1 auto; min-width: 0; font-family: var(--mono); font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .topbar-actions { margin-left: auto; display: flex; align-items: center; gap: 8px 20px; }
@@ -89,7 +88,7 @@ html { scroll-padding-top: 88px; }
 .count[hidden], .filter-panel[hidden] { display: none; }
 
 .filter-panel { position: absolute; top: 100%; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--rule); border-top: 1px solid var(--rule); max-height: calc(100vh - 64px); max-height: calc(100dvh - 64px); overflow-y: auto; }
-.filter-panel-inner { max-width: 1280px; margin: 0 auto; padding: 24px clamp(16px, 4vw, 64px) 28px; display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: flex-end; }
+.filter-panel-inner { margin: 0; padding: 24px var(--pad) 28px; display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: flex-end; }
 .filter { display: flex; flex-direction: column; gap: 10px; }
 .filter-panel .btn.done { margin-left: auto; margin-top: 4px; border: 0; cursor: pointer; font-family: var(--sans); }
 .label .hint { letter-spacing: 0.04em; text-transform: none; opacity: 0.8; margin-left: 6px; }
