@@ -19,7 +19,10 @@ a { color: var(--fg); }
 html { scroll-padding-top: 88px; }
 
 
-.hero { padding: clamp(32px, 6vw, 80px) 0 clamp(8px, 2vw, 24px); display: flex; flex-direction: column; gap: 24px; }
+.hero { position: relative; overflow: hidden; isolation: isolate; border-radius: 24px; margin-top: 24px; padding: clamp(32px, 6vw, 80px) clamp(20px, 3.75vw, 48px) clamp(32px, 4.4vw, 56px); display: flex; flex-direction: column; gap: 24px; }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: -2; background: url(/map.webp) center / cover no-repeat; opacity: 0.5; }
+.hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to bottom, rgba(20, 20, 20, 0) 50%, var(--bg) 100%); }
+@media (max-width: 700px) { .hero { margin-top: 12px; } .hero::before { background-image: url(/map-sm.webp); } }
 .hero h1 { margin: 0; font-family: var(--display); font-weight: 900; font-size: clamp(92px, 14.8vw, 190px); line-height: 0.74; letter-spacing: -0.02em; text-transform: uppercase; }
 .lede { margin: 0; max-width: 640px; font-size: clamp(20px, 1.9vw, 24px); line-height: 1.4; }
 .accent { color: var(--accent); font-weight: 700; }
