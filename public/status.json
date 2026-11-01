@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T22:39:14.543Z",
+ "generatedAt": "2026-11-01T23:13:09.059Z",
  "venues": [
   {
    "id": "tote",
@@ -388,24 +388,6 @@
    }
   },
   {
-   "id": "leadbeater",
-   "name": "The Leadbeater Hotel",
-   "count": 9,
-   "keptFromLastRun": false,
-   "error": null,
-   "debug": {
-    "fetched": 11,
-    "failed": [],
-    "ticketLinks": 9,
-    "noEventData": [],
-    "firstFetches": [
-     "200 https://www.leadbeaterhotel.com.au/gigs",
-     "200 (rendered) https://www.leadbeaterhotel.com.au/gigs",
-     "200 https://theleadbeaterhotel.oztix.com.au/outlet/event/8af86be1-3f2c-4014-b4df-0482ecf4d5a2"
-    ]
-   }
-  },
-  {
    "id": "graveyard",
    "name": "The Graveyard",
    "count": 3,
@@ -540,6 +522,24 @@
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
      "200 (alt) https://alternate.moshtix.com.au/v2/event/things-of-stone-and-wood-supported-by-",
      "200 https://www.moshtix.com.au/v2/event/things-of-stone-and-wood-supported-by-wil-wagner-smith"
+    ]
+   }
+  },
+  {
+   "id": "uptown",
+   "name": "Uptown Jazz Cafe",
+   "count": 16,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 3,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.uptownjazzcafe.com/nov.php",
+     "200 https://www.uptownjazzcafe.com/dec.php",
+     "200 https://www.uptownjazzcafe.com/jan.php"
     ]
    }
   }
