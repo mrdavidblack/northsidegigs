@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-01T11:43:07.879Z",
+ "generatedAt": "2026-11-01T22:39:14.543Z",
  "venues": [
   {
    "id": "tote",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 49,
+   "count": 48,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 102,
+    "ticketLinks": 100,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -62,7 +62,7 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 38,
+   "count": 37,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -73,7 +73,7 @@
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
      "200 (rendered) https://northcotesocialclub.com/gigs/",
-     "200 https://tickets.northcotesocialclub.com/outlet/event/7048ffee-3201-4334-a98c-c3db969febfe"
+     "200 https://tickets.northcotesocialclub.com/outlet/event/ab67b145-126c-4d18-80b8-2ee4f1249b8b"
     ]
    }
   },
@@ -172,7 +172,7 @@
   {
    "id": "lulie",
    "name": "Lulie Tavern",
-   "count": 17,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -192,9 +192,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 22,
+    "fetched": 23,
     "failed": [],
-    "ticketLinks": 20,
+    "ticketLinks": 21,
     "noEventData": [],
     "firstFetches": [
      "200 http://thecroxton.com.au/",
@@ -224,36 +224,36 @@
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 21,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 23,
+    "fetched": 22,
     "failed": [],
-    "ticketLinks": 22,
+    "ticketLinks": 21,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
-     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=249441",
-     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=248660"
+     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=248660",
+     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=252236"
     ]
    }
   },
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 22,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 47,
+    "fetched": 45,
     "failed": [],
-    "ticketLinks": 23,
+    "ticketLinks": 22,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/i-hate-mondays-w-cotto-dameeeela/20198",
-     "200 https://www.moshtix.com.au/v2/event/i-hate-mondays-w-cotto-dameeeela/201989"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/total-vinyl-mania/201674",
+     "200 https://www.moshtix.com.au/v2/event/total-vinyl-mania/201674"
     ]
    }
   },
@@ -426,7 +426,7 @@
   {
    "id": "deserthighways",
    "name": "Desert Highways",
-   "count": 5,
+   "count": 4,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -478,7 +478,7 @@
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 21,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -498,14 +498,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 39,
+    "fetched": 33,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.lomondhotel.com.au/events",
-     "200 https://www.lomondhotel.com.au/node/803",
-     "200 https://www.eventbrite.com.au/e/lomond-acoustica-presents-nick-charles-mick-pealing-and-bl"
+     "200 https://www.lomondhotel.com.au/node/796",
+     "200 https://www.eventbrite.com.au/e/lowie-live-presents-wild-orchids-and-the-weeds-tickets-200"
     ]
    }
   },
