@@ -107,15 +107,15 @@
     pills(document.getElementById('suburbs'), 'suburbs', [['all', 'All']].concat(suburbs.map(function (s) { return [s, s]; })),
       function (v) { return v === 'all' ? state.suburbs.length === 0 : state.suburbs.indexOf(v) >= 0; });
     pills(document.getElementById('sorts'), 'sort', [['date', 'Date'], ['suburb', 'Suburb']]);
-    // On phones only the three busiest suburbs show by default; the rest sit behind a More button.
+    // On phones only the two busiest suburbs show by default; the rest sit behind a More button.
     var counts = {};
     upcoming.forEach(function (e) { counts[e.suburb] = (counts[e.suburb] || 0) + 1; });
-    var top3 = suburbs.slice().sort(function (x, y) { return (counts[y] - counts[x]) || (x < y ? -1 : 1); }).slice(0, 3);
+    var topN = suburbs.slice().sort(function (x, y) { return (counts[y] - counts[x]) || (x < y ? -1 : 1); }).slice(0, 2);
     var subEl = document.getElementById('suburbs');
     var hiddenN = 0;
     Array.prototype.forEach.call(subEl.querySelectorAll('.pill'), function (btn) {
       var v = btn.dataset.val;
-      if (v !== 'all' && top3.indexOf(v) < 0 && state.suburbs.indexOf(v) < 0) { btn.classList.add('pill-extra'); hiddenN++; }
+      if (v !== 'all' && topN.indexOf(v) < 0 && state.suburbs.indexOf(v) < 0) { btn.classList.add('pill-extra'); hiddenN++; }
     });
     subEl.classList.toggle('expanded', suburbsExpanded);
     if (hiddenN) {
