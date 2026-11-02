@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-01T23:13:09.059Z",
+ "generatedAt": "2026-11-02T13:10:31.746Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 52,
+   "count": 51,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 61,
+    "fetched": 60,
     "failed": [],
-    "ticketLinks": 58,
+    "ticketLinks": 57,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 48,
+   "count": 51,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 100,
+    "ticketLinks": 102,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -62,31 +62,31 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 37,
+   "count": 36,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 56,
+    "fetched": 55,
     "failed": [],
-    "ticketLinks": 54,
+    "ticketLinks": 53,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
      "200 (rendered) https://northcotesocialclub.com/gigs/",
-     "200 https://tickets.northcotesocialclub.com/outlet/event/ab67b145-126c-4d18-80b8-2ee4f1249b8b"
+     "200 https://tickets.northcotesocialclub.com/outlet/event/2aff7c71-3f9c-4014-8a24-ab217e5f5a1d"
     ]
    }
   },
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 17,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 53,
+    "fetched": 55,
     "failed": [],
-    "ticketLinks": 26,
+    "ticketLinks": 27,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
@@ -126,23 +126,24 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/4e30252d-e902-40ce-866d-35864b4d27bd",
-     "200 https://tickets.oztix.com.au/outlet/event/061e2789-ad6f-4ea4-9404-977c9a7e6c27"
+     "200 https://tickets.oztix.com.au/outlet/event/061e2789-ad6f-4ea4-9404-977c9a7e6c27",
+     "200 https://tickets.oztix.com.au/outlet/event/81413b52-f1e5-40e1-b023-9a193720f8a4"
     ]
    }
   },
   {
    "id": "cactus",
    "name": "Cactus Room",
-   "count": 13,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 16,
+    "fetched": 17,
     "failed": [],
     "ticketLinks": 14,
     "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/1796016a-b8a0-443c-9d5d-58b03cbaace3"
+     "https://tickets.oztix.com.au/outlet/event/1796016a-b8a0-443c-9d5d-58b03cbaace3",
+     "https://tickets.oztix.com.au/outlet/event/9aad8f7a-ac12-4d76-9381-5b8b797ed31c"
     ],
     "firstFetches": [
      "200 http://www.cactusroom.com.au/events.html",
@@ -165,14 +166,14 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/28629b67-9448-4c34-af0a-6d099df90ce4"
+     "200 https://baropen.oztix.com.au/outlet/event/9b4219c4-f379-43e1-8176-64cc2ee40695"
     ]
    }
   },
   {
    "id": "lulie",
    "name": "Lulie Tavern",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -192,9 +193,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 23,
+    "fetched": 22,
     "failed": [],
-    "ticketLinks": 21,
+    "ticketLinks": 20,
     "noEventData": [],
     "firstFetches": [
      "200 http://thecroxton.com.au/",
@@ -224,13 +225,13 @@
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 20,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 22,
+    "fetched": 23,
     "failed": [],
-    "ticketLinks": 21,
+    "ticketLinks": 22,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -242,7 +243,7 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 21,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -356,7 +357,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 21,
+   "count": 25,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -424,13 +425,13 @@
   {
    "id": "railway",
    "name": "Railway Hotel",
-   "count": 3,
+   "count": 4,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 5,
+    "fetched": 6,
     "failed": [],
-    "ticketLinks": 3,
+    "ticketLinks": 4,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.railwayhotelfitzroy.com.au/ballroom-gigs",
@@ -442,25 +443,25 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 37,
+   "count": 36,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 47,
+    "fetched": 46,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l",
-     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx"
+     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx",
+     "200 https://wesleyanne.com.au/events/fliryte-nov"
     ]
    }
   },
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 20,
+   "count": 34,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -476,11 +477,11 @@
   {
    "id": "lomond",
    "name": "The Lomond Hotel",
-   "count": 13,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 33,
+    "fetched": 37,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
@@ -510,13 +511,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 49,
+   "count": 51,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 141,
+    "fetched": 151,
     "failed": [],
-    "ticketLinks": 70,
+    "ticketLinks": 75,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
