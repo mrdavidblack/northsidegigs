@@ -62,8 +62,8 @@ html { scroll-padding-top: 88px; }
 .empty p, .loading { margin: 0; font-size: 18px; color: var(--muted); }
 .loading { padding: 64px 0; }
 
-.footer { margin-top: 96px; padding-top: 96px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; align-items: center; gap: 24px 48px; font-size: 15px; line-height: 1.5; color: var(--muted); }
-.footer-logo { flex: none; width: 229px; height: auto; color: #3A3833; }
+.footer { margin-top: 96px; padding-top: 0; border-top: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 24px 48px; font-size: 15px; line-height: 1.5; color: var(--muted); }
+.footer-logo { flex: none; width: 229px; height: auto; }
 .footer-text { flex: 1 1 320px; max-width: 620px; display: flex; flex-direction: column; gap: 16px; }
 .footer p { margin: 0; max-width: 620px; }
 
