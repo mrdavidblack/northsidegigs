@@ -1,30 +1,28 @@
 {
- "generatedAt": "2026-11-03T01:29:18.589Z",
+ "generatedAt": "2026-11-03T12:39:24.922Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 10,
+   "count": 51,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 13,
-    "failed": [
-     "504 https://thetotehotel.oztix.com.au/"
-    ],
-    "ticketLinks": 10,
+    "fetched": 60,
+    "failed": [],
+    "ticketLinks": 57,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
      "200 (rendered) https://thetotehotel.com/",
-     "504 https://thetotehotel.oztix.com.au/"
+     "200 https://thetotehotel.oztix.com.au/"
     ]
    }
   },
   {
    "id": "oldbar",
    "name": "The Old Bar",
-   "count": 20,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -52,7 +50,7 @@
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 102,
+    "ticketLinks": 104,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -157,7 +155,7 @@
   {
    "id": "baropen",
    "name": "Bar Open",
-   "count": 18,
+   "count": 19,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -168,7 +166,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/9b4219c4-f379-43e1-8176-64cc2ee40695"
+     "200 https://baropen.oztix.com.au/outlet/event/c80519e8-21a1-4110-b4a2-b8dd44a3b32c"
     ]
    }
   },
@@ -209,15 +207,19 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 26,
-   "keptFromLastRun": true,
+   "count": 27,
+   "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 0,
+    "fetched": 30,
     "failed": [],
-    "ticketLinks": 0,
+    "ticketLinks": 29,
     "noEventData": [],
-    "firstFetches": []
+    "firstFetches": [
+     "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
+     "200 https://tickets.oztix.com.au/outlet/event/0823d49e-e620-4174-8d7a-f8604af809b1",
+     "200 https://tickets.oztix.com.au/outlet/event/e0a1d968-cec1-48d2-b8bc-73eaf8beba44"
+    ]
    }
   },
   {
@@ -241,13 +243,13 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 20,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 43,
+    "fetched": 45,
     "failed": [],
-    "ticketLinks": 21,
+    "ticketLinks": 22,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
@@ -371,18 +373,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 31,
+   "count": 30,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 32,
+    "fetched": 31,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/3/closed-for-public-holiday-tu",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/4/quiet-electric"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/4/quiet-electric",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-h"
     ]
    }
   },
@@ -509,18 +511,18 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 51,
+   "count": 50,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 151,
+    "fetched": 149,
     "failed": [],
-    "ticketLinks": 75,
+    "ticketLinks": 74,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/things-of-stone-and-wood-supported-by-",
-     "200 https://www.moshtix.com.au/v2/event/things-of-stone-and-wood-supported-by-wil-wagner-smith"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/xylourides/200197",
+     "200 https://www.moshtix.com.au/v2/event/xylourides/200197"
     ]
    }
   },
