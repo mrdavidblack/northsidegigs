@@ -1,21 +1,23 @@
 {
- "generatedAt": "2026-11-02T13:10:31.746Z",
+ "generatedAt": "2026-11-03T01:29:18.589Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 51,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 60,
-    "failed": [],
-    "ticketLinks": 57,
+    "fetched": 13,
+    "failed": [
+     "504 https://thetotehotel.oztix.com.au/"
+    ],
+    "ticketLinks": 10,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
      "200 (rendered) https://thetotehotel.com/",
-     "200 https://thetotehotel.oztix.com.au/"
+     "504 https://thetotehotel.oztix.com.au/"
     ]
    }
   },
@@ -116,13 +118,13 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 44,
+   "count": 45,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 64,
+    "fetched": 65,
     "failed": [],
-    "ticketLinks": 63,
+    "ticketLinks": 64,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
@@ -208,18 +210,14 @@
    "id": "bergy",
    "name": "Bergy Bandroom",
    "count": 26,
-   "keptFromLastRun": false,
+   "keptFromLastRun": true,
    "error": null,
    "debug": {
-    "fetched": 29,
+    "fetched": 0,
     "failed": [],
-    "ticketLinks": 28,
+    "ticketLinks": 0,
     "noEventData": [],
-    "firstFetches": [
-     "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/0823d49e-e620-4174-8d7a-f8604af809b1",
-     "200 https://tickets.oztix.com.au/outlet/event/e0a1d968-cec1-48d2-b8bc-73eaf8beba44"
-    ]
+    "firstFetches": []
    }
   },
   {
@@ -247,21 +245,21 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 45,
+    "fetched": 43,
     "failed": [],
-    "ticketLinks": 22,
+    "ticketLinks": 21,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/total-vinyl-mania/201674",
-     "200 https://www.moshtix.com.au/v2/event/total-vinyl-mania/201674"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/duvin-%E2%80%9Cirrelevant-magic%E2%80%",
+     "200 https://www.moshtix.com.au/v2/event/duvin-%E2%80%9Cirrelevant-magic%E2%80%9D-launch/200860"
     ]
    }
   },
   {
    "id": "howler",
    "name": "Howler",
-   "count": 23,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
