@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-03T23:54:45.016Z",
+ "generatedAt": "2026-11-04T12:48:35.633Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 52,
+   "count": 53,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 61,
+    "fetched": 62,
     "failed": [],
-    "ticketLinks": 58,
+    "ticketLinks": 59,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -22,13 +22,13 @@
   {
    "id": "oldbar",
    "name": "The Old Bar",
-   "count": 21,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 33,
+    "fetched": 36,
     "failed": [],
-    "ticketLinks": 27,
+    "ticketLinks": 30,
     "noEventData": [
      "https://theoldbar.oztix.com.au/outlet/event/55c0a984-0c3c-4810-ac40-dfcbf885304b",
      "https://theoldbar.oztix.com.au/outlet/event/3cc6d6f7-b72f-44d4-9d17-327e392a6a6e",
@@ -80,13 +80,13 @@
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 18,
+   "count": 19,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 55,
+    "fetched": 59,
     "failed": [],
-    "ticketLinks": 27,
+    "ticketLinks": 29,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
@@ -116,13 +116,13 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 44,
+   "count": 61,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 64,
+    "fetched": 81,
     "failed": [],
-    "ticketLinks": 63,
+    "ticketLinks": 81,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
@@ -134,21 +134,18 @@
   {
    "id": "cactus",
    "name": "Cactus Room",
-   "count": 12,
+   "count": 13,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 17,
+    "fetched": 14,
     "failed": [],
-    "ticketLinks": 14,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/1796016a-b8a0-443c-9d5d-58b03cbaace3",
-     "https://tickets.oztix.com.au/outlet/event/9aad8f7a-ac12-4d76-9381-5b8b797ed31c"
-    ],
+    "ticketLinks": 13,
+    "noEventData": [],
     "firstFetches": [
      "200 http://www.cactusroom.com.au/events.html",
-     "200 https://tickets.oztix.com.au/outlet/event/1796016a-b8a0-443c-9d5d-58b03cbaace3",
-     "200 (rendered) https://tickets.oztix.com.au/outlet/event/1796016a-b8a0-443c-9d5d-58b03cbaace3"
+     "200 https://tickets.oztix.com.au/outlet/event/58e26f72-ee8e-4244-b54e-dfd83cfcd18f",
+     "200 https://tickets.oztix.com.au/outlet/event/ee9f8b47-fbbb-42d9-89b0-46960aa53bda"
     ]
    }
   },
@@ -166,7 +163,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/c80519e8-21a1-4110-b4a2-b8dd44a3b32c"
+     "200 https://baropen.oztix.com.au/outlet/event/2f31bdf1-c228-48cd-a293-2b602979bfd4"
     ]
    }
   },
@@ -207,13 +204,13 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 27,
+   "count": 28,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 31,
+    "fetched": 32,
     "failed": [],
-    "ticketLinks": 30,
+    "ticketLinks": 31,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
@@ -225,13 +222,13 @@
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 21,
+   "count": 22,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 23,
+    "fetched": 24,
     "failed": [],
-    "ticketLinks": 22,
+    "ticketLinks": 23,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -294,13 +291,14 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 32,
+   "count": 36,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 34,
+    "fetched": 38,
     "failed": [
-     "404 https://events.humanitix.com/aquaplane-with-oil-rig-and-moths",
+     "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
+     "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
      "404 https://events.humanitix.com/groom-epoch-shadow-kaleidoscope-tour",
      "404 https://events.humanitix.com/years-end-rock-celebration"
     ],
@@ -308,19 +306,19 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/beanbotime",
-     "200 https://events.humanitix.com/henry-and-nancy-nighthawks"
+     "200 https://events.humanitix.com/henry-and-nancy-nighthawks",
+     "200 https://events.humanitix.com/glass-media-2026-tour-w-middle-palms-strawbz"
     ]
    }
   },
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 18,
+   "count": 19,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 27,
+    "fetched": 26,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
      "404 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party-20-years-of-beers-and-",
@@ -331,8 +329,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe",
-     "200 https://www.edinburghcastle.net.au/gig-guide/suzie-so-blue"
+     "200 https://www.edinburghcastle.net.au/gig-guide/suzie-so-blue",
+     "200 https://www.edinburghcastle.net.au/gig-guide/kinematicjune2026-nzh75"
     ]
    }
   },
@@ -357,7 +355,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 25,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -373,43 +371,43 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 30,
+   "count": 29,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 31,
+    "fetched": 30,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/4/quiet-electric",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-h"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-h",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon"
     ]
    }
   },
   {
    "id": "graveyard",
    "name": "The Graveyard",
-   "count": 3,
+   "count": 5,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 5,
+    "fetched": 6,
     "failed": [],
-    "ticketLinks": 4,
+    "ticketLinks": 5,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.thegraveyardbar.com/shows-1",
      "200 https://www.eventbrite.com.au/e/gazey-dreams-at-the-graveyard-with-oceans-tickets-20038424",
-     "200 https://www.eventbrite.com.au/e/graveyard-hellabilly-halloween-tickets-2001274628286"
+     "200 https://www.eventbrite.com.au/e/graveyard-friday-13th-frenzee-tickets-2003744313180"
     ]
    }
   },
   {
    "id": "deserthighways",
    "name": "Desert Highways",
-   "count": 4,
+   "count": 6,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -447,14 +445,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 46,
+    "fetched": 45,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx",
-     "200 https://wesleyanne.com.au/events/fliryte-nov"
+     "200 https://wesleyanne.com.au/events/fliryte-nov",
+     "200 https://events.humanitix.com/northside-comedy-clash-presents-the-n-u-p-cup"
     ]
    }
   },
