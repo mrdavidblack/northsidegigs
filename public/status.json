@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-03T12:39:24.922Z",
+ "generatedAt": "2026-11-03T23:54:45.016Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 51,
+   "count": 52,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 60,
+    "fetched": 61,
     "failed": [],
-    "ticketLinks": 57,
+    "ticketLinks": 58,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 51,
+   "count": 53,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 104,
+    "ticketLinks": 100,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -62,13 +62,13 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 36,
+   "count": 37,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 55,
+    "fetched": 56,
     "failed": [],
-    "ticketLinks": 53,
+    "ticketLinks": 54,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -116,18 +116,18 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 45,
+   "count": 44,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 65,
+    "fetched": 64,
     "failed": [],
-    "ticketLinks": 64,
+    "ticketLinks": 63,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/061e2789-ad6f-4ea4-9404-977c9a7e6c27",
-     "200 https://tickets.oztix.com.au/outlet/event/81413b52-f1e5-40e1-b023-9a193720f8a4"
+     "200 https://tickets.oztix.com.au/outlet/event/81413b52-f1e5-40e1-b023-9a193720f8a4",
+     "200 https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65"
     ]
    }
   },
@@ -189,7 +189,7 @@
   {
    "id": "croxton",
    "name": "The Croxton Bandroom",
-   "count": 9,
+   "count": 8,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -200,7 +200,7 @@
     "firstFetches": [
      "200 http://thecroxton.com.au/",
      "200 (rendered) http://thecroxton.com.au/",
-     "200 https://tickets.oztix.com.au/outlet/event/0329289b-76dd-4927-85dd-d9aa184e8138"
+     "200 https://tickets.oztix.com.au/outlet/event/f95cf493-a3dc-4cbc-a88c-4c1b2b7ca091"
     ]
    }
   },
@@ -211,9 +211,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 30,
+    "fetched": 31,
     "failed": [],
-    "ticketLinks": 29,
+    "ticketLinks": 30,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
@@ -511,13 +511,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 50,
+   "count": 51,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 149,
+    "fetched": 151,
     "failed": [],
-    "ticketLinks": 74,
+    "ticketLinks": 75,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
