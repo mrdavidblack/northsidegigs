@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-04T12:48:35.633Z",
+ "generatedAt": "2026-11-05T00:14:56.395Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 53,
+   "count": 54,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 62,
+    "fetched": 63,
     "failed": [],
-    "ticketLinks": 59,
+    "ticketLinks": 60,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -26,9 +26,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 36,
+    "fetched": 34,
     "failed": [],
-    "ticketLinks": 30,
+    "ticketLinks": 29,
     "noEventData": [
      "https://theoldbar.oztix.com.au/outlet/event/55c0a984-0c3c-4810-ac40-dfcbf885304b",
      "https://theoldbar.oztix.com.au/outlet/event/3cc6d6f7-b72f-44d4-9d17-327e392a6a6e",
@@ -62,7 +62,7 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 37,
+   "count": 36,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -73,25 +73,25 @@
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
      "200 (rendered) https://northcotesocialclub.com/gigs/",
-     "200 https://tickets.northcotesocialclub.com/outlet/event/2aff7c71-3f9c-4014-8a24-ab217e5f5a1d"
+     "200 https://tickets.northcotesocialclub.com/outlet/event/e75c16fa-ee49-42c0-97fe-5da88c78cbb4"
     ]
    }
   },
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 19,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 59,
+    "fetched": 57,
     "failed": [],
-    "ticketLinks": 29,
+    "ticketLinks": 28,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-251946"
+     "200 https://evelynhotel.com.au/events/event-245714"
     ]
    }
   },
@@ -116,18 +116,18 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 61,
+   "count": 62,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 81,
     "failed": [],
-    "ticketLinks": 81,
+    "ticketLinks": 80,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/81413b52-f1e5-40e1-b023-9a193720f8a4",
-     "200 https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65"
+     "200 https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65",
+     "200 https://tickets.oztix.com.au/outlet/event/68607a9c-7647-4e4a-9d5c-2f5a778b8d2c"
     ]
    }
   },
@@ -493,7 +493,7 @@
   {
    "id": "creature",
    "name": "Creature Bar",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -527,7 +527,7 @@
   {
    "id": "uptown",
    "name": "Uptown Jazz Cafe",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
