@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T00:14:56.395Z",
+ "generatedAt": "2026-11-05T12:57:20.172Z",
  "venues": [
   {
    "id": "tote",
@@ -66,9 +66,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 56,
+    "fetched": 57,
     "failed": [],
-    "ticketLinks": 54,
+    "ticketLinks": 55,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -116,43 +116,47 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 62,
+   "count": 61,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 81,
+    "fetched": 82,
     "failed": [],
-    "ticketLinks": 80,
-    "noEventData": [],
+    "ticketLinks": 81,
+    "noEventData": [
+     "https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65"
+    ],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
      "200 https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65",
-     "200 https://tickets.oztix.com.au/outlet/event/68607a9c-7647-4e4a-9d5c-2f5a778b8d2c"
+     "200 (rendered) https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65"
     ]
    }
   },
   {
    "id": "cactus",
    "name": "Cactus Room",
-   "count": 13,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 14,
+    "fetched": 15,
     "failed": [],
     "ticketLinks": 13,
-    "noEventData": [],
+    "noEventData": [
+     "https://tickets.oztix.com.au/outlet/event/58e26f72-ee8e-4244-b54e-dfd83cfcd18f"
+    ],
     "firstFetches": [
      "200 http://www.cactusroom.com.au/events.html",
      "200 https://tickets.oztix.com.au/outlet/event/58e26f72-ee8e-4244-b54e-dfd83cfcd18f",
-     "200 https://tickets.oztix.com.au/outlet/event/ee9f8b47-fbbb-42d9-89b0-46960aa53bda"
+     "200 (rendered) https://tickets.oztix.com.au/outlet/event/58e26f72-ee8e-4244-b54e-dfd83cfcd18f"
     ]
    }
   },
   {
    "id": "baropen",
    "name": "Bar Open",
-   "count": 19,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -163,7 +167,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/2f31bdf1-c228-48cd-a293-2b602979bfd4"
+     "200 https://baropen.oztix.com.au/outlet/event/9e9aac24-0bed-47d2-85f0-f9981c637ca8"
     ]
    }
   },
@@ -204,31 +208,31 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 28,
+   "count": 27,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 32,
+    "fetched": 31,
     "failed": [],
-    "ticketLinks": 31,
+    "ticketLinks": 30,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/0823d49e-e620-4174-8d7a-f8604af809b1",
-     "200 https://tickets.oztix.com.au/outlet/event/e0a1d968-cec1-48d2-b8bc-73eaf8beba44"
+     "200 https://tickets.oztix.com.au/outlet/event/e0a1d968-cec1-48d2-b8bc-73eaf8beba44",
+     "200 https://tickets.oztix.com.au/outlet/event/09342aa6-d3f6-403f-aa50-d7b67f4d49a5"
     ]
    }
   },
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 22,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 24,
+    "fetched": 25,
     "failed": [],
-    "ticketLinks": 23,
+    "ticketLinks": 24,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -240,12 +244,15 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 21,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 45,
-    "failed": [],
+    "failed": [
+     "404 (alt) https://alternate.moshtix.com.au/v2/event/this-is-daniel-serpa-%E2%80%A2-%E2%80%",
+     "404 https://www.moshtix.com.au/v2/event/this-is-daniel-serpa-%E2%80%A2-%E2%80%9Csirpa%E2%80%9D"
+    ],
     "ticketLinks": 22,
     "noEventData": [],
     "firstFetches": [
@@ -291,34 +298,33 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 36,
+   "count": 35,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 38,
+    "fetched": 37,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
-     "404 https://events.humanitix.com/groom-epoch-shadow-kaleidoscope-tour",
-     "404 https://events.humanitix.com/years-end-rock-celebration"
+     "404 https://events.humanitix.com/groom-epoch-shadow-kaleidoscope-tour"
     ],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/henry-and-nancy-nighthawks",
-     "200 https://events.humanitix.com/glass-media-2026-tour-w-middle-palms-strawbz"
+     "200 https://events.humanitix.com/glass-media-2026-tour-w-middle-palms-strawbz",
+     "200 https://events.humanitix.com/yi-lynn-with-winona-trappett-and-workfriend-solo"
     ]
    }
   },
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 19,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 26,
+    "fetched": 25,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
      "404 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party-20-years-of-beers-and-",
@@ -329,8 +335,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/suzie-so-blue",
-     "200 https://www.edinburghcastle.net.au/gig-guide/kinematicjune2026-nzh75"
+     "200 https://www.edinburghcastle.net.au/gig-guide/kinematicjune2026-nzh75",
+     "200 https://www.edinburghcastle.net.au/gig-guide/the-steamboat-whistlers-lgm5b-pt9ak-5wy7d-ny5"
     ]
    }
   },
@@ -371,18 +377,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 29,
+   "count": 27,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 30,
+    "fetched": 28,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-h",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/7/beer-garden-los-derros",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/8/beer-garden-retratos-ensembl"
     ]
    }
   },
@@ -423,13 +429,13 @@
   {
    "id": "railway",
    "name": "Railway Hotel",
-   "count": 4,
+   "count": 5,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 6,
+    "fetched": 7,
     "failed": [],
-    "ticketLinks": 4,
+    "ticketLinks": 5,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.railwayhotelfitzroy.com.au/ballroom-gigs",
@@ -446,13 +452,15 @@
    "error": null,
    "debug": {
     "fetched": 45,
-    "failed": [],
+    "failed": [
+     "404 https://events.humanitix.com/clare-sands-the-wesley-anne"
+    ],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/fliryte-nov",
-     "200 https://events.humanitix.com/northside-comedy-clash-presents-the-n-u-p-cup"
+     "200 https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a",
+     "200 https://wesleyanne.com.au/events/freya-and-tom-mcgowan-sep-w9ns5"
     ]
    }
   },
@@ -509,13 +517,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 51,
+   "count": 50,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 151,
+    "fetched": 149,
     "failed": [],
-    "ticketLinks": 75,
+    "ticketLinks": 74,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
