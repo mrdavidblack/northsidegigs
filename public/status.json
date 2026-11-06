@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-05T23:59:15.102Z",
+ "generatedAt": "2026-11-06T12:44:38.309Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 57,
+   "count": 58,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 66,
+    "fetched": 67,
     "failed": [],
-    "ticketLinks": 63,
+    "ticketLinks": 64,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -116,13 +116,13 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 61,
+   "count": 62,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 81,
     "failed": [],
-    "ticketLinks": 80,
+    "ticketLinks": 81,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
@@ -134,20 +134,18 @@
   {
    "id": "cactus",
    "name": "Cactus Room",
-   "count": 12,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 15,
+    "fetched": 13,
     "failed": [],
-    "ticketLinks": 13,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/58e26f72-ee8e-4244-b54e-dfd83cfcd18f"
-    ],
+    "ticketLinks": 12,
+    "noEventData": [],
     "firstFetches": [
      "200 http://www.cactusroom.com.au/events.html",
-     "200 https://tickets.oztix.com.au/outlet/event/58e26f72-ee8e-4244-b54e-dfd83cfcd18f",
-     "200 (rendered) https://tickets.oztix.com.au/outlet/event/58e26f72-ee8e-4244-b54e-dfd83cfcd18f"
+     "200 https://tickets.oztix.com.au/outlet/event/ee9f8b47-fbbb-42d9-89b0-46960aa53bda",
+     "200 https://tickets.oztix.com.au/outlet/event/14656812-526a-484c-a7b5-0694ed0362f1"
     ]
    }
   },
@@ -165,7 +163,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/9e9aac24-0bed-47d2-85f0-f9981c637ca8"
+     "200 https://baropen.oztix.com.au/outlet/event/4a8c56ea-c205-46f6-8d52-9098c04d6320"
     ]
    }
   },
@@ -216,8 +214,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/e0a1d968-cec1-48d2-b8bc-73eaf8beba44",
-     "200 https://tickets.oztix.com.au/outlet/event/09342aa6-d3f6-403f-aa50-d7b67f4d49a5"
+     "200 https://tickets.oztix.com.au/outlet/event/09342aa6-d3f6-403f-aa50-d7b67f4d49a5",
+     "200 https://tickets.oztix.com.au/outlet/event/003922f5-efd1-45fe-8794-3136bd19f094"
     ]
    }
   },
@@ -260,7 +258,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 25,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -293,11 +291,11 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 35,
+   "count": 34,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 37,
+    "fetched": 36,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
@@ -307,19 +305,19 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/glass-media-2026-tour-w-middle-palms-strawbz",
-     "200 https://events.humanitix.com/yi-lynn-with-winona-trappett-and-workfriend-solo"
+     "200 https://events.humanitix.com/yi-lynn-with-winona-trappett-and-workfriend-solo",
+     "200 https://nighthawksbar.com.au/allgigs/2026/11/7/goonbag-the-good-intentions-ep-tour"
     ]
    }
   },
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 18,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 25,
+    "fetched": 24,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
      "404 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party-20-years-of-beers-and-",
@@ -330,8 +328,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/kinematicjune2026-nzh75",
-     "200 https://www.edinburghcastle.net.au/gig-guide/the-steamboat-whistlers-lgm5b-pt9ak-5wy7d-ny5"
+     "200 https://www.edinburghcastle.net.au/gig-guide/the-steamboat-whistlers-lgm5b-pt9ak-5wy7d-ny5",
+     "200 https://www.edinburghcastle.net.au/gig-guide/danny-rossapril-29mxk-xbr7g-875eb-m4nnk"
     ]
    }
   },
@@ -356,7 +354,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 24,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -442,18 +440,18 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 36,
+   "count": 35,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 45,
+    "fetched": 44,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a",
-     "200 https://wesleyanne.com.au/events/freya-and-tom-mcgowan-sep-w9ns5"
+     "200 https://wesleyanne.com.au/events/freya-and-tom-mcgowan-sep-w9ns5",
+     "200 https://events.humanitix.com/mic-conway-and-robbie-long-53nqwqjs"
     ]
    }
   },
