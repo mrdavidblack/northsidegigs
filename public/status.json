@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-05T12:57:20.172Z",
+ "generatedAt": "2026-11-05T23:59:15.102Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 54,
+   "count": 57,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 63,
+    "fetched": 66,
     "failed": [],
-    "ticketLinks": 60,
+    "ticketLinks": 63,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 53,
+   "count": 54,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 100,
+    "ticketLinks": 102,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -120,16 +120,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 82,
+    "fetched": 81,
     "failed": [],
-    "ticketLinks": 81,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65"
-    ],
+    "ticketLinks": 80,
+    "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65",
-     "200 (rendered) https://tickets.oztix.com.au/outlet/event/29ee5ff4-a8bb-40c5-9271-bd260a65fe65"
+     "200 https://tickets.oztix.com.au/outlet/event/68607a9c-7647-4e4a-9d5c-2f5a778b8d2c",
+     "200 https://tickets.oztix.com.au/outlet/event/c44f5ea0-4fcf-4bb4-b384-71c63c91bad7"
     ]
    }
   },
@@ -174,7 +172,7 @@
   {
    "id": "lulie",
    "name": "Lulie Tavern",
-   "count": 15,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -244,15 +242,12 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 20,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 45,
-    "failed": [
-     "404 (alt) https://alternate.moshtix.com.au/v2/event/this-is-daniel-serpa-%E2%80%A2-%E2%80%",
-     "404 https://www.moshtix.com.au/v2/event/this-is-daniel-serpa-%E2%80%A2-%E2%80%9Csirpa%E2%80%9D"
-    ],
+    "failed": [],
     "ticketLinks": 22,
     "noEventData": [],
     "firstFetches": [
@@ -265,7 +260,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 24,
+   "count": 25,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -429,13 +424,13 @@
   {
    "id": "railway",
    "name": "Railway Hotel",
-   "count": 5,
+   "count": 6,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 7,
+    "fetched": 8,
     "failed": [],
-    "ticketLinks": 5,
+    "ticketLinks": 6,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.railwayhotelfitzroy.com.au/ballroom-gigs",
@@ -452,9 +447,7 @@
    "error": null,
    "debug": {
     "fetched": 45,
-    "failed": [
-     "404 https://events.humanitix.com/clare-sands-the-wesley-anne"
-    ],
+    "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
@@ -467,7 +460,7 @@
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 34,
+   "count": 32,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -501,7 +494,7 @@
   {
    "id": "creature",
    "name": "Creature Bar",
-   "count": 15,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -527,15 +520,15 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/xylourides/200197",
-     "200 https://www.moshtix.com.au/v2/event/xylourides/200197"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/small-fry-rock-feat-patience-the-grate",
+     "200 https://www.moshtix.com.au/v2/event/small-fry-rock-feat-patience-the-grates-isabella-manfr"
     ]
    }
   },
   {
    "id": "uptown",
    "name": "Uptown Jazz Cafe",
-   "count": 15,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
