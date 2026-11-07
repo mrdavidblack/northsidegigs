@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06T23:41:21.288Z",
+ "generatedAt": "2026-11-07T11:33:06.386Z",
  "venues": [
   {
    "id": "tote",
@@ -165,7 +165,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/4a8c56ea-c205-46f6-8d52-9098c04d6320"
+     "200 https://baropen.oztix.com.au/outlet/event/7c330a9d-7455-4eb8-ad2a-8edcdc6ec982"
     ]
    }
   },
@@ -216,8 +216,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/09342aa6-d3f6-403f-aa50-d7b67f4d49a5",
-     "200 https://tickets.oztix.com.au/outlet/event/003922f5-efd1-45fe-8794-3136bd19f094"
+     "200 https://tickets.oztix.com.au/outlet/event/d13668cf-2f68-4c22-bab8-aaa12f0d23da",
+     "200 https://tickets.oztix.com.au/outlet/event/6d6ecd56-2606-4ca9-adf7-25b05327eaee"
     ]
    }
   },
@@ -260,7 +260,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 24,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -293,11 +293,11 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 34,
+   "count": 35,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 36,
+    "fetched": 37,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
@@ -307,19 +307,19 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/yi-lynn-with-winona-trappett-and-workfriend-solo",
-     "200 https://nighthawksbar.com.au/allgigs/2026/11/7/goonbag-the-good-intentions-ep-tour"
+     "200 https://nighthawksbar.com.au/allgigs/2026/11/7/goonbag-the-good-intentions-ep-tour",
+     "200 https://events.humanitix.com/buckleys-at-bedtime-w-the-hollows-and-the-mods"
     ]
    }
   },
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 17,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 24,
+    "fetched": 23,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
      "404 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party-20-years-of-beers-and-",
@@ -330,8 +330,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/the-steamboat-whistlers-lgm5b-pt9ak-5wy7d-ny5",
-     "200 https://www.edinburghcastle.net.au/gig-guide/danny-rossapril-29mxk-xbr7g-875eb-m4nnk"
+     "200 https://www.edinburghcastle.net.au/gig-guide/danny-rossapril-29mxk-xbr7g-875eb-m4nnk",
+     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night"
     ]
    }
   },
@@ -356,7 +356,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 22,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -372,18 +372,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 27,
+   "count": 26,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 28,
+    "fetched": 27,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/7/beer-garden-los-derros",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/8/beer-garden-retratos-ensembl"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/8/beer-garden-retratos-ensembl",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/7/tinky-tuesday-4gmlk-43r37-g8"
     ]
    }
   },
@@ -446,14 +446,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 44,
+    "fetched": 43,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/freya-and-tom-mcgowan-sep-w9ns5",
-     "200 https://events.humanitix.com/mic-conway-and-robbie-long-53nqwqjs"
+     "200 https://events.humanitix.com/mic-conway-and-robbie-long-53nqwqjs",
+     "200 https://events.humanitix.com/blackbirds-fc"
     ]
    }
   },
@@ -494,7 +494,7 @@
   {
    "id": "creature",
    "name": "Creature Bar",
-   "count": 14,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -510,18 +510,18 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 50,
+   "count": 47,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 149,
+    "fetched": 143,
     "failed": [],
-    "ticketLinks": 74,
+    "ticketLinks": 71,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/small-fry-rock-feat-patience-the-grate",
-     "200 https://www.moshtix.com.au/v2/event/small-fry-rock-feat-patience-the-grates-isabella-manfr"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/odette/197893",
+     "200 https://www.moshtix.com.au/v2/event/odette/197893"
     ]
    }
   },
