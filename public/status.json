@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T22:36:02.209Z",
+ "generatedAt": "2026-11-08T11:44:26.851Z",
  "venues": [
   {
    "id": "tote",
@@ -37,7 +37,7 @@
     "firstFetches": [
      "200 https://www.theoldbar.com.au/",
      "200 https://theoldbar.oztix.com.au/",
-     "200 https://theoldbar.oztix.com.au/outlet/event/ecc1d6c5-fee8-46d0-8758-17906b28ff06"
+     "200 https://theoldbar.oztix.com.au/outlet/event/0338e46a-cf4f-4536-95c2-cb3f12a7f8ec"
     ]
    }
   },
@@ -62,7 +62,7 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 34,
+   "count": 35,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -166,7 +166,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/7c330a9d-7455-4eb8-ad2a-8edcdc6ec982"
+     "200 https://baropen.oztix.com.au/outlet/event/27db8328-fac5-48e6-9fdf-2a90808ec363"
     ]
    }
   },
@@ -217,8 +217,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/d13668cf-2f68-4c22-bab8-aaa12f0d23da",
-     "200 https://tickets.oztix.com.au/outlet/event/6d6ecd56-2606-4ca9-adf7-25b05327eaee"
+     "200 https://tickets.oztix.com.au/outlet/event/6d6ecd56-2606-4ca9-adf7-25b05327eaee",
+     "200 https://tickets.oztix.com.au/outlet/event/d7e79b7d-dc47-4f2b-a96d-3ce4b2da7750"
     ]
    }
   },
@@ -316,11 +316,11 @@
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 23,
+    "fetched": 22,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
      "404 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party-20-years-of-beers-and-",
@@ -331,8 +331,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/danny-rossapril-29mxk-xbr7g-875eb-m4nnk",
-     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night"
+     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
+     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe"
     ]
    }
   },
@@ -357,7 +357,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 19,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -373,18 +373,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 26,
+   "count": 25,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 27,
+    "fetched": 26,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/8/beer-garden-retratos-ensembl",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/7/tinky-tuesday-4gmlk-43r37-g8"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/7/tinky-tuesday-4gmlk-43r37-g8",
+     "200 https://events.humanitix.com/i-know-what-i-want"
     ]
    }
   },
@@ -395,14 +395,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 6,
+    "fetched": 5,
     "failed": [],
-    "ticketLinks": 5,
+    "ticketLinks": 4,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.thegraveyardbar.com/shows-1",
-     "200 https://www.eventbrite.com.au/e/gazey-dreams-at-the-graveyard-with-oceans-tickets-20038424",
-     "200 https://www.eventbrite.com.au/e/graveyard-friday-13th-frenzee-tickets-2003744313180"
+     "200 https://www.eventbrite.com.au/e/graveyard-friday-13th-frenzee-tickets-2003744313180",
+     "200 https://www.eventbrite.com.au/e/graveyard-perpetuum-machine-tickets-2003382785842"
     ]
    }
   },
@@ -443,18 +443,18 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 34,
+   "count": 32,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 42,
+    "fetched": 40,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://events.humanitix.com/blackbirds-fc",
-     "200 https://wesleyanne.com.au/events/janina-berlin-onur-puza-x3mnb"
+     "200 https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l",
+     "200 https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5"
     ]
    }
   },
