@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T22:43:23.069Z",
+ "generatedAt": "2026-11-09T13:39:43.055Z",
  "venues": [
   {
    "id": "tote",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 51,
+   "count": 53,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 94,
+    "ticketLinks": 92,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -62,18 +62,18 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 34,
+   "count": 32,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 54,
+    "fetched": 55,
     "failed": [],
-    "ticketLinks": 52,
+    "ticketLinks": 53,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
      "200 (rendered) https://northcotesocialclub.com/gigs/",
-     "200 https://tickets.northcotesocialclub.com/outlet/event/5c222112-b539-4438-81d2-f13529cc85dd"
+     "200 https://tickets.northcotesocialclub.com/outlet/event/744be11f-a313-422f-b41a-280caa7e7127"
     ]
    }
   },
@@ -84,9 +84,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 50,
+    "fetched": 52,
     "failed": [],
-    "ticketLinks": 24,
+    "ticketLinks": 25,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
@@ -116,39 +116,36 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 54,
+   "count": 53,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 74,
+    "fetched": 72,
     "failed": [],
-    "ticketLinks": 73,
+    "ticketLinks": 71,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/b339a1ad-db4c-43ae-84ca-4b2f4643fdb9",
-     "200 https://tickets.oztix.com.au/outlet/event/9ab38ff5-8683-4ba4-b94a-571cb6f19c1d"
+     "200 https://tickets.oztix.com.au/outlet/event/e2959887-ae99-4335-97ed-32dd84709c00",
+     "200 https://tickets.oztix.com.au/outlet/event/d7403041-43ff-4538-bcb1-a57147dc4164"
     ]
    }
   },
   {
    "id": "cactus",
    "name": "Cactus Room",
-   "count": 9,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 15,
+    "fetched": 13,
     "failed": [],
     "ticketLinks": 12,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/ee9f8b47-fbbb-42d9-89b0-46960aa53bda",
-     "https://tickets.oztix.com.au/outlet/event/14656812-526a-484c-a7b5-0694ed0362f1"
-    ],
+    "noEventData": [],
     "firstFetches": [
      "200 http://www.cactusroom.com.au/events.html",
-     "200 https://tickets.oztix.com.au/outlet/event/ee9f8b47-fbbb-42d9-89b0-46960aa53bda",
-     "200 (rendered) https://tickets.oztix.com.au/outlet/event/ee9f8b47-fbbb-42d9-89b0-46960aa53bda"
+     "200 https://tickets.oztix.com.au/outlet/event/cfa97877-a9f4-4169-89fc-37129817a9fc",
+     "200 https://tickets.oztix.com.au/outlet/event/ced7a43f-484a-48d5-869e-03b5700d2bee"
     ]
    }
   },
@@ -207,13 +204,13 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 24,
+   "count": 28,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 28,
+    "fetched": 31,
     "failed": [],
-    "ticketLinks": 27,
+    "ticketLinks": 30,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
@@ -225,13 +222,13 @@
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 20,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 22,
+    "fetched": 23,
     "failed": [],
-    "ticketLinks": 21,
+    "ticketLinks": 22,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -243,13 +240,13 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 17,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 35,
+    "fetched": 33,
     "failed": [],
-    "ticketLinks": 17,
+    "ticketLinks": 16,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
@@ -320,10 +317,8 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 22,
+    "fetched": 39,
     "failed": [
-     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
-     "404 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party-20-years-of-beers-and-",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-17th-nov",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov"
     ],
@@ -331,7 +326,7 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night",
+     "200 https://events.humanitix.com/edinburgh-castle-open-mic-night",
      "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe"
     ]
    }
@@ -357,7 +352,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 18,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -443,7 +438,7 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 32,
+   "count": 31,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -453,15 +448,15 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l",
-     "200 https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5"
+     "200 https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5",
+     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx"
     ]
    }
   },
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 26,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -477,18 +472,18 @@
   {
    "id": "lomond",
    "name": "The Lomond Hotel",
-   "count": 12,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 37,
+    "fetched": 36,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.lomondhotel.com.au/events",
-     "200 https://www.lomondhotel.com.au/node/796",
-     "200 https://www.eventbrite.com.au/e/lowie-live-presents-wild-orchids-and-the-weeds-tickets-200"
+     "200 https://www.lomondhotel.com.au/node/800",
+     "200 https://www.eventbrite.com.au/e/lomond-acoustica-presents-les-thomas-trudy-fatnowna-ticket"
     ]
    }
   },
@@ -511,13 +506,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 44,
+   "count": 45,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 137,
+    "fetched": 139,
     "failed": [],
-    "ticketLinks": 68,
+    "ticketLinks": 69,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
