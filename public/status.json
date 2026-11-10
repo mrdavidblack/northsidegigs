@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T11:37:09.514Z",
+ "generatedAt": "2026-11-10T11:46:37.640Z",
  "venues": [
   {
    "id": "tote",
@@ -506,13 +506,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 45,
+   "count": 44,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 139,
+    "fetched": 137,
     "failed": [],
-    "ticketLinks": 69,
+    "ticketLinks": 68,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
@@ -542,7 +542,7 @@
   {
    "id": "baddecisions",
    "name": "Bad Decisions Bar",
-   "count": 12,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
