@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T11:56:29.447Z",
+ "generatedAt": "2026-11-10T12:01:44.609Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -136,6 +136,18 @@
   },
   {
    "id": 12,
+   "title": "Good Things Festival Band Comp - Heat 2",
+   "start": "2026-11-11T08:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://tickets.oztix.com.au/outlet/event/40d7b368-d994-4753-a5a9-38c0f170c477",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
+   "id": 12,
    "title": "DOLE NIGHT w/ Flicker Vetigo + Smooth Brains + Namaric",
    "start": "2026-11-11T08:00:00.000Z",
    "price": null,
@@ -195,7 +207,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 17,
+   "id": 18,
    "title": "Candice Alisha",
    "start": "2026-11-11T09:00:00.000Z",
    "price": null,
@@ -255,7 +267,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 22,
+   "id": 23,
    "title": "Jaida Champney",
    "start": "2026-11-11T10:00:00.000Z",
    "price": null,
@@ -363,6 +375,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 32,
+   "title": "Kurt Rainbow - Vinyl Launch",
+   "start": "2026-11-12T08:30:00.000Z",
+   "price": 23.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/5ffe6e38-1429-44ef-8e47-6e8d6c8586e2",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 29,
    "title": "AKEY EP Launch",
    "start": "2026-11-12T08:30:00.000Z",
@@ -448,7 +472,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 38,
+   "id": 40,
    "title": "Roesy",
    "start": "2026-11-12T09:00:00.000Z",
    "price": null,
@@ -789,6 +813,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 68,
+   "title": "Halloween XIII: Freddie Mercury vs. Jason Alexander",
+   "start": "2026-11-13T09:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/42a6bb64-0e19-4b59-aef4-17c9226968ef",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 59,
    "title": "Harriet Wraith and The Witches present... \"She's Not Your Muse\" EP Launch at The Evelyn Hotel",
    "start": "2026-11-13T09:00:00.000Z",
@@ -873,6 +909,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 76,
+   "title": "Friday 13th Nov, 8pm",
+   "start": "2026-11-13T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://thethornburylocal.com/whats-on/",
+   "linkType": "details",
+   "venueId": "thornburylocal",
+   "venue": "Thornbury Local",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 66,
    "title": "Lachlan McKenzie Quartet",
    "start": "2026-11-13T09:00:00.000Z",
@@ -921,7 +969,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 77,
+   "id": 81,
    "title": "Waz E James",
    "start": "2026-11-13T09:30:00.000Z",
    "price": null,
@@ -1080,6 +1128,18 @@
    "suburb": "Reservoir"
   },
   {
+   "id": 94,
+   "title": "Twinkle Digitz 'Golden Cheese Emporium' Album Launch",
+   "start": "2026-11-14T03:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/712a6347-fa84-43cc-96ef-4c7c85529ec4",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 81,
    "title": "Anatreptix at The Retreat",
    "start": "2026-11-14T03:30:00.000Z",
@@ -1092,7 +1152,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 91,
+   "id": 96,
    "title": "Damien Lynch (Ireland)",
    "start": "2026-11-14T04:00:00.000Z",
    "price": null,
@@ -1381,6 +1441,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 120,
+   "title": "The Go Set",
+   "start": "2026-11-14T09:00:00.000Z",
+   "price": 25,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/1bbf82d5-f95d-49ee-bcc7-eb62588d9068",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 110,
    "title": "Big League",
    "start": "2026-11-14T09:00:00.000Z",
@@ -1439,6 +1511,18 @@
    "venueId": "workers",
    "venue": "The Workers Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 126,
+   "title": "Saturday 14th Nov, 8pm",
+   "start": "2026-11-14T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://thethornburylocal.com/whats-on/",
+   "linkType": "details",
+   "venueId": "thornburylocal",
+   "venue": "Thornbury Local",
+   "suburb": "Thornbury"
   },
   {
    "id": 109,
@@ -1501,7 +1585,7 @@
    "suburb": "North Melbourne"
   },
   {
-   "id": 125,
+   "id": 132,
    "title": "Hey Gringo!",
    "start": "2026-11-14T10:00:00.000Z",
    "price": null,
@@ -1706,7 +1790,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 142,
+   "id": 149,
    "title": "Steamboat Whistlers",
    "start": "2026-11-15T05:00:00.000Z",
    "price": null,
@@ -1742,6 +1826,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 152,
+   "title": "MIRROR CLIPPERS + EBI NORI & THE PHANTOM FINGERS + HEAVY DELAY + WINTERNATIONALE",
+   "start": "2026-11-15T05:30:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/4e0a64a6-09b0-411b-8aba-4402f3463837",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 131,
    "title": "Amanduh - 'Hot Head' Single Launch",
    "start": "2026-11-15T06:00:00.000Z",
@@ -1764,6 +1860,18 @@
    "venueId": "lomond",
    "venue": "The Lomond Hotel",
    "suburb": "Brunswick East"
+  },
+  {
+   "id": 155,
+   "title": "Sunday 15th Nov, 5pm",
+   "start": "2026-11-15T06:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://thethornburylocal.com/whats-on/",
+   "linkType": "details",
+   "venueId": "thornburylocal",
+   "venue": "Thornbury Local",
+   "suburb": "Thornbury"
   },
   {
    "id": 133,
@@ -1790,7 +1898,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 149,
+   "id": 158,
    "title": "The Galway Rovers",
    "start": "2026-11-15T07:30:00.000Z",
    "price": null,
@@ -2066,7 +2174,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 172,
+   "id": 181,
    "title": "Bag O'Nails play the songs of Gary Moore",
    "start": "2026-11-17T09:00:00.000Z",
    "price": null,
@@ -2162,7 +2270,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 180,
+   "id": 189,
    "title": "Elly Mck & The Unbelievers",
    "start": "2026-11-18T09:00:00.000Z",
    "price": null,
@@ -2376,6 +2484,18 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 207,
+   "title": "Emma Yue \"This House is on Fire\" EP Launch",
+   "start": "2026-11-19T08:30:00.000Z",
+   "price": 23.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/f45ff53f-1a56-4189-b503-8cf5a9229e15",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 179,
@@ -2632,6 +2752,18 @@
    "suburb": "Brunswick East"
   },
   {
+   "id": 229,
+   "title": "PARK RD - Boyhood Tour",
+   "start": "2026-11-20T08:30:00.000Z",
+   "price": 34.35,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/64a17a6b-31f1-410f-bfc8-95340288f54f",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 199,
    "title": "Vault Hill 'The Modern Way' Release Show with Identity Error, I Choose Violence (SA), Seventh Circle and Casino Blvd",
    "start": "2026-11-20T08:30:00.000Z",
@@ -2788,6 +2920,18 @@
    "suburb": "Fitzroy"
   },
   {
+   "id": 243,
+   "title": "Friday 20th Nov, 8pm",
+   "start": "2026-11-20T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://thethornburylocal.com/whats-on/",
+   "linkType": "details",
+   "venueId": "thornburylocal",
+   "venue": "Thornbury Local",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 211,
    "title": "Eugene Ball Standards Quartet",
    "start": "2026-11-20T09:00:00.000Z",
@@ -2860,7 +3004,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 238,
+   "id": 250,
    "title": "Nick Howells (Duo)",
    "start": "2026-11-20T09:30:00.000Z",
    "price": null,
@@ -3042,6 +3186,18 @@
    "suburb": "Reservoir"
   },
   {
+   "id": 265,
+   "title": "Rock Revue. Heavy Choir goes Solo!",
+   "start": "2026-11-21T03:00:00.000Z",
+   "price": 15,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/edc8625a-1daf-4e3d-8423-3ea8637909ca",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 231,
    "title": "GRAVEYARD BIZARRE BAZAAR",
    "start": "2026-11-21T03:00:38.000Z",
@@ -3066,7 +3222,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 255,
+   "id": 268,
    "title": "Tim Scanlan & Mana",
    "start": "2026-11-21T04:00:00.000Z",
    "price": null,
@@ -3306,6 +3462,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 288,
+   "title": "Willie J 6v6s “BABY I LIKE IT” Single Launch",
+   "start": "2026-11-21T09:00:00.000Z",
+   "price": 29.25,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/b448270a-23d2-40cd-8191-a9c35efda8f6",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 250,
    "title": "ABSENT SUPERMODELS: The Last Chance Double Header",
    "start": "2026-11-21T09:00:00.000Z",
@@ -3352,6 +3520,18 @@
    "venueId": "workers",
    "venue": "The Workers Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 293,
+   "title": "Saturday 21st Nov, 8pm",
+   "start": "2026-11-21T09:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://thethornburylocal.com/whats-on/",
+   "linkType": "details",
+   "venueId": "thornburylocal",
+   "venue": "Thornbury Local",
+   "suburb": "Thornbury"
   },
   {
    "id": 254,
@@ -3414,7 +3594,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 284,
+   "id": 299,
    "title": "Dan Dinnen & Shorty",
    "start": "2026-11-21T10:00:00.000Z",
    "price": null,
@@ -3499,6 +3679,18 @@
    "venueId": "workers",
    "venue": "The Workers Club",
    "suburb": "Fitzroy"
+  },
+  {
+   "id": 306,
+   "title": "JACOBS RUN",
+   "start": "2026-11-22T03:00:00.000Z",
+   "price": 39,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/0b2d5d48-6285-4521-b40b-ce161fc6f40f",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 265,
@@ -3598,7 +3790,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 299,
+   "id": 315,
    "title": "Archer",
    "start": "2026-11-22T05:00:00.000Z",
    "price": null,
@@ -3644,6 +3836,18 @@
    "venueId": "lomond",
    "venue": "The Lomond Hotel",
    "suburb": "Brunswick East"
+  },
+  {
+   "id": 319,
+   "title": "Sunday 22nd Nov, 5pm",
+   "start": "2026-11-22T06:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://thethornburylocal.com/whats-on/",
+   "linkType": "details",
+   "venueId": "thornburylocal",
+   "venue": "Thornbury Local",
+   "suburb": "Thornbury"
   },
   {
    "id": 288,
@@ -3706,7 +3910,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 308,
+   "id": 325,
    "title": "Roesy plays Irish Ballads",
    "start": "2026-11-22T07:30:00.000Z",
    "price": null,
@@ -3728,6 +3932,18 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 327,
+   "title": "SELECT ALL - ‘TIME IS KINDER ON THE WEAPON THAN THE WOUND’ EP Tour",
+   "start": "2026-11-22T08:00:00.000Z",
+   "price": 23.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/15b21a88-074f-42e6-8869-e083fe63fb51",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 281,
@@ -3850,6 +4066,18 @@
    "suburb": "Northcote"
   },
   {
+   "id": 338,
+   "title": "JACK IN THE BOX",
+   "start": "2026-11-23T08:00:00.000Z",
+   "price": 15.85,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/820ee98b-e038-4fc5-8a19-8565bd6ecee2",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 291,
    "title": "OUR WEEKENDS END ON MONDAYS with Duvin",
    "start": "2026-11-23T09:00:00.000Z",
@@ -3898,7 +4126,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 324,
+   "id": 343,
    "title": "Peter Baylor plays the songs of Django Reinhardt",
    "start": "2026-11-24T09:00:00.000Z",
    "price": null,
@@ -3958,6 +4186,18 @@
    "suburb": "Carlton"
   },
   {
+   "id": 348,
+   "title": "YOUR NEW FRIENDS",
+   "start": "2026-11-25T08:00:00.000Z",
+   "price": 18.7,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/bfeeaebc-fb0c-4af3-940a-136ba2d7ef5e",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 299,
    "title": "Amadou Suso in The Retreat front bar",
    "start": "2026-11-25T08:00:00.000Z",
@@ -3994,7 +4234,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 332,
+   "id": 352,
    "title": "Girl Friday & The Sepia Tones",
    "start": "2026-11-25T09:00:00.000Z",
    "price": null,
@@ -4088,6 +4328,18 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 360,
+   "title": "KATHLEEN HALLORAN - COMMUNITY NIGHT",
+   "start": "2026-11-26T08:00:00.000Z",
+   "price": 18.7,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/0c28d82e-2f38-4be2-980e-4216e1cc15e7",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 309,
@@ -4283,7 +4535,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 356,
+   "id": 377,
    "title": "The Dead Reckoners",
    "start": "2026-11-26T10:00:00.000Z",
    "price": null,
@@ -4379,6 +4631,18 @@
    "venueId": "howler",
    "venue": "Howler",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 385,
+   "title": "GUSTO GUSTO",
+   "start": "2026-11-27T08:00:00.000Z",
+   "price": 34.35,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/3c2e4dfa-e993-4a65-ad0d-44a2e270d716",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 330,
@@ -4573,7 +4837,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 380,
+   "id": 402,
    "title": "The Sweet Souls",
    "start": "2026-11-27T09:30:00.000Z",
    "price": null,
@@ -4694,6 +4958,18 @@
    "suburb": "Brunswick East"
   },
   {
+   "id": 412,
+   "title": "Matinee Metal Mania",
+   "start": "2026-11-28T03:00:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/79b098f3-3963-497b-9aa1-dbaffe83c8a7",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 354,
    "title": "Badger Reunion",
    "start": "2026-11-28T03:00:00.000Z",
@@ -4706,7 +4982,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 391,
+   "id": 414,
    "title": "Conan Smith",
    "start": "2026-11-28T04:00:00.000Z",
    "price": null,
@@ -4898,6 +5174,18 @@
    "suburb": "Coburg North"
   },
   {
+   "id": 430,
+   "title": "ALTA and Just Kane",
+   "start": "2026-11-28T08:30:00.000Z",
+   "price": 29.25,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/7978dea5-9322-4d32-a1dd-1fe760b9277d",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 367,
    "title": "Joel Leggett",
    "start": "2026-11-28T08:30:00.000Z",
@@ -5054,7 +5342,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 420,
+   "id": 444,
    "title": "The Pheasantry",
    "start": "2026-11-28T10:00:00.000Z",
    "price": null,
@@ -5174,6 +5462,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 454,
+   "title": "Amaya Laucirica - Early Summer - 15 Years On",
+   "start": "2026-11-29T03:00:00.000Z",
+   "price": 23.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/d205a112-ffc1-40a0-8459-a9f3e159a7bb",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 388,
    "title": "Jacky Winter",
    "start": "2026-11-29T03:00:00.000Z",
@@ -5259,7 +5559,7 @@
    "suburb": "Abbotsford"
   },
   {
-   "id": 437,
+   "id": 462,
    "title": "Jimmmy Stuch & Charlie McQueen Duo (of The Hootie Tooties) at 4pm",
    "start": "2026-11-29T05:00:00.000Z",
    "price": null,
@@ -5331,6 +5631,18 @@
    "suburb": "Brunswick East"
   },
   {
+   "id": 468,
+   "title": "Sunday 29th Nov, 5pm",
+   "start": "2026-11-29T06:00:00.000Z",
+   "price": null,
+   "status": "unknown",
+   "url": "https://thethornburylocal.com/whats-on/",
+   "linkType": "details",
+   "venueId": "thornburylocal",
+   "venue": "Thornbury Local",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 399,
    "title": "Tony J King",
    "start": "2026-11-29T07:00:00.718Z",
@@ -5343,7 +5655,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 444,
+   "id": 470,
    "title": "The Tipplers",
    "start": "2026-11-29T07:30:00.000Z",
    "price": null,
@@ -5389,6 +5701,18 @@
    "venueId": "curtin",
    "venue": "John Curtin Hotel",
    "suburb": "Carlton"
+  },
+  {
+   "id": 474,
+   "title": "Jasmijn Woods ‘Greyhounds’ Single Launch",
+   "start": "2026-11-29T08:00:00.000Z",
+   "price": 21.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/28e36934-8c97-4b0f-b3ed-1be66df6fc45",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 403,
@@ -5475,7 +5799,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 455,
+   "id": 482,
    "title": "Stu Thomas plays the songs of Lou Reed",
    "start": "2026-12-01T09:00:00.000Z",
    "price": null,
@@ -5535,7 +5859,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 460,
+   "id": 487,
    "title": "Kaliopi & the Blues Messengers",
    "start": "2026-12-02T09:00:00.000Z",
    "price": null,
@@ -5776,6 +6100,18 @@
    "suburb": "Brunswick"
   },
   {
+   "id": 507,
+   "title": "Grace Robinson \"Choppy\" Album Launch",
+   "start": "2026-12-04T08:30:00.000Z",
+   "price": 29.25,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/01d3ffc0-7f34-4b50-becc-a69b9603bb91",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 433,
    "title": "TOMMY & ROY - Tragedy! EP Release",
    "start": "2026-12-04T08:30:00.000Z",
@@ -5860,7 +6196,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 487,
+   "id": 515,
    "title": "Dean Hatani",
    "start": "2026-12-04T09:30:00.000Z",
    "price": null,
@@ -6100,6 +6436,18 @@
    "suburb": "Fitzroy North"
   },
   {
+   "id": 535,
+   "title": "Fading Hour- Triple Single Launch.",
+   "start": "2026-12-05T09:00:00.000Z",
+   "price": 23.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/f2344fe0-2b3f-4573-af08-76d88929b017",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 458,
    "title": "SAME NAME CONFUSION (NZ)",
    "start": "2026-12-05T09:00:00.000Z",
@@ -6208,7 +6556,7 @@
    "suburb": "North Melbourne"
   },
   {
-   "id": 516,
+   "id": 545,
    "title": "Billy Cart Crash",
    "start": "2026-12-05T10:00:00.000Z",
    "price": null,
@@ -6305,7 +6653,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 524,
+   "id": 553,
    "title": "Moonee Valley Drifters",
    "start": "2026-12-06T05:00:00.000Z",
    "price": null,
@@ -6569,7 +6917,19 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 546,
+   "id": 575,
+   "title": "ARTI90",
+   "start": "2026-12-09T08:30:00.000Z",
+   "price": 20,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/0c47eb36-d85d-4065-b7c6-461e2770bf26",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
+   "id": 576,
    "title": "Cécile Gardens (and band)",
    "start": "2026-12-09T09:00:00.000Z",
    "price": null,
@@ -6593,7 +6953,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 548,
+   "id": 578,
    "title": "Justin Bernasconi",
    "start": "2026-12-09T10:00:00.000Z",
    "price": null,
@@ -6690,7 +7050,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 556,
+   "id": 586,
    "title": "Jeremy Beggs",
    "start": "2026-12-10T09:00:00.000Z",
    "price": null,
@@ -6748,6 +7108,18 @@
    "venueId": "baroussou",
    "venue": "Bar Oussou",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 591,
+   "title": "SEASON'S BEATINGS'",
+   "start": "2026-12-11T08:00:00.000Z",
+   "price": 23.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/861aba7f-8cbd-4083-b78c-71ea3438cbb1",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 506,
@@ -6894,7 +7266,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 573,
+   "id": 604,
    "title": "The Wobbly Boots",
    "start": "2026-12-11T09:30:00.000Z",
    "price": null,
@@ -7012,6 +7384,18 @@
    "venueId": "howler",
    "venue": "Howler",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 614,
+   "title": "FLESH RITUALS & SIREN SONGS 7",
+   "start": "2026-12-12T08:00:00.000Z",
+   "price": 23.8,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/d6387a43-0d56-4556-8f8f-745defe9fab0",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 527,
@@ -7134,7 +7518,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 593,
+   "id": 625,
    "title": "The Lonesome Wranglers",
    "start": "2026-12-12T10:00:00.000Z",
    "price": null,
@@ -7156,6 +7540,18 @@
    "venueId": "ballroom",
    "venue": "Brunswick Ballroom",
    "suburb": "Brunswick"
+  },
+  {
+   "id": 627,
+   "title": "QUINNY'S CRIMBO CRAPTACULAR",
+   "start": "2026-12-13T03:00:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/c0d2ebd3-e029-4308-98a1-ae41cfd7fa3f",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
   },
   {
    "id": 564,
@@ -7194,7 +7590,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 598,
+   "id": 631,
    "title": "Old Melbourne Road",
    "start": "2026-12-13T05:00:00.000Z",
    "price": null,
@@ -7290,7 +7686,19 @@
    "suburb": "Northcote"
   },
   {
-   "id": 606,
+   "id": 639,
+   "title": "Lord Henry + The Upper House",
+   "start": "2026-12-15T08:30:00.000Z",
+   "price": 12.75,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/f4e8f02a-e66b-4798-9dde-3ca7c2d045fa",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
+   "id": 640,
    "title": "Yolanda Ingley plays the songs of Nina Simone",
    "start": "2026-12-15T09:00:00.000Z",
    "price": null,
@@ -7338,7 +7746,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 610,
+   "id": 644,
    "title": "Miss Lou",
    "start": "2026-12-16T09:00:00.000Z",
    "price": null,
@@ -7371,6 +7779,18 @@
    "linkType": "tickets",
    "venueId": "cactus",
    "venue": "Cactus Room",
+   "suburb": "Thornbury"
+  },
+  {
+   "id": 647,
+   "title": "Anna Du Vé \"Take a Minute\" Single Launch",
+   "start": "2026-12-17T08:00:00.000Z",
+   "price": 33,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/040bd8c2-0afa-41ba-a973-80a4e1ff618d",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
    "suburb": "Thornbury"
   },
   {
@@ -7506,6 +7926,18 @@
    "suburb": "Fitzroy North"
   },
   {
+   "id": 659,
+   "title": "CRYPTIC SHIFT (UK)",
+   "start": "2026-12-18T09:00:00.000Z",
+   "price": 57.5,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/448867db-83b1-40d1-a21f-21dd20d00e9b",
+   "linkType": "tickets",
+   "venueId": "shotkickers",
+   "venue": "Shotkickers",
+   "suburb": "Thornbury"
+  },
+  {
    "id": 562,
    "title": "CLAMM ‘And In Glue’ Australian Album Tour",
    "start": "2026-12-18T09:00:00.000Z",
@@ -7530,7 +7962,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 626,
+   "id": 662,
    "title": "Kier Stevens",
    "start": "2026-12-18T09:30:00.000Z",
    "price": null,
@@ -7722,7 +8154,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 642,
+   "id": 678,
    "title": "Matt Dwyer",
    "start": "2026-12-19T10:00:00.000Z",
    "price": null,
@@ -7818,7 +8250,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 650,
+   "id": 686,
    "title": "Oscar LaDell plays the songs of Gary Clark Jr",
    "start": "2026-12-22T09:00:00.000Z",
    "price": null,
@@ -7854,7 +8286,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 653,
+   "id": 689,
    "title": "Elly McK & The Unbelievers",
    "start": "2026-12-23T09:00:00.000Z",
    "price": null,
@@ -7914,7 +8346,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 658,
+   "id": 694,
    "title": "Suzie So Blue",
    "start": "2026-12-30T09:00:00.000Z",
    "price": null,

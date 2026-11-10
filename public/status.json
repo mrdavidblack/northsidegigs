@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T11:56:29.447Z",
+ "generatedAt": "2026-11-10T12:01:44.609Z",
  "venues": [
   {
    "id": "tote",
@@ -617,6 +617,40 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thedrunkenpoet.com.au/gig-guide/"
+    ]
+   }
+  },
+  {
+   "id": "shotkickers",
+   "name": "Shotkickers",
+   "count": 29,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 34,
+    "failed": [],
+    "ticketLinks": 33,
+    "noEventData": [],
+    "firstFetches": [
+     "200 (rendered) https://www.shotkickers.com/gigs",
+     "200 https://tickets.oztix.com.au/outlet/event/78fb9e29-231c-4705-964d-350353673a61",
+     "200 https://tickets.oztix.com.au/outlet/event/40d7b368-d994-4753-a5a9-38c0f170c477"
+    ]
+   }
+  },
+  {
+   "id": "thornburylocal",
+   "name": "Thornbury Local",
+   "count": 7,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://thethornburylocal.com/whats-on/"
     ]
    }
   }
