@@ -323,6 +323,16 @@
       "pages": [
         "https://whatslively.com/venues/00ecb1977e613e7273383a4e5bf678f1"
       ]
+    },
+    {
+      "id": "drunkenpoet",
+      "name": "The Drunken Poet",
+      "suburb": "North Melbourne",
+      "strategy": "drunkenpoet",
+      "pages": [
+        "https://www.thedrunkenpoet.com.au/gig-guide/"
+      ],
+      "exclude": "open mic|irish music session|closed|poet regulars"
     }
   ],
   "_disabled": {

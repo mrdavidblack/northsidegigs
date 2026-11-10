@@ -415,6 +415,42 @@ async function whatslivelyStrategy(v) {
   });
 }
 
+// The Drunken Poet gig guide (WordPress): one block per gig with .gig-heading (act) and .gig-date
+// ("November 10 @ 8:00 pm", no year). Every gig is free entry and there are no per-gig links.
+async function drunkenpoetStrategy(v) {
+  const $ = cheerio.load(await get(v.pages[0]));
+  const today = new Date(`${todayMelb}T00:00:00Z`);
+  const out = [];
+  $('.gig-heading').each((_, el) => {
+    const box = $(el).parent();
+    const title = decode($(el).text()).replace(/\s+/g, ' ').trim();
+    const raw = box.find('.gig-date').first().text().replace(/\s+/g, ' ').trim();
+    const m = raw.match(/^([A-Za-z]+)\s+(\d{1,2})(?:\s*@\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm))?/i);
+    const mon = m && MONTH_NUM[m[1].slice(0, 3).toUpperCase()];
+    if (!title || !m || !mon) return;
+    // No year is shown, so use the next occurrence of that date (allowing a few weeks back for today's gigs).
+    let year = today.getUTCFullYear();
+    if (Date.UTC(year, mon - 1, +m[2]) < today.getTime() - 30 * 86400e3) year += 1;
+    const date = `${year}-${String(mon).padStart(2, '0')}-${String(+m[2]).padStart(2, '0')}`;
+    let hhmm = null;
+    if (m[3]) {
+      let h = +m[3] % 12;
+      if (m[5].toLowerCase() === 'pm') h += 12;
+      hhmm = `${String(h).padStart(2, '0')}:${m[4] ?? '00'}`;
+    }
+    out.push({
+      title,
+      start: melbourneToIso(date, hhmm ?? '00:00'),
+      ...(hhmm ? {} : { timeTba: true }),
+      price: null,
+      status: 'free',
+      url: v.pages[0],
+      linkType: 'details'
+    });
+  });
+  return out;
+}
+
 // Desert Highways record store: free in-store gigs listed as text blocks:
 //   TITLE LINES / "SAT 31 OCT 2026" / "2PM - FREE - ALL AGES" / "FB EVENT"
 // Gigs at other venues show a venue name instead of a time, so they are skipped (those venues list them).
@@ -604,7 +640,7 @@ async function uptownStrategy(v) {
   return out;
 }
 
-const STRATEGIES = { whatslively: whatslivelyStrategy, uptown: uptownStrategy, creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
+const STRATEGIES = { drunkenpoet: drunkenpoetStrategy, whatslively: whatslivelyStrategy, uptown: uptownStrategy, creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
 
 // ---- main ----
 
