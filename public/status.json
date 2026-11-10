@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T11:36:14.842Z",
+ "generatedAt": "2026-11-10T11:37:09.514Z",
  "venues": [
   {
    "id": "tote",
@@ -536,6 +536,71 @@
      "200 https://www.uptownjazzcafe.com/nov.php",
      "200 https://www.uptownjazzcafe.com/dec.php",
      "200 https://www.uptownjazzcafe.com/jan.php"
+    ]
+   }
+  },
+  {
+   "id": "baddecisions",
+   "name": "Bad Decisions Bar",
+   "count": 12,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 2,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 (alt) https://alternate.moshtix.com.au/v2/venues/bad-decisions-bar/8683",
+     "200 https://www.moshtix.com.au/v2/venues/bad-decisions-bar/8683"
+    ]
+   }
+  },
+  {
+   "id": "gembar",
+   "name": "The Gem Bar",
+   "count": 15,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://whatslively.com/venues/a175a8e4433cd460b3d069f4051b5676"
+    ]
+   }
+  },
+  {
+   "id": "merricreek",
+   "name": "The Merri Creek Tavern",
+   "count": 1,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://whatslively.com/venues/220879d40d2031ab3035cab2e75e4f6b"
+    ]
+   }
+  },
+  {
+   "id": "tramway",
+   "name": "Tramway Hotel",
+   "count": 0,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://whatslively.com/venues/00ecb1977e613e7273383a4e5bf678f1"
     ]
    }
   }
