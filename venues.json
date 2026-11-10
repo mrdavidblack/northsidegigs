@@ -276,7 +276,7 @@
         "https://brunswickballroom.com.au/whats-on/"
       ],
       "render": true,
-      "exclude": "private (birthday|wedding|function|event)"
+      "exclude": "private (birthday|wedding|function|event)|\\bauthor\\b|finishing school"
     },
     {
       "id": "uptown",
@@ -294,7 +294,8 @@
       "strategy": "jsonld",
       "pages": [
         "https://www.moshtix.com.au/v2/venues/bad-decisions-bar/8683"
-      ]
+      ],
+      "exclude": "e\\.a\\.t\\.t|beatdown"
     },
     {
       "id": "gembar",
