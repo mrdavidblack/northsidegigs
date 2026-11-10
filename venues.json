@@ -333,6 +333,26 @@
         "https://www.thedrunkenpoet.com.au/gig-guide/"
       ],
       "exclude": "open mic|irish music session|closed|poet regulars"
+    },
+    {
+      "id": "shotkickers",
+      "name": "Shotkickers",
+      "suburb": "Thornbury",
+      "strategy": "links",
+      "pages": [
+        "https://www.shotkickers.com/gigs"
+      ],
+      "loadMore": "show more events",
+      "exclude": "open mic"
+    },
+    {
+      "id": "thornburylocal",
+      "name": "Thornbury Local",
+      "suburb": "Thornbury",
+      "strategy": "thornburylocal",
+      "pages": [
+        "https://thethornburylocal.com/whats-on/"
+      ]
     }
   ],
   "_disabled": {

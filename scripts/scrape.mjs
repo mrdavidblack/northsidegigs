@@ -415,11 +415,18 @@ async function whatslivelyStrategy(v) {
   });
 }
 
+// Some venues list dates with no year ("November 10", "Friday 13th Nov"). Use the next occurrence,
+// allowing a few weeks back so a gig earlier today or just gone is not pushed a year ahead.
+function yearForDate(mon, day) {
+  const today = new Date(`${todayMelb}T00:00:00Z`);
+  const year = today.getUTCFullYear();
+  return Date.UTC(year, mon - 1, day) < today.getTime() - 30 * 86400e3 ? year + 1 : year;
+}
+
 // The Drunken Poet gig guide (WordPress): one block per gig with .gig-heading (act) and .gig-date
 // ("November 10 @ 8:00 pm", no year). Every gig is free entry and there are no per-gig links.
 async function drunkenpoetStrategy(v) {
   const $ = cheerio.load(await get(v.pages[0]));
-  const today = new Date(`${todayMelb}T00:00:00Z`);
   const out = [];
   $('.gig-heading').each((_, el) => {
     const box = $(el).parent();
@@ -428,9 +435,7 @@ async function drunkenpoetStrategy(v) {
     const m = raw.match(/^([A-Za-z]+)\s+(\d{1,2})(?:\s*@\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm))?/i);
     const mon = m && MONTH_NUM[m[1].slice(0, 3).toUpperCase()];
     if (!title || !m || !mon) return;
-    // No year is shown, so use the next occurrence of that date (allowing a few weeks back for today's gigs).
-    let year = today.getUTCFullYear();
-    if (Date.UTC(year, mon - 1, +m[2]) < today.getTime() - 30 * 86400e3) year += 1;
+    const year = yearForDate(mon, +m[2]);
     const date = `${year}-${String(mon).padStart(2, '0')}-${String(+m[2]).padStart(2, '0')}`;
     let hhmm = null;
     if (m[3]) {
@@ -444,6 +449,37 @@ async function drunkenpoetStrategy(v) {
       ...(hhmm ? {} : { timeTba: true }),
       price: null,
       status: 'free',
+      url: v.pages[0],
+      linkType: 'details'
+    });
+  });
+  return out;
+}
+
+// The Thornbury Local "What's On" page (WordPress/Elementor): each upcoming gig is a block with a heading
+// (act) and a leaf line like "Friday 13th Nov, 8pm". The act's own social link is not a ticket page, so
+// every gig links to the venue's What's On page. Entry is not stated on the page, so price is left blank.
+async function thornburylocalStrategy(v) {
+  const $ = cheerio.load(await get(v.pages[0]));
+  const dateRe = /^(?:Mon|Tues|Wednes|Thurs|Fri|Satur|Sun)day\s+(\d{1,2})(?:st|nd|rd|th)\s+([A-Za-z]{3})[a-z]*,?\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)/i;
+  const out = [];
+  $('*').each((_, el) => {
+    if ($(el).children().length) return;
+    const m = $(el).text().replace(/\s+/g, ' ').trim().match(dateRe);
+    const mon = m && MONTH_NUM[m[2].toUpperCase()];
+    if (!mon) return;
+    let box = $(el);
+    for (let i = 0; i < 6; i++) { box = box.parent(); if (box.find('h1, h2, h3').length) break; }
+    const title = decode(box.find('h2, h3').first().text());
+    if (!title || /^what.s on$|^upcoming gigs$/i.test(title)) return;
+    let h = +m[3] % 12;
+    if (m[5].toLowerCase() === 'pm') h += 12;
+    const year = yearForDate(mon, +m[1]);
+    out.push({
+      title,
+      start: melbourneToIso(`${year}-${String(mon).padStart(2, '0')}-${String(+m[1]).padStart(2, '0')}`, `${String(h).padStart(2, '0')}:${m[4] ?? '00'}`),
+      price: null,
+      status: 'unknown',
       url: v.pages[0],
       linkType: 'details'
     });
@@ -640,7 +676,7 @@ async function uptownStrategy(v) {
   return out;
 }
 
-const STRATEGIES = { drunkenpoet: drunkenpoetStrategy, whatslively: whatslivelyStrategy, uptown: uptownStrategy, creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
+const STRATEGIES = { thornburylocal: thornburylocalStrategy, drunkenpoet: drunkenpoetStrategy, whatslively: whatslivelyStrategy, uptown: uptownStrategy, creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
 
 // ---- main ----
 
