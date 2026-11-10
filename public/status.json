@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T11:46:37.640Z",
+ "generatedAt": "2026-11-10T11:56:29.447Z",
  "venues": [
   {
    "id": "tote",
@@ -601,6 +601,22 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://whatslively.com/venues/00ecb1977e613e7273383a4e5bf678f1"
+    ]
+   }
+  },
+  {
+   "id": "drunkenpoet",
+   "name": "The Drunken Poet",
+   "count": 42,
+   "keptFromLastRun": false,
+   "error": null,
+   "debug": {
+    "fetched": 1,
+    "failed": [],
+    "ticketLinks": null,
+    "noEventData": [],
+    "firstFetches": [
+     "200 https://www.thedrunkenpoet.com.au/gig-guide/"
     ]
    }
   }
