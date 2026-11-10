@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-09T13:39:43.055Z",
+ "generatedAt": "2026-11-10T01:56:36.216Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 50,
+   "count": 53,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 59,
+    "fetched": 63,
     "failed": [],
-    "ticketLinks": 56,
+    "ticketLinks": 60,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -62,13 +62,13 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 32,
+   "count": 33,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 55,
+    "fetched": 56,
     "failed": [],
-    "ticketLinks": 53,
+    "ticketLinks": 54,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -102,9 +102,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 18,
+    "fetched": 19,
     "failed": [],
-    "ticketLinks": 17,
+    "ticketLinks": 18,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.johncurtinhotel.com/gigs",
@@ -240,13 +240,13 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 16,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 33,
+    "fetched": 35,
     "failed": [],
-    "ticketLinks": 16,
+    "ticketLinks": 17,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
@@ -420,13 +420,13 @@
   {
    "id": "railway",
    "name": "Railway Hotel",
-   "count": 6,
+   "count": 7,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 8,
+    "fetched": 9,
     "failed": [],
-    "ticketLinks": 6,
+    "ticketLinks": 7,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.railwayhotelfitzroy.com.au/ballroom-gigs",
