@@ -468,10 +468,12 @@ async function thornburylocalStrategy(v) {
     const m = $(el).text().replace(/\s+/g, ' ').trim().match(dateRe);
     const mon = m && MONTH_NUM[m[2].toUpperCase()];
     if (!mon) return;
+    // The date line can itself be a heading, so look for the nearest enclosing block with a different heading.
+    const isAct = (_, h) => { const t = decode($(h).text()); return t && !dateRe.test(t) && !/^what.s on$|^upcoming gigs$/i.test(t); };
     let box = $(el);
-    for (let i = 0; i < 6; i++) { box = box.parent(); if (box.find('h1, h2, h3').length) break; }
-    const title = decode(box.find('h2, h3').first().text());
-    if (!title || /^what.s on$|^upcoming gigs$/i.test(title)) return;
+    for (let i = 0; i < 6; i++) { box = box.parent(); if (box.find('h1, h2, h3').filter(isAct).length) break; }
+    const title = decode(box.find('h1, h2, h3').filter(isAct).first().text());
+    if (!title) return;
     let h = +m[3] % 12;
     if (m[5].toLowerCase() === 'pm') h += 12;
     const year = yearForDate(mon, +m[1]);
