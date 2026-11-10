@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T12:01:44.609Z",
+ "generatedAt": "2026-11-10T12:03:35.501Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -910,7 +910,7 @@
   },
   {
    "id": 76,
-   "title": "Friday 13th Nov, 8pm",
+   "title": "Leo and the Galahs",
    "start": "2026-11-13T09:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -1514,7 +1514,7 @@
   },
   {
    "id": 126,
-   "title": "Saturday 14th Nov, 8pm",
+   "title": "The Apple Johns",
    "start": "2026-11-14T09:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -1863,7 +1863,7 @@
   },
   {
    "id": 155,
-   "title": "Sunday 15th Nov, 5pm",
+   "title": "Numbskull Savant",
    "start": "2026-11-15T06:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -2921,7 +2921,7 @@
   },
   {
    "id": 243,
-   "title": "Friday 20th Nov, 8pm",
+   "title": "ORFEO",
    "start": "2026-11-20T09:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -3523,7 +3523,7 @@
   },
   {
    "id": 293,
-   "title": "Saturday 21st Nov, 8pm",
+   "title": "Dirty Lopez",
    "start": "2026-11-21T09:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -3839,7 +3839,7 @@
   },
   {
    "id": 319,
-   "title": "Sunday 22nd Nov, 5pm",
+   "title": "Jarrah Ma",
    "start": "2026-11-22T06:00:00.000Z",
    "price": null,
    "status": "unknown",
@@ -5632,7 +5632,7 @@
   },
   {
    "id": 468,
-   "title": "Sunday 29th Nov, 5pm",
+   "title": "Songwriter Tribute: Elliott Smith (Dylan Forde-Johnston and Friends)",
    "start": "2026-11-29T06:00:00.000Z",
    "price": null,
    "status": "unknown",
