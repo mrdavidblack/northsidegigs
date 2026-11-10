@@ -286,6 +286,42 @@
       "pages": [
         "https://www.uptownjazzcafe.com/index.php"
       ]
+    },
+    {
+      "id": "baddecisions",
+      "name": "Bad Decisions Bar",
+      "suburb": "Fitzroy",
+      "strategy": "jsonld",
+      "pages": [
+        "https://www.moshtix.com.au/v2/venues/bad-decisions-bar/8683"
+      ]
+    },
+    {
+      "id": "gembar",
+      "name": "The Gem Bar",
+      "suburb": "Collingwood",
+      "strategy": "whatslively",
+      "pages": [
+        "https://whatslively.com/venues/a175a8e4433cd460b3d069f4051b5676"
+      ]
+    },
+    {
+      "id": "merricreek",
+      "name": "The Merri Creek Tavern",
+      "suburb": "Northcote",
+      "strategy": "whatslively",
+      "pages": [
+        "https://whatslively.com/venues/220879d40d2031ab3035cab2e75e4f6b"
+      ]
+    },
+    {
+      "id": "tramway",
+      "name": "Tramway Hotel",
+      "suburb": "Fitzroy North",
+      "strategy": "whatslively",
+      "pages": [
+        "https://whatslively.com/venues/00ecb1977e613e7273383a4e5bf678f1"
+      ]
     }
   ],
   "_disabled": {

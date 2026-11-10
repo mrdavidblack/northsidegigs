@@ -391,6 +391,30 @@ async function baroussouStrategy(v) {
   });
 }
 
+// What's Lively venue pages (Next.js): the gigs are embedded in the page as JSON (__NEXT_DATA__ > venueEvents).
+// Each event has an ISO start time (UTC), a name with " • " between acts, a price range and a ticket link.
+async function whatslivelyStrategy(v) {
+  const html = await get(v.pages[0]);
+  const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  if (!m) throw new Error('no __NEXT_DATA__ on page');
+  const events = JSON.parse(m[1])?.props?.pageProps?.venueEvents;
+  if (!Array.isArray(events)) throw new Error('no venueEvents array');
+  return events.filter((e) => e.date && e.name).map((e) => {
+    const title = decode(String(e.name)).replace(/\s*•\s*more\s*$/i, '').replace(/\s*•\s*/g, ', ').trim();
+    const ticket = e.ticket?.url && /^https?:\/\//.test(e.ticket.url) ? e.ticket.url : null;
+    const min = Number(e.price_range?.min);
+    return {
+      title,
+      start: new Date(e.date).toISOString(),
+      // A listed $0 is ambiguous (free entry or no price loaded), so it is left blank rather than shown as free.
+      price: Number.isFinite(min) && min > 0 ? min : null,
+      status: ticket ? 'onsale' : 'unknown',
+      url: ticket ?? v.pages[0],
+      linkType: ticket ? 'tickets' : 'details'
+    };
+  });
+}
+
 // Desert Highways record store: free in-store gigs listed as text blocks:
 //   TITLE LINES / "SAT 31 OCT 2026" / "2PM - FREE - ALL AGES" / "FB EVENT"
 // Gigs at other venues show a venue name instead of a time, so they are skipped (those venues list them).
@@ -580,7 +604,7 @@ async function uptownStrategy(v) {
   return out;
 }
 
-const STRATEGIES = { uptown: uptownStrategy, creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
+const STRATEGIES = { whatslively: whatslivelyStrategy, uptown: uptownStrategy, creature: creatureStrategy, baroussou: baroussouStrategy, deserthighways: deserthighwaysStrategy, lomond: lomondStrategy, muzeek: muzeekStrategy, textlist: textlistStrategy, links: linksStrategy, jsonld: jsonldStrategy, squarespace: squarespaceStrategy, hex: hexStrategy };
 
 // ---- main ----
 
