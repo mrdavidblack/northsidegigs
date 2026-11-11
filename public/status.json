@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-10T12:03:35.501Z",
+ "generatedAt": "2026-11-10T23:58:11.054Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 53,
+   "count": 55,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 63,
+    "fetched": 65,
     "failed": [],
-    "ticketLinks": 60,
+    "ticketLinks": 62,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 53,
+   "count": 57,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 92,
+    "ticketLinks": 98,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -66,9 +66,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 56,
+    "fetched": 57,
     "failed": [],
-    "ticketLinks": 54,
+    "ticketLinks": 55,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -116,25 +116,25 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 53,
+   "count": 52,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 72,
+    "fetched": 70,
     "failed": [],
-    "ticketLinks": 71,
+    "ticketLinks": 69,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/e2959887-ae99-4335-97ed-32dd84709c00",
-     "200 https://tickets.oztix.com.au/outlet/event/d7403041-43ff-4538-bcb1-a57147dc4164"
+     "200 https://tickets.oztix.com.au/outlet/event/f3fb74b5-b1ed-4086-8476-30e553e6e6ca",
+     "200 https://tickets.oztix.com.au/outlet/event/226cfcbd-3be7-46eb-b0ab-8239c372af7e"
     ]
    }
   },
   {
    "id": "cactus",
    "name": "Cactus Room",
-   "count": 11,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -163,7 +163,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/27db8328-fac5-48e6-9fdf-2a90808ec363"
+     "200 https://baropen.oztix.com.au/outlet/event/6af72d6f-30c3-4dd6-a34a-213a04047b37"
     ]
    }
   },
@@ -240,13 +240,13 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 17,
+   "count": 19,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 35,
+    "fetched": 39,
     "failed": [],
-    "ticketLinks": 17,
+    "ticketLinks": 19,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
@@ -258,7 +258,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 22,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -291,11 +291,11 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 33,
+   "count": 35,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 35,
+    "fetched": 37,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
@@ -317,7 +317,7 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 39,
+    "fetched": 38,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-17th-nov",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov"
@@ -326,8 +326,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://events.humanitix.com/edinburgh-castle-open-mic-night",
-     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe"
+     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe",
+     "200 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party"
     ]
    }
   },
@@ -378,8 +378,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/7/tinky-tuesday-4gmlk-43r37-g8",
-     "200 https://events.humanitix.com/i-know-what-i-want"
+     "200 https://events.humanitix.com/i-know-what-i-want",
+     "200 https://www.trybooking.com/DRIQH"
     ]
    }
   },
@@ -438,18 +438,18 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 31,
+   "count": 30,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 40,
+    "fetched": 41,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5",
-     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx"
+     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx",
+     "200 https://wesleyanne.com.au/events/fliryte-nov-p8gk5"
     ]
    }
   },
@@ -472,11 +472,11 @@
   {
    "id": "lomond",
    "name": "The Lomond Hotel",
-   "count": 14,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 36,
+    "fetched": 42,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
@@ -506,13 +506,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 44,
+   "count": 45,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 137,
+    "fetched": 139,
     "failed": [],
-    "ticketLinks": 68,
+    "ticketLinks": 69,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
@@ -607,7 +607,7 @@
   {
    "id": "drunkenpoet",
    "name": "The Drunken Poet",
-   "count": 42,
+   "count": 41,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -623,7 +623,7 @@
   {
    "id": "shotkickers",
    "name": "Shotkickers",
-   "count": 29,
+   "count": 30,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -633,8 +633,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.shotkickers.com/gigs",
-     "200 https://tickets.oztix.com.au/outlet/event/78fb9e29-231c-4705-964d-350353673a61",
-     "200 https://tickets.oztix.com.au/outlet/event/40d7b368-d994-4753-a5a9-38c0f170c477"
+     "200 https://tickets.oztix.com.au/outlet/event/40d7b368-d994-4753-a5a9-38c0f170c477",
+     "200 https://tickets.oztix.com.au/outlet/event/5ffe6e38-1429-44ef-8e47-6e8d6c8586e2"
     ]
    }
   },
