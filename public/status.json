@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-10T23:58:11.054Z",
+ "generatedAt": "2026-11-11T12:28:24.582Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 55,
+   "count": 56,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 65,
+    "fetched": 66,
     "failed": [],
-    "ticketLinks": 62,
+    "ticketLinks": 63,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -22,13 +22,13 @@
   {
    "id": "oldbar",
    "name": "The Old Bar",
-   "count": 18,
+   "count": 22,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 32,
+    "fetched": 36,
     "failed": [],
-    "ticketLinks": 25,
+    "ticketLinks": 29,
     "noEventData": [
      "https://theoldbar.oztix.com.au/outlet/event/0338e46a-cf4f-4536-95c2-cb3f12a7f8ec",
      "https://theoldbar.oztix.com.au/outlet/event/ecc1d6c5-fee8-46d0-8758-17906b28ff06",
@@ -44,7 +44,7 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 57,
+   "count": 58,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -66,9 +66,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 57,
+    "fetched": 58,
     "failed": [],
-    "ticketLinks": 55,
+    "ticketLinks": 56,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -80,13 +80,13 @@
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 17,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 52,
+    "fetched": 54,
     "failed": [],
-    "ticketLinks": 25,
+    "ticketLinks": 26,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
@@ -163,7 +163,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/6af72d6f-30c3-4dd6-a34a-213a04047b37"
+     "200 https://baropen.oztix.com.au/outlet/event/aaf5a504-ad96-48d0-a942-4e7fe394b1b2"
     ]
    }
   },
@@ -204,18 +204,18 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 28,
+   "count": 29,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 31,
+    "fetched": 32,
     "failed": [],
-    "ticketLinks": 30,
+    "ticketLinks": 31,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/6d6ecd56-2606-4ca9-adf7-25b05327eaee",
-     "200 https://tickets.oztix.com.au/outlet/event/d7e79b7d-dc47-4f2b-a96d-3ce4b2da7750"
+     "200 https://tickets.oztix.com.au/outlet/event/d7e79b7d-dc47-4f2b-a96d-3ce4b2da7750",
+     "200 https://tickets.oztix.com.au/outlet/event/384dd21b-bf5c-40db-886f-acbd5bab30d2"
     ]
    }
   },
@@ -226,9 +226,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 23,
+    "fetched": 24,
     "failed": [],
-    "ticketLinks": 22,
+    "ticketLinks": 23,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -313,20 +313,23 @@
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 15,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 38,
+    "fetched": 50,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-17th-nov",
-     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov"
+     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov",
+     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-1st-dec",
+     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-8th-dec",
+     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-15th-dec"
     ],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe",
+     "200 https://www.edinburghcastle.net.au/gig-guide/suzie-so-blue-6sgfy",
      "200 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party"
     ]
    }
@@ -334,11 +337,11 @@
   {
    "id": "hex",
    "name": "The Hex",
-   "count": 5,
+   "count": 7,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 6,
+    "fetched": 8,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
@@ -352,7 +355,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 17,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -378,8 +381,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://events.humanitix.com/i-know-what-i-want",
-     "200 https://www.trybooking.com/DRIQH"
+     "200 https://www.trybooking.com/DRIQH",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/14/beer-garden-boof"
     ]
    }
   },
@@ -438,25 +441,25 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 30,
+   "count": 31,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 41,
+    "fetched": 40,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx",
-     "200 https://wesleyanne.com.au/events/fliryte-nov-p8gk5"
+     "200 https://wesleyanne.com.au/events/fliryte-nov-p8gk5",
+     "200 https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a-z8ahe"
     ]
    }
   },
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 24,
+   "count": 33,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -506,18 +509,18 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 45,
+   "count": 47,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 139,
+    "fetched": 141,
     "failed": [],
-    "ticketLinks": 69,
+    "ticketLinks": 70,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/john-reischman-and-the-jaybirds-seth-m",
-     "200 https://www.moshtix.com.au/v2/event/john-reischman-and-the-jaybirds-seth-mulder-and-midnig"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/tex-perkins-matt-walker/198040",
+     "200 https://www.moshtix.com.au/v2/event/tex-perkins-matt-walker/198040"
     ]
    }
   },
@@ -542,7 +545,7 @@
   {
    "id": "baddecisions",
    "name": "Bad Decisions Bar",
-   "count": 10,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -559,7 +562,7 @@
   {
    "id": "gembar",
    "name": "The Gem Bar",
-   "count": 15,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -627,9 +630,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 34,
+    "fetched": 35,
     "failed": [],
-    "ticketLinks": 33,
+    "ticketLinks": 34,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.shotkickers.com/gigs",
