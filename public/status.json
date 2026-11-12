@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-11T12:28:24.582Z",
+ "generatedAt": "2026-11-12T01:24:18.617Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 56,
+   "count": 57,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 66,
+    "fetched": 68,
     "failed": [],
-    "ticketLinks": 63,
+    "ticketLinks": 65,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -80,31 +80,31 @@
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 18,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 54,
+    "fetched": 52,
     "failed": [],
-    "ticketLinks": 26,
+    "ticketLinks": 25,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-251953"
+     "200 https://evelynhotel.com.au/events/event-251107"
     ]
    }
   },
   {
    "id": "curtin",
    "name": "John Curtin Hotel",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 19,
+    "fetched": 18,
     "failed": [],
-    "ticketLinks": 18,
+    "ticketLinks": 17,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.johncurtinhotel.com/gigs",
@@ -126,8 +126,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/f3fb74b5-b1ed-4086-8476-30e553e6e6ca",
-     "200 https://tickets.oztix.com.au/outlet/event/226cfcbd-3be7-46eb-b0ab-8239c372af7e"
+     "200 https://tickets.oztix.com.au/outlet/event/226cfcbd-3be7-46eb-b0ab-8239c372af7e",
+     "200 https://tickets.oztix.com.au/outlet/event/28ade58a-bf3c-4460-95b8-a32223b2609d"
     ]
    }
   },
@@ -222,18 +222,18 @@
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 21,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 24,
+    "fetched": 23,
     "failed": [],
-    "ticketLinks": 23,
+    "ticketLinks": 22,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
-     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=251369",
-     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=251773"
+     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=251773",
+     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=252095"
     ]
    }
   },
@@ -258,7 +258,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 23,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -376,7 +376,9 @@
    "error": null,
    "debug": {
     "fetched": 26,
-    "failed": [],
+    "failed": [
+     "503 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-h"
+    ],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
@@ -475,7 +477,7 @@
   {
    "id": "lomond",
    "name": "The Lomond Hotel",
-   "count": 17,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -493,7 +495,7 @@
   {
    "id": "creature",
    "name": "Creature Bar",
-   "count": 15,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -509,7 +511,7 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 47,
+   "count": 46,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -527,7 +529,7 @@
   {
    "id": "uptown",
    "name": "Uptown Jazz Cafe",
-   "count": 12,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -610,7 +612,7 @@
   {
    "id": "drunkenpoet",
    "name": "The Drunken Poet",
-   "count": 41,
+   "count": 39,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -636,8 +638,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.shotkickers.com/gigs",
-     "200 https://tickets.oztix.com.au/outlet/event/40d7b368-d994-4753-a5a9-38c0f170c477",
-     "200 https://tickets.oztix.com.au/outlet/event/5ffe6e38-1429-44ef-8e47-6e8d6c8586e2"
+     "200 https://tickets.oztix.com.au/outlet/event/5ffe6e38-1429-44ef-8e47-6e8d6c8586e2",
+     "200 https://tickets.oztix.com.au/outlet/event/42a6bb64-0e19-4b59-aef4-17c9226968ef"
     ]
    }
   },
