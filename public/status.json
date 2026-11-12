@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-12T01:24:18.617Z",
+ "generatedAt": "2026-11-12T13:34:09.562Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 57,
+   "count": 56,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 68,
+    "fetched": 67,
     "failed": [],
-    "ticketLinks": 65,
+    "ticketLinks": 64,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 58,
+   "count": 57,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 98,
+    "ticketLinks": 96,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -62,32 +62,34 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 33,
+   "count": 32,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 58,
+    "fetched": 57,
     "failed": [],
-    "ticketLinks": 56,
+    "ticketLinks": 55,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
      "200 (rendered) https://northcotesocialclub.com/gigs/",
-     "200 https://tickets.northcotesocialclub.com/outlet/event/744be11f-a313-422f-b41a-280caa7e7127"
+     "200 https://tickets.northcotesocialclub.com/outlet/event/7a031fa9-613b-4cba-82bc-589a9eed98f5"
     ]
    }
   },
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 17,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 52,
+    "fetched": 53,
     "failed": [],
     "ticketLinks": 25,
-    "noEventData": [],
+    "noEventData": [
+     "https://tickets.oztix.com.au/outlet/event/d3d62708-09ba-4746-8a2b-228436b178ba"
+    ],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
@@ -108,26 +110,26 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.johncurtinhotel.com/gigs",
-     "200 https://johncurtinhotel.oztix.com.au/outlet/event/2a7052b9-b9e7-43a0-84d2-29b9f049702e",
-     "200 https://johncurtinhotel.oztix.com.au/outlet/event/ae030569-4fa1-47d0-bea9-d897f149b270"
+     "200 https://johncurtinhotel.oztix.com.au/outlet/event/ae030569-4fa1-47d0-bea9-d897f149b270",
+     "200 https://johncurtinhotel.oztix.com.au/outlet/event/c56cafb0-de82-4de3-96a2-c0120c36b0b2"
     ]
    }
   },
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 52,
+   "count": 51,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 70,
+    "fetched": 69,
     "failed": [],
-    "ticketLinks": 69,
+    "ticketLinks": 68,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/226cfcbd-3be7-46eb-b0ab-8239c372af7e",
-     "200 https://tickets.oztix.com.au/outlet/event/28ade58a-bf3c-4460-95b8-a32223b2609d"
+     "200 https://tickets.oztix.com.au/outlet/event/28ade58a-bf3c-4460-95b8-a32223b2609d",
+     "200 https://tickets.oztix.com.au/outlet/event/d61e2a3d-51f8-465d-ba8f-856a22f8f749"
     ]
    }
   },
@@ -163,14 +165,14 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/aaf5a504-ad96-48d0-a942-4e7fe394b1b2"
+     "200 https://baropen.oztix.com.au/outlet/event/de4437c9-e22c-46e9-89a8-196644ac7c7e"
     ]
    }
   },
   {
    "id": "lulie",
    "name": "Lulie Tavern",
-   "count": 11,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -204,18 +206,18 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 29,
+   "count": 28,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 32,
+    "fetched": 31,
     "failed": [],
-    "ticketLinks": 31,
+    "ticketLinks": 30,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/d7e79b7d-dc47-4f2b-a96d-3ce4b2da7750",
-     "200 https://tickets.oztix.com.au/outlet/event/384dd21b-bf5c-40db-886f-acbd5bab30d2"
+     "200 https://tickets.oztix.com.au/outlet/event/384dd21b-bf5c-40db-886f-acbd5bab30d2",
+     "200 https://tickets.oztix.com.au/outlet/event/58b28acb-5579-4817-b0ed-07445d4ea6e7"
     ]
    }
   },
@@ -291,11 +293,11 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 35,
+   "count": 34,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 37,
+    "fetched": 36,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
@@ -305,19 +307,19 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/fenn-wilson-and-the-weather-nighthawks-residency",
-     "200 https://events.humanitix.com/gull-plfs-album-launch"
+     "200 https://events.humanitix.com/gull-plfs-album-launch",
+     "200 https://events.humanitix.com/sleep-box-hotel-ep-launch"
     ]
    }
   },
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 16,
+   "count": 26,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 50,
+    "fetched": 70,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-17th-nov",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov",
@@ -329,7 +331,7 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/suzie-so-blue-6sgfy",
+     "200 https://www.edinburghcastle.net.au/gig-guide/tony-j-kingjuly-65p64-3nwbb",
      "200 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party"
     ]
    }
@@ -371,20 +373,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 25,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 26,
-    "failed": [
-     "503 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/10/2/community-chess-club-6y5p3-h"
-    ],
+    "fetched": 25,
+    "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.trybooking.com/DRIQH",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/14/beer-garden-boof"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/14/beer-garden-boof",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/15/beer-garden-the-daztones"
     ]
    }
   },
@@ -443,25 +443,25 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 31,
+   "count": 36,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 40,
+    "fetched": 45,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/fliryte-nov-p8gk5",
-     "200 https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a-z8ahe"
+     "200 https://wesleyanne.com.au/events/sanfona-njm5b-6sa4a-z8ahe",
+     "200 https://wesleyanne.com.au/events/bludger-9ntt5"
     ]
    }
   },
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 33,
+   "count": 32,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -511,25 +511,25 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 46,
+   "count": 44,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 141,
+    "fetched": 137,
     "failed": [],
-    "ticketLinks": 70,
+    "ticketLinks": 68,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/tex-perkins-matt-walker/198040",
-     "200 https://www.moshtix.com.au/v2/event/tex-perkins-matt-walker/198040"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/buena-vista-social-club-30th-anniversa",
+     "200 https://www.moshtix.com.au/v2/event/buena-vista-social-club-30th-anniversary-tribute-conce"
     ]
    }
   },
   {
    "id": "uptown",
    "name": "Uptown Jazz Cafe",
-   "count": 11,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -547,7 +547,7 @@
   {
    "id": "baddecisions",
    "name": "Bad Decisions Bar",
-   "count": 11,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -580,7 +580,7 @@
   {
    "id": "merricreek",
    "name": "The Merri Creek Tavern",
-   "count": 1,
+   "count": 0,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -612,7 +612,7 @@
   {
    "id": "drunkenpoet",
    "name": "The Drunken Poet",
-   "count": 39,
+   "count": 38,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -628,18 +628,18 @@
   {
    "id": "shotkickers",
    "name": "Shotkickers",
-   "count": 30,
+   "count": 29,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 35,
+    "fetched": 34,
     "failed": [],
-    "ticketLinks": 34,
+    "ticketLinks": 33,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.shotkickers.com/gigs",
-     "200 https://tickets.oztix.com.au/outlet/event/5ffe6e38-1429-44ef-8e47-6e8d6c8586e2",
-     "200 https://tickets.oztix.com.au/outlet/event/42a6bb64-0e19-4b59-aef4-17c9226968ef"
+     "200 https://tickets.oztix.com.au/outlet/event/42a6bb64-0e19-4b59-aef4-17c9226968ef",
+     "200 https://tickets.oztix.com.au/outlet/event/712a6347-fa84-43cc-96ef-4c7c85529ec4"
     ]
    }
   },
