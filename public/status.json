@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T13:34:09.562Z",
+ "generatedAt": "2026-11-13T00:00:37.219Z",
  "venues": [
   {
    "id": "tote",
@@ -66,9 +66,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 57,
+    "fetched": 58,
     "failed": [],
-    "ticketLinks": 55,
+    "ticketLinks": 56,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -80,20 +80,18 @@
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 16,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 53,
+    "fetched": 52,
     "failed": [],
     "ticketLinks": 25,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/d3d62708-09ba-4746-8a2b-228436b178ba"
-    ],
+    "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-251107"
+     "200 https://evelynhotel.com.au/events/event-250332"
     ]
    }
   },
@@ -461,7 +459,7 @@
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 32,
+   "count": 31,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
