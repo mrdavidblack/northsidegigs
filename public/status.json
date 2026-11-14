@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T00:16:04.725Z",
+ "generatedAt": "2026-11-14T11:57:24.656Z",
  "venues": [
   {
    "id": "tote",
@@ -50,7 +50,7 @@
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 96,
+    "ticketLinks": 95,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -165,7 +165,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/3241dbe3-d5ec-41fe-b838-30a3e6457fa6"
+     "200 https://baropen.oztix.com.au/outlet/event/b44e1765-5939-4042-82ca-61e0f53802de"
     ]
    }
   },
@@ -210,14 +210,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 30,
+    "fetched": 31,
     "failed": [],
-    "ticketLinks": 29,
+    "ticketLinks": 30,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/58b28acb-5579-4817-b0ed-07445d4ea6e7",
-     "200 https://tickets.oztix.com.au/outlet/event/9ea97349-c98e-40ff-ba46-eea3ae3a30c8"
+     "200 https://tickets.oztix.com.au/outlet/event/1b0a3c0f-ce2a-46c9-8d87-88f0b71378e5",
+     "200 https://tickets.oztix.com.au/outlet/event/3aacd9ee-7fc5-4b4d-a7f1-9c77e0f49fc8"
     ]
    }
   },
@@ -260,7 +260,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 24,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -293,11 +293,11 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 35,
+   "count": 34,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 37,
+    "fetched": 36,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
@@ -307,8 +307,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/sleep-box-hotel-ep-launch",
-     "200 https://events.humanitix.com/down-and-out-nighthawks-bar"
+     "200 https://events.humanitix.com/down-and-out-nighthawks-bar",
+     "200 https://events.humanitix.com/down-flat-down-nighthawks"
     ]
    }
   },
@@ -357,7 +357,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 18,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -373,18 +373,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 24,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 25,
+    "fetched": 24,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/14/beer-garden-boof",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/15/beer-garden-the-daztones"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/15/beer-garden-the-daztones",
+     "200 https://events.humanitix.com/jamie-holmes-quartet-the-brunny-green"
     ]
    }
   },
@@ -443,18 +443,18 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 35,
+   "count": 33,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 44,
+    "fetched": 42,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/bludger-9ntt5",
-     "200 https://events.humanitix.com/heaven-in-a-hurricane-album-launch"
+     "200 https://events.humanitix.com/sunday-sessions-at-the-wesley-anne-with-lola-may-and-ziv-dan-",
+     "200 https://wesleyanne.com.au/events/janina-berlin-onur-puza-x3mnb-h2rfj"
     ]
    }
   },
@@ -495,7 +495,7 @@
   {
    "id": "creature",
    "name": "Creature Bar",
-   "count": 14,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -511,13 +511,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 42,
+   "count": 41,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 133,
+    "fetched": 131,
     "failed": [],
-    "ticketLinks": 66,
+    "ticketLinks": 65,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
@@ -547,7 +547,7 @@
   {
    "id": "baddecisions",
    "name": "Bad Decisions Bar",
-   "count": 8,
+   "count": 9,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
