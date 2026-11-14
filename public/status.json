@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-13T12:53:19.535Z",
+ "generatedAt": "2026-11-14T00:16:04.725Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 59,
+   "count": 57,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 70,
+    "fetched": 68,
     "failed": [],
-    "ticketLinks": 67,
+    "ticketLinks": 65,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -22,29 +22,29 @@
   {
    "id": "oldbar",
    "name": "The Old Bar",
-   "count": 22,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 36,
+    "fetched": 32,
     "failed": [],
-    "ticketLinks": 29,
+    "ticketLinks": 26,
     "noEventData": [
+     "https://theoldbar.oztix.com.au/outlet/event/1662460c-8c8f-4f8b-8ec5-e2c58e5edbd2",
      "https://theoldbar.oztix.com.au/outlet/event/0338e46a-cf4f-4536-95c2-cb3f12a7f8ec",
-     "https://theoldbar.oztix.com.au/outlet/event/ecc1d6c5-fee8-46d0-8758-17906b28ff06",
-     "https://theoldbar.oztix.com.au/outlet/event/03f4c779-d61d-454f-89b8-64b5bc07d704"
+     "https://theoldbar.oztix.com.au/outlet/event/ecc1d6c5-fee8-46d0-8758-17906b28ff06"
     ],
     "firstFetches": [
      "200 https://www.theoldbar.com.au/",
      "200 https://theoldbar.oztix.com.au/",
-     "200 https://theoldbar.oztix.com.au/outlet/event/1662460c-8c8f-4f8b-8ec5-e2c58e5edbd2"
+     "200 https://theoldbar.oztix.com.au/outlet/event/6598f542-441d-438c-8ba4-d83c9de6f0d9"
     ]
    }
   },
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 57,
+   "count": 55,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -62,72 +62,72 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 32,
+   "count": 31,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 58,
+    "fetched": 57,
     "failed": [],
-    "ticketLinks": 56,
+    "ticketLinks": 55,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
      "200 (rendered) https://northcotesocialclub.com/gigs/",
-     "200 https://tickets.northcotesocialclub.com/outlet/event/7a031fa9-613b-4cba-82bc-589a9eed98f5"
+     "200 https://tickets.northcotesocialclub.com/outlet/event/2260721f-0148-4d6b-b8e2-58d4409bf935"
     ]
    }
   },
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 17,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 52,
+    "fetched": 48,
     "failed": [],
-    "ticketLinks": 25,
+    "ticketLinks": 23,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-250332"
+     "200 https://evelynhotel.com.au/events/event-250056"
     ]
    }
   },
   {
    "id": "curtin",
    "name": "John Curtin Hotel",
-   "count": 15,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 19,
+    "fetched": 18,
     "failed": [],
-    "ticketLinks": 18,
+    "ticketLinks": 17,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.johncurtinhotel.com/gigs",
-     "200 https://johncurtinhotel.oztix.com.au/outlet/event/ae030569-4fa1-47d0-bea9-d897f149b270",
-     "200 https://johncurtinhotel.oztix.com.au/outlet/event/c56cafb0-de82-4de3-96a2-c0120c36b0b2"
+     "200 https://johncurtinhotel.oztix.com.au/outlet/event/c56cafb0-de82-4de3-96a2-c0120c36b0b2",
+     "200 https://johncurtinhotel.oztix.com.au/outlet/event/db6047cf-e334-4f7a-86c2-315c654744ea"
     ]
    }
   },
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 51,
+   "count": 48,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 70,
+    "fetched": 67,
     "failed": [],
-    "ticketLinks": 69,
+    "ticketLinks": 66,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/28ade58a-bf3c-4460-95b8-a32223b2609d",
-     "200 https://tickets.oztix.com.au/outlet/event/d61e2a3d-51f8-465d-ba8f-856a22f8f749"
+     "200 https://tickets.oztix.com.au/outlet/event/1feb06fc-a48d-4c43-8a83-33237428e5ef",
+     "200 https://tickets.oztix.com.au/outlet/event/f9ab4c7a-8553-4c31-9b15-2474725d3f54"
     ]
    }
   },
@@ -172,7 +172,7 @@
   {
    "id": "lulie",
    "name": "Lulie Tavern",
-   "count": 10,
+   "count": 9,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -210,12 +210,10 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 32,
+    "fetched": 30,
     "failed": [],
-    "ticketLinks": 30,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/384dd21b-bf5c-40db-886f-acbd5bab30d2"
-    ],
+    "ticketLinks": 29,
+    "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
      "200 https://tickets.oztix.com.au/outlet/event/58b28acb-5579-4817-b0ed-07445d4ea6e7",
@@ -359,7 +357,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 19,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -393,7 +391,7 @@
   {
    "id": "graveyard",
    "name": "The Graveyard",
-   "count": 4,
+   "count": 3,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -463,7 +461,7 @@
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 27,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -479,7 +477,7 @@
   {
    "id": "lomond",
    "name": "The Lomond Hotel",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -513,25 +511,25 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 44,
+   "count": 42,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 137,
+    "fetched": 133,
     "failed": [],
-    "ticketLinks": 68,
+    "ticketLinks": 66,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/buena-vista-social-club-30th-anniversa",
-     "200 https://www.moshtix.com.au/v2/event/buena-vista-social-club-30th-anniversary-tribute-conce"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/casey-donovan-end-of-tour-wrap-party-s",
+     "200 https://www.moshtix.com.au/v2/event/casey-donovan-end-of-tour-wrap-party-show/186491"
     ]
    }
   },
   {
    "id": "uptown",
    "name": "Uptown Jazz Cafe",
-   "count": 10,
+   "count": 9,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -648,7 +646,7 @@
   {
    "id": "thornburylocal",
    "name": "Thornbury Local",
-   "count": 7,
+   "count": 6,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
