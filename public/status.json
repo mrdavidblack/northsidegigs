@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T22:54:40.679Z",
+ "generatedAt": "2026-11-15T12:32:06.457Z",
  "venues": [
   {
    "id": "tote",
@@ -165,7 +165,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/b44e1765-5939-4042-82ca-61e0f53802de"
+     "200 https://baropen.oztix.com.au/outlet/event/a7ec22ca-7110-4ec9-b6cb-8b469ed79726"
     ]
    }
   },
@@ -216,8 +216,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/1b0a3c0f-ce2a-46c9-8d87-88f0b71378e5",
-     "200 https://tickets.oztix.com.au/outlet/event/3aacd9ee-7fc5-4b4d-a7f1-9c77e0f49fc8"
+     "200 https://tickets.oztix.com.au/outlet/event/3aacd9ee-7fc5-4b4d-a7f1-9c77e0f49fc8",
+     "200 https://tickets.oztix.com.au/outlet/event/8b10b0bf-986f-4685-a2e9-02c278987dc9"
     ]
    }
   },
@@ -260,7 +260,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 22,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -293,11 +293,11 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 33,
+   "count": 32,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 35,
+    "fetched": 34,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
@@ -307,19 +307,19 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/down-flat-down-nighthawks",
-     "200 https://events.humanitix.com/milkbar-live-nighthawks-bar"
+     "200 https://events.humanitix.com/milkbar-live-nighthawks-bar",
+     "200 https://events.humanitix.com/aquaplane-with-moths-and-lagoon"
     ]
    }
   },
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 24,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 67,
+    "fetched": 65,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-17th-nov",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov",
@@ -331,8 +331,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/danny-rossapril-29mxk-xbr7g-875eb-66se4",
-     "200 https://events.humanitix.com/edinburgh-castle-s-20th-birthday-party"
+     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-17th-nov",
+     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe"
     ]
    }
   },
@@ -357,7 +357,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -373,18 +373,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 23,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 24,
+    "fetched": 22,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/15/beer-garden-the-daztones",
-     "200 https://events.humanitix.com/jamie-holmes-quartet-the-brunny-green"
+     "200 https://events.humanitix.com/tongue-tied-u3rxuv6w",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2025/5/21/bluegrass-jam-night-nf8tj-2x"
     ]
    }
   },
@@ -443,18 +443,18 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 33,
+   "count": 31,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 42,
+    "fetched": 40,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://events.humanitix.com/sunday-sessions-at-the-wesley-anne-with-lola-may-and-ziv-dan-",
-     "200 https://wesleyanne.com.au/events/janina-berlin-onur-puza-x3mnb-h2rfj"
+     "200 https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l",
+     "200 https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5"
     ]
    }
   },
