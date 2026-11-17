@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-16T13:24:30.353Z",
+ "generatedAt": "2026-11-17T02:23:45.791Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 43,
+   "count": 54,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 54,
+    "fetched": 65,
     "failed": [],
-    "ticketLinks": 51,
+    "ticketLinks": 62,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -62,13 +62,13 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 29,
+   "count": 30,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 55,
+    "fetched": 57,
     "failed": [],
-    "ticketLinks": 53,
+    "ticketLinks": 55,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -80,13 +80,13 @@
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 15,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 46,
+    "fetched": 48,
     "failed": [],
-    "ticketLinks": 22,
+    "ticketLinks": 23,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
@@ -116,13 +116,13 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 45,
+   "count": 46,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 62,
+    "fetched": 64,
     "failed": [],
-    "ticketLinks": 61,
+    "ticketLinks": 63,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
@@ -153,16 +153,17 @@
    "id": "baropen",
    "name": "Bar Open",
    "count": 18,
-   "keptFromLastRun": true,
+   "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 2,
+    "fetched": 22,
     "failed": [],
-    "ticketLinks": 0,
+    "ticketLinks": 20,
     "noEventData": [],
     "firstFetches": [
      "200 https://baropen.com.au/",
-     "200 (rendered) https://baropen.com.au/"
+     "200 (rendered) https://baropen.com.au/",
+     "200 https://baropen.oztix.com.au/outlet/event/a7ec22ca-7110-4ec9-b6cb-8b469ed79726"
     ]
    }
   },
@@ -204,22 +205,24 @@
    "id": "bergy",
    "name": "Bergy Bandroom",
    "count": 24,
-   "keptFromLastRun": true,
+   "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 1,
+    "fetched": 28,
     "failed": [],
-    "ticketLinks": 0,
+    "ticketLinks": 27,
     "noEventData": [],
     "firstFetches": [
-     "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/"
+     "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
+     "200 https://tickets.oztix.com.au/outlet/event/3aacd9ee-7fc5-4b4d-a7f1-9c77e0f49fc8",
+     "200 https://tickets.oztix.com.au/outlet/event/8b10b0bf-986f-4685-a2e9-02c278987dc9"
     ]
    }
   },
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 18,
+   "count": 19,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -404,7 +407,7 @@
   {
    "id": "deserthighways",
    "name": "Desert Highways",
-   "count": 2,
+   "count": 4,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -516,8 +519,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/table-scraps-north-south-east-west/201",
-     "200 https://www.moshtix.com.au/v2/event/table-scraps-north-south-east-west/201628"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/table-scraps-state-election-edition/20",
+     "200 https://www.moshtix.com.au/v2/event/table-scraps-state-election-edition/201628"
     ]
    }
   },
@@ -642,7 +645,7 @@
    "id": "thornburylocal",
    "name": "Thornbury Local",
    "count": 4,
-   "keptFromLastRun": true,
+   "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 1,
