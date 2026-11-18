@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T14:09:13.115Z",
+ "generatedAt": "2026-11-18T01:32:10.147Z",
  "venues": [
   {
    "id": "tote",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 55,
+   "count": 54,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 83,
     "failed": [],
-    "ticketLinks": 86,
+    "ticketLinks": 88,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -170,7 +170,7 @@
   {
    "id": "lulie",
    "name": "Lulie Tavern",
-   "count": 8,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -441,11 +441,11 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 29,
+   "count": 47,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 38,
+    "fetched": 61,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
@@ -513,9 +513,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 137,
+    "fetched": 139,
     "failed": [],
-    "ticketLinks": 68,
+    "ticketLinks": 69,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
