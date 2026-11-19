@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-18T13:41:56.019Z",
+ "generatedAt": "2026-11-19T01:01:55.927Z",
  "venues": [
   {
    "id": "tote",
@@ -8,9 +8,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 63,
+    "fetched": 64,
     "failed": [],
-    "ticketLinks": 60,
+    "ticketLinks": 61,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -84,16 +84,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 51,
+    "fetched": 48,
     "failed": [],
-    "ticketLinks": 24,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/b3f4ecb5-93df-4104-8a4c-43079b55c5be"
-    ],
+    "ticketLinks": 23,
+    "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-251954"
+     "200 https://evelynhotel.com.au/events/event-247795"
     ]
    }
   },
@@ -118,13 +116,13 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 44,
+   "count": 45,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 61,
+    "fetched": 62,
     "failed": [],
-    "ticketLinks": 60,
+    "ticketLinks": 61,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
@@ -299,10 +297,10 @@
    "debug": {
     "fetched": 33,
     "failed": [
-     "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor",
      "404 https://events.humanitix.com/zara-alice-weight-of-the-world-ep-launch",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
-     "404 https://events.humanitix.com/groom-epoch-shadow-kaleidoscope-tour"
+     "404 https://events.humanitix.com/groom-epoch-shadow-kaleidoscope-tour",
+     "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor"
     ],
     "ticketLinks": null,
     "noEventData": [],
@@ -426,13 +424,13 @@
   {
    "id": "railway",
    "name": "Railway Hotel",
-   "count": 6,
+   "count": 5,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 8,
+    "fetched": 7,
     "failed": [],
-    "ticketLinks": 6,
+    "ticketLinks": 5,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.railwayhotelfitzroy.com.au/ballroom-gigs",
@@ -512,13 +510,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 48,
+   "count": 49,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 147,
+    "fetched": 149,
     "failed": [],
-    "ticketLinks": 73,
+    "ticketLinks": 74,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
