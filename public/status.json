@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21T13:15:49.315Z",
+ "generatedAt": "2026-11-21T23:44:22.348Z",
  "venues": [
   {
    "id": "tote",
@@ -37,7 +37,7 @@
     "firstFetches": [
      "200 https://www.theoldbar.com.au/",
      "200 https://theoldbar.oztix.com.au/",
-     "200 https://theoldbar.oztix.com.au/outlet/event/28dc7102-60fc-4853-a48e-5d1364515ae4"
+     "200 https://theoldbar.oztix.com.au/outlet/event/78523c6d-ecd6-4d79-9e03-53c716fcb35c"
     ]
    }
   },
@@ -84,16 +84,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 43,
+    "fetched": 40,
     "failed": [],
-    "ticketLinks": 20,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/4bc32f2a-14d8-452f-ab9b-999223bd89e1"
-    ],
+    "ticketLinks": 19,
+    "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-254094"
+     "200 https://evelynhotel.com.au/events/event-252840"
     ]
    }
   },
@@ -300,7 +298,7 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 29,
+    "fetched": 28,
     "failed": [
      "404 https://events.humanitix.com/zara-alice-weight-of-the-world-ep-launch",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
@@ -310,8 +308,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/mousse-cannon-anglerr-turge-looney-moons",
-     "200 https://events.humanitix.com/wind-wand-w-bitimus-and-celltowers"
+     "200 https://events.humanitix.com/wind-wand-w-bitimus-and-celltowers",
+     "200 https://events.humanitix.com/john-ives-tides-ep-launch"
     ]
    }
   },
