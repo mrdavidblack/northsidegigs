@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T13:06:23.210Z",
+ "generatedAt": "2026-11-23T00:06:59.560Z",
  "venues": [
   {
    "id": "tote",
@@ -37,7 +37,7 @@
     "firstFetches": [
      "200 https://www.theoldbar.com.au/",
      "200 https://theoldbar.oztix.com.au/",
-     "200 https://theoldbar.oztix.com.au/outlet/event/78523c6d-ecd6-4d79-9e03-53c716fcb35c"
+     "200 https://theoldbar.oztix.com.au/outlet/event/1bd11310-20f7-4d61-8f33-351f141d6387"
     ]
    }
   },
@@ -62,13 +62,13 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 25,
+   "count": 26,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 53,
+    "fetched": 54,
     "failed": [],
-    "ticketLinks": 51,
+    "ticketLinks": 52,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -84,16 +84,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 41,
+    "fetched": 38,
     "failed": [],
-    "ticketLinks": 19,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/659caae9-33aa-45a9-85af-ab181eb9f39a"
-    ],
+    "ticketLinks": 18,
+    "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-252840"
+     "200 https://evelynhotel.com.au/events/event-251955"
     ]
    }
   },
@@ -195,9 +193,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 19,
+    "fetched": 20,
     "failed": [],
-    "ticketLinks": 17,
+    "ticketLinks": 18,
     "noEventData": [],
     "firstFetches": [
      "200 http://thecroxton.com.au/",
@@ -231,9 +229,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 17,
+    "fetched": 18,
     "failed": [],
-    "ticketLinks": 16,
+    "ticketLinks": 17,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -300,7 +298,7 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 27,
+    "fetched": 26,
     "failed": [
      "404 https://events.humanitix.com/zara-alice-weight-of-the-world-ep-launch",
      "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
@@ -310,8 +308,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/john-ives-tides-ep-launch",
-     "200 https://events.humanitix.com/fenn-wilson-and-the-weather-nighthawks-residency"
+     "200 https://events.humanitix.com/fenn-wilson-and-the-weather-nighthawks-residency",
+     "200 https://events.humanitix.com/charm-night"
     ]
    }
   },
@@ -649,7 +647,7 @@
   {
    "id": "thornburylocal",
    "name": "Thornbury Local",
-   "count": 2,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
