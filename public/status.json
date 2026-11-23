@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-23T00:06:59.560Z",
+ "generatedAt": "2026-11-23T15:45:09.798Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 47,
+   "count": 49,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 58,
+    "fetched": 60,
     "failed": [],
-    "ticketLinks": 55,
+    "ticketLinks": 57,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -48,9 +48,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 79,
+    "fetched": 77,
     "failed": [],
-    "ticketLinks": 76,
+    "ticketLinks": 74,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -66,21 +66,21 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 54,
+    "fetched": 53,
     "failed": [],
-    "ticketLinks": 52,
+    "ticketLinks": 51,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
      "200 (rendered) https://northcotesocialclub.com/gigs/",
-     "200 https://tickets.northcotesocialclub.com/outlet/event/6676ba03-2e6b-4ab7-a1bb-bf77a61bde8c"
+     "200 https://tickets.northcotesocialclub.com/outlet/event/c3890caa-88db-4f9c-aad8-21556671784b"
     ]
    }
   },
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 13,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -116,18 +116,18 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 41,
+   "count": 42,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 57,
+    "fetched": 59,
     "failed": [],
-    "ticketLinks": 56,
+    "ticketLinks": 58,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/e2c49fa0-fef7-4268-b15e-8a2fbd17d1a2",
-     "200 https://tickets.oztix.com.au/outlet/event/c1202900-42c2-4422-aad8-7bcee4a70752"
+     "200 https://tickets.oztix.com.au/outlet/event/c1202900-42c2-4422-aad8-7bcee4a70752",
+     "200 https://tickets.oztix.com.au/outlet/event/3c10b085-c5d1-467e-a8bb-bd244391b261"
     ]
    }
   },
@@ -207,13 +207,13 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 21,
+   "count": 23,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 24,
+    "fetched": 25,
     "failed": [],
-    "ticketLinks": 23,
+    "ticketLinks": 24,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
@@ -247,9 +247,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 21,
+    "fetched": 25,
     "failed": [],
-    "ticketLinks": 10,
+    "ticketLinks": 12,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
@@ -320,9 +320,8 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 54,
+    "fetched": 30,
     "failed": [
-     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-1st-dec",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-8th-dec",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-15th-dec",
@@ -332,7 +331,7 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov",
+     "200 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov",
      "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe"
     ]
    }
@@ -358,7 +357,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 13,
+   "count": 14,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -444,18 +443,18 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 42,
+   "count": 40,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 54,
+    "fetched": 51,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/pzxtd4j9ds8zd6n-r7kgf-y4n3x-bwpnz-wrggm-rryk3-l3mmx-7hh3l",
-     "200 https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5"
+     "200 https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5",
+     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx"
     ]
    }
   },
@@ -516,9 +515,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 131,
+    "fetched": 133,
     "failed": [],
-    "ticketLinks": 65,
+    "ticketLinks": 66,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
@@ -548,7 +547,7 @@
   {
    "id": "baddecisions",
    "name": "Bad Decisions Bar",
-   "count": 9,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -613,7 +612,7 @@
   {
    "id": "drunkenpoet",
    "name": "The Drunken Poet",
-   "count": 26,
+   "count": 27,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -629,18 +628,18 @@
   {
    "id": "shotkickers",
    "name": "Shotkickers",
-   "count": 21,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 25,
+    "fetched": 24,
     "failed": [],
-    "ticketLinks": 24,
+    "ticketLinks": 23,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.shotkickers.com/gigs",
-     "200 https://tickets.oztix.com.au/outlet/event/820ee98b-e038-4fc5-8a19-8565bd6ecee2",
-     "200 https://tickets.oztix.com.au/outlet/event/60fe7a13-d6e5-4cba-842e-bffd451cdc4a"
+     "200 https://tickets.oztix.com.au/outlet/event/60fe7a13-d6e5-4cba-842e-bffd451cdc4a",
+     "200 https://tickets.oztix.com.au/outlet/event/bfeeaebc-fb0c-4af3-940a-136ba2d7ef5e"
     ]
    }
   },
