@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T04:14:37.577Z",
+ "generatedAt": "2026-11-24T15:34:57.088Z",
  "venues": [
   {
    "id": "tote",
@@ -48,9 +48,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 77,
+    "fetched": 75,
     "failed": [],
-    "ticketLinks": 74,
+    "ticketLinks": 72,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -62,7 +62,7 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 26,
+   "count": 27,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -80,13 +80,13 @@
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 15,
+   "count": 19,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 40,
+    "fetched": 48,
     "failed": [],
-    "ticketLinks": 19,
+    "ticketLinks": 23,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
@@ -116,46 +116,43 @@
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 42,
+   "count": 43,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 59,
+    "fetched": 58,
     "failed": [],
-    "ticketLinks": 58,
+    "ticketLinks": 57,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/c1202900-42c2-4422-aad8-7bcee4a70752",
-     "200 https://tickets.oztix.com.au/outlet/event/3c10b085-c5d1-467e-a8bb-bd244391b261"
+     "200 https://tickets.oztix.com.au/outlet/event/2d237e12-4d27-468e-adcc-850d84dbc75a",
+     "200 https://tickets.oztix.com.au/outlet/event/ac8fcaeb-e2d5-4750-9fb3-63ade778fe58"
     ]
    }
   },
   {
    "id": "cactus",
    "name": "Cactus Room",
-   "count": 12,
+   "count": 13,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 17,
+    "fetched": 14,
     "failed": [],
-    "ticketLinks": 14,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/ced7a43f-484a-48d5-869e-03b5700d2bee",
-     "https://tickets.oztix.com.au/outlet/event/f6e4d130-0589-4317-904a-e2c73b2c2ad5"
-    ],
+    "ticketLinks": 13,
+    "noEventData": [],
     "firstFetches": [
      "200 http://www.cactusroom.com.au/events.html",
-     "200 https://tickets.oztix.com.au/outlet/event/ced7a43f-484a-48d5-869e-03b5700d2bee",
-     "200 (rendered) https://tickets.oztix.com.au/outlet/event/ced7a43f-484a-48d5-869e-03b5700d2bee"
+     "200 https://tickets.oztix.com.au/outlet/event/c49821e4-7077-4ca3-a0ca-4dd88c04d327",
+     "200 https://tickets.oztix.com.au/outlet/event/64383ac8-9f37-4b2b-8f24-71836bb34513"
     ]
    }
   },
   {
    "id": "baropen",
    "name": "Bar Open",
-   "count": 18,
+   "count": 19,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -166,7 +163,7 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/eee113dc-6227-4913-ac1c-2c0c6fad3072"
+     "200 https://baropen.oztix.com.au/outlet/event/903d0040-4ff9-4fe3-8c36-c8cbd71c29ac"
     ]
    }
   },
@@ -193,9 +190,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 20,
+    "fetched": 21,
     "failed": [],
-    "ticketLinks": 18,
+    "ticketLinks": 19,
     "noEventData": [],
     "firstFetches": [
      "200 http://thecroxton.com.au/",
@@ -225,13 +222,13 @@
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 15,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 18,
+    "fetched": 20,
     "failed": [],
-    "ticketLinks": 17,
+    "ticketLinks": 19,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -261,7 +258,7 @@
   {
    "id": "howler",
    "name": "Howler",
-   "count": 20,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -318,7 +315,7 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 30,
+    "fetched": 29,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-1st-dec",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-8th-dec",
@@ -329,8 +326,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://events.humanitix.com/edinburgh-castle-open-mic-night-24th-nov",
-     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe"
+     "200 https://www.edinburghcastle.net.au/gig-guide/92pajgwn5she467-6snsg-as29k-9d2nb-edmrj-mzpbe",
+     "200 https://www.edinburghcastle.net.au/gig-guide/suzie-so-blue-6sgfy-8btdn-ntwfx"
     ]
    }
   },
@@ -371,18 +368,18 @@
   {
    "id": "brunswickgreen",
    "name": "Brunswick Green",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 17,
+    "fetched": 16,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.thebrunswickgreen.com/gigs-at-the-green?format=json",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/3/31/afw-16mm-experimental-film-n",
-     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/25/coco-browne-quartet"
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/11/25/coco-browne-quartet",
+     "200 https://www.thebrunswickgreen.com/gigs-at-the-green/2026/2/12/michelle-nicolle-friends-jon"
     ]
    }
   },
@@ -441,18 +438,18 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 40,
+   "count": 39,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 51,
+    "fetched": 50,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://wesleyanne.com.au/events/piano-atmosferix-9team-pfmk3-talrx-sb23y-y2dnm-88h27-2ab5",
-     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx"
+     "200 https://wesleyanne.com.au/events/fk3mwz8eyhfslls-kysce-6h2m7-nmcye-3pfka-bjede-79pcs-3glrx",
+     "200 https://wesleyanne.com.au/events/fliryte-nov-p8gk5-sgpw7-4g83k"
     ]
    }
   },
@@ -509,7 +506,7 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 41,
+   "count": 42,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -519,8 +516,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/human-love-quest/193395",
-     "200 https://www.moshtix.com.au/v2/event/human-love-quest/193395"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/private-birthday-party/196544",
+     "200 https://www.moshtix.com.au/v2/event/private-birthday-party/196544"
     ]
    }
   },
@@ -545,7 +542,7 @@
   {
    "id": "baddecisions",
    "name": "Bad Decisions Bar",
-   "count": 10,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -610,7 +607,7 @@
   {
    "id": "drunkenpoet",
    "name": "The Drunken Poet",
-   "count": 27,
+   "count": 26,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -626,18 +623,18 @@
   {
    "id": "shotkickers",
    "name": "Shotkickers",
-   "count": 20,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 26,
+    "fetched": 25,
     "failed": [],
-    "ticketLinks": 25,
+    "ticketLinks": 24,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.shotkickers.com/gigs",
-     "200 https://tickets.oztix.com.au/outlet/event/60fe7a13-d6e5-4cba-842e-bffd451cdc4a",
-     "200 https://tickets.oztix.com.au/outlet/event/bfeeaebc-fb0c-4af3-940a-136ba2d7ef5e"
+     "200 https://tickets.oztix.com.au/outlet/event/bfeeaebc-fb0c-4af3-940a-136ba2d7ef5e",
+     "200 https://tickets.oztix.com.au/outlet/event/0c28d82e-2f38-4be2-980e-4216e1cc15e7"
     ]
    }
   },
