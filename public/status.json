@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-23T15:45:09.798Z",
+ "generatedAt": "2026-11-24T04:14:37.577Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 49,
+   "count": 50,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 60,
+    "fetched": 61,
     "failed": [],
-    "ticketLinks": 57,
+    "ticketLinks": 58,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -80,13 +80,13 @@
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 14,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 38,
+    "fetched": 40,
     "failed": [],
-    "ticketLinks": 18,
+    "ticketLinks": 19,
     "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
@@ -98,18 +98,18 @@
   {
    "id": "curtin",
    "name": "John Curtin Hotel",
-   "count": 11,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 13,
+    "fetched": 12,
     "failed": [],
-    "ticketLinks": 12,
+    "ticketLinks": 11,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.johncurtinhotel.com/gigs",
      "200 https://johncurtinhotel.oztix.com.au/outlet/event/388ea903-92a5-4757-bc63-362dc50bbc43",
-     "200 https://johncurtinhotel.oztix.com.au/outlet/event/399fb04e-8d99-47f6-bba0-68ea437423cb"
+     "200 https://johncurtinhotel.oztix.com.au/outlet/event/8a34f69c-9488-4583-860c-38d2bc2df726"
     ]
    }
   },
@@ -300,8 +300,6 @@
    "debug": {
     "fetched": 26,
     "failed": [
-     "404 https://events.humanitix.com/zara-alice-weight-of-the-world-ep-launch",
-     "404 https://events.humanitix.com/the-gems-au-revoir-2026-at-nighthawks",
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor"
     ],
     "ticketLinks": null,
@@ -461,7 +459,7 @@
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 16,
+   "count": 15,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -511,13 +509,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 40,
+   "count": 41,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 133,
+    "fetched": 135,
     "failed": [],
-    "ticketLinks": 66,
+    "ticketLinks": 67,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
@@ -632,9 +630,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 24,
+    "fetched": 26,
     "failed": [],
-    "ticketLinks": 23,
+    "ticketLinks": 25,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.shotkickers.com/gigs",
