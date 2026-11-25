@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-24T15:34:57.088Z",
+ "generatedAt": "2026-11-25T02:58:16.397Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 50,
+   "count": 53,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 61,
+    "fetched": 64,
     "failed": [],
-    "ticketLinks": 58,
+    "ticketLinks": 61,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -26,9 +26,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 28,
+    "fetched": 26,
     "failed": [],
-    "ticketLinks": 20,
+    "ticketLinks": 19,
     "noEventData": [
      "https://theoldbar.oztix.com.au/outlet/event/78523c6d-ecd6-4d79-9e03-53c716fcb35c",
      "https://theoldbar.oztix.com.au/outlet/event/28dc7102-60fc-4853-a48e-5d1364515ae4",
@@ -62,13 +62,13 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 27,
+   "count": 29,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 53,
+    "fetched": 55,
     "failed": [],
-    "ticketLinks": 51,
+    "ticketLinks": 53,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -240,13 +240,13 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 10,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 25,
+    "fetched": 27,
     "failed": [],
-    "ticketLinks": 12,
+    "ticketLinks": 13,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
@@ -438,11 +438,11 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 39,
+   "count": 40,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 50,
+    "fetched": 52,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
@@ -506,13 +506,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 42,
+   "count": 43,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 135,
+    "fetched": 137,
     "failed": [],
-    "ticketLinks": 67,
+    "ticketLinks": 68,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
