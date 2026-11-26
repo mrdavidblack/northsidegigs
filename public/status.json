@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T15:20:01.676Z",
+ "generatedAt": "2026-11-26T02:06:40.873Z",
  "venues": [
   {
    "id": "tote",
@@ -66,9 +66,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 54,
+    "fetched": 56,
     "failed": [],
-    "ticketLinks": 52,
+    "ticketLinks": 54,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -84,16 +84,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 55,
+    "fetched": 52,
     "failed": [],
-    "ticketLinks": 26,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/8ab5ee01-56d0-495a-8149-2e5979b5019d"
-    ],
+    "ticketLinks": 25,
+    "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-251955"
+     "200 https://evelynhotel.com.au/events/event-252201"
     ]
    }
   },
@@ -206,13 +204,13 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 23,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 25,
+    "fetched": 27,
     "failed": [],
-    "ticketLinks": 24,
+    "ticketLinks": 26,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
@@ -228,9 +226,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 21,
+    "fetched": 22,
     "failed": [],
-    "ticketLinks": 20,
+    "ticketLinks": 21,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -508,13 +506,13 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 45,
+   "count": 46,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 137,
+    "fetched": 139,
     "failed": [],
-    "ticketLinks": 68,
+    "ticketLinks": 69,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T15:20:01.676Z",
+ "generatedAt": "2026-11-26T02:06:40.873Z",
  "timezone": "Australia/Melbourne",
  "events": [
   {
@@ -631,7 +631,7 @@
   {
    "id": 53,
    "title": "Charm Night",
-   "start": "2026-11-27T09:15:00.546Z",
+   "start": "2026-11-27T09:00:00.894Z",
    "price": 10,
    "status": "onsale",
    "url": "https://events.humanitix.com/charm-night",
@@ -1404,7 +1404,7 @@
    "id": 117,
    "title": "A LITTLE BIT OF HOPE, AN AFTERNOON WITH THE BRUNSWICK WOMEN'S CHOIR",
    "start": "2026-11-29T02:00:00.000Z",
-   "price": 36.72,
+   "price": 9.18,
    "status": "onsale",
    "url": "https://www.moshtix.com.au/v2/event/a-little-bit-of-hope-an-afternoon-with-the-brunswick-womens-choir/194344",
    "linkType": "tickets",
@@ -3255,7 +3255,7 @@
   },
   {
    "id": 271,
-   "title": "sugarush: The Body Night ♱",
+   "title": "sugarush: The Body Night",
    "start": "2026-12-05T10:00:00.000Z",
    "price": 22.94,
    "status": "onsale",
@@ -4268,8 +4268,8 @@
    "id": 355,
    "title": "TWISTED TEENS (USA) with Lothario",
    "start": "2026-12-11T08:30:00.000Z",
-   "price": 59.82,
-   "status": "onsale",
+   "price": null,
+   "status": "soldout",
    "url": "https://www.moshtix.com.au/v2/event/twisted-teens-usa-with-lothario/199373",
    "linkType": "tickets",
    "venueId": "howler",
@@ -5411,7 +5411,7 @@
    "id": 450,
    "title": "Matahara",
    "start": "2026-12-17T09:00:00.000Z",
-   "price": 20,
+   "price": 25,
    "status": "onsale",
    "url": "https://tickets.oztix.com.au/outlet/event/b143b17d-74bc-4e33-abe3-04ab11f348cb",
    "linkType": "tickets",
@@ -6422,6 +6422,18 @@
   },
   {
    "id": 534,
+   "title": "DIVAS",
+   "start": "2026-12-23T09:30:00.000Z",
+   "price": null,
+   "status": "free",
+   "url": "https://www.moshtix.com.au/v2/event/divas/203108",
+   "linkType": "tickets",
+   "venueId": "ballroom",
+   "venue": "Brunswick Ballroom",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 535,
    "title": "THEE MARSHMALLOW OVERCOAT",
    "start": "2026-12-24T06:00:00.000Z",
    "price": 41.82,
@@ -6433,7 +6445,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 535,
+   "id": 536,
    "title": "Pierre Jacquinot Trio",
    "start": "2026-12-24T07:00:00.955Z",
    "price": null,
@@ -6445,7 +6457,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 536,
+   "id": 537,
    "title": "Kier Stevens",
    "start": "2026-12-24T08:00:00.384Z",
    "price": null,
@@ -6457,7 +6469,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 537,
+   "id": 538,
    "title": "Kobya Panguana",
    "start": "2026-12-26T11:00:00.000Z",
    "price": null,
@@ -6469,7 +6481,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 538,
+   "id": 539,
    "title": "Brooklyn '86 Brass Band",
    "start": "2026-12-27T03:00:00.000Z",
    "price": null,
@@ -6481,7 +6493,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 539,
+   "id": 540,
    "title": "David Knight",
    "start": "2026-12-27T05:00:00.246Z",
    "price": null,
@@ -6493,7 +6505,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 540,
+   "id": 541,
    "title": "Black Dethmass III - Hormagaunt + Circle of Blood w/ Supports",
    "start": "2026-12-27T07:00:00.000Z",
    "price": 22.95,
@@ -6505,7 +6517,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 541,
+   "id": 542,
    "title": "Kier Stevens",
    "start": "2026-12-27T07:00:00.778Z",
    "price": null,
@@ -6517,7 +6529,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 542,
+   "id": 543,
    "title": "Sunflower Jam",
    "start": "2026-12-28T07:00:00.381Z",
    "price": null,
@@ -6529,7 +6541,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 543,
+   "id": 544,
    "title": "Edinburgh Gardens Jazz Manouche",
    "start": "2026-12-29T07:00:00.765Z",
    "price": null,
@@ -6541,7 +6553,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 544,
+   "id": 545,
    "title": "BLAK STAGE First Nations Open Mic Night",
    "start": "2026-12-29T08:00:00.000Z",
    "price": null,
@@ -6553,7 +6565,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 545,
+   "id": 546,
    "title": "Ania Reynolds",
    "start": "2026-12-30T07:00:00.941Z",
    "price": null,
@@ -6565,7 +6577,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 546,
+   "id": 547,
    "title": "Creature Feature",
    "start": "2026-12-30T08:00:00.000Z",
    "price": 5,
@@ -6577,7 +6589,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 547,
+   "id": 548,
    "title": "Amadou Suso in The Retreat front bar",
    "start": "2026-12-30T08:00:00.000Z",
    "price": null,
@@ -6589,7 +6601,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 548,
+   "id": 549,
    "title": "Suzie So Blue",
    "start": "2026-12-30T09:00:00.000Z",
    "price": null,
@@ -6601,7 +6613,7 @@
    "suburb": "North Melbourne"
   },
   {
-   "id": 549,
+   "id": 550,
    "title": "JACKSON & FRIENDS | DECEMBER RESIDENCY",
    "start": "2026-12-30T09:00:00.000Z",
    "price": null,
@@ -6613,7 +6625,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 550,
+   "id": 551,
    "title": "Resolution NYE 26/27 Ft. 7 KIKO (FRA), Anthony Pappa, Christopher Lawrence",
    "start": "2026-12-31T06:00:00.000Z",
    "price": 63.9,
@@ -6625,7 +6637,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 551,
+   "id": 552,
    "title": "The Lost Girls (New Years Eve Party!)",
    "start": "2026-12-31T06:30:00.000Z",
    "price": 25,
@@ -6637,7 +6649,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 552,
+   "id": 553,
    "title": "DONNY BENET - NEW YEARS EVE",
    "start": "2026-12-31T08:00:00.000Z",
    "price": 62.73,
@@ -6649,7 +6661,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 553,
+   "id": 554,
    "title": "BONEZ PUNK ROCK DISCO NYE",
    "start": "2026-12-31T09:00:00.000Z",
    "price": 40,
@@ -6661,7 +6673,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 554,
+   "id": 555,
    "title": "New Year's Sleaze: Indie Sleaze NYE Party - Melbourne",
    "start": "2026-12-31T10:00:00.000Z",
    "price": 17.85,
@@ -6673,7 +6685,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 555,
+   "id": 556,
    "title": "Orphia",
    "start": "2027-01-03T05:00:00.418Z",
    "price": null,
@@ -6685,7 +6697,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 556,
+   "id": 557,
    "title": "Sunflower Jam",
    "start": "2027-01-04T07:00:00.854Z",
    "price": null,
@@ -6697,7 +6709,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 557,
+   "id": 558,
    "title": "Creature Feature",
    "start": "2027-01-06T08:00:00.000Z",
    "price": 5,
@@ -6709,7 +6721,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 558,
+   "id": 559,
    "title": "The Robert Simone Big Band Sweet 16 year Anniversary Show",
    "start": "2027-01-06T08:30:00.000Z",
    "price": null,
@@ -6721,7 +6733,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 559,
+   "id": 560,
    "title": "Clare Sands",
    "start": "2027-01-06T09:00:00.374Z",
    "price": 35,
@@ -6733,7 +6745,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 560,
+   "id": 561,
    "title": "Edinburgh Gardens Jazz Manouche",
    "start": "2027-01-07T07:00:00.881Z",
    "price": null,
@@ -6745,7 +6757,19 @@
    "suburb": "Northcote"
   },
   {
-   "id": 561,
+   "id": 562,
+   "title": "Meet Cute Comedy Club - Stand-up Comedy + Speed Dating",
+   "start": "2027-01-07T07:45:00.000Z",
+   "price": 28.05,
+   "status": "onsale",
+   "url": "https://tickets.oztix.com.au/outlet/event/6dc8aea6-b5cd-4444-8096-e9cd9106934a",
+   "linkType": "tickets",
+   "venueId": "bergy",
+   "venue": "Bergy Bandroom",
+   "suburb": "Brunswick"
+  },
+  {
+   "id": 563,
    "title": "Flook (IRE/UK)",
    "start": "2027-01-07T08:00:00.000Z",
    "price": 40.4,
@@ -6757,7 +6781,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 562,
+   "id": 564,
    "title": "COOLDAD \"Where Is The Line?\" The EP Launch: The Musical.",
    "start": "2027-01-08T08:00:00.000Z",
    "price": 10,
@@ -6769,7 +6793,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 563,
+   "id": 565,
    "title": "Cammi Kol",
    "start": "2027-01-08T08:30:00.000Z",
    "price": 20,
@@ -6781,7 +6805,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 564,
+   "id": 566,
    "title": "CHARLOTTE PLANK",
    "start": "2027-01-08T09:00:00.000Z",
    "price": 54.9,
@@ -6793,7 +6817,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 565,
+   "id": 567,
    "title": "...and the mountain",
    "start": "2027-01-09T04:00:00.000Z",
    "price": 13,
@@ -6805,7 +6829,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 566,
+   "id": 568,
    "title": "SUMMER'S CALL - Quiet Essence live with Calder Park and The Morningbirds",
    "start": "2027-01-09T04:00:00.761Z",
    "price": null,
@@ -6817,7 +6841,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 567,
+   "id": 569,
    "title": "Okayden - Fragments Album Preview",
    "start": "2027-01-09T07:00:00.000Z",
    "price": 16.31,
@@ -6829,7 +6853,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 568,
+   "id": 570,
    "title": "BRAY / ADAM MENDUM / ORPHIA",
    "start": "2027-01-09T08:30:00.000Z",
    "price": 18.36,
@@ -6841,7 +6865,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 569,
+   "id": 571,
    "title": "LARGE MIRAGE - 'WATCHING' SINGLE TOUR w/ Neon Goblin // Fur Blossom",
    "start": "2027-01-09T08:30:00.000Z",
    "price": 24,
@@ -6853,7 +6877,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 570,
+   "id": 572,
    "title": "ANA",
    "start": "2027-01-09T08:30:00.000Z",
    "price": 40.4,
@@ -6865,7 +6889,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 571,
+   "id": 573,
    "title": "LUCAS DAY",
    "start": "2027-01-10T05:00:00.000Z",
    "price": 19,
@@ -6877,7 +6901,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 572,
+   "id": 574,
    "title": "ALEX LLOYD - UP CLOSE AND PERSONAL",
    "start": "2027-01-10T06:30:00.000Z",
    "price": 57.63,
@@ -6889,7 +6913,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 573,
+   "id": 575,
    "title": "Gabe Fatin & Brian Abrahams",
    "start": "2027-01-10T07:00:00.313Z",
    "price": null,
@@ -6901,7 +6925,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 574,
+   "id": 576,
    "title": "The Workers Comedy Club",
    "start": "2027-01-10T07:30:00.000Z",
    "price": 4.6,
@@ -6913,7 +6937,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 575,
+   "id": 577,
    "title": "Sunflower Jam",
    "start": "2027-01-11T07:00:00.818Z",
    "price": null,
@@ -6925,7 +6949,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 576,
+   "id": 578,
    "title": "Creature Feature",
    "start": "2027-01-13T08:00:00.000Z",
    "price": 5,
@@ -6937,7 +6961,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 577,
+   "id": 579,
    "title": "SYCCO 'LOOK UP' ALBUM TOUR",
    "start": "2027-01-15T08:30:00.000Z",
    "price": 43.8,
@@ -6949,7 +6973,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 578,
+   "id": 580,
    "title": "GRIM RHYTHM",
    "start": "2027-01-15T09:00:00.000Z",
    "price": 17.75,
@@ -6961,7 +6985,7 @@
    "suburb": "Carlton"
   },
   {
-   "id": 579,
+   "id": 581,
    "title": "Dreamworm Praxis Album Launch featuring Flitcraft and Terra Vale",
    "start": "2027-01-15T09:00:00.000Z",
    "price": 23.5,
@@ -6973,7 +6997,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 580,
+   "id": 582,
    "title": "The Coolabahs \"Tangover\" - Free Show at LC with RQTBL and Ropeable",
    "start": "2027-01-16T01:00:00.000Z",
    "price": null,
@@ -6985,7 +7009,7 @@
    "suburb": "North Melbourne"
   },
   {
-   "id": 581,
+   "id": 583,
    "title": "Forward Ever: O.B.F. (France)",
    "start": "2027-01-16T07:00:00.000Z",
    "price": 40,
@@ -6997,7 +7021,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 582,
+   "id": 584,
    "title": "NINETEEN 80",
    "start": "2027-01-16T07:30:00.000Z",
    "price": 36.72,
@@ -7009,7 +7033,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 583,
+   "id": 585,
    "title": "Kara (Foundations Records, UK)",
    "start": "2027-01-16T08:00:00.000Z",
    "price": 23.21,
@@ -7021,7 +7045,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 584,
+   "id": 586,
    "title": "P.P. Rebel",
    "start": "2027-01-16T09:00:00.000Z",
    "price": 29.1,
@@ -7033,7 +7057,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 585,
+   "id": 587,
    "title": "LEGENDS OF MOTORSPORT - launch",
    "start": "2027-01-16T09:00:00.000Z",
    "price": 20,
@@ -7045,7 +7069,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 586,
+   "id": 588,
    "title": "Algor Mortis “Sickness & Suffering Across Australia” w/ Resurrect",
    "start": "2027-01-16T09:00:00.000Z",
    "price": 28.6,
@@ -7057,7 +7081,7 @@
    "suburb": "Collingwood"
   },
   {
-   "id": 587,
+   "id": 589,
    "title": "Salsodromo Plays The Music of El Gran Combo de Puerto Rico",
    "start": "2027-01-16T09:30:00.000Z",
    "price": 29.1,
@@ -7069,7 +7093,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 588,
+   "id": 590,
    "title": "Sunflower Jam",
    "start": "2027-01-18T07:00:00.938Z",
    "price": null,
@@ -7081,7 +7105,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 589,
+   "id": 591,
    "title": "Creature Feature",
    "start": "2027-01-20T08:00:00.000Z",
    "price": 5,
@@ -7093,7 +7117,7 @@
    "suburb": "Brunswick East"
   },
   {
-   "id": 590,
+   "id": 592,
    "title": "OGRE YOU ASSHOLE (JAPAN) AUSTRALIA TOUR 2027",
    "start": "2027-01-20T08:00:00.000Z",
    "price": 69.45,
@@ -7105,7 +7129,7 @@
    "suburb": "Carlton"
   },
   {
-   "id": 591,
+   "id": 593,
    "title": "GODDESS GROOVES",
    "start": "2027-01-21T07:00:00.000Z",
    "price": 38.76,
@@ -7117,7 +7141,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 592,
+   "id": 594,
    "title": "SCI FIGHT COMEDY DEBATE: Insects Are In Charge",
    "start": "2027-01-21T07:30:00.000Z",
    "price": 25.5,
@@ -7129,7 +7153,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 593,
+   "id": 595,
    "title": "Atticus Chimps Live at Bergy Bandroom",
    "start": "2027-01-21T08:00:00.000Z",
    "price": 17.35,
@@ -7141,7 +7165,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 594,
+   "id": 596,
    "title": "Mantell",
    "start": "2027-01-21T09:00:00.000Z",
    "price": null,
@@ -7153,7 +7177,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 595,
+   "id": 597,
    "title": "Marfa Lights Records presents “A NIGHT OF RECKONING: Miserable, desperate and violent music at the Bergy Bandroom",
    "start": "2027-01-22T08:30:00.000Z",
    "price": null,
@@ -7165,7 +7189,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 596,
+   "id": 598,
    "title": "Lou Barlow (USA)",
    "start": "2027-01-22T09:00:00.000Z",
    "price": 67,
@@ -7177,7 +7201,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 597,
+   "id": 599,
    "title": "Oliver Jach and friends invite you to Come on Feel the Illinoise! A Sufjan Stevens tribute concert",
    "start": "2027-01-22T09:00:00.438Z",
    "price": 20,
@@ -7189,7 +7213,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 598,
+   "id": 600,
    "title": "Touch Of Funk - Melbourne",
    "start": "2027-01-22T10:00:00.000Z",
    "price": null,
@@ -7201,7 +7225,7 @@
    "suburb": "Fitzroy"
   },
   {
-   "id": 599,
+   "id": 601,
    "title": "50 YEARS OF BAD DECISIONS",
    "start": "2027-01-23T06:00:00.000Z",
    "price": 25,
@@ -7213,7 +7237,7 @@
    "suburb": "Thornbury"
   },
   {
-   "id": 600,
+   "id": 602,
    "title": "ALEX CAMERON",
    "start": "2027-01-23T08:00:00.000Z",
    "price": null,
@@ -7225,7 +7249,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 601,
+   "id": 603,
    "title": "The Kittyhawks EP Launch",
    "start": "2027-01-23T08:00:00.000Z",
    "price": 28.05,
@@ -7237,7 +7261,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 602,
+   "id": 604,
    "title": "Peter Jefferies (NZ)",
    "start": "2027-01-23T09:30:00.000Z",
    "price": 64.9,
@@ -7249,7 +7273,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 603,
+   "id": 605,
    "title": "Good Habits - 'Better for Now' Tour",
    "start": "2027-01-24T04:00:00.250Z",
    "price": 30,
@@ -7261,7 +7285,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 604,
+   "id": 606,
    "title": "THE KINGS OF COOL",
    "start": "2027-01-24T06:00:00.000Z",
    "price": 43.86,
@@ -7273,7 +7297,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 605,
+   "id": 607,
    "title": "ALEX CAMERON",
    "start": "2027-01-24T06:30:00.000Z",
    "price": 54.9,
@@ -7285,7 +7309,7 @@
    "suburb": "Brunswick"
   },
   {
-   "id": 606,
+   "id": 608,
    "title": "Real Young & Lazy Horse (NY, USA)",
    "start": "2027-01-24T07:30:00.000Z",
    "price": 66.9,
@@ -7297,7 +7321,7 @@
    "suburb": "Northcote"
   },
   {
-   "id": 607,
+   "id": 609,
    "title": "PUNCHBOWL | El Niño Summer EP Launch",
    "start": "2027-01-24T08:00:00.000Z",
    "price": 12.75,
