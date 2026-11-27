@@ -1,16 +1,16 @@
 {
- "generatedAt": "2026-11-27T02:04:34.499Z",
+ "generatedAt": "2026-11-27T14:44:47.717Z",
  "venues": [
   {
    "id": "tote",
    "name": "The Tote",
-   "count": 49,
+   "count": 46,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 60,
+    "fetched": 57,
     "failed": [],
-    "ticketLinks": 57,
+    "ticketLinks": 54,
     "noEventData": [],
     "firstFetches": [
      "200 https://thetotehotel.com/",
@@ -22,17 +22,17 @@
   {
    "id": "oldbar",
    "name": "The Old Bar",
-   "count": 13,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
     "fetched": 27,
     "failed": [],
-    "ticketLinks": 20,
+    "ticketLinks": 19,
     "noEventData": [
+     "https://theoldbar.oztix.com.au/outlet/event/1bd11310-20f7-4d61-8f33-351f141d6387",
      "https://theoldbar.oztix.com.au/outlet/event/78523c6d-ecd6-4d79-9e03-53c716fcb35c",
-     "https://theoldbar.oztix.com.au/outlet/event/28dc7102-60fc-4853-a48e-5d1364515ae4",
-     "https://theoldbar.oztix.com.au/outlet/event/a20f4ee9-482e-4c3a-9090-3bbe36e70b1d"
+     "https://theoldbar.oztix.com.au/outlet/event/28dc7102-60fc-4853-a48e-5d1364515ae4"
     ],
     "firstFetches": [
      "200 https://www.theoldbar.com.au/",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 42,
+   "count": 40,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 73,
+    "fetched": 71,
     "failed": [],
-    "ticketLinks": 70,
+    "ticketLinks": 68,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -62,87 +62,92 @@
   {
    "id": "nsc",
    "name": "Northcote Social Club",
-   "count": 28,
+   "count": 27,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 56,
+    "fetched": 55,
     "failed": [],
-    "ticketLinks": 54,
+    "ticketLinks": 53,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
      "200 (rendered) https://northcotesocialclub.com/gigs/",
-     "200 https://tickets.northcotesocialclub.com/outlet/event/805c4ee3-14f2-4073-b9fa-a36efeecf42f"
+     "200 https://tickets.northcotesocialclub.com/outlet/event/24a267d6-5362-45e7-8d12-35b81bacc59d"
     ]
    }
   },
   {
    "id": "evelyn",
    "name": "The Evelyn",
-   "count": 17,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 52,
-    "failed": [],
-    "ticketLinks": 25,
-    "noEventData": [],
+    "fetched": 60,
+    "failed": [
+     "500 https://evelynhotel.com.au/events/event-252341"
+    ],
+    "ticketLinks": 28,
+    "noEventData": [
+     "https://tickets.oztix.com.au/outlet/event/956abe16-c648-4ef6-9b01-fe7e35c7ee92"
+    ],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-252341"
+     "500 https://evelynhotel.com.au/events/event-252341"
     ]
    }
   },
   {
    "id": "curtin",
    "name": "John Curtin Hotel",
-   "count": 11,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 13,
+    "fetched": 12,
     "failed": [],
-    "ticketLinks": 12,
+    "ticketLinks": 11,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.johncurtinhotel.com/gigs",
-     "200 https://johncurtinhotel.oztix.com.au/outlet/event/8a34f69c-9488-4583-860c-38d2bc2df726",
-     "200 https://johncurtinhotel.oztix.com.au/outlet/event/7053bcc3-4407-442a-b05d-93c96d90d05d"
+     "200 https://johncurtinhotel.oztix.com.au/outlet/event/7053bcc3-4407-442a-b05d-93c96d90d05d",
+     "200 https://johncurtinhotel.oztix.com.au/outlet/event/57c822c7-dc9d-4efc-8790-3e0e63894026"
     ]
    }
   },
   {
    "id": "retreat",
    "name": "The Retreat Hotel",
-   "count": 51,
+   "count": 48,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 72,
+    "fetched": 69,
     "failed": [],
-    "ticketLinks": 71,
+    "ticketLinks": 68,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://retreathotelbrunswick.com.au/events",
-     "200 https://tickets.oztix.com.au/outlet/event/571fc499-1186-443b-8102-26a43b878e45",
-     "200 https://tickets.oztix.com.au/outlet/event/01d1a9d5-8b8b-455f-a0f5-08f42a327bed"
+     "200 https://tickets.oztix.com.au/outlet/event/4ca777c3-a9fe-4ea4-aa57-b0c6ac1059fd",
+     "200 https://tickets.oztix.com.au/outlet/event/37900cd8-ddeb-466b-92c3-95bd6b29d3ea"
     ]
    }
   },
   {
    "id": "cactus",
    "name": "Cactus Room",
-   "count": 12,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 15,
+    "fetched": 16,
     "failed": [],
     "ticketLinks": 13,
     "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/c49821e4-7077-4ca3-a0ca-4dd88c04d327"
+     "https://tickets.oztix.com.au/outlet/event/c49821e4-7077-4ca3-a0ca-4dd88c04d327",
+     "https://tickets.oztix.com.au/outlet/event/64383ac8-9f37-4b2b-8f24-71836bb34513"
     ],
     "firstFetches": [
      "200 http://www.cactusroom.com.au/events.html",
@@ -165,14 +170,14 @@
     "firstFetches": [
      "200 https://baropen.com.au/",
      "200 (rendered) https://baropen.com.au/",
-     "200 https://baropen.oztix.com.au/outlet/event/95b1332e-d09a-43a9-b9ff-c423d3921bd4"
+     "200 https://baropen.oztix.com.au/outlet/event/d8189ee2-34a7-4883-ad99-df39ae80242e"
     ]
    }
   },
   {
    "id": "lulie",
    "name": "Lulie Tavern",
-   "count": 8,
+   "count": 7,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -216,51 +221,51 @@
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
-     "200 https://tickets.oztix.com.au/outlet/event/f0f28138-4cc9-4e19-b1bd-d6af14035844",
-     "200 https://tickets.oztix.com.au/outlet/event/13ce5e78-9c7a-4976-b46e-bae8f4fc28be"
+     "200 https://tickets.oztix.com.au/outlet/event/13ce5e78-9c7a-4976-b46e-bae8f4fc28be",
+     "200 https://tickets.oztix.com.au/outlet/event/e422e16a-c1d2-4151-8c9c-d82669f6d711"
     ]
    }
   },
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 18,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 22,
+    "fetched": 20,
     "failed": [],
-    "ticketLinks": 21,
+    "ticketLinks": 19,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
-     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=248938",
-     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=251943"
+     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=252025",
+     "200 https://thelastchance.oztix.com.au/Default.aspx?Event=248493"
     ]
    }
   },
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 13,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 33,
+    "fetched": 29,
     "failed": [],
-    "ticketLinks": 16,
+    "ticketLinks": 14,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/azure-ryder-%E2%80%98even-flowers-can-",
-     "200 https://www.moshtix.com.au/v2/event/azure-ryder-%E2%80%98even-flowers-can-bruise%E2%80%99-"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/don%E2%80%99s-party-election-night-%E2",
+     "200 https://www.moshtix.com.au/v2/event/don%E2%80%99s-party-election-night-%E2%80%9926-ft-wint"
     ]
    }
   },
   {
    "id": "howler",
    "name": "Howler",
-   "count": 21,
+   "count": 20,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -277,7 +282,7 @@
   {
    "id": "jazzlab",
    "name": "The Jazzlab",
-   "count": 12,
+   "count": 10,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -293,11 +298,11 @@
   {
    "id": "nighthawks",
    "name": "Nighthawks",
-   "count": 23,
+   "count": 22,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 25,
+    "fetched": 24,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor"
     ],
@@ -305,19 +310,19 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/charm-night",
-     "200 https://events.humanitix.com/jack-loftus-w-the-new-millionaires-and-clara-darcy"
+     "200 https://events.humanitix.com/jack-loftus-w-the-new-millionaires-and-clara-darcy",
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/the-fuss-for-what-its-worth-ep-tour-me"
     ]
    }
   },
   {
    "id": "edi",
    "name": "Edinburgh Castle",
-   "count": 18,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 27,
+    "fetched": 26,
     "failed": [
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-1st-dec",
      "404 https://events.humanitix.com/edinburgh-castle-open-mic-night-8th-dec",
@@ -328,8 +333,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://www.edinburghcastle.net.au/gig-guide?format=json",
-     "200 https://www.edinburghcastle.net.au/gig-guide/tony-j-kingjuly-65p64-p9zb4",
-     "200 https://www.edinburghcastle.net.au/gig-guide/tony-j-kingjuly-65p64-p9zb4-hpda2"
+     "200 https://www.edinburghcastle.net.au/gig-guide/tony-j-kingjuly-65p64-p9zb4-hpda2",
+     "200 https://www.edinburghcastle.net.au/gig-guide/rachel-clarksep-pwg9d-296zw-anlx8"
     ]
    }
   },
@@ -354,7 +359,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 18,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -406,7 +411,7 @@
   {
    "id": "deserthighways",
    "name": "Desert Highways",
-   "count": 3,
+   "count": 5,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -440,25 +445,25 @@
   {
    "id": "wesleyanne",
    "name": "Wesley Anne",
-   "count": 41,
+   "count": 40,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 50,
+    "fetched": 49,
     "failed": [],
     "ticketLinks": null,
     "noEventData": [],
     "firstFetches": [
      "200 https://wesleyanne.com.au/events?format=json",
-     "200 https://events.humanitix.com/hermosa-sounds-vol-4-end-of-year-celebration",
-     "200 https://wesleyanne.com.au/events/lco-trio-blmmh-8f9ny-f3exr-ebwl8-wn5cn-hkaf5-xllb9-kw6sm"
+     "200 https://wesleyanne.com.au/events/lco-trio-blmmh-8f9ny-f3exr-ebwl8-wn5cn-hkaf5-xllb9-kw6sm",
+     "200 https://events.humanitix.com/alice-and-jackson-hurwood-live-in-concert"
     ]
    }
   },
   {
    "id": "baroussou",
    "name": "Bar Oussou",
-   "count": 14,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -474,7 +479,7 @@
   {
    "id": "lomond",
    "name": "The Lomond Hotel",
-   "count": 13,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -492,7 +497,7 @@
   {
    "id": "creature",
    "name": "Creature Bar",
-   "count": 14,
+   "count": 13,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -508,25 +513,25 @@
   {
    "id": "ballroom",
    "name": "Brunswick Ballroom",
-   "count": 45,
+   "count": 44,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 139,
+    "fetched": 135,
     "failed": [],
-    "ticketLinks": 69,
+    "ticketLinks": 67,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
-     "200 (alt) https://alternate.moshtix.com.au/v2/event/private-birthday-party/196544",
-     "200 https://www.moshtix.com.au/v2/event/private-birthday-party/196544"
+     "200 (alt) https://alternate.moshtix.com.au/v2/event/private-wedding/196543",
+     "200 https://www.moshtix.com.au/v2/event/private-wedding/196543"
     ]
    }
   },
   {
    "id": "uptown",
    "name": "Uptown Jazz Cafe",
-   "count": 18,
+   "count": 17,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -561,7 +566,7 @@
   {
    "id": "gembar",
    "name": "The Gem Bar",
-   "count": 13,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -609,7 +614,7 @@
   {
    "id": "drunkenpoet",
    "name": "The Drunken Poet",
-   "count": 22,
+   "count": 21,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -625,25 +630,25 @@
   {
    "id": "shotkickers",
    "name": "Shotkickers",
-   "count": 20,
+   "count": 19,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 24,
+    "fetched": 23,
     "failed": [],
-    "ticketLinks": 23,
+    "ticketLinks": 22,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://www.shotkickers.com/gigs",
-     "200 https://tickets.oztix.com.au/outlet/event/3c2e4dfa-e993-4a65-ad0d-44a2e270d716",
-     "200 https://tickets.oztix.com.au/outlet/event/79b098f3-3963-497b-9aa1-dbaffe83c8a7"
+     "200 https://tickets.oztix.com.au/outlet/event/79b098f3-3963-497b-9aa1-dbaffe83c8a7",
+     "200 https://tickets.oztix.com.au/outlet/event/7978dea5-9322-4d32-a1dd-1fe760b9277d"
     ]
    }
   },
   {
    "id": "thornburylocal",
    "name": "Thornbury Local",
-   "count": 12,
+   "count": 11,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
