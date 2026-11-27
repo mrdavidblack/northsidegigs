@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26T14:46:29.992Z",
+ "generatedAt": "2026-11-27T02:04:34.499Z",
  "venues": [
   {
    "id": "tote",
@@ -44,13 +44,13 @@
   {
    "id": "workers",
    "name": "The Workers Club",
-   "count": 40,
+   "count": 42,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 71,
+    "fetched": 73,
     "failed": [],
-    "ticketLinks": 68,
+    "ticketLinks": 70,
     "noEventData": [],
     "firstFetches": [
      "200 https://www.theworkersclub.com.au/",
@@ -66,9 +66,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 55,
+    "fetched": 56,
     "failed": [],
-    "ticketLinks": 53,
+    "ticketLinks": 54,
     "noEventData": [],
     "firstFetches": [
      "200 https://northcotesocialclub.com/gigs/",
@@ -84,16 +84,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 53,
+    "fetched": 52,
     "failed": [],
     "ticketLinks": 25,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/d78a99fa-1620-420a-ba9b-a11b7b784813"
-    ],
+    "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "200 https://evelynhotel.com.au/events/event-252201"
+     "200 https://evelynhotel.com.au/events/event-252341"
     ]
    }
   },
@@ -208,13 +206,13 @@
   {
    "id": "bergy",
    "name": "Bergy Bandroom",
-   "count": 23,
+   "count": 24,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 26,
+    "fetched": 27,
     "failed": [],
-    "ticketLinks": 25,
+    "ticketLinks": 26,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://thebergy.com.au/index.php/live-music-brunswick/",
@@ -226,13 +224,13 @@
   {
    "id": "lastchance",
    "name": "The Last Chance",
-   "count": 17,
+   "count": 18,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 21,
+    "fetched": 22,
     "failed": [],
-    "ticketLinks": 20,
+    "ticketLinks": 21,
     "noEventData": [],
     "firstFetches": [
      "200 https://thelastchance.oztix.com.au/",
@@ -244,13 +242,13 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 12,
+   "count": 13,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 31,
+    "fetched": 33,
     "failed": [],
-    "ticketLinks": 15,
+    "ticketLinks": 16,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
@@ -299,7 +297,7 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 26,
+    "fetched": 25,
     "failed": [
      "404 https://events.humanitix.com/summer-s-call-quiet-essence-live-with-calder-park-and-the-mor"
     ],
@@ -307,8 +305,8 @@
     "noEventData": [],
     "firstFetches": [
      "200 https://nighthawksbar.com.au/allgigs?format=json",
-     "200 https://events.humanitix.com/fenn-wilson-and-the-weather-nighthawks-residency",
-     "200 https://events.humanitix.com/charm-night"
+     "200 https://events.humanitix.com/charm-night",
+     "200 https://events.humanitix.com/jack-loftus-w-the-new-millionaires-and-clara-darcy"
     ]
    }
   },
@@ -611,7 +609,7 @@
   {
    "id": "drunkenpoet",
    "name": "The Drunken Poet",
-   "count": 23,
+   "count": 22,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
