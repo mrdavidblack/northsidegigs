@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T14:44:47.717Z",
+ "generatedAt": "2026-11-28T01:50:36.670Z",
  "venues": [
   {
    "id": "tote",
@@ -84,18 +84,14 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 60,
-    "failed": [
-     "500 https://evelynhotel.com.au/events/event-252341"
-    ],
-    "ticketLinks": 28,
-    "noEventData": [
-     "https://tickets.oztix.com.au/outlet/event/956abe16-c648-4ef6-9b01-fe7e35c7ee92"
-    ],
+    "fetched": 56,
+    "failed": [],
+    "ticketLinks": 27,
+    "noEventData": [],
     "firstFetches": [
      "200 https://evelynhotel.com.au/events",
      "200 (rendered) https://evelynhotel.com.au/events",
-     "500 https://evelynhotel.com.au/events/event-252341"
+     "200 https://evelynhotel.com.au/events/event-249772"
     ]
    }
   },
@@ -247,13 +243,13 @@
   {
    "id": "smith",
    "name": "Smith St Hotel",
-   "count": 11,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 29,
+    "fetched": 31,
     "failed": [],
-    "ticketLinks": 14,
+    "ticketLinks": 15,
     "noEventData": [],
     "firstFetches": [
      "200 https://smithsthotel.com.au/gigs/",
@@ -282,7 +278,7 @@
   {
    "id": "jazzlab",
    "name": "The Jazzlab",
-   "count": 10,
+   "count": 12,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -359,7 +355,7 @@
   {
    "id": "punters",
    "name": "Punters Club",
-   "count": 17,
+   "count": 16,
    "keptFromLastRun": false,
    "error": null,
    "debug": {
@@ -517,9 +513,9 @@
    "keptFromLastRun": false,
    "error": null,
    "debug": {
-    "fetched": 135,
+    "fetched": 137,
     "failed": [],
-    "ticketLinks": 67,
+    "ticketLinks": 68,
     "noEventData": [],
     "firstFetches": [
      "200 (rendered) https://brunswickballroom.com.au/whats-on/",
